@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="delveBoneDagger" count="1" craft_time="5">
+      <ingredient name="resourceBone" count="5" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveOakCudgel" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveAshSpear" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceRockSmall" count="8" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveBorderBow" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceYuccaFibers" count="15" />
+    </recipe>
+    <recipe name="delveIronDagger" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="resourceWood" count="5" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveIronMace" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="12" />
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveIronSpear" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="12" />
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveHuntingBow" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="30" />
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceDuctTape" count="3" />
+    </recipe>
+    <recipe name="delveHealingPoultice" count="1" craft_time="5">
+      <ingredient name="medicalBandage" count="1" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveWayfarerTea" count="1" craft_time="5">
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveWardDraught" count="1" craft_time="5">
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="delveEmberSalts" count="3" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveHeritageHuman" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageElf" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageDwarf" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageHalfling" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageOrc" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageTiefling" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFieldGuide" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+  </append>
+</configs>

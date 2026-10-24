@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/buffs">
+    <buff name="delveWard" name_key="delveWard" description_key="delveWardDesc" icon="ui_game_symbol_armor">
+      <stack_type value="replace" />
+      <duration value="180" />
+      <effect_group>
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="10" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageHuman" name_key="delveHeritageHumanBuff" description_key="delveHeritageHumanBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="PlayerExpGain" operation="perc_add" value="0.05" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageElf" name_key="delveHeritageElfBuff" description_key="delveHeritageElfBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="StaminaMax" operation="base_add" value="10" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageDwarf" name_key="delveHeritageDwarfBuff" description_key="delveHeritageDwarfBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="CarryCapacity" operation="base_add" value="3" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageHalfling" name_key="delveHeritageHalflingBuff" description_key="delveHeritageHalflingBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="NoiseMultiplier" operation="perc_add" value="-0.1" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageOrc" name_key="delveHeritageOrcBuff" description_key="delveHeritageOrcBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="HealthMax" operation="base_add" value="10" />
+      </effect_group>
+    </buff>
+    <buff name="delveHeritageTiefling" name_key="delveHeritageTieflingBuff" description_key="delveHeritageTieflingBuffDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="HyperthermalResist" operation="base_add" value="5" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillBlades" name_key="delveSkillBlades" description_key="delveSkillBladesDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelBlades" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusBlades" tags="bladeSkill" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillBlunt" name_key="delveSkillBlunt" description_key="delveSkillBluntDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelBlunt" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusBlunt" tags="clubSkill,sledgeSkill,axe" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillPolearms" name_key="delveSkillPolearms" description_key="delveSkillPolearmsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelPolearms" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusPolearms" tags="spearSkill" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillArchery" name_key="delveSkillArchery" description_key="delveSkillArcheryDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelArchery" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusArchery" tags="bowSkill,archery" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillWands" name_key="delveSkillWands" description_key="delveSkillWandsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelWands" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusWands" tags="delveWands" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillStaffs" name_key="delveSkillStaffs" description_key="delveSkillStaffsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelStaffs" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusStaffs" tags="delveStaffs" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillTotems" name_key="delveSkillTotems" description_key="delveSkillTotemsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelTotems" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusTotems" tags="delveTotems" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillUnarmed" name_key="delveSkillUnarmed" description_key="delveSkillUnarmedDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelUnarmed" />
+      <effect_group>
+        <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusUnarmed" tags="knuckleSkill" />
+      </effect_group>
+    </buff>
+    <buff name="delveSkillHeavyArmor" name_key="delveSkillHeavyArmor" description_key="delveSkillHeavyArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelHeavyArmor" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillMediumArmor" name_key="delveSkillMediumArmor" description_key="delveSkillMediumArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelMediumArmor" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillLightArmor" name_key="delveSkillLightArmor" description_key="delveSkillLightArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelLightArmor" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillPackMule" name_key="delveSkillPackMule" description_key="delveSkillPackMuleDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelPackMule" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillAthletics" name_key="delveSkillAthletics" description_key="delveSkillAthleticsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelAthletics" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillStealth" name_key="delveSkillStealth" description_key="delveSkillStealthDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelStealth" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillFarming" name_key="delveSkillFarming" description_key="delveSkillFarmingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelFarming" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillCooking" name_key="delveSkillCooking" description_key="delveSkillCookingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelCooking" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillMining" name_key="delveSkillMining" description_key="delveSkillMiningDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelMining" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillSmithing" name_key="delveSkillSmithing" description_key="delveSkillSmithingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelSmithing" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillCarpentry" name_key="delveSkillCarpentry" description_key="delveSkillCarpentryDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelCarpentry" />
+      <effect_group />
+    </buff>
+    <buff name="delveSkillAlchemy" name_key="delveSkillAlchemy" description_key="delveSkillAlchemyDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveLevelAlchemy" />
+      <effect_group />
+    </buff>
+    <buff name="delveAdvancement" name_key="delveAdvancement" description_key="delveAdvancementDesc" icon="ui_game_symbol_add" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveAttributePoints" />
+    </buff>
+    <buff name="delveWorldJournal" name_key="delveWorldJournal" description_key="delveWorldJournalDesc" icon="ui_game_symbol_challenge" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveWorldKills" />
+    </buff>
+    <buff name="delveWardenVictory" name_key="delveWardenVictory" description_key="delveWardenVictoryDesc" icon="ui_game_symbol_challenge" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+    </buff>
+    <buff name="delveLoadEffects" name_key="delveLoadEffects" description_key="delveLoadEffectsDesc" icon="ui_game_symbol_pack_mule" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delvePackedPercent" />
+      <effect_group>
+        <passive_effect name="Mobility" operation="perc_add" value="@delveEncumbranceRelief" />
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="@delveLoadArmor" />
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="@delveLoadReload" tags="bowSkill,archery,delveMagic" />
+        <passive_effect name="WalkSpeed" operation="perc_add" value="@delveLoadSpeed" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="@delveLoadSpeed" />
+        <passive_effect name="FoodLoss" operation="perc_add" value="@delveLoadNeeds" />
+        <passive_effect name="WaterLoss" operation="perc_add" value="@delveLoadNeeds" />
+      </effect_group>
+    </buff>
+    <buff name="delveWardenScaling" name_key="delveWardenScaling" description_key="delveWardenScalingDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="0" />
+      <effect_group>
+        <passive_effect name="HealthMax" operation="base_set" value="@$delveBossHealth" />
+      </effect_group>
+    </buff>
+    <buff name="delveWardenWindup" name_key="delveWardenWindup" description_key="delveWardenWindupDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="5" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.75" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.75" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.5" />
+      </effect_group>
+    </buff>
+    <buff name="delveWardenAssault" name_key="delveWardenAssault" description_key="delveWardenAssaultDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="7" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="0.25" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="0.25" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.35" />
+      </effect_group>
+    </buff>
+    <buff name="delveWardenRecovery" name_key="delveWardenRecovery" description_key="delveWardenRecoveryDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="7" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.6" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.6" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.5" />
+      </effect_group>
+    </buff>
+  </append>
+  <set xpath="/buffs/buff/effect_group/passive_effect[@name='HealthMax'][@value='@$PlayerLevelBonus']/@value">0</set>
+  <set xpath="/buffs/buff/effect_group/passive_effect[@name='StaminaMax'][@value='@$PlayerLevelBonus']/@value">0</set>
+</configs>

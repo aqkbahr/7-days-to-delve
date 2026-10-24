@@ -1,0 +1,21 @@
+{
+  "world": "Allium-v0.3",
+  "hubs": ["trader_rekt", "trader_jen", "trader_bob", "trader_hugh", "trader_joel"],
+  "locations": [
+    {"name":"Wayrest woodland cabin","hub":0,"prefab":"cabin_01","offset":[-190,110]},
+    {"name":"Forest supply cottage","hub":0,"prefab":"cabin_04","offset":[220,-140]},
+    {"name":"Old border graves","hub":0,"prefab":"cemetery_01","offset":[-180,-230]},
+    {"name":"Arbor hunter shelter","hub":1,"prefab":"cabin_02","offset":[180,-170]},
+    {"name":"Ashwood chapel ruins","hub":1,"prefab":"remnant_church_01","offset":[310,-80]},
+    {"name":"Arbor watch","hub":1,"prefab":"ranger_station_01","offset":[200,200]},
+    {"name":"Drylands trading ruin","hub":2,"prefab":"oldwest_business_01","offset":[-180,-180]},
+    {"name":"Desert chapel","hub":2,"prefab":"oldwest_church","offset":[210,-150]},
+    {"name":"Deep quarry expedition","hub":2,"prefab":"mine_01","offset":[-310,210]},
+    {"name":"Highland shelter","hub":3,"prefab":"cabin_04","offset":[190,-160]},
+    {"name":"Mountain lodge","hub":3,"prefab":"lodge_01","offset":[-220,-180]},
+    {"name":"Pass watchtower","hub":3,"prefab":"ranger_station_01","offset":[220,190]},
+    {"name":"Capital outer graveyard","hub":4,"prefab":"cemetery_01","offset":[-220,190]},
+    {"name":"Capital ruined sanctuary","hub":4,"prefab":"remnant_church_01","offset":[210,170]},
+    {"name":"Capital cathedral expedition","hub":4,"prefab":"church_01","offset":[20,390]}
+  ]
+}

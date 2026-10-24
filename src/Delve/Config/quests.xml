@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/quests">
+    <quest id="delveArrival">
+      <property name="name_key" value="delveArrival" />
+      <property name="subtitle_key" value="delveArrivalSub" />
+      <property name="description_key" value="delveArrivalDesc" />
+      <property name="offer_key" value="delveArrivalDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="FetchKeep" id="resourceWood" value="20" phase="1" />
+      <objective type="FetchKeep" id="resourceRockSmall" value="10" phase="1" />
+      <objective type="FetchKeep" id="resourceYuccaFibers" value="20" phase="1" />
+      <objective type="Craft" id="delveBoneDagger" value="1" phase="2">
+        <property name="item" value="delveBoneDagger" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="delveHealingPoultice" value="1" phase="2">
+        <property name="item" value="delveHealingPoultice" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="500" />
+      <reward type="Item" id="casinoCoin" value="100" />
+      <reward type="Item" id="medicalBandage" value="3" />
+      <reward type="Quest" id="delveHearth" />
+    </quest>
+    <quest id="delveHearth">
+      <property name="name_key" value="delveHearth" />
+      <property name="subtitle_key" value="delveHearthSub" />
+      <property name="description_key" value="delveHearthDesc" />
+      <property name="offer_key" value="delveHearthDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Craft" id="keystoneBlock" value="1" phase="1">
+        <property name="item" value="keystoneBlock" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="bedroll" value="1" phase="1">
+        <property name="item" value="bedroll" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="campfire" value="1" phase="1">
+        <property name="item" value="campfire" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="500" />
+      <reward type="Item" id="casinoCoin" value="150" />
+      <reward type="Item" id="resourceForgedIron" value="12" />
+      <reward type="Quest" id="delveEmbers" />
+    </quest>
+    <quest id="delveEmbers">
+      <property name="name_key" value="delveEmbers" />
+      <property name="subtitle_key" value="delveEmbersSub" />
+      <property name="description_key" value="delveEmbersDesc" />
+      <property name="offer_key" value="delveEmbersDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="FetchKeep" id="delveEmberSalts" value="3" phase="1" />
+      <objective type="Craft" id="delveWardDraught" value="1" phase="2">
+        <property name="item" value="delveWardDraught" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="500" />
+      <reward type="Item" id="casinoCoin" value="250" />
+      <reward type="Item" id="resourceForgedIron" value="20" />
+    </quest>
+  </append>
+  <set xpath="/quests/quest/reward[@type='SkillPoints']/@value">0</set>
+</configs>

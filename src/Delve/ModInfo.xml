@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="Delve" />
+  <DisplayName value="7 Days to Delve — Living Border Playtest" />
+  <Description value="Development checkpoint: level-80 progression and twenty tree definitions. Most new perk behaviors and mastery trials are not yet playable." />
+  <Author value="7 Days to Delve" />
+  <Version value="0.3.0-dev" />
+  <SkipWithAntiCheat value="true" />
+</xml>

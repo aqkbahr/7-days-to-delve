@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/items">
+    <item name="delveBoneDagger">
+      <property name="Extends" value="meleeWpnBladeT0BoneKnife" />
+      <property name="CustomIcon" value="meleeWpnBladeT0BoneKnife" />
+      <property name="DescriptionKey" value="delveBoneDaggerDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T0,knife,melee,grunting,light,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill,corpseRemoval,delveWeapon,delveBlades" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.05" />
+      </effect_group>
+    </item>
+    <item name="delveOakCudgel">
+      <property name="Extends" value="meleeWpnClubT0WoodenClub" />
+      <property name="CustomIcon" value="meleeWpnClubT0WoodenClub" />
+      <property name="DescriptionKey" value="delveOakCudgelDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T0,blunt,club,melee,grunting,light,longShaft,perkFlurryOfStrength,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,clubSkill,delveWeapon,delveBlunt" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.05" />
+      </effect_group>
+    </item>
+    <item name="delveAshSpear">
+      <property name="Extends" value="meleeWpnSpearT0StoneSpear" />
+      <property name="CustomIcon" value="meleeWpnSpearT0StoneSpear" />
+      <property name="DescriptionKey" value="delveAshSpearDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T0,melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfPerception,canHaveCosmetic,spearSkill,delveWeapon,delvePolearms" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.05" />
+      </effect_group>
+    </item>
+    <item name="delveBorderBow">
+      <property name="Extends" value="gunBowT0PrimitiveBow" />
+      <property name="CustomIcon" value="gunBowT0PrimitiveBow" />
+      <property name="DescriptionKey" value="delveBorderBowDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T0,weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,delveWeapon,delveArchery" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.05" />
+      </effect_group>
+    </item>
+    <item name="delveIronDagger">
+      <property name="Extends" value="meleeWpnBladeT1HuntingKnife" />
+      <property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife" />
+      <property name="DescriptionKey" value="delveIronDaggerDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T1,knife,melee,grunting,light,perkFlurryOfAgility,weapon,meleeWeapon,attAgility,perkDeepCuts,perkTheHuntsman,canHaveCosmetic,bladeSkill,corpseRemoval,scrap100,delveWeapon,delveBlades" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.12" />
+      </effect_group>
+    </item>
+    <item name="delveIronMace">
+      <property name="Extends" value="meleeWpnClubT1BaseballBat" />
+      <property name="CustomIcon" value="meleeWpnClubT1BaseballBat" />
+      <property name="DescriptionKey" value="delveIronMaceDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T1,blunt,club,melee,grunting,light,longShaft,perkFlurryOfStrength,weapon,meleeWeapon,attStrength,perkPummelPete,canHaveCosmetic,clubSkill,delveWeapon,delveBlunt" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.12" />
+      </effect_group>
+    </item>
+    <item name="delveIronSpear">
+      <property name="Extends" value="meleeWpnSpearT1IronSpear" />
+      <property name="CustomIcon" value="meleeWpnSpearT1IronSpear" />
+      <property name="DescriptionKey" value="delveIronSpearDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T1,melee,grunting,medium,weapon,meleeWeapon,longShaft,attPerception,perkJavelinMaster,perkFlurryOfPerception,canHaveCosmetic,spearSkill,scrap100,delveWeapon,delvePolearms" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.12" />
+      </effect_group>
+    </item>
+    <item name="delveHuntingBow">
+      <property name="Extends" value="gunBowT1WoodenBow" />
+      <property name="CustomIcon" value="gunBowT1WoodenBow" />
+      <property name="DescriptionKey" value="delveHuntingBowDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="190,210,155" />
+      <property name="UnlockedBy" value="" />
+      <property name="Tags" value="T1,weapon,ranged,bowDrawPenalty,archery,bow,attAgility,perkArchery,canHaveCosmetic,bowSkill,delveWeapon,delveArchery" />
+      <effect_group name="Delve crafted weapon">
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.12" />
+      </effect_group>
+    </item>
+    <item name="delveEmberSalts">
+      <property name="Extends" value="resourceCoal" />
+      <property name="CustomIcon" value="resourceCoal" />
+      <property name="DescriptionKey" value="delveEmberSaltsDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="232,131,65" />
+      <property name="Stacknumber" value="500" />
+      <property name="EconomicValue" value="8" />
+      <property name="SellableToTrader" value="true" />
+    </item>
+    <item name="delveHealingPoultice">
+      <property name="Extends" value="medicalFirstAidBandage" />
+      <property name="CustomIcon" value="medicalFirstAidBandage" />
+      <property name="DescriptionKey" value="delveHealingPoulticeDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="150,210,140" />
+      <property name="UnlockedBy" value="" />
+    </item>
+    <item name="delveWayfarerTea">
+      <property name="Extends" value="drinkJarRedTea" />
+      <property name="CustomIcon" value="drinkJarRedTea" />
+      <property name="DescriptionKey" value="delveWayfarerTeaDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="150,210,140" />
+      <property name="UnlockedBy" value="" />
+    </item>
+    <item name="delveWardDraught">
+      <property name="Extends" value="drinkJarRedTea" />
+      <property name="CustomIcon" value="drinkJarRedTea" />
+      <property name="DescriptionKey" value="delveWardDraughtDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="235,170,85" />
+      <property name="UnlockedBy" value="" />
+      <effect_group name="Delve ward">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveWard" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageHuman">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageHumanDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageHuman" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageElf">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageElfDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="2" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageElf" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageDwarf">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageDwarfDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="3" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageDwarf" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageHalfling">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageHalflingDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="4" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageHalfling" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageOrc">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageOrcDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="5" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageOrc" />
+      </effect_group>
+    </item>
+    <item name="delveHeritageTiefling">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveHeritageTieflingDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIconTint" value="195,170,235" />
+      <property name="Stacknumber" value="1" />
+      <property class="Action0">
+        <property name="Class" value="Eat" />
+        <property name="Delay" value="1" />
+        <property name="UseAnimation" value="false" />
+        <requirement name="CVarCompare" cvar="delveHeritageChoice" operation="Equals" value="0" />
+      </property>
+      <effect_group>
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="delveHeritageChoice" operation="set" value="6" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="delveHeritageTiefling" />
+      </effect_group>
+    </item>
+    <item name="delveFieldGuide">
+      <property name="Extends" value="questMaster" />
+      <property name="CustomIcon" value="questMaster" />
+      <property name="DescriptionKey" value="delveFieldGuideDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property class="Action0">
+        <property name="Class" value="Quest" />
+        <property name="QuestGiven" value="delveArrival" />
+      </property>
+    </item>
+  </append>
+</configs>

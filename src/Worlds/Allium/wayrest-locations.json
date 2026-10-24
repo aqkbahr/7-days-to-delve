@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Forager cottage",
+    "hub": 0,
+    "prefab": "cabin_05",
+    "center": [
+      -2225,
+      -2450
+    ],
+    "height": 66,
+    "service": false,
+    "size": [
+      42,
+      24,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2246,
+      66,
+      -2471
+    ],
+    "access": [
+      [
+        -2320.239191919192,
+        -2125.7826262626263
+      ],
+      [
+        -2225,
+        -2477
+      ]
+    ]
+  },
+  {
+    "name": "Woodcutter refuge",
+    "hub": 0,
+    "prefab": "cabin_06",
+    "center": [
+      -2225,
+      -2280
+    ],
+    "height": 66,
+    "service": false,
+    "size": [
+      39,
+      20,
+      32
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2244,
+      66,
+      -2296
+    ],
+    "access": [
+      [
+        -2273.900606060606,
+        -2112.5430303030303
+      ],
+      [
+        -2225,
+        -2302
+      ]
+    ]
+  },
+  {
+    "name": "Abandoned hunting lodge",
+    "hub": 0,
+    "prefab": "cabin_07",
+    "center": [
+      -2225,
+      -1940
+    ],
+    "height": 67,
+    "service": false,
+    "size": [
+      42,
+      21,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, restore_power, infested",
+    "position": [
+      -2246,
+      67,
+      -1961
+    ],
+    "access": [
+      [
+        -2181.2234343434343,
+        -2086.0638383838386
+      ],
+      [
+        -2225,
+        -1967
+      ]
+    ]
+  },
+  {
+    "name": "Fernwood homestead",
+    "hub": 0,
+    "prefab": "cabin_08",
+    "center": [
+      -2050,
+      -2450
+    ],
+    "height": 67,
+    "service": false,
+    "size": [
+      42,
+      21,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2071,
+      67,
+      -2471
+    ],
+    "access": [
+      [
+        -2158.0541414141417,
+        -2079.4440404040406
+      ],
+      [
+        -2050,
+        -2477
+      ]
+    ]
+  },
+  {
+    "name": "Hillside cottage",
+    "hub": 0,
+    "prefab": "cabin_10",
+    "center": [
+      -2050,
+      -2280
+    ],
+    "height": 67,
+    "service": false,
+    "size": [
+      30,
+      26,
+      52
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2065,
+      67,
+      -2306
+    ],
+    "access": [
+      [
+        -2111.7155555555555,
+        -2066.2044444444446
+      ],
+      [
+        -2050,
+        -2312
+      ]
+    ]
+  },
+  {
+    "name": "Old forester house",
+    "hub": 0,
+    "prefab": "cabin_12",
+    "center": [
+      -2050,
+      -2110
+    ],
+    "height": 67,
+    "service": false,
+    "size": [
+      42,
+      25,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2071,
+      67,
+      -2131
+    ],
+    "access": [
+      [
+        -2065.37696969697,
+        -2052.9648484848485
+      ],
+      [
+        -2050,
+        -2137
+      ]
+    ]
+  },
+  {
+    "name": "Mosswood cabin",
+    "hub": 0,
+    "prefab": "cabin_14",
+    "center": [
+      -2050,
+      -1940
+    ],
+    "height": 67,
+    "service": false,
+    "size": [
+      42,
+      23,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2071,
+      67,
+      -1961
+    ],
+    "access": [
+      [
+        -2040.5527272727272,
+        -2047.1725252525252
+      ],
+      [
+        -2050,
+        -1967
+      ]
+    ]
+  },
+  {
+    "name": "Border farm",
+    "hub": 0,
+    "prefab": "farm_12",
+    "center": [
+      -1875,
+      -2450
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      60,
+      22,
+      60
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1905,
+      68,
+      -2480
+    ],
+    "access": [
+      [
+        -1921.3963636363637,
+        -2033.9329292929292
+      ],
+      [
+        -1875,
+        -2486
+      ]
+    ]
+  },
+  {
+    "name": "Forest trading post",
+    "hub": 0,
+    "prefab": "oldwest_business_01",
+    "center": [
+      -1875,
+      -2110
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      25,
+      20,
+      25
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1887,
+      68,
+      -2122
+    ],
+    "access": [
+      [
+        -1884.1599999999999,
+        -2029.7955555555554
+      ],
+      [
+        -1875,
+        -2128
+      ]
+    ]
+  },
+  {
+    "name": "Roadside provisioner",
+    "hub": 0,
+    "prefab": "oldwest_business_08",
+    "center": [
+      -1875,
+      -1940
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      25,
+      23,
+      25
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1887,
+      68,
+      -1952
+    ],
+    "access": [
+      [
+        -1861.818181818182,
+        -2027.3131313131312
+      ],
+      [
+        -1875,
+        -1958
+      ]
+    ]
+  },
+  {
+    "name": "Woodland chapel",
+    "hub": 0,
+    "prefab": "oldwest_church",
+    "center": [
+      -1700,
+      -2450
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      42,
+      27,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1721,
+      68,
+      -2471
+    ],
+    "access": [
+      [
+        -1750.1090909090908,
+        -2014.9010101010101
+      ],
+      [
+        -1700,
+        -2477
+      ]
+    ]
+  },
+  {
+    "name": "Forest watch",
+    "hub": 0,
+    "prefab": "ranger_station_05",
+    "center": [
+      -1700,
+      -2110
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      42,
+      31,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1721,
+      68,
+      -2131
+    ],
+    "access": [
+      [
+        -1712.8727272727274,
+        -2010.7636363636364
+      ],
+      [
+        -1700,
+        -2137
+      ]
+    ]
+  }
+]

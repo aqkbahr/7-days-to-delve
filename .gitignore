@@ -1,0 +1,21 @@
+bin/
+obj/
+dist/
+*.log
+.vs/
+local.settings.json
+playtest/
+artifacts/
+src/Delve/*.dll
+src/Delve/*.pdb
+
+# Local planning archives and machine-specific launch configuration
+docs/sources/
+docs/maps/
+docs/previous-chat-history.json
+docs/steam-launch-options.txt
+docs/steam-playtest.txt
+__pycache__/
+*.pyc
+.env
+.env.*
