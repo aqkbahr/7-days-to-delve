@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="delveBlastingPowder" count="5" craft_time="30" craft_area="delveMortarKit">
+      <ingredient name="resourceCoal" count="2"/>
+      <ingredient name="resourcePotassiumNitratePowder" count="3"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='thrownAmmoPipeBomb']"/>
+  <append xpath="/recipes">
+    <recipe name="thrownAmmoPipeBomb" count="1" craft_time="30" craft_area="delveMortarKit">
+      <ingredient name="delveBlastingPowder" count="5"/>
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceCloth" count="1"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='thrownDynamite']"/>
+  <append xpath="/recipes">
+    <recipe name="thrownDynamite" count="1" craft_time="30" craft_area="delveMortarKit">
+      <ingredient name="delveBlastingPowder" count="15"/>
+      <ingredient name="resourceCloth" count="3"/>
+      <ingredient name="delveHerbalSpirit" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='meleeToolSalvageT1Wrench']"/>
+  <append xpath="/recipes">
+    <recipe name="meleeToolSalvageT1Wrench" count="1" craft_time="30" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="12"/>
+      <ingredient name="resourceLeather" count="4"/>
+      <ingredient name="resourceWood" count="4"/>
+    </recipe>
+  </append>
+</configs>

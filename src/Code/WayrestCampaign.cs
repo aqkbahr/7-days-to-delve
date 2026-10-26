@@ -49,6 +49,10 @@ namespace Delve
                 p.Buffs.SetCustomVar("delveArborUnlocked", Core.Progress.ArborReached ? 1 : 0, true);
                 if (!p.Buffs.HasBuff("delveWayrestProgress")) p.Buffs.AddBuff("delveWayrestProgress");
             }
+            if (before == 0 && Core.Progress.WayrestReceipts.Count > 0)
+                GameManager.Instance.ChatMessageServer(null, EChatType.Global, -1,
+                    "[Wayrest Steward] Your first returned contract helps our people endure. Prepare your own refuge outside Wayrest: establish a hearth, secure food and clean water, improve equipment, and stock healing and repairs. Keep returning contracts to reclaim the frontier; champion victories advance our struggle against the Queen separately.", null,
+                    EMessageSender.Server, GeneratedTextManager.BbCodeSupportMode.NotSupported);
             if (before < 10 && Core.Progress.WayrestReceipts.Count == 10)
                 GameManager.Instance.ChatMessageServer(null, EChatType.Global, -1,
                     "[Delve] Wayrest: 10/10 contracts complete. Ask the Steward for the road to Arbor Camp.", null,

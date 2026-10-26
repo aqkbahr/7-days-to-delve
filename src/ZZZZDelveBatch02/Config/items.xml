@@ -1,0 +1,430 @@
+<configs>
+  <append xpath="/items/item[@name='ammo44MagnumBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo44MagnumBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo44MagnumBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo762mmBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo762mmBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo762mmBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo9mmBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo9mmBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammo9mmBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle44MagnumBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle44MagnumBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle44MagnumBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle762mmBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle762mmBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle762mmBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle9mmBulletAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle9mmBulletBall']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundle9mmBulletHP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleJunkTurretAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleJunkTurretRegular']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleJunkTurretShell']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleShotgunBreachingSlug']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleShotgunShell']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoBundleShotgunSlug']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoJunkTurretAP']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoJunkTurretRegular']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoJunkTurretShell']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoRocketFrag']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoRocketHE']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoShotgunBreachingSlug']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoShotgunShell']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='ammoShotgunSlug']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunBotT2JunkTurret']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunExplosivesT3RocketLauncher']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunExplosivesT3RocketLauncherParts']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <set xpath="/items/item[@name='gunHandgunPistolAdmin']/property[@name='CreativeMode']/@value">None</set>
+  <append xpath="/items/item[@name='gunHandgunT0PipePistol']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunHandgunT1Pistol']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunHandgunT1PistolParts']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunHandgunT2Magnum44']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunHandgunT3DesertVulture']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunHandgunT3SMG5']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunMGT0PipeMachineGun']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunMGT1AK47']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunMGT1AK47Parts']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunMGT2TacticalAR']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunMGT3M60']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunRifleT0PipeRifle']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunRifleT1HuntingRifle']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunRifleT1HuntingRifleParts']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunRifleT2LeverActionRifle']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunRifleT3SniperRifle']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunShotgunT0PipeShotgun']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunShotgunT1DoubleBarrelParts']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunShotgunT2PumpShotgun']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <append xpath="/items/item[@name='gunShotgunT3AutoShotgun']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <set xpath="/items/item[@name='ammoBundleMaster']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle9mmBulletAP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle44MagnumBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle44MagnumBulletAP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle762mmBulletBall']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle762mmBulletHP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundle762mmBulletAP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleShotgunShell']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleShotgunSlug']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleShotgunBreachingSlug']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleJunkTurretRegular']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleJunkTurretShell']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='ammoBundleJunkTurretAP']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone</set>
+  <set xpath="/items/item[@name='questRewardPipePistolBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone</set>
+  <set xpath="/items/item[@name='questRewardPipeShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone</set>
+  <set xpath="/items/item[@name='questRewardPipeRifleBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone</set>
+  <set xpath="/items/item[@name='questRewardPipeMachineGunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone</set>
+  <set xpath="/items/item[@name='questRewardHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceScrapIron,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceScrapIron,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceScrapIron,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceScrapIron,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceScrapIron,ammoArrowStone,explosivesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">gunBotRoboticsParts,ammoArrowStone,roboticsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryHandgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,resourceScrapIron,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryShotgunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,resourceScrapIron,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryRifleCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,resourceScrapIron,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryMachineGunCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,resourceScrapIron,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryRocketLauncherCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,resourceScrapIron,ammoArrowStone,explosivesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardLegendaryRoboticsCraftingBundle']/property[@class='Action0']/property[@name='Create_item']/@value">resourceLegendaryParts,gunBotRoboticsParts,ammoArrowStone,roboticsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT0HandgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT0RifleBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT0ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT0MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT1HandgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT1ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT1RifleBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT1MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT2HandgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT2ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT2RifleBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT2MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3HandgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3SMGBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3ShotgunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3RifleBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3MachineGunBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3HandgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3SMGLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,handgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3ShotgunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,shotgunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3RifleLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,riflesSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardT3MachineGunLegendaryBundle']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow,ammoArrowStone,machineGunsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardShotgunTurretBundle']/property[@class='Action0']/property[@name='Create_item']/@value">shotgunTurret,ammoArrowStone,trapsSkillMagazine</set>
+  <set xpath="/items/item[@name='questRewardAutoTurretBundle']/property[@class='Action0']/property[@name='Create_item']/@value">autoTurret,ammoArrowStone,trapsSkillMagazine</set>
+  <set xpath="/items/item[@name='noteTestersDelightAdmin']/property[@class='Action0']/property[@name='Create_item']/@value">pimpMiningHelmetAdmin,toughGuyShirtAdmin,giveXP_T300_admin,delveBoneDagger,gunToolDiggerAdmin,drinkJarFullRespecAdmin,meleeToolPaintToolAdmin,meleeToolSalvageWrenchAdmin,meleeToolHammerOfGodAdmin,noteTestersElectricityAdmin,qtest_nextTraderAdmin,resourceYuccaFibers,resourceWood,resourceRockSmall,resourceFeather,ammoArrowStone,delveBorderBow,modGunDrumMagazineExtender,modGunMeleeRadRemover,resourceRepairKit,casinoCoin,cntWoodWritableCrate,vehicleMotorcyclePlaceable,ammoGasCanBundle,thrownGrenadeNukeAdmin</set>
+  <set xpath="/items/item[@name='noteTestingAdmin']/property[@class='Action0']/property[@name='Create_item']/@value">pimpMiningHelmetAdmin,toughGuyShirtAdmin,giveXP_T300_admin,delveBoneDagger,gunToolDiggerAdmin,drinkJarFullRespecAdmin,meleeToolPaintToolAdmin,meleeToolSalvageWrenchAdmin,meleeToolHammerOfGodAdmin,noteTestersElectricityAdmin,qtest_nextTraderAdmin,resourceYuccaFibers,resourceWood,resourceRockSmall,resourceFeather,ammoArrowStone,delveBorderBow,modGunDrumMagazineExtender,modGunMeleeRadRemover,resourceRepairKit,casinoCoin,cntWoodWritableCrate,vehicleMotorcyclePlaceable,ammoGasCanBundle,thrownGrenadeNukeAdmin</set>
+  <set xpath="/items/item[@name='noteAchievementAdmin']/property[@class='Action0']/property[@name='Create_item']/@value">pimpMiningHelmetAdmin,toughGuyShirtAdmin,giveXP_T300_admin,delveBoneDagger,gunToolDiggerAdmin,meleeToolHammerOfGodAdmin,resourceYuccaFibers,resourceWood,resourceRockSmall,resourceFeather,resourceRepairKit,casinoCoin,cntWoodWritableCrate,vehicleMotorcyclePlaceable,vehicleGyrocopterPlaceable,modVehicleMega,ammoGasCanBundle,testZombieSpawnBlock,ammoArrowStone,meleeWpnBladeT1HuntingKnife,modMeleeSerratedBlade</set>
+  <set xpath="/items/item[@name='noteTestersElectricityAdmin']/property[@class='Action0']/property[@name='Create_item']/@value">meleeToolWireTool,ammoGasCan,ammoDartIron,ammoArrowStone,autoTurret,shotgunTurret,electricwirerelay,switch,pressureplate,pressureplateLong,tripwirepost,motionsensor,electrictimerrelay,speaker,electricfencepost,dartTrap,bladeTrap,solarbank,generatorbank,batterybank,carBattery,smallEngine,solarCell</set>
+  <set xpath="/items/item[@name='tier01PerceptionWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow,meleeWpnSpearT0StoneSpear,tier01Bow01</set>
+  <set xpath="/items/item[@name='tier01StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow,meleeWpnClubT0WoodenClub,meleeWpnSledgeT0StoneSledgehammer,tier01Bow01</set>
+  <set xpath="/items/item[@name='tier01FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow,meleeWpnKnucklesT0LeatherKnuckles,tier01Bow01</set>
+  <set xpath="/items/item[@name='tier01AgilityWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,gunBowT0PrimitiveBow,delveBoneDagger,meleeWpnBladeT0BoneKnife</set>
+  <set xpath="/items/item[@name='tier01IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger,meleeWpnBatonT0PipeBaton,tier01Bow01</set>
+  <set xpath="/items/item[@name='tier02PerceptionWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,gunBowT0PrimitiveBow,tier02PerceptionMelee,tier02PerceptionRanged</set>
+  <set xpath="/items/item[@name='tier02StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,gunBowT0PrimitiveBow,tier02StrengthMelee,tier02StrengthRanged</set>
+  <set xpath="/items/item[@name='tier02FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,gunBowT0PrimitiveBow,tier02FortitudeMelee,tier02FortitudeRanged</set>
+  <set xpath="/items/item[@name='tier02AgilityWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,tier02AgilityMelee,tier02AgilityRanged</set>
+  <set xpath="/items/item[@name='tier02IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,gunBowT0PrimitiveBow,tier02IntellectMelee,tier02IntellectRanged</set>
+  <set xpath="/items/item[@name='tier03PerceptionWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowIron,gunBowT1WoodenBow,tier03PerceptionMelee,tier03PerceptionRanged</set>
+  <set xpath="/items/item[@name='tier03StrengthRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier03StrengthRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier03StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowIron,gunBowT1WoodenBow,tier03StrengthMelee,tier03StrengthRanged</set>
+  <set xpath="/items/item[@name='tier03FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowIron,gunBowT1WoodenBow,tier03FortitudeMelee,tier03FortitudeRanged</set>
+  <set xpath="/items/item[@name='tier03AgilityRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier03AgilityRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier03IntellectRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier03IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowIron,gunBowT1WoodenBow,tier03IntellectMelee01,tier03IntellectMelee02,tier03IntellectRanged</set>
+  <set xpath="/items/item[@name='tier04PerceptionRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04PerceptionRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04PerceptionWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT1WoodenBow,tier04PerceptionMelee,tier04PerceptionRanged</set>
+  <set xpath="/items/item[@name='tier04StrengthRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04StrengthRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT1WoodenBow,tier04StrengthMelee,tier04StrengthRanged</set>
+  <set xpath="/items/item[@name='tier04FortitudeRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04FortitudeRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT1WoodenBow,tier04FortitudeMelee,tier04FortitudeRanged</set>
+  <set xpath="/items/item[@name='tier04AgilityRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04AgilityRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier04IntellectMelee03']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier04IntellectRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier04IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT1WoodenBow,tier04IntellectMelee,tier04IntellectRanged</set>
+  <set xpath="/items/item[@name='tier05PerceptionRanged']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow</set>
+  <set xpath="/items/item[@name='tier05StrengthRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier05StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier05StrengthMelee01,tier05StrengthMelee02,tier05StrengthRanged</set>
+  <set xpath="/items/item[@name='tier05FortitudeRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier05FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier05FortitudeMelee,tier05FortitudeRanged</set>
+  <set xpath="/items/item[@name='tier05AgilityRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow</set>
+  <set xpath="/items/item[@name='tier05AgilityRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier05IntellectMelee03']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier05IntellectRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier05IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier05IntellectMelee,tier05IntellectRanged</set>
+  <set xpath="/items/item[@name='tier06PerceptionRanged']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow</set>
+  <set xpath="/items/item[@name='tier06PerceptionWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier06PerceptionMelee,tier06PerceptionRanged</set>
+  <set xpath="/items/item[@name='tier06StrengthRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier06StrengthWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier06StrengthMelee01,tier06StrengthMelee02,tier06StrengthRanged</set>
+  <set xpath="/items/item[@name='tier06FortitudeRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier06FortitudeWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier06FortitudeMelee,tier06FortitudeRanged</set>
+  <set xpath="/items/item[@name='tier06AgilityRanged01']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBorderBow</set>
+  <set xpath="/items/item[@name='tier06AgilityRanged02']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier06IntellectMelee03']/property[@class='Action0']/property[@name='Create_item']/@value">delveBorderBow</set>
+  <set xpath="/items/item[@name='tier06IntellectRanged']/property[@class='Action0']/property[@name='Create_item']/@value">delveBoneDagger</set>
+  <set xpath="/items/item[@name='tier06IntellectWeapons']/property[@class='Action0']/property[@name='Create_item']/@value">ammoArrowStone,ammoArrowSteelAP,gunBowT3CompoundBow,tier06IntellectMelee,tier06IntellectRanged</set>
+<set xpath="/items/item[@name=&quot;delveLeatherKnuckles&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLeatherKnuckles</set><set xpath="/items/item[@name=&quot;delveLeatherKnuckles&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveBoneDagger&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveBoneDagger</set><set xpath="/items/item[@name=&quot;delveBoneDagger&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveOakCudgel&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveOakCudgel</set><set xpath="/items/item[@name=&quot;delveOakCudgel&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveAshSpear&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveAshSpear</set><set xpath="/items/item[@name=&quot;delveAshSpear&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveBorderBow&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveBorderBow</set><set xpath="/items/item[@name=&quot;delveBorderBow&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveIronDagger&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveIronDagger</set><set xpath="/items/item[@name=&quot;delveIronDagger&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveIronMace&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveIronMace</set><set xpath="/items/item[@name=&quot;delveIronMace&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveIronSpear&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveIronSpear</set><set xpath="/items/item[@name=&quot;delveIronSpear&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHuntingBow&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHuntingBow</set><set xpath="/items/item[@name=&quot;delveHuntingBow&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveEmberSalts&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEmberSalts</set><set xpath="/items/item[@name=&quot;delveEmberSalts&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHealingPoultice&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHealingPoultice</set><set xpath="/items/item[@name=&quot;delveHealingPoultice&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveWayfarerTea&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWayfarerTea</set><set xpath="/items/item[@name=&quot;delveWayfarerTea&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveWardDraught&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWardDraught</set><set xpath="/items/item[@name=&quot;delveWardDraught&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageHuman&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageHuman</set><set xpath="/items/item[@name=&quot;delveHeritageHuman&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageElf&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageElf</set><set xpath="/items/item[@name=&quot;delveHeritageElf&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageDwarf&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageDwarf</set><set xpath="/items/item[@name=&quot;delveHeritageDwarf&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageHalfling&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageHalfling</set><set xpath="/items/item[@name=&quot;delveHeritageHalfling&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageOrc&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageOrc</set><set xpath="/items/item[@name=&quot;delveHeritageOrc&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHeritageTiefling&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHeritageTiefling</set><set xpath="/items/item[@name=&quot;delveHeritageTiefling&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveFieldGuide&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFieldGuide</set><append xpath="/items/item[@name=&quot;delveFieldGuide&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveStarterWand&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveStarterWand</set><set xpath="/items/item[@name=&quot;delveStarterWand&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveWandRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWandRune</set><set xpath="/items/item[@name=&quot;delveWandRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveStarterStaff&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveStarterStaff</set><set xpath="/items/item[@name=&quot;delveStarterStaff&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveStaffRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveStaffRune</set><set xpath="/items/item[@name=&quot;delveStaffRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveStarterTotem&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveStarterTotem</set><set xpath="/items/item[@name=&quot;delveStarterTotem&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveTotemRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveTotemRune</set><set xpath="/items/item[@name=&quot;delveTotemRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveMendingTotem&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMendingTotem</set><set xpath="/items/item[@name=&quot;delveMendingTotem&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveHealingRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHealingRune</set><set xpath="/items/item[@name=&quot;delveHealingRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveLightHelmet</set><append xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveLightOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveLightOutfit</set><append xpath="/items/item[@name=&quot;armorDelveLightOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveLightGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveLightGloves</set><append xpath="/items/item[@name=&quot;armorDelveLightGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveLightBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveLightBoots</set><append xpath="/items/item[@name=&quot;armorDelveLightBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveMediumHelmet</set><append xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveMediumOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveMediumOutfit</set><append xpath="/items/item[@name=&quot;armorDelveMediumOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveMediumGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveMediumGloves</set><append xpath="/items/item[@name=&quot;armorDelveMediumGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveMediumBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveMediumBoots</set><append xpath="/items/item[@name=&quot;armorDelveMediumBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveHeavyHelmet</set><append xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveHeavyOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveHeavyOutfit</set><append xpath="/items/item[@name=&quot;armorDelveHeavyOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveHeavyGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveHeavyGloves</set><append xpath="/items/item[@name=&quot;armorDelveHeavyGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveHeavyBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveHeavyBoots</set><append xpath="/items/item[@name=&quot;armorDelveHeavyBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelvePaddedHelmet</set><append xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelvePaddedOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelvePaddedOutfit</set><append xpath="/items/item[@name=&quot;armorDelvePaddedOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelvePaddedGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelvePaddedGloves</set><append xpath="/items/item[@name=&quot;armorDelvePaddedGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelvePaddedBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelvePaddedBoots</set><append xpath="/items/item[@name=&quot;armorDelvePaddedBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveBrambleberries&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveBrambleberries</set><set xpath="/items/item[@name=&quot;foodDelveBrambleberries&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;resourceDelveYarrow&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">resourceDelveYarrow</set><set xpath="/items/item[@name=&quot;resourceDelveYarrow&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;resourceDelveThyme&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">resourceDelveThyme</set><set xpath="/items/item[@name=&quot;resourceDelveThyme&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;resourceDelveMooncap&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">resourceDelveMooncap</set><set xpath="/items/item[@name=&quot;resourceDelveMooncap&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;foodDelveCookedBerries&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveCookedBerries</set><append xpath="/items/item[@name=&quot;foodDelveCookedBerries&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveMushroomSkewers&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveMushroomSkewers</set><append xpath="/items/item[@name=&quot;foodDelveMushroomSkewers&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveCornPorridge&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveCornPorridge</set><append xpath="/items/item[@name=&quot;foodDelveCornPorridge&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveRoastedPumpkin&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveRoastedPumpkin</set><append xpath="/items/item[@name=&quot;foodDelveRoastedPumpkin&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveSeasonedRoast&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveSeasonedRoast</set><append xpath="/items/item[@name=&quot;foodDelveSeasonedRoast&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;drinkDelveWoodlandBroth&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">drinkDelveWoodlandBroth</set><append xpath="/items/item[@name=&quot;drinkDelveWoodlandBroth&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveBerryPorridge&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveBerryPorridge</set><append xpath="/items/item[@name=&quot;foodDelveBerryPorridge&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveHunterStew&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveHunterStew</set><append xpath="/items/item[@name=&quot;foodDelveHunterStew&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveHoneyberryCakes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveHoneyberryCakes</set><append xpath="/items/item[@name=&quot;foodDelveHoneyberryCakes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;drinkDelveGoldenrodTea&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">drinkDelveGoldenrodTea</set><append xpath="/items/item[@name=&quot;drinkDelveGoldenrodTea&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;medicalDelveFieldPoultice&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">medicalDelveFieldPoultice</set><append xpath="/items/item[@name=&quot;medicalDelveFieldPoultice&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;medicalDelveHerbalDressing&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">medicalDelveHerbalDressing</set><append xpath="/items/item[@name=&quot;medicalDelveHerbalDressing&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLesserHealingPotion&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLesserHealingPotion</set><append xpath="/items/item[@name=&quot;delveLesserHealingPotion&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLesserStaminaPotion&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLesserStaminaPotion</set><append xpath="/items/item[@name=&quot;delveLesserStaminaPotion&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveMooncapWandRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMooncapWandRune</set><set xpath="/items/item[@name=&quot;delveMooncapWandRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveMooncapStaffRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMooncapStaffRune</set><set xpath="/items/item[@name=&quot;delveMooncapStaffRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveMooncapTotemRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMooncapTotemRune</set><set xpath="/items/item[@name=&quot;delveMooncapTotemRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveMooncapHealingRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMooncapHealingRune</set><set xpath="/items/item[@name=&quot;delveMooncapHealingRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveCompost&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveCompost</set><append xpath="/items/item[@name=&quot;delveCompost&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveDriedThyme&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveDriedThyme</set><append xpath="/items/item[@name=&quot;delveDriedThyme&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveDriedYarrow&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveDriedYarrow</set><append xpath="/items/item[@name=&quot;delveDriedYarrow&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveMilledGrain&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMilledGrain</set><append xpath="/items/item[@name=&quot;delveMilledGrain&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveHerbalSpirit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHerbalSpirit</set><append xpath="/items/item[@name=&quot;delveHerbalSpirit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTravelBread&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTravelBread</set><append xpath="/items/item[@name=&quot;foodDelveTravelBread&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveBerryPreserve&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveBerryPreserve</set><append xpath="/items/item[@name=&quot;foodDelveBerryPreserve&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTrailRation&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTrailRation</set><append xpath="/items/item[@name=&quot;foodDelveTrailRation&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;medicalDelveYarrowTincture&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">medicalDelveYarrowTincture</set><append xpath="/items/item[@name=&quot;medicalDelveYarrowTincture&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmNoticePantry&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmNoticePantry</set><append xpath="/items/item[@name=&quot;delveFarmNoticePantry&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmParcelPantry&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmParcelPantry</set><append xpath="/items/item[@name=&quot;delveFarmParcelPantry&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmNoticeHerbs&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmNoticeHerbs</set><append xpath="/items/item[@name=&quot;delveFarmNoticeHerbs&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmParcelHerbs&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmParcelHerbs</set><append xpath="/items/item[@name=&quot;delveFarmParcelHerbs&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmNoticeBread&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmNoticeBread</set><append xpath="/items/item[@name=&quot;delveFarmNoticeBread&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmParcelBread&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmParcelBread</set><append xpath="/items/item[@name=&quot;delveFarmParcelBread&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmNoticeMedicine&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmNoticeMedicine</set><append xpath="/items/item[@name=&quot;delveFarmNoticeMedicine&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmParcelMedicine&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmParcelMedicine</set><append xpath="/items/item[@name=&quot;delveFarmParcelMedicine&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmNoticeRations&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmNoticeRations</set><append xpath="/items/item[@name=&quot;delveFarmNoticeRations&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmParcelRations&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmParcelRations</set><append xpath="/items/item[@name=&quot;delveFarmParcelRations&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFarmHandbook&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmHandbook</set><append xpath="/items/item[@name=&quot;delveFarmHandbook&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveRoughHandle&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRoughHandle</set><append xpath="/items/item[@name=&quot;delveRoughHandle&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLeatherBinding&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLeatherBinding</set><append xpath="/items/item[@name=&quot;delveLeatherBinding&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveSeasonedTimber&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveSeasonedTimber</set><append xpath="/items/item[@name=&quot;delveSeasonedTimber&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveCuredLeather&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveCuredLeather</set><append xpath="/items/item[@name=&quot;delveCuredLeather&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveWovenCloth&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWovenCloth</set><append xpath="/items/item[@name=&quot;delveWovenCloth&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveIronFittings&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveIronFittings</set><append xpath="/items/item[@name=&quot;delveIronFittings&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveDressedStone&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveDressedStone</set><append xpath="/items/item[@name=&quot;delveDressedStone&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveIronConcentrate&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveIronConcentrate</set><append xpath="/items/item[@name=&quot;delveIronConcentrate&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveHerbalExtract&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHerbalExtract</set><append xpath="/items/item[@name=&quot;delveHerbalExtract&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveRuneBlank&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRuneBlank</set><append xpath="/items/item[@name=&quot;delveRuneBlank&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveCharcoal&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveCharcoal</set><append xpath="/items/item[@name=&quot;delveCharcoal&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveHideRepair&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveHideRepair</set><append xpath="/items/item[@name=&quot;delveHideRepair&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveMetalRepair&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMetalRepair</set><append xpath="/items/item[@name=&quot;delveMetalRepair&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveFocusRepair&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFocusRepair</set><append xpath="/items/item[@name=&quot;delveFocusRepair&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTrailRations&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTrailRations</set><append xpath="/items/item[@name=&quot;foodDelveTrailRations&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveGathererPorridge&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveGathererPorridge</set><append xpath="/items/item[@name=&quot;foodDelveGathererPorridge&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveIncursionSupper&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveIncursionSupper</set><append xpath="/items/item[@name=&quot;foodDelveIncursionSupper&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveProcessingGuide&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveProcessingGuide</set><append xpath="/items/item[@name=&quot;delveProcessingGuide&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveForgedDagger&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedDagger</set><set xpath="/items/item[@name=&quot;delveForgedDagger&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedMace&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedMace</set><set xpath="/items/item[@name=&quot;delveForgedMace&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedSpear&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedSpear</set><set xpath="/items/item[@name=&quot;delveForgedSpear&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedKnuckles&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedKnuckles</set><set xpath="/items/item[@name=&quot;delveForgedKnuckles&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedBow&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedBow</set><set xpath="/items/item[@name=&quot;delveForgedBow&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><append xpath="/items/item[@name=&quot;delveForgedCrossbow&quot;]"><property name="CustomIcon" value="delveForgedCrossbow"/></append><append xpath="/items/item[@name=&quot;delveForgedCrossbow&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedLightHelmet</set><append xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedLightOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedLightOutfit</set><append xpath="/items/item[@name=&quot;armorDelveForgedLightOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedLightGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedLightGloves</set><append xpath="/items/item[@name=&quot;armorDelveForgedLightGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedLightBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedLightBoots</set><append xpath="/items/item[@name=&quot;armorDelveForgedLightBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedMediumHelmet</set><append xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedMediumOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedMediumOutfit</set><append xpath="/items/item[@name=&quot;armorDelveForgedMediumOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedMediumGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedMediumGloves</set><append xpath="/items/item[@name=&quot;armorDelveForgedMediumGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedMediumBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedMediumBoots</set><append xpath="/items/item[@name=&quot;armorDelveForgedMediumBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedHeavyHelmet</set><append xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedHeavyOutfit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedHeavyOutfit</set><append xpath="/items/item[@name=&quot;armorDelveForgedHeavyOutfit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedHeavyGloves&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedHeavyGloves</set><append xpath="/items/item[@name=&quot;armorDelveForgedHeavyGloves&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;armorDelveForgedHeavyBoots&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">armorDelveForgedHeavyBoots</set><append xpath="/items/item[@name=&quot;armorDelveForgedHeavyBoots&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><append xpath="/items/item[@name=&quot;delveForgedPickaxe&quot;]"><property name="CustomIcon" value="delveForgedPickaxe"/></append><append xpath="/items/item[@name=&quot;delveForgedPickaxe&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><append xpath="/items/item[@name=&quot;delveForgedAxe&quot;]"><property name="CustomIcon" value="delveForgedAxe"/></append><append xpath="/items/item[@name=&quot;delveForgedAxe&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><append xpath="/items/item[@name=&quot;delveForgedShovel&quot;]"><property name="CustomIcon" value="delveForgedShovel"/></append><append xpath="/items/item[@name=&quot;delveForgedShovel&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveEtchedWandRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEtchedWandRune</set><set xpath="/items/item[@name=&quot;delveEtchedWandRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveEtchedStaffRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEtchedStaffRune</set><set xpath="/items/item[@name=&quot;delveEtchedStaffRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveEtchedHexRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEtchedHexRune</set><set xpath="/items/item[@name=&quot;delveEtchedHexRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveEtchedHealingRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEtchedHealingRune</set><set xpath="/items/item[@name=&quot;delveEtchedHealingRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveEtchedWardRune&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveEtchedWardRune</set><set xpath="/items/item[@name=&quot;delveEtchedWardRune&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedWand&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedWand</set><set xpath="/items/item[@name=&quot;delveForgedWand&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedStaff&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedStaff</set><set xpath="/items/item[@name=&quot;delveForgedStaff&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedTotem&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedTotem</set><set xpath="/items/item[@name=&quot;delveForgedTotem&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForgedMendingTotem&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgedMendingTotem</set><set xpath="/items/item[@name=&quot;delveForgedMendingTotem&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveWardTotem&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWardTotem</set><set xpath="/items/item[@name=&quot;delveWardTotem&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForestReadinessGuide&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForestReadinessGuide</set><append xpath="/items/item[@name=&quot;delveForestReadinessGuide&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTrailRationsDelvePacked&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTrailRationsDelvePacked</set><append xpath="/items/item[@name=&quot;foodDelveTrailRationsDelvePacked&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTrailRationDelvePacked&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTrailRationDelvePacked</set><append xpath="/items/item[@name=&quot;foodDelveTrailRationDelvePacked&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveTravelBreadDelvePacked&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveTravelBreadDelvePacked</set><append xpath="/items/item[@name=&quot;foodDelveTravelBreadDelvePacked&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveBerryPreserveDelvePacked&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveBerryPreserveDelvePacked</set><append xpath="/items/item[@name=&quot;foodDelveBerryPreserveDelvePacked&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;foodDelveHoneyberryCakesDelvePacked&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">foodDelveHoneyberryCakesDelvePacked</set><append xpath="/items/item[@name=&quot;foodDelveHoneyberryCakesDelvePacked&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonFarmingNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonFarmingNotes</set><append xpath="/items/item[@name=&quot;delveLessonFarmingNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonCookingNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonCookingNotes</set><append xpath="/items/item[@name=&quot;delveLessonCookingNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonMiningNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonMiningNotes</set><append xpath="/items/item[@name=&quot;delveLessonMiningNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonSmithingNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonSmithingNotes</set><append xpath="/items/item[@name=&quot;delveLessonSmithingNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonCarpentryNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonCarpentryNotes</set><append xpath="/items/item[@name=&quot;delveLessonCarpentryNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveLessonAlchemyNotes&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveLessonAlchemyNotes</set><append xpath="/items/item[@name=&quot;delveLessonAlchemyNotes&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/items/item[@name=&quot;delveThornhide&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveThornhide</set><set xpath="/items/item[@name=&quot;delveThornhide&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveGloomPelt&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveGloomPelt</set><set xpath="/items/item[@name=&quot;delveGloomPelt&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/items/item[@name=&quot;delveForestCrystal&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForestCrystal</set><set xpath="/items/item[@name=&quot;delveForestCrystal&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set>
+<!-- BotanicalRebuild20261026: matching botanical art and neutral icon tint. -->
+<remove xpath="/items/item[@name='foodDelveBrambleberries']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='foodDelveBrambleberries']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='foodDelveBrambleberries']"><property name="CustomIcon" value="foodDelveBrambleberries" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='resourceDelveYarrow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='resourceDelveYarrow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='resourceDelveYarrow']"><property name="CustomIcon" value="resourceDelveYarrow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='resourceDelveThyme']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='resourceDelveThyme']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='resourceDelveThyme']"><property name="CustomIcon" value="resourceDelveThyme" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='resourceDelveMooncap']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='resourceDelveMooncap']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='resourceDelveMooncap']"><property name="CustomIcon" value="resourceDelveMooncap" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveDriedThyme']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveDriedThyme']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveDriedThyme']"><property name="CustomIcon" value="delveDriedThyme" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveDriedYarrow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveDriedYarrow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveDriedYarrow']"><property name="CustomIcon" value="delveDriedYarrow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+
+<!-- WeaponRebuild20261026: matching model renders and neutral icon colors. -->
+<remove xpath="/items/item[@name='delveBoneDagger']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveBoneDagger']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveBoneDagger']"><property name="CustomIcon" value="delveBoneDagger" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveOakCudgel']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveOakCudgel']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveOakCudgel']"><property name="CustomIcon" value="delveOakCudgel" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveAshSpear']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveAshSpear']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveAshSpear']"><property name="CustomIcon" value="delveAshSpear" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveLeatherKnuckles']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveLeatherKnuckles']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveLeatherKnuckles']"><property name="CustomIcon" value="delveLeatherKnuckles" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveBorderBow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveBorderBow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveBorderBow']"><property name="CustomIcon" value="delveBorderBow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveStarterWand']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveStarterWand']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveStarterWand']"><property name="CustomIcon" value="delveStarterWand" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveStarterStaff']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveStarterStaff']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveStarterStaff']"><property name="CustomIcon" value="delveStarterStaff" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveStarterTotem']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveStarterTotem']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveStarterTotem']"><property name="CustomIcon" value="delveStarterTotem" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveMendingTotem']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveMendingTotem']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveMendingTotem']"><property name="CustomIcon" value="delveMendingTotem" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedDagger']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedDagger']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedDagger']"><property name="CustomIcon" value="delveForgedDagger" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedMace']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedMace']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedMace']"><property name="CustomIcon" value="delveForgedMace" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedSpear']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedSpear']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedSpear']"><property name="CustomIcon" value="delveForgedSpear" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedKnuckles']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedKnuckles']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedKnuckles']"><property name="CustomIcon" value="delveForgedKnuckles" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedBow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedBow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedBow']"><property name="CustomIcon" value="delveForgedBow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedCrossbow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedCrossbow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedCrossbow']"><property name="CustomIcon" value="delveForgedCrossbow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedWand']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedWand']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedWand']"><property name="CustomIcon" value="delveForgedWand" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedStaff']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedStaff']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedStaff']"><property name="CustomIcon" value="delveForgedStaff" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedTotem']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedTotem']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedTotem']"><property name="CustomIcon" value="delveForgedTotem" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveForgedMendingTotem']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveForgedMendingTotem']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveForgedMendingTotem']"><property name="CustomIcon" value="delveForgedMendingTotem" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveWardTotem']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveWardTotem']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveWardTotem']"><property name="CustomIcon" value="delveWardTotem" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveWandRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveWandRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveWandRune']"><property name="CustomIcon" value="delveWandRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveStaffRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveStaffRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveStaffRune']"><property name="CustomIcon" value="delveStaffRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveTotemRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveTotemRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveTotemRune']"><property name="CustomIcon" value="delveTotemRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveHealingRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveHealingRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveHealingRune']"><property name="CustomIcon" value="delveHealingRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveMooncapWandRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveMooncapWandRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveMooncapWandRune']"><property name="CustomIcon" value="delveMooncapWandRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveMooncapStaffRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveMooncapStaffRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveMooncapStaffRune']"><property name="CustomIcon" value="delveMooncapStaffRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveMooncapTotemRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveMooncapTotemRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveMooncapTotemRune']"><property name="CustomIcon" value="delveMooncapTotemRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveMooncapHealingRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveMooncapHealingRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveMooncapHealingRune']"><property name="CustomIcon" value="delveMooncapHealingRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveEtchedWandRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveEtchedWandRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveEtchedWandRune']"><property name="CustomIcon" value="delveEtchedWandRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveEtchedStaffRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveEtchedStaffRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveEtchedStaffRune']"><property name="CustomIcon" value="delveEtchedStaffRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveEtchedHexRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveEtchedHexRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveEtchedHexRune']"><property name="CustomIcon" value="delveEtchedHexRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveEtchedHealingRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveEtchedHealingRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveEtchedHealingRune']"><property name="CustomIcon" value="delveEtchedHealingRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveEtchedWardRune']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveEtchedWardRune']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveEtchedWardRune']"><property name="CustomIcon" value="delveEtchedWardRune" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='ammoArrowStone']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='ammoArrowStone']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='ammoArrowStone']"><property name="CustomIcon" value="ammoArrowStone" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='ammoArrowIron']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='ammoArrowIron']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='ammoArrowIron']"><property name="CustomIcon" value="ammoArrowIron" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='ammoCrossbowBoltStone']"><property name="CustomIcon" value="ammoCrossbowBoltStone" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='ammoCrossbowBoltIron']"><property name="CustomIcon" value="ammoCrossbowBoltIron" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveIronDagger']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveIronDagger']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveIronDagger']"><property name="CustomIcon" value="delveIronDagger" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveIronMace']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveIronMace']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveIronMace']"><property name="CustomIcon" value="delveIronMace" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveIronSpear']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveIronSpear']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveIronSpear']"><property name="CustomIcon" value="delveIronSpear" /><property name="CustomIconTint" value="FFFFFF" /></append>
+<remove xpath="/items/item[@name='delveHuntingBow']/property[@name='CustomIcon']" />
+<remove xpath="/items/item[@name='delveHuntingBow']/property[@name='CustomIconTint']" />
+<append xpath="/items/item[@name='delveHuntingBow']"><property name="CustomIcon" value="delveHuntingBow" /><property name="CustomIconTint" value="FFFFFF" /></append>
+</configs>

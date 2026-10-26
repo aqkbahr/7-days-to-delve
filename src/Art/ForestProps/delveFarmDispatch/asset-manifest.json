@@ -1,0 +1,23 @@
+{
+  "id": "delveFarmDispatch",
+  "kind": "station",
+  "family": "desk",
+  "name": "Settlement Supply Desk",
+  "triangles": {
+    "Prop_LOD0": 1580,
+    "Prop_LOD1": 868,
+    "Prop_LOD2": 392
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

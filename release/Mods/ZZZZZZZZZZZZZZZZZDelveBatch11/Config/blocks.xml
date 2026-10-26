@@ -1,0 +1,12 @@
+<configs>
+  <set xpath="/blocks/block[@name='cntShippingCrateHero']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateShamway']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateLabEquipment']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateBookstore']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateCarParts']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateSavageCountry']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']/property[@name='Model']/@value">#@modfolder:Resources/batcheleven.unity3d?delveSealedIronboundCrate</set>
+</configs>

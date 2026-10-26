@@ -1,0 +1,1296 @@
+{
+  "armor": [
+    {
+      "id": "armorDelveLightHelmet",
+      "name": "Wayfarer Cloth Helmet",
+      "set": "Light",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 972,
+        "Helmet_LOD1": 534,
+        "Helmet_LOD2": 242
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveLightOutfit",
+      "name": "Wayfarer Cloth Outfit",
+      "set": "Light",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 3756,
+        "Outfit_LOD1": 2064,
+        "Outfit_LOD2": 938
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveLightGloves",
+      "name": "Wayfarer Cloth Gloves",
+      "set": "Light",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 6224,
+        "Gloves_LOD1": 3422,
+        "Gloves_LOD2": 1556
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveLightBoots",
+      "name": "Wayfarer Cloth Boots",
+      "set": "Light",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3192,
+        "Boots_LOD1": 1754,
+        "Boots_LOD2": 798
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveMediumHelmet",
+      "name": "Border Leather Helmet",
+      "set": "Medium",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 1224,
+        "Helmet_LOD1": 672,
+        "Helmet_LOD2": 306
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveMediumOutfit",
+      "name": "Border Leather Outfit",
+      "set": "Medium",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 4388,
+        "Outfit_LOD1": 2412,
+        "Outfit_LOD2": 1094
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveMediumGloves",
+      "name": "Border Leather Gloves",
+      "set": "Medium",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 6704,
+        "Gloves_LOD1": 3686,
+        "Gloves_LOD2": 1676
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveMediumBoots",
+      "name": "Border Leather Boots",
+      "set": "Medium",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3224,
+        "Boots_LOD1": 1772,
+        "Boots_LOD2": 806
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveHeavyHelmet",
+      "name": "Scavenged Iron Helmet",
+      "set": "Heavy",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 1764,
+        "Helmet_LOD1": 970,
+        "Helmet_LOD2": 440
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveHeavyOutfit",
+      "name": "Scavenged Iron Outfit",
+      "set": "Heavy",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 5172,
+        "Outfit_LOD1": 2844,
+        "Outfit_LOD2": 1290
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveHeavyGloves",
+      "name": "Scavenged Iron Gloves",
+      "set": "Heavy",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 6944,
+        "Gloves_LOD1": 3818,
+        "Gloves_LOD2": 1736
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveHeavyBoots",
+      "name": "Scavenged Iron Boots",
+      "set": "Heavy",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3672,
+        "Boots_LOD1": 2018,
+        "Boots_LOD2": 918
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelvePaddedHelmet",
+      "name": "Padded Cloth Helmet",
+      "set": "Padded",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 1196,
+        "Helmet_LOD1": 656,
+        "Helmet_LOD2": 298
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelvePaddedOutfit",
+      "name": "Padded Cloth Outfit",
+      "set": "Padded",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 4008,
+        "Outfit_LOD1": 2204,
+        "Outfit_LOD2": 1000
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelvePaddedGloves",
+      "name": "Padded Cloth Gloves",
+      "set": "Padded",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 6224,
+        "Gloves_LOD1": 3422,
+        "Gloves_LOD2": 1556
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelvePaddedBoots",
+      "name": "Padded Cloth Boots",
+      "set": "Padded",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Field",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3192,
+        "Boots_LOD1": 1754,
+        "Boots_LOD2": 798
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedLightHelmet",
+      "name": "Forged Light Helmet",
+      "set": "ForgedLight",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 988,
+        "Helmet_LOD1": 542,
+        "Helmet_LOD2": 246
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedLightOutfit",
+      "name": "Forged Light Outfit",
+      "set": "ForgedLight",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 4044,
+        "Outfit_LOD1": 2224,
+        "Outfit_LOD2": 1010
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedLightGloves",
+      "name": "Forged Light Gloves",
+      "set": "ForgedLight",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 6800,
+        "Gloves_LOD1": 3740,
+        "Gloves_LOD2": 1700
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedLightBoots",
+      "name": "Forged Light Boots",
+      "set": "ForgedLight",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3192,
+        "Boots_LOD1": 1754,
+        "Boots_LOD2": 798
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedMediumHelmet",
+      "name": "Forged Medium Helmet",
+      "set": "ForgedMedium",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 1332,
+        "Helmet_LOD1": 732,
+        "Helmet_LOD2": 332
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedMediumOutfit",
+      "name": "Forged Medium Outfit",
+      "set": "ForgedMedium",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 4884,
+        "Outfit_LOD1": 2686,
+        "Outfit_LOD2": 1218
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedMediumGloves",
+      "name": "Forged Medium Gloves",
+      "set": "ForgedMedium",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 7280,
+        "Gloves_LOD1": 4004,
+        "Gloves_LOD2": 1820
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedMediumBoots",
+      "name": "Forged Medium Boots",
+      "set": "ForgedMedium",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3224,
+        "Boots_LOD1": 1772,
+        "Boots_LOD2": 806
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedHeavyHelmet",
+      "name": "Forged Heavy Helmet",
+      "set": "ForgedHeavy",
+      "slot": "Helmet",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Helmet_LOD0": 1872,
+        "Helmet_LOD1": 1028,
+        "Helmet_LOD2": 468
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedHeavyOutfit",
+      "name": "Forged Heavy Outfit",
+      "set": "ForgedHeavy",
+      "slot": "Outfit",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Outfit_LOD0": 5636,
+        "Outfit_LOD1": 3098,
+        "Outfit_LOD2": 1406
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedHeavyGloves",
+      "name": "Forged Heavy Gloves",
+      "set": "ForgedHeavy",
+      "slot": "Gloves",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Gloves_LOD0": 7520,
+        "Gloves_LOD1": 4136,
+        "Gloves_LOD2": 1880
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    },
+    {
+      "id": "armorDelveForgedHeavyBoots",
+      "name": "Forged Heavy Boots",
+      "set": "ForgedHeavy",
+      "slot": "Boots",
+      "family": "armor",
+      "tier": "Forged",
+      "bones": 99,
+      "triangles": {
+        "Boots_LOD0": 3672,
+        "Boots_LOD1": 2018,
+        "Boots_LOD2": 918
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.7,
+          "loop": true
+        },
+        "Crouch": {
+          "seconds": 1.4,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 1.2,
+          "loop": false
+        },
+        "Grip": {
+          "seconds": 1,
+          "loop": false
+        }
+      },
+      "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+    }
+  ],
+  "sets": [
+    {
+      "key": "Light",
+      "name": "Wayfarer Cloth"
+    },
+    {
+      "key": "Medium",
+      "name": "Border Leather"
+    },
+    {
+      "key": "Heavy",
+      "name": "Scavenged Iron"
+    },
+    {
+      "key": "Padded",
+      "name": "Padded Cloth"
+    },
+    {
+      "key": "ForgedLight",
+      "name": "Forged Light"
+    },
+    {
+      "key": "ForgedMedium",
+      "name": "Forged Medium"
+    },
+    {
+      "key": "ForgedHeavy",
+      "name": "Forged Heavy"
+    }
+  ],
+  "scope": "28 armor pieces / seven sets; shared native reference skeleton, original pose-check animations",
+  "integration": "Not activated. SDCS body exclusions, morphs, hair masks and first-person glove views require native fitting."
+}

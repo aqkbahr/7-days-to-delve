@@ -1,0 +1,35 @@
+{
+  "id": "delveRainCollector",
+  "kind": "station",
+  "family": "collector",
+  "name": "Forest Rain Collector",
+  "triangles": {
+    "Prop_LOD0": 8004,
+    "Prop_LOD1": 4402,
+    "Prop_LOD2": 1980
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Empty": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Fill": {
+      "seconds": 2,
+      "loop": false
+    },
+    "Full": {
+      "seconds": 1,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    3,
+    3,
+    3
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

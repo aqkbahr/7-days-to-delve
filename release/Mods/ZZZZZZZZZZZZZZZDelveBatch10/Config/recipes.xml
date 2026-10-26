@@ -1,0 +1,246 @@
+<configs>
+  <remove xpath="/recipes/recipe[@name='delveWandRune' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveWandRune" count="10" craft_time="5" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceScrapLead" count="1"/></recipe>
+    </append>
+  <append xpath="/recipes"><recipe name="delveWandRune" count="10" craft_time="5" craft_area="delveInscriptionKit">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceScrapLead" count="1"/></recipe>
+    </append>
+  <remove xpath="/recipes/recipe[@name='delveStaffRune' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveStaffRune" count="10" craft_time="5" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceScrapIron" count="1"/></recipe>
+    </append>
+  <append xpath="/recipes"><recipe name="delveStaffRune" count="10" craft_time="5" craft_area="delveInscriptionKit">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceScrapIron" count="1"/></recipe>
+    </append>
+  <remove xpath="/recipes/recipe[@name='delveTotemRune' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveTotemRune" count="10" craft_time="5" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceCropChrysanthemumPlant" count="1"/></recipe>
+    </append>
+  <append xpath="/recipes"><recipe name="delveTotemRune" count="10" craft_time="5" craft_area="delveInscriptionKit">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceCropChrysanthemumPlant" count="1"/></recipe>
+    </append>
+  <remove xpath="/recipes/recipe[@name='delveHealingRune' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveHealingRune" count="10" craft_time="5" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceCropChrysanthemumPlant" count="2"/><ingredient name="resourceCloth" count="1"/></recipe>
+    </append>
+  <append xpath="/recipes"><recipe name="delveHealingRune" count="10" craft_time="5" craft_area="delveInscriptionKit">
+      <ingredient name="resourceRockSmall" count="5"/><ingredient name="resourceCropChrysanthemumPlant" count="2"/><ingredient name="resourceCloth" count="1"/></recipe>
+    </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeCompostBasket' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeCompostBasket" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeCompostBasket" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeSeedPress' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeSeedPress" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceForgedIron" count="4"/>
+      <ingredient name="resourceCloth" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='toolCookingPot' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="toolCookingPot" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceForgedIron" count="3"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="toolCookingPot" count="1" craft_time="20" craft_area="delveFieldHearth">
+      <ingredient name="resourceForgedIron" count="3"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='toolCookingGrill' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="toolCookingGrill" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="5"/>
+      <ingredient name="resourceRockSmall" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeGrainMill' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeGrainMill" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceRockSmall" count="30"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeGrainMill" count="1" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceRockSmall" count="30"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradePreservingCrock' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradePreservingCrock" count="1" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceClayLump" count="30"/>
+      <ingredient name="delveCharcoal" count="3"/>
+      <ingredient name="resourceCloth" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeAnvil' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeAnvil" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceForgedIron" count="6"/>
+      <ingredient name="resourceWood" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeAnvil" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6"/>
+      <ingredient name="resourceWood" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeBellows' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeBellows" count="1" craft_time="20" craft_area="delveOutfittingKit">
+      <ingredient name="resourceLeather" count="6"/>
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="delveIronFittings" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeSeasoningRack' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeSeasoningRack" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceForgedIron" count="2"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeSeasoningRack" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceForgedIron" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradePrecisionJig' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradePrecisionJig" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="6"/>
+      <ingredient name="resourceForgedIron" count="4"/>
+      <ingredient name="resourceLeather" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeDressingFrame' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeDressingFrame" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceCloth" count="6"/>
+      <ingredient name="resourceBone" count="4"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeDressingFrame" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceCloth" count="6"/>
+      <ingredient name="resourceBone" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeArmorForm' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeArmorForm" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="4"/>
+      <ingredient name="delveCuredLeather" count="2"/>
+      <ingredient name="delveWovenCloth" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeMortar' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeMortar" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceRockSmall" count="15"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeMortar" count="1" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceRockSmall" count="15"/>
+      <ingredient name="resourceClayLump" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeDryingRack' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeDryingRack" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeDryingRack" count="1" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceWood" count="15"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeFermenter' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeFermenter" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="20"/>
+      <ingredient name="resourceClayLump" count="15"/>
+      <ingredient name="resourceForgedIron" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeEngravingTools' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeEngravingTools" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceBone" count="3"/>
+      <ingredient name="resourceCloth" count="2"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeEngravingTools" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceBone" count="3"/>
+      <ingredient name="resourceCloth" count="2"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeEtchingTools' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeEtchingTools" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="4"/>
+      <ingredient name="delveHerbalExtract" count="2"/>
+      <ingredient name="delveRuneBlank" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeStoneCutter' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeStoneCutter" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceWood" count="8"/>
+      <ingredient name="resourceRockSmall" count="5"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="delveUpgradeStoneCutter" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceWood" count="8"/>
+      <ingredient name="resourceRockSmall" count="5"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveUpgradeOreSieve' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="delveUpgradeOreSieve" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceForgedIron" count="4"/>
+      <ingredient name="resourceWood" count="12"/>
+      <ingredient name="resourceCloth" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='toolDewGatherer' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="toolDewGatherer" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceClayLump" count="10"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="toolDewGatherer" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceForgedIron" count="2"/>
+      <ingredient name="resourceClayLump" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='toolDewTarp' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="toolDewTarp" count="1" craft_time="20" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="10"/>
+      <ingredient name="resourceWood" count="10"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes"><recipe name="toolDewTarp" count="1" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceCloth" count="10"/>
+      <ingredient name="resourceWood" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='toolDewFilter' and not(@craft_area)]"/>
+  <append xpath="/recipes"><recipe name="toolDewFilter" count="1" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="delveCharcoal" count="5"/>
+      <ingredient name="resourceCloth" count="4"/>
+      <ingredient name="resourceRockSmall" count="10"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="delveHarvestScythe" count="1" craft_time="30" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6"/>
+      <ingredient name="resourceWood" count="12"/>
+      <ingredient name="resourceLeather" count="2"/>
+    </recipe>
+  </append>
+</configs>

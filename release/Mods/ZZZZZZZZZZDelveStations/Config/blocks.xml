@@ -1,0 +1,611 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/blocks/block[@name='delveFarmDispatch']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveFarmDispatch']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFarmDispatch']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveFarmDispatch']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveFarmDispatch,delveCompostBin"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFarmDispatch']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveFarmDispatch']">
+    <property name="WorkstationWindow" value="workstation_delveFarmDispatch"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFarmDispatch']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveFarmDispatch']">
+    <property name="WorkstationName" value="delveFarmDispatch"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFarmDispatch']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveFarmDispatch']">
+    <property name="DescriptionKey" value="delveFarmDispatchDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveCompostBin']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveCompostBin']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveCompostBin']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveCompostBin']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveFarmDispatch,delveCompostBin"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveCompostBin']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveCompostBin']">
+    <property name="WorkstationWindow" value="workstation_delveFarmDispatch"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveCompostBin']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveCompostBin']">
+    <property name="WorkstationName" value="delveFarmDispatch"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveCompostBin']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveCompostBin']">
+    <property name="DescriptionKey" value="delveCompostBinDesc"/>
+  </append>
+  <append xpath="/blocks/block[@name='delveCompostBin']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearth']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearth']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearth']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearth']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveFieldHearth,campfire,delveFieldHearthTier2,delveFieldHearthTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearth']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearth']">
+    <property name="WorkstationWindow" value="workstation_delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearth']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearth']">
+    <property name="WorkstationName" value="delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearth']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearth']">
+    <property name="DescriptionKey" value="delveFieldHearthDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveFieldHearth,campfire,delveFieldHearthTier2,delveFieldHearthTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']">
+    <property name="WorkstationWindow" value="workstation_delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']">
+    <property name="WorkstationName" value="delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']">
+    <property name="DescriptionKey" value="delveFieldHearthTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveFieldHearth,campfire,delveFieldHearthTier2,delveFieldHearthTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']">
+    <property name="WorkstationWindow" value="workstation_delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']">
+    <property name="WorkstationName" value="delveFieldHearth"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']">
+    <property name="DescriptionKey" value="delveFieldHearthTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFieldHearthTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveFieldHearthTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveGrainMill']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveGrainMill']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveGrainMill']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveGrainMill']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveGrainMill,delvePreservingCrock"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveGrainMill']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveGrainMill']">
+    <property name="WorkstationWindow" value="workstation_delveGrainMill"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveGrainMill']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveGrainMill']">
+    <property name="WorkstationName" value="delveGrainMill"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveGrainMill']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveGrainMill']">
+    <property name="DescriptionKey" value="delveGrainMillDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delvePreservingCrock']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delvePreservingCrock']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveGrainMill,delvePreservingCrock"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delvePreservingCrock']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']">
+    <property name="WorkstationWindow" value="workstation_delveGrainMill"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delvePreservingCrock']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']">
+    <property name="WorkstationName" value="delveGrainMill"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delvePreservingCrock']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']">
+    <property name="DescriptionKey" value="delvePreservingCrockDesc"/>
+  </append>
+  <append xpath="/blocks/block[@name='delvePreservingCrock']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvil']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvil']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvil']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvil']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveForgeAnvil,delveForgeAnvilTier2,delveForgeAnvilTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvil']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvil']">
+    <property name="WorkstationWindow" value="workstation_delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvil']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvil']">
+    <property name="WorkstationName" value="delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvil']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvil']">
+    <property name="DescriptionKey" value="delveForgeAnvilDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveForgeAnvil,delveForgeAnvilTier2,delveForgeAnvilTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']">
+    <property name="WorkstationWindow" value="workstation_delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']">
+    <property name="WorkstationName" value="delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']">
+    <property name="DescriptionKey" value="delveForgeAnvilTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveForgeAnvil,delveForgeAnvilTier2,delveForgeAnvilTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']">
+    <property name="WorkstationWindow" value="workstation_delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']">
+    <property name="WorkstationName" value="delveForgeAnvil"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']">
+    <property name="DescriptionKey" value="delveForgeAnvilTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveForgeAnvilTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveForgeAnvilTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKit']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSawKit']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKit']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSawKit']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSawKit,delveSawKitTier2,delveSawKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKit']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSawKit']">
+    <property name="WorkstationWindow" value="workstation_delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKit']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSawKit']">
+    <property name="WorkstationName" value="delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKit']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSawKit']">
+    <property name="DescriptionKey" value="delveSawKitDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSawKit,delveSawKitTier2,delveSawKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']">
+    <property name="WorkstationWindow" value="workstation_delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']">
+    <property name="WorkstationName" value="delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']">
+    <property name="DescriptionKey" value="delveSawKitTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSawKit,delveSawKitTier2,delveSawKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']">
+    <property name="WorkstationWindow" value="workstation_delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']">
+    <property name="WorkstationName" value="delveSawKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']">
+    <property name="DescriptionKey" value="delveSawKitTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSawKitTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveSawKitTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKit']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKit']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKit']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKit']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveOutfittingKit,delveOutfittingKitTier2,delveOutfittingKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKit']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKit']">
+    <property name="WorkstationWindow" value="workstation_delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKit']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKit']">
+    <property name="WorkstationName" value="delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKit']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKit']">
+    <property name="DescriptionKey" value="delveOutfittingKitDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveOutfittingKit,delveOutfittingKitTier2,delveOutfittingKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']">
+    <property name="WorkstationWindow" value="workstation_delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']">
+    <property name="WorkstationName" value="delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']">
+    <property name="DescriptionKey" value="delveOutfittingKitTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveOutfittingKit,delveOutfittingKitTier2,delveOutfittingKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']">
+    <property name="WorkstationWindow" value="workstation_delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']">
+    <property name="WorkstationName" value="delveOutfittingKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']">
+    <property name="DescriptionKey" value="delveOutfittingKitTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveOutfittingKitTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveOutfittingKitTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKit']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveMortarKit']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKit']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveMortarKit']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveMortarKit,delveDryingRack,delveFermentingBarrel,delveMortarKitTier2,delveMortarKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKit']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveMortarKit']">
+    <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKit']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveMortarKit']">
+    <property name="WorkstationName" value="delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKit']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveMortarKit']">
+    <property name="DescriptionKey" value="delveMortarKitDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveDryingRack']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveDryingRack']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveDryingRack']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveDryingRack']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveMortarKit,delveDryingRack,delveFermentingBarrel,delveMortarKitTier2,delveMortarKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveDryingRack']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveDryingRack']">
+    <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveDryingRack']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveDryingRack']">
+    <property name="WorkstationName" value="delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveDryingRack']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveDryingRack']">
+    <property name="DescriptionKey" value="delveDryingRackDesc"/>
+  </append>
+  <append xpath="/blocks/block[@name='delveDryingRack']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFermentingBarrel']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFermentingBarrel']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveMortarKit,delveDryingRack,delveFermentingBarrel,delveMortarKitTier2,delveMortarKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFermentingBarrel']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']">
+    <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFermentingBarrel']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']">
+    <property name="WorkstationName" value="delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveFermentingBarrel']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']">
+    <property name="DescriptionKey" value="delveFermentingBarrelDesc"/>
+  </append>
+  <append xpath="/blocks/block[@name='delveFermentingBarrel']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveMortarKit,delveDryingRack,delveFermentingBarrel,delveMortarKitTier2,delveMortarKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']">
+    <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']">
+    <property name="WorkstationName" value="delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']">
+    <property name="DescriptionKey" value="delveMortarKitTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveMortarKit,delveDryingRack,delveFermentingBarrel,delveMortarKitTier2,delveMortarKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']">
+    <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']">
+    <property name="WorkstationName" value="delveMortarKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']">
+    <property name="DescriptionKey" value="delveMortarKitTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveMortarKitTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveMortarKitTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKit']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKit']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKit']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKit']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveInscriptionKit,delveInscriptionKitTier2,delveInscriptionKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKit']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKit']">
+    <property name="WorkstationWindow" value="workstation_delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKit']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKit']">
+    <property name="WorkstationName" value="delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKit']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKit']">
+    <property name="DescriptionKey" value="delveInscriptionKitDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveInscriptionKit,delveInscriptionKitTier2,delveInscriptionKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']">
+    <property name="WorkstationWindow" value="workstation_delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']">
+    <property name="WorkstationName" value="delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']">
+    <property name="DescriptionKey" value="delveInscriptionKitTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveInscriptionKit,delveInscriptionKitTier2,delveInscriptionKitTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']">
+    <property name="WorkstationWindow" value="workstation_delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']">
+    <property name="WorkstationName" value="delveInscriptionKit"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']">
+    <property name="DescriptionKey" value="delveInscriptionKitTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveInscriptionKitTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveInscriptionKitTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTable']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSortingTable']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTable']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSortingTable']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSortingTable,delveSortingTableTier2,delveSortingTableTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTable']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSortingTable']">
+    <property name="WorkstationWindow" value="workstation_delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTable']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSortingTable']">
+    <property name="WorkstationName" value="delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTable']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSortingTable']">
+    <property name="DescriptionKey" value="delveSortingTableDesc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSortingTable,delveSortingTableTier2,delveSortingTableTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']">
+    <property name="WorkstationWindow" value="workstation_delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']">
+    <property name="WorkstationName" value="delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']">
+    <property name="DescriptionKey" value="delveSortingTableTier2Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier2']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier2']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@class='Workstation']/property[@name='Modules']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']/property[@class='Workstation']">
+    <property name="Modules" value="tools,output"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@class='Workstation']/property[@name='CraftingAreaRecipes']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']/property[@class='Workstation']">
+    <property name="CraftingAreaRecipes" value="delveSortingTable,delveSortingTableTier2,delveSortingTableTier3"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@name='WorkstationWindow']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']">
+    <property name="WorkstationWindow" value="workstation_delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@name='WorkstationName']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']">
+    <property name="WorkstationName" value="delveSortingTable"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@name='DescriptionKey']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']">
+    <property name="DescriptionKey" value="delveSortingTableTier3Desc"/>
+  </append>
+  <remove xpath="/blocks/block[@name='delveSortingTableTier3']/property[@name='CreativeMode']"/>
+  <append xpath="/blocks/block[@name='delveSortingTableTier3']">
+    <property name="CreativeMode" value="None"/>
+  </append>
+</configs>

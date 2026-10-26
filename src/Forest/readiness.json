@@ -1,0 +1,245 @@
+{
+  "recipes": [
+    {
+      "name": "ammoArrowStone",
+      "ingredients": {
+        "resourceRockSmall": 2,
+        "resourceWood": 2,
+        "resourceYuccaFibers": 2
+      },
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": ""
+    },
+    {
+      "name": "ammoCrossbowBoltStone",
+      "ingredients": {
+        "resourceRockSmall": 2,
+        "resourceWood": 2,
+        "resourceYuccaFibers": 2
+      },
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": ""
+    },
+    {
+      "name": "meleeToolTorch",
+      "ingredients": {
+        "resourceWood": 2,
+        "resourceCloth": 2,
+        "delveCharcoal": 1
+      },
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": ""
+    },
+    {
+      "name": "resourceCrushedSand",
+      "ingredients": {
+        "resourceRockSmall": 2
+      },
+      "skill": "Mining",
+      "rank": 1,
+      "count": 4,
+      "station": "delveSortingTable"
+    },
+    {
+      "name": "medicalPlasterCast",
+      "ingredients": {
+        "resourceCloth": 8,
+        "foodCornMeal": 2,
+        "resourceCrushedSand": 2,
+        "drinkJarBoiledWater": 1
+      },
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFieldHearth"
+    },
+    {
+      "name": "foodBakedPotato",
+      "ingredients": {
+        "foodCropPotato": 2,
+        "delveCharcoal": 1
+      },
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth"
+    },
+    {
+      "name": "foodGrilledMeat",
+      "ingredients": {
+        "foodRawMeat": 3,
+        "delveCharcoal": 1
+      },
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth"
+    },
+    {
+      "name": "delveForestReadinessGuide",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": ""
+    }
+  ],
+  "native": {
+    "ammoArrowStone": [
+      "Carpentry",
+      1
+    ],
+    "ammoCrossbowBoltStone": [
+      "Carpentry",
+      1
+    ],
+    "campfire": [
+      "Carpentry",
+      1
+    ],
+    "keystoneBlock": [
+      "Carpentry",
+      1
+    ],
+    "frameShapes:VariantHelper": [
+      "Carpentry",
+      1
+    ],
+    "woodLogPillar100": [
+      "Carpentry",
+      1
+    ],
+    "bedrollBlockVariantHelper": [
+      "Carpentry",
+      1
+    ],
+    "cntWoodWritableCrate": [
+      "Carpentry",
+      1
+    ],
+    "oldWoodDoor": [
+      "Carpentry",
+      1
+    ],
+    "woodHatch": [
+      "Carpentry",
+      1
+    ],
+    "ladderWood": [
+      "Carpentry",
+      1
+    ],
+    "trapSpikesWoodDmg0": [
+      "Carpentry",
+      1
+    ],
+    "cobblestoneShapes:VariantHelper": [
+      "Mining",
+      10
+    ],
+    "resourceCobblestones": [
+      "Mining",
+      1
+    ],
+    "resourceDuctTape": [
+      "Carpentry",
+      1
+    ],
+    "meleeToolRepairT0StoneAxe": [
+      "Carpentry",
+      1
+    ],
+    "meleeToolShovelT0StoneShovel": [
+      "Carpentry",
+      1
+    ],
+    "meleeToolTorch": [
+      "Carpentry",
+      1
+    ],
+    "medicalSplint": [
+      "Alchemy",
+      1
+    ],
+    "medicalBandage": [
+      "Alchemy",
+      1
+    ],
+    "foodCornMeal": [
+      "Cooking",
+      1
+    ],
+    "farmPlotBlockVariantHelper": [
+      "Farming",
+      1
+    ],
+    "armorPrimitiveHelmet": [
+      "Carpentry",
+      1
+    ],
+    "armorPrimitiveOutfit": [
+      "Carpentry",
+      1
+    ],
+    "armorPrimitiveGloves": [
+      "Carpentry",
+      1
+    ],
+    "armorPrimitiveBoots": [
+      "Carpentry",
+      1
+    ],
+    "meleeWpnClubT0WoodenClub": [
+      "Carpentry",
+      1
+    ],
+    "gunBowT0PrimitiveBow": [
+      "Carpentry",
+      1
+    ],
+    "plantedCorn1": [
+      "Farming",
+      1
+    ],
+    "plantedPotato1": [
+      "Farming",
+      1
+    ],
+    "plantedPumpkin1": [
+      "Farming",
+      1
+    ],
+    "plantedMushroom1": [
+      "Farming",
+      1
+    ],
+    "plantedBlueberry1": [
+      "Farming",
+      1
+    ],
+    "plantedCotton1": [
+      "Farming",
+      1
+    ],
+    "plantedChrysanthemum1": [
+      "Farming",
+      1
+    ],
+    "plantedGoldenrod1": [
+      "Farming",
+      1
+    ],
+    "meleeWpnBladeT0BoneKnife": [
+      "Carpentry",
+      1
+    ]
+  }
+}

@@ -17,7 +17,7 @@ namespace Delve
             MinEventParams context=__instance.MinEventContext;
             if (context == null || context.ItemValue == null || context.ItemValue.ItemClass == null) return;
             string item=context.ItemValue.ItemClass.GetItemName();
-            if (!item.StartsWith("medical",StringComparison.Ordinal) && item!="delveHealingPoultice") return;
+            if (!context.ItemValue.ItemClass.HasAnyTags(FastTags<TagGroup.Global>.Parse("medical,medicalSkill")) && !item.StartsWith("medical",StringComparison.Ordinal) && item!="delveHealingPoultice") return;
             EntityAlive target=__0==MinEventTypes.onSelfPrimaryActionEnd ? __instance : context.Other;
             if (target==null || target.IsDead()) return;
             __state.Target=target;
@@ -72,12 +72,22 @@ namespace Delve
         public static string CraftedSkill(string name, string station)
         {
             name = (name ?? "").ToLowerInvariant();
+            if(name=="delvesummoningrod" || name=="delveforgedsummoningrod")return "Carpentry";
+            if(ForestSliceCatalog.Minimum(name)<=20)return ForestSliceCatalog.Skill(name);
+            string forged=ForgedCatalog.Skill(name);if(forged!=null)return forged;
+            if(ForestProcessingCatalog.Rank(name)>0)return ForestProcessingCatalog.Skill(name);
+            if(FarmingCatalog.Level(name)>0)return FarmingCatalog.Skill(name);
+            string authored=ForestRecipeOwnership.Skill(name);
+            if(authored!=null)return authored;
+            string pantry=ForestPantryCatalog.Skill(name);
+            if(pantry!=null)return pantry;
             station = (station ?? "").ToLowerInvariant();
             if (name.StartsWith("delveheritage") || name == "delvefieldguide") return null;
+            if (name.StartsWith("delve") && name.EndsWith("rune")) return "Alchemy";
             if(name.StartsWith("delve") && (name.Contains("arcaneshard") || name.Contains("chargedcore") || name.Contains("ritualseal"))) return "Alchemy";
             if(name.StartsWith("armor"))
             {
-                ItemValue armor=ItemClass.GetItem(name,false);
+                ItemValue armor=ItemClass.GetItem(name,true);
                 if(armor!=null && armor.ItemClass!=null && armor.ItemClass.HasAnyTags(FastTags<TagGroup.Global>.Parse("mediumArmor,lightArmor"))) return "Carpentry";
             }
             if (name.Contains("draught") || name.Contains("potion") || name.StartsWith("drug") || station.Contains("chem")) return "Alchemy";
@@ -118,11 +128,11 @@ namespace Delve
             EntityPlayerLocal p = TrainingHooks.Player;
             if (!CharacterProgression.IsLocal(p) || __1 == null || __1.count <= 0 || __1.itemValue.ItemClass == null) return;
             string output = __1.itemValue.ItemClass.GetItemName().ToLowerInvariant();
-            string skill = null;
+            string skill = ForestRecipeOwnership.Harvest(output);
             if (output == "resourcewood") skill = "Carpentry";
             else if (output == "foodrawmeat" || output == "resourceleather" || output == "resourceanimalfat" || output == "resourcebone") skill = "Farming";
-            else if (output == "resourcerocksmall" || output == "resourceironfragment" || output == "resourcecoal" || output == "resourcenitratepowder" || output == "resourcelead" || output == "resourceoilshale" || output == "resourceclaylump") skill = "Mining";
-            if (skill==null && (output.StartsWith("food") || output.Contains("goldenrod") || output.Contains("chrysanthemum") || output.Contains("cotton") || output.Contains("aloe"))) skill="Farming";
+            else if (output == "resourcerocksmall" || output == "resourcescrapiron" || output == "resourcecoal" || output == "resourcepotassiumnitratepowder" || output == "resourcelead" || output == "resourceoilshale" || output == "resourceclaylump") skill = "Mining";
+            if (skill==null && (output.StartsWith("food") || output.StartsWith("resourcedelve") || output.Contains("goldenrod") || output.Contains("chrysanthemum") || output.Contains("cotton") || output.Contains("aloe"))) skill="Farming";
             if (skill != null) CharacterProgression.Practice(p,skill,Math.Min(20,Math.Max(1,__1.count/2)));
         }
     }

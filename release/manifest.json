@@ -1,0 +1,4154 @@
+{
+  "gameVersion": "3.4.0 (b6)",
+  "gameAssemblySha256": "874515D3B7DBE6E920D773887ECCE9DDF4C51D225C01E0A3E2EC394C02ED95F4",
+  "name": "7 Days to Delve",
+  "version": "alpha.10",
+  "displayVersion": "Alpha .10",
+  "worldName": "Allium-v0.10",
+  "baselineVersion": "0.18.1-station-icons",
+  "baselineManifestSha256": "AAB79FB5DA9E8E093766A38C2F59BF66AB16CF211D5628631B54D01211F4E4AF",
+  "compatibility": "Runtime Mods and Worlds are byte-identical to the selected 0.18.1 baseline; internal IDs and load order preserved.",
+  "validation": "Distribution hash parity and installer tests; inherited runtime evidence retained locally. No new human multiplayer acceptance claimed.",
+  "files": [
+    {
+      "path": "Guides/ACCESS-GUIDE.txt",
+      "sha256": "DD8E0564F7EDBAACF5FECF1560A6D663604737F59E2429821773AB5D0C4344DA",
+      "size": 4279
+    },
+    {
+      "path": "Guides/CRAFTING-GUIDE.txt",
+      "sha256": "F98F9C951DFF5031213E1D52FA5B563161ECD5720A571BBB1DCDE45C023BC2BE",
+      "size": 7148
+    },
+    {
+      "path": "Guides/CRAFTING-STATIONS.txt",
+      "sha256": "99FF548ED296A7942216A2E49F1F34F88F752370DB529BB3F1D7D4468532598A",
+      "size": 22934
+    },
+    {
+      "path": "Guides/RECIPE-LEARNING.txt",
+      "sha256": "2D8E57F1EB05416E992E2A2D99FEC4AE81F05D35F02C974D9211D6179A99744A",
+      "size": 2851
+    },
+    {
+      "path": "Guides/RECRUITMENT.txt",
+      "sha256": "3BB725AC9C039C32CC9BC63DCA6BA027E908310A1B8D3F3875EBD5070E62960A",
+      "size": 5316
+    },
+    {
+      "path": "Guides/RESURRECTION.txt",
+      "sha256": "FB2E22A71F1CEC3C4284C6B9E0640DF4C171E91FF130A4AD481B5EF02EC54E14",
+      "size": 4365
+    },
+    {
+      "path": "Guides/SKILL-COVERAGE.txt",
+      "sha256": "AF967DD25DCA0CE192D493E9AEC767D5BF11DCA23E9535306570579B67866C39",
+      "size": 3389
+    },
+    {
+      "path": "Guides/STATION-UPGRADES.txt",
+      "sha256": "EA2539BCA779F2733D29CF24F8A007580E1F215AC51895FC39677095A038C038",
+      "size": 28657
+    },
+    {
+      "path": "Guides/SUMMONING.txt",
+      "sha256": "0A36F2AF9AFCFF5A21D3C33A3054763615C4A72C9505E7ED12F6C61281D8BBB0",
+      "size": 3339
+    },
+    {
+      "path": "Guides/SUMMONING20.txt",
+      "sha256": "971201C883DFDB4EF2609E891CFA6CC351ECB239DFEC40D9D3FEC4C33E788521",
+      "size": 2479
+    },
+    {
+      "path": "Guides/TOMES.txt",
+      "sha256": "06223DB4A36840BCBCF8122656131BE0ECCCC5CF2D685A469DA97450C6EA042B",
+      "size": 869
+    },
+    {
+      "path": "Hash-File.ps1",
+      "sha256": "0DA362A6FACBAA9BE6F00C4A5F4EC7F78105C6764806600E06E6464A018F5427",
+      "size": 435
+    },
+    {
+      "path": "Mods/Delve/Config/biomes.xml",
+      "sha256": "B133FCF132C63406A2779BA3B06BA2544400ADFDF65DE466E8EE36E1CEFFFF24",
+      "size": 26757
+    },
+    {
+      "path": "Mods/Delve/Config/blocks.xml",
+      "sha256": "506810220ACE0BA96A69381F8D3DC0F11596C028552E0583A470401610EF62F7",
+      "size": 31964
+    },
+    {
+      "path": "Mods/Delve/Config/buffs.xml",
+      "sha256": "1991AC5104D3268F78345F9E31BF153AEF9D308C59505045A7AA71E564DC0951",
+      "size": 47523
+    },
+    {
+      "path": "Mods/Delve/Config/entityclasses.xml",
+      "sha256": "46B83F40D4544CB574623438F47D5370A7663C2862136CCF31810D2F8EBE5D0C",
+      "size": 4889
+    },
+    {
+      "path": "Mods/Delve/Config/entitygroups.xml",
+      "sha256": "80D209EB9ADDAD10C4B8BA8428DA6CD4E76A813CFC3216FBAC4BF97C64BEC80F",
+      "size": 14404
+    },
+    {
+      "path": "Mods/Delve/Config/gamestages.xml",
+      "sha256": "F7AF031D9BF9809C20F4FB4BCA9A1909A5B88C6E8A53A769ADF246C20F7F2D10",
+      "size": 5048
+    },
+    {
+      "path": "Mods/Delve/Config/items.xml",
+      "sha256": "1BD9726219D23BE902A0FFB959E666F4D1D884060E706A44620321FF31818FFB",
+      "size": 306730
+    },
+    {
+      "path": "Mods/Delve/Config/Localization.csv",
+      "sha256": "0F89052A590EE3A13E40E867BA2F8A71D1047F1C28D38E3F1357FF7463FFC4AF",
+      "size": 452088
+    },
+    {
+      "path": "Mods/Delve/Config/progression.xml",
+      "sha256": "8AC21CE975CCFF31AE3A1653611073CE20C27B94B06AFBFD39EF09E6090F766C",
+      "size": 582566
+    },
+    {
+      "path": "Mods/Delve/Config/quests.xml",
+      "sha256": "BF3042F5D6D29E2BBCCADFC634E82211CA20AA7EA3397F9E71D878ACF502FCF0",
+      "size": 18694
+    },
+    {
+      "path": "Mods/Delve/Config/recipes.xml",
+      "sha256": "544066496209B288D57D057BFF82BC943DAC622D4B4106375290301AB4640DE8",
+      "size": 43200
+    },
+    {
+      "path": "Mods/Delve/Config/traders.xml",
+      "sha256": "8F26556477069CDE4AFD5E71D8F8FAA6D3CEC1D144533A69E471A50C08C9334F",
+      "size": 803
+    },
+    {
+      "path": "Mods/Delve/Config/XUi_InGame/windows.xml",
+      "sha256": "7D1D236369ADEC08027DC1E6E305BF5695F57B0696B73EB4BE414EF42B18BC77",
+      "size": 19921
+    },
+    {
+      "path": "Mods/Delve/Config/XUi_InGame/xui.xml",
+      "sha256": "87C4B96D4CC5B6653FA496245B1BFCEEA8B6336C4AF95ED8087866FF95BD93CD",
+      "size": 6312
+    },
+    {
+      "path": "Mods/Delve/Delve.dll",
+      "sha256": "B904B4C204BDD39F2F3344866F366C67D24C407DA4EFEF4997B283C12066DD77",
+      "size": 403968
+    },
+    {
+      "path": "Mods/Delve/DelveSpellVisibility.dll",
+      "sha256": "52132FA3D86F705142DBF82DDD4ED5B6B574604547BEE12E279456BE56CC6CD5",
+      "size": 6144
+    },
+    {
+      "path": "Mods/Delve/DelveTerrainCompatibility.dll",
+      "sha256": "E6C1A9FD32F0038EC87D22216AD6B64A6EBFF67537E98FC9CCF0029143343648",
+      "size": 8192
+    },
+    {
+      "path": "Mods/Delve/DelveTomeTrading.dll",
+      "sha256": "34DE69E93B72DD946BD2177B1FDD00506503863C2F77AD4894797CD9B20F7B62",
+      "size": 4608
+    },
+    {
+      "path": "Mods/Delve/ModInfo.xml",
+      "sha256": "4714B5B94CCCA0F06C2E04242499D0E04E35001685B52761206A6EB60AB5005A",
+      "size": 426
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/blocks.xml",
+      "sha256": "64B6EB6AB9A941935667114C9EE70DCCDA3BC238CFD13A514B05194174B611B1",
+      "size": 282
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/buffs.xml",
+      "sha256": "6FA10D99B363C5961461B43B078DF2511A78953CBAABFB007192592C337B624A",
+      "size": 398
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/dialogs.xml",
+      "sha256": "3DFB8AF9DFC9C2E0179D9305C16CFAAD6DD71BFC8D711768527451999985E41C",
+      "size": 13235
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/entityclasses.xml",
+      "sha256": "B4A8DCD0A58934AE55AB3E8DA347787522CF63947B995A1F9439D412922ABEED",
+      "size": 317
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/Localization.csv",
+      "sha256": "6CCFCB4465908AA776A9E1C927E490FCF1057B4BAEDBF11B2DA4B50191F7A903",
+      "size": 11071
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/npc.xml",
+      "sha256": "EA7196A874F6DC68534C97FC149CC0C514E12EDAA39B6FC58FC2E4A5D980DEA8",
+      "size": 453
+    },
+    {
+      "path": "Mods/DelveWayrest/Config/quests.xml",
+      "sha256": "453ECA057AE789C258B4FFFCDF62FC644508501440BE6E421CF79EF994256550",
+      "size": 13037
+    },
+    {
+      "path": "Mods/DelveWayrest/ModInfo.xml",
+      "sha256": "BEF6DEE97831D8B74C8C6C625E3B400D059A44419F203E6BE504CBF5A796B4EA",
+      "size": 283
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_01.blocks.nim",
+      "sha256": "4311674DB35F6F9EF89F1097AE1DCFCB1879FCF5412DF7AE48AC24CB80E794AF",
+      "size": 4919
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_01.tts",
+      "sha256": "5BC480FB7B66E7362EAED66F837317388D7A3AC35346872C27CF7C8E052D0169",
+      "size": 215778
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_01.xml",
+      "sha256": "B20705ECC252512CCE6C8185A9C5EF90E25255432488A9E43298ED4BF0D51C6C",
+      "size": 4659
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_02.blocks.nim",
+      "sha256": "C5CFF994585B15C50BF4478F5F26FA1096D47F0348FDD791A7EEE39AD4E167DA",
+      "size": 3982
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_02.tts",
+      "sha256": "5D321399FEF60ABEFD07EA818B401E0CB211476A770B0F6D51D17A22DF5CC65E",
+      "size": 228504
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_02.xml",
+      "sha256": "0C53AF8D97785C5B68B26B190F6D3C71A66F1081DB66F560FCD323E9CE9810B4",
+      "size": 4741
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_03.blocks.nim",
+      "sha256": "FFC0CEC2AA6E0C5E6B211579BC45162469010547F1B1618959929EF9CC2A7B7E",
+      "size": 9217
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_03.tts",
+      "sha256": "8852FDC348234E78BA055ECCF249EFE1DF18114031B2A8DE8FA31AB4A1066759",
+      "size": 606780
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_03.xml",
+      "sha256": "E0EDFF21BA8B1422520FA9994E7B628744DDF267A4903D5A7C68929E5AB7B53D",
+      "size": 6644
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_04.blocks.nim",
+      "sha256": "717E4202C816A9355DD60A9AAA6314A149A0120600A40BA76CACC0AA2414D4ED",
+      "size": 4754
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_04.tts",
+      "sha256": "DDE890477C33F4B990C789731901E80AB00152D4F17643E222EDA558F4348231",
+      "size": 292718
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_04.xml",
+      "sha256": "31DC6F4E7810D73E0F9815E9C5A474D4D1F0023597E296FD435DFD3855BA46B3",
+      "size": 4935
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_05.blocks.nim",
+      "sha256": "853BE104C56DBFB86F50191D7351CF29A22EA0DE3BDE5C95941A1D3F91B2A486",
+      "size": 6629
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_05.tts",
+      "sha256": "3BA687681AE45B9CF9216B29207C3EACA8AB5C496F13C77DBA263AEBD46F44DA",
+      "size": 323588
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_05.xml",
+      "sha256": "FEB2E8747E42A030BC2961F7863C5AA7E1840FA2C5782D3440024B706DF5AE60",
+      "size": 4767
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_07.blocks.nim",
+      "sha256": "2C86673B2BE77DA3FC4ED15F5E04C37C7094F82379C7F73AD2818064532A86AD",
+      "size": 8820
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_07.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_07.tts",
+      "sha256": "22B362C3DA1DAE9D503D5604FE1F290664E13F70B17281C1DFC33E8DF957C3E9",
+      "size": 290152
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_07.xml",
+      "sha256": "B2778ED0D106E08DFFC973B810710171B02B24672CBC70AF0CEBAE439ABF4229",
+      "size": 6145
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_08.blocks.nim",
+      "sha256": "4EB2C40CDD6EB0A67A742C1FF5A946876C23E4D391914EA7D04126F6BE93F7F1",
+      "size": 5961
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_08.tts",
+      "sha256": "63E1ABE7E1B638AAF6F64F21EDD315C14B41904969A90EA771A4031D361342A0",
+      "size": 282672
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_08.xml",
+      "sha256": "3660E4A5B29E32E7051268B333C99596D0A33361E8A7894B6E3346DBB6C56EB2",
+      "size": 5845
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_09.blocks.nim",
+      "sha256": "A931C28CF2B7AE95B067979AB141AC0890EA776BE78F0906251295E611B2B30A",
+      "size": 6934
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_09.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_09.tts",
+      "sha256": "7464AE4C95C69156CD761781B4AA33304B1FCB5F6B8AF0F47A046C6774C6A45F",
+      "size": 594678
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_09.xml",
+      "sha256": "06D3630C79A45ED083A6B1A303EC6D421AEC534EDA07B68F5E18CCE4744E5F74",
+      "size": 4513
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_10.blocks.nim",
+      "sha256": "DB855931552D5174DCBA165B69D4EC58C67DFF02897B6E948DAEF09D1BCBD964",
+      "size": 6353
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_10.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_10.tts",
+      "sha256": "E1363D5D4B73EF8BA4F6C1EC5212C6EAB82BEBB367028075689C4924431CB6CD",
+      "size": 307276
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_10.xml",
+      "sha256": "8C7D369C7EDE7B479ADB6AB52073D6E00272E173F470B8418A5605E57D826A88",
+      "size": 4808
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_11.blocks.nim",
+      "sha256": "C6EE8D0268E88145A9E66215E70E1FDF0A83E78D5F5C5A592A4BC93953DA5597",
+      "size": 5674
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_11.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_11.tts",
+      "sha256": "BAA57529928F64845ED9E74763B6C75128AEA4F488CC890F5ED6533429BE7A14",
+      "size": 450736
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_11.xml",
+      "sha256": "DB87779ADA6F1D4C9583B11C297C10769659B29C2B5580AD066105E3405A1372",
+      "size": 4673
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_12.blocks.nim",
+      "sha256": "57E5DCAD555372D39B8913102E4083E25615CAF5091E66A2FA10F144631FF8C5",
+      "size": 5699
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_12.tts",
+      "sha256": "3C955CC293AC61265EA776E2F2B47B35BC4FE896DBFABC92A77C6DDD16262073",
+      "size": 339494
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_12.xml",
+      "sha256": "91A57AD670EF34C8C0CB45FB7F0C9B71544F132D8464BA9C67EBFC50B3882546",
+      "size": 4573
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_13.blocks.nim",
+      "sha256": "31625E3F7989A5FB5BC16632948CC1084BC430516855E0C77BB47C3EB3C4D783",
+      "size": 9982
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_13.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_13.tts",
+      "sha256": "2C28DCC8E31839CB666851A22A8A5CF70F91C024F1498631783D4B0E824DA7F6",
+      "size": 731918
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_13.xml",
+      "sha256": "66229C90B0136693BA02E24F620C2F803F1856FB58B4E688A5ECB1CE1B46EC51",
+      "size": 5724
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_14.blocks.nim",
+      "sha256": "D26D165CF6C0E4CA9285339B7F1E9D9382DE4C7F94EBED508B97AA156911D93F",
+      "size": 4302
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_14.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_14.tts",
+      "sha256": "2384D0CCF68FBCCD71F6637D44E124D773EFCB5958317CE9425015A95CD94242",
+      "size": 306684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_14.xml",
+      "sha256": "2E4147E2810493661251F747FF7041D2EF085B4E13AB3E3EB16AD393B9E6911F",
+      "size": 4568
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_15.blocks.nim",
+      "sha256": "81C6A5C0D2C277E73AE3FA87B873BC334909ECCB4799C24BECEB8BB34B94A9D8",
+      "size": 5945
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_15.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_15.tts",
+      "sha256": "4965232A1C5227DE0E0F51542BBDB6CA2F65C2890D6C845916DBDD85887A6FC7",
+      "size": 351076
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_15.xml",
+      "sha256": "9566F735F4F5176F1209D19AAFD4AF866571A54285B1D80E6D1C0D6C9EDBA1F2",
+      "size": 5055
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_16.blocks.nim",
+      "sha256": "3692ECA0AFE613A071722B570367E88EA23F95D820A78B4FA788ADE6206F3970",
+      "size": 5106
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_16.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_16.tts",
+      "sha256": "54AF4D07D522DA3981B85B9D0E155439FA28D47ABF6BF64E042CF7DFA80488A9",
+      "size": 297848
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_16.xml",
+      "sha256": "FA3EB9C82CFC381A26AE32DA9727C0BBAF304608939419C52551483152C477D2",
+      "size": 4533
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_17.blocks.nim",
+      "sha256": "AA264578CD357CB8D44E8519213F9A5024E3FCA5D88C6EA7222DF1A1AEDCF878",
+      "size": 8255
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_17.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_17.tts",
+      "sha256": "398C7ADFB680BE624D9BC964693E80B38F66F37E1AF5417CD459735EEF756C89",
+      "size": 748224
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_17.xml",
+      "sha256": "4B404B355CF0C8DC17A7488CE09C9D2363A740EE7AE8B68E3C643EF388302491",
+      "size": 5572
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_18.blocks.nim",
+      "sha256": "59FEAAF3C628819F86066A02A594CD2AF98E10AA313BFA2FA62E8FE6D3C8DF51",
+      "size": 14970
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_18.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_18.tts",
+      "sha256": "CEF78ECA7CA6682918A3421420470FD15E7F562644DDD07714DEF862A506DE7C",
+      "size": 723338
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cabin_18.xml",
+      "sha256": "E89A766F45AD24751A8D12C83CED0A6CB8223A87BE70EAD5D44A6B0E1B5367D6",
+      "size": 7106
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_01.blocks.nim",
+      "sha256": "969B60A7C93CEFE8CA6D26EFE2E7AC0388375B5D1958AC2F968FDF0EB6952EDC",
+      "size": 4803
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_01.tts",
+      "sha256": "35D456D5F23AFC84B66D7258418ABEFBF45DC640ADB58ABB03DF0E464942D310",
+      "size": 222916
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_01.xml",
+      "sha256": "9709188E23C784818C6CFBA6F9A7AEE2A6E912D242D89E64C51609A843D6E9E8",
+      "size": 4425
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_02.blocks.nim",
+      "sha256": "797B99ED2839E3975C907CC7C1C654BC95036774273866BAC5C4A28571853703",
+      "size": 6921
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_02.tts",
+      "sha256": "CFE75B393AA9F907275A62BE75C8CD1218B95510D5414D68717FF27B842B62E2",
+      "size": 412888
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_cemetery_02.xml",
+      "sha256": "E729A2B22240FF51D413788117919CB1A0A0F22446302291B2CCCF94942CFC07",
+      "size": 5182
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_01.blocks.nim",
+      "sha256": "309110332D81CAF75F4628C4CD4CC7FF77A45F037B65EF2DFE6AAA460460BC64",
+      "size": 9026
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_01.tts",
+      "sha256": "F5CC810F9BB36D9F7A954C95F9083BC248C7262E041C6C2722D2A6B1C028BEE0",
+      "size": 797376
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_01.xml",
+      "sha256": "FCBA684D4E568176D4F34317A05661E5FD1B3ADC5827B4E90B485B2BE0607613",
+      "size": 4843
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_02.blocks.nim",
+      "sha256": "CC9C47029B1B71F72367364C5F511354EDE13468F25ED9A783A518F8871D2D5E",
+      "size": 14129
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_02.tts",
+      "sha256": "408619E9A146F5FFD0D06FCE3702E0C24B96F9636ED02D08684BF4087E346C7E",
+      "size": 671482
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_02.xml",
+      "sha256": "3947CEAC37EC9CBF9B37D1852B2A72FFBE7CEFCB73F6197AB7B1B6C68F7D2434",
+      "size": 5853
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_03.blocks.nim",
+      "sha256": "A314F210E0B732FD728F8F5D80A9A95030019CBA11C085ADF51C2AE33A833F82",
+      "size": 8960
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_03.tts",
+      "sha256": "45BA9A3BD5C8E92BF6CA10EBE457F8108C06A5ADA7566D6F5D4E61CA6B2DD526",
+      "size": 646926
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_03.xml",
+      "sha256": "58EFC31002AE8263ED983C4E75C504E06E273965286BC16311E91A38A727E07E",
+      "size": 5578
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_04.blocks.nim",
+      "sha256": "DC6CC6C2139BAD4C6587095E908CEAA752C17D27BC122E29F1B4C3F3E315CF8A",
+      "size": 12850
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_04.tts",
+      "sha256": "6786A98806416C33EA5B13251D6DD8942DF0BC076BE394077A91CF9AE2FD014D",
+      "size": 608606
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_04.xml",
+      "sha256": "C79CEA8506E0BA4FB9A87D43AF8E6E54321D22ED110A78036C15177EFDD3BC5F",
+      "size": 5605
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_05.blocks.nim",
+      "sha256": "24D1BF5A1C551CBD7CDCCC9505DAE211DFFF0C9B5BF8A3DFBB51E9996975C5ED",
+      "size": 8359
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_05.tts",
+      "sha256": "60BF6ECD418D2540C1249AD977A930029F5226B79AABFE000F6CA4088E6459C5",
+      "size": 525190
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_05.xml",
+      "sha256": "B3215AAC8EE56D7E67758DFFC5025B4D4784D38BCEDD25CEB7A9295BFE767D9C",
+      "size": 5571
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_06.blocks.nim",
+      "sha256": "85629C27746F8104B705423AB87562C9F51928BEB156DBCAAF566D75DECF657D",
+      "size": 14886
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_06.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_06.tts",
+      "sha256": "4E97983D0945DE2502B6EA89E3132290AE5BA0D977D70FDC798AC5CBB4010779",
+      "size": 592822
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_06.xml",
+      "sha256": "D5E9AED13F1A5610E021463D4D41A8DA34500EA8DC9A599C611D2013862AC3A8",
+      "size": 5534
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_08.blocks.nim",
+      "sha256": "B2D388EAF8EC6EAD6EE9EA4FF25FD8D9EFE8478E53BF36AD378108E7D7EC338D",
+      "size": 12324
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_08.tts",
+      "sha256": "750CBA2A14725CBA053BCD58B5ADF4B4ED53CE54C82B5EFC1DD2C84839B31B1E",
+      "size": 712492
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_08.xml",
+      "sha256": "39909A8AAE83CC1E6213B7A7FB3343B4F7D10654649580BCBD32EC1FDBFC6858",
+      "size": 6303
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_10.blocks.nim",
+      "sha256": "7A2B58C6B2C8CC901A271556DBE62D05F52D31480CEBDA7FB1255A8D1E563C13",
+      "size": 7748
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_10.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_10.tts",
+      "sha256": "73CD72C0EEE5A75705562BFC8EC7A7BFBBD9E74F58346B787B9FB053BCDF974B",
+      "size": 707626
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_10.xml",
+      "sha256": "9FF7B0FA323C3F52C362330E61FDF32CD260744B3DD467FDD38D8DDA6CE4ABBA",
+      "size": 6070
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_12.blocks.nim",
+      "sha256": "9960DDE13537EE195F04C029B6246C913A619AA5A61E037E014B3B03E90A9F3A",
+      "size": 7042
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_12.tts",
+      "sha256": "2160EDAA1960612567ADCEC930149D3D72631525AA53902555951071639E50F3",
+      "size": 593298
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_12.xml",
+      "sha256": "30DC940D4402D7A67A276EF04BAB5B29F9CDC9352A40EF93D8AABE358C4839FD",
+      "size": 4855
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_14.blocks.nim",
+      "sha256": "B11E964A3496A04E2E6E9987F80B2376EBA71B4A5B3EAAE8D524D5A76EC4498F",
+      "size": 10437
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_14.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_14.tts",
+      "sha256": "51D77D72B10244632048CF0FA7D1D13DA0CF54FF4F7CE3F5BF21ECAF7BA8C294",
+      "size": 527188
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_14.xml",
+      "sha256": "9C300A3E752DAE6D5F7938675BB1F1DCD411BB8EEEE951D7D658FEC13B69A53E",
+      "size": 5479
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_16.blocks.nim",
+      "sha256": "8BE5ED1777E69FC81D5E4C84338386318A15E89645160F3AD60C507EC5D9CB18",
+      "size": 15567
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_16.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_16.tts",
+      "sha256": "CE37882673831407F8BD9F5660731EC0003878316029B0536BD133F02B15AD85",
+      "size": 940312
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_farm_16.xml",
+      "sha256": "A4AF61AC00C439ECF462693D438363A47C9FB21E0BE3A03A151F47FFBFAE45DC",
+      "size": 5764
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_01.blocks.nim",
+      "sha256": "B738178A816DD34A1A5F401F67725ED2D117D3D9B025FAB0414D842138FBE6AD",
+      "size": 6217
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_01.tts",
+      "sha256": "FD16319569A7B657F7B6519762EF00A0CE2266CDDC4880F41F864C45D0FC7175",
+      "size": 105920
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_01.xml",
+      "sha256": "FDD57DC6DF6F286988934C01EBDE89EDAC7D73EA6215D4CA76A2B50B76B24BCA",
+      "size": 3949
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_02.blocks.nim",
+      "sha256": "1D95A762820BBD47557A711364C6DAF28B1A2E3F8F614DFCA749FCA1425DBD77",
+      "size": 3044
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_02.tts",
+      "sha256": "B08FE639DDB51EB2175DF3FDCB3311D83ECA444A1A9C122EF25DA33F71E8EF3C",
+      "size": 82046
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_02.xml",
+      "sha256": "632BB671D998D900FC5087B5D96037D69EB0F72E1A6C16A9D725A67FA0B43AC2",
+      "size": 3583
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_03.blocks.nim",
+      "sha256": "481E187188679A499E3678AAB2A14682BDAE2A3975D0EB0CFB8EE7436F298BFA",
+      "size": 3569
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_03.tts",
+      "sha256": "7F8309966D9354074AC42B9E7CAAC40DEE45399C51017603A5FE977E43B2190A",
+      "size": 151252
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_03.xml",
+      "sha256": "D3C81CBD00DF552EB31CE73AC13B57ACD2B6CC0C059B456BBC85D0FF28D3811D",
+      "size": 3638
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_04.blocks.nim",
+      "sha256": "A6A05284C1E9A6BF446AB5BE70166CAF4C8EF13270EB01533E4AAA794AC2A835",
+      "size": 3344
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_04.tts",
+      "sha256": "9263F0E7F653A54DEAD1A1762846D41E8C5A997CDB38B67273A08FCF83165254",
+      "size": 56703
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_04.xml",
+      "sha256": "717424C8ADA328B11F91933914E13F5D46C5488B71EE7E8CDB2D4AD950AA7DFA",
+      "size": 3178
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_05.blocks.nim",
+      "sha256": "50C282BAF3EFC99A421C8D051F5B348E79AE7CB4A99BF881A24FC2425A35C4FE",
+      "size": 2428
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_05.tts",
+      "sha256": "13C1230DF0E4D50E88E065791D5CFA379442FB5A893DEF2BDF111F4F4EA9078F",
+      "size": 45353
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_05.xml",
+      "sha256": "C539D94A5FE9B26A77A223DDFD164B5957059BC24B74AE1DAD799187DBB496C0",
+      "size": 3037
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_06.blocks.nim",
+      "sha256": "38D32D727C83067FEEAC3255850A16F5FEAC45D771182BF521E9E59AE2B645F9",
+      "size": 3090
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_06.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_06.tts",
+      "sha256": "B15293A0355ECA2C38C1169FF0DCBE1BF5C4FF6567647C05AE4D7F43C4658E98",
+      "size": 86281
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_06.xml",
+      "sha256": "0C336FDAA07744F68168C51669DA0C612E189A95F503A200E2BAF9624B5E955E",
+      "size": 3605
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_07.blocks.nim",
+      "sha256": "FE3703EFF15A76A8C671C7C97F7295E7DACB956335C3FF65CC13B38C4AA2ECD4",
+      "size": 1638
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_07.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_07.tts",
+      "sha256": "6BFBDF9243CAEB9569714721722B770D8282FB08EDC9E81540A04FE7AB243252",
+      "size": 48636
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_07.xml",
+      "sha256": "E4215223DE749DADBB0DEAC365617BD7721CC2B4F1D205A673704F6507120732",
+      "size": 2826
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_08.blocks.nim",
+      "sha256": "B1A4EF78546CB627DE7C28F84B5059008164AF8F4E39FD97B8924C7173C21F0B",
+      "size": 3644
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_08.tts",
+      "sha256": "897A047B931193B3AEC7DC9F04723EAC98BA8B0347D563524BAADC07CA660A3D",
+      "size": 118231
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_08.xml",
+      "sha256": "AE4D4AB2DF1F0CBDF0989EB9F8C29C8891D9A5824568278F5093842C8A90795C",
+      "size": 4164
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_09.blocks.nim",
+      "sha256": "A6856FEF123904AAACBC68256C2C735289827D31CD5558D154606F384FBEB1E5",
+      "size": 2344
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_09.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_09.tts",
+      "sha256": "853C1DA8C1240ECA62F7CBA99C8B5E73A2E3A2FF65523D002080C8EE747959D1",
+      "size": 53567
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_09.xml",
+      "sha256": "EDFBEDDC7629DFCA0529A8958CBD65C53D994F1454E45E708882259EF6F54D18",
+      "size": 3134
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_10.blocks.nim",
+      "sha256": "290433987A306468F75F49FA73D13DA3D3671160B3B5A3AFC3E249F905338D12",
+      "size": 2914
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_10.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_10.tts",
+      "sha256": "F606374B8B6DB5FABC1168325A1210B543FFEC2C82F502E8197D7BC2B6B9CF72",
+      "size": 115046
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_10.xml",
+      "sha256": "000E2E054FF3AF3656B0E647FF337D74BB7DEFF3DCF088FB9707ABE3F18743AD",
+      "size": 3948
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_11.blocks.nim",
+      "sha256": "3CA0F3A9CCBAC77C239A7F6C238D7286E1FF5E0C9564FBE89159DAFE8DAE8B29",
+      "size": 3129
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_11.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_11.tts",
+      "sha256": "26F45726EC4986233053D2EFC697C32978D96F4373D6030858A6F3EE7CDEE419",
+      "size": 90191
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_11.xml",
+      "sha256": "CD51C7B42F793CB621D0D655BCB4AE427E6708DB6D879CFB1F5C3BEF72FB61F3",
+      "size": 3952
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_12.blocks.nim",
+      "sha256": "1611C2B4BD4055A6972D2276E2E97826042C8E07F4F1FCD728DE4BD4D07B0147",
+      "size": 2640
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_12.tts",
+      "sha256": "F1F824B9B77C1E1D8B49DAEE859F60D4665ABBDE96FEEC4B45C14872C8DBF639",
+      "size": 75087
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_12.xml",
+      "sha256": "A7D2C9D6B916E22ED470FFC0EC4EB47CF9FA4D5513E23614D728CACC15D32A7F",
+      "size": 3340
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_13.blocks.nim",
+      "sha256": "64B096295135B0E002EED671294CFF6DA17D48D20E19E409E3A909FB249CDD70",
+      "size": 3675
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_13.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_13.tts",
+      "sha256": "A5095FA5F908BB7E4F5E1767FB981ACF7D273C96B52E311AEB2F9C39DC43709E",
+      "size": 107665
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_13.xml",
+      "sha256": "795E3D87231C01CA01A80849978F9D8BC5EC1B29CCE29FE18BC24FD3F3E3B951",
+      "size": 3685
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_14.blocks.nim",
+      "sha256": "A72AC47B0BA83349A44DD67F8A9222EB608C14861E1474C91061FC5DC77F7892",
+      "size": 2413
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_14.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_14.tts",
+      "sha256": "84392035CD5BE5EE0B74C75984781D0973A5B9B8E48CAF78B1A873C58D93AE89",
+      "size": 80725
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_business_14.xml",
+      "sha256": "F92C0B3E395B276AA1F0F491CB05B8E5CDBF0E5894FA03510A2421F2F506095D",
+      "size": 3752
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_church.blocks.nim",
+      "sha256": "6EF12AE8A834160032A52508E3E8A9113F7F98BB407760BD4D3AF9118CF9EB89",
+      "size": 5502
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_church.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_church.tts",
+      "sha256": "6CFD8E8C11F3E22F58EFD9ECB5AD5BB94CECB37D7CEB5EA1538F1EC2678722A8",
+      "size": 367190
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_church.xml",
+      "sha256": "106CF29901991372BCD581DF77FC893393DD8D59052C2DD1CBAD615F91610097",
+      "size": 4393
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_gallows.blocks.nim",
+      "sha256": "FA09A8CD0E3823BFB0202E15F885B33FE172FF8C0DFA15825A20592162CC787C",
+      "size": 450
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_gallows.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_gallows.tts",
+      "sha256": "6B7AB3CD09D5A9E198BA242390B969AB8FAE7EF18E00FB44B43D83878DCDF443",
+      "size": 37116
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_gallows.xml",
+      "sha256": "6AE5F59B3DC45A5DDC02B5E3235E358BB9071C9AB0200682D48A303C6112C433",
+      "size": 2686
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_jail.blocks.nim",
+      "sha256": "FE1C364DB610A1FC03C4855B3953274E360402163CC8749EC6C1B1C735C76CCF",
+      "size": 2330
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_jail.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_jail.tts",
+      "sha256": "ED92647CECEEF906CBBBC546BEA36E64B0F8791AB939AABCF7BC19F78DE3E77B",
+      "size": 46105
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_jail.xml",
+      "sha256": "209F6B6B8FE0CEA94AC1E00C514B02FA503A3BF91E3CD7E24D3AB44313DB1003",
+      "size": 3139
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_01.blocks.nim",
+      "sha256": "2FA0DCD97BDDBE89726F8DBE1F2238B1D0C2062D153CAEB66A53E0A04759F0CC",
+      "size": 4473
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_01.tts",
+      "sha256": "07E529278EB6DC7F46294E9FBF96F287D8D5C43B5DAD58A35CB22DADB58A176E",
+      "size": 220996
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_01.xml",
+      "sha256": "C1642239ECD30E68AAD65AA43CCFFC0644D2B4DE6DCD1964763AF125E7B161A5",
+      "size": 4180
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_02.blocks.nim",
+      "sha256": "C949EA132D0D1D2F0BC8C6943E07E699CD572515F77DE7815EE82F48292006A2",
+      "size": 6725
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_02.tts",
+      "sha256": "B88DFBABD2BAC618BA853AF362E3802BD3068353039F2196EABF7DA368D8DD48",
+      "size": 177346
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_02.xml",
+      "sha256": "3146DBDCA263327E37FE19E7DFF7057C9765D5CF783A00A161203CAC8CC3B699",
+      "size": 3976
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_04.blocks.nim",
+      "sha256": "AB22130D7B98B42A3AB56904AECF70EB10E45A199548BE86F9AD507DD87390CB",
+      "size": 5939
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_04.tts",
+      "sha256": "E0A8C542553D9E3ACF76617C7F37226C647F3ABCAF2F77047FEA2AFA4DC5DA5E",
+      "size": 194188
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_oldwest_strip_04.xml",
+      "sha256": "C4ECC4D30456BA1A9282A03C9A6E8C6DA7DF57F19F25223A272C80CB17838400",
+      "size": 4057
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_ranger_station_01.blocks.nim",
+      "sha256": "9AD5421E132EB6C4D7B13E61C93B588FC630A1F6D4647EA85CC8573FC7C14D9F",
+      "size": 11191
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_ranger_station_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_ranger_station_01.tts",
+      "sha256": "F72432B0647F5C43C5BC30739D8D17F9312CFDD6DC7FFB6F0BE6C9B6783D90C5",
+      "size": 781431
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_ranger_station_01.xml",
+      "sha256": "5E3491509CB3A7D804F9C047D0CB4FFC357D3A42FCE3A4E410609CB5E5A27449",
+      "size": 6311
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_01.blocks.nim",
+      "sha256": "C5F9C84572E7A5663FE59AD2EAACBA729A8FC984FE35E828286AA0D00537665E",
+      "size": 4153
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_01.tts",
+      "sha256": "0B9FCF46700A7E28A0197123779889BBAAA08E6DC58E00478A27B12D24DA15D6",
+      "size": 286280
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_01.xml",
+      "sha256": "EB9577F18A1BAC6E3346D57DE22428564308F2C230F282ACC7E078B95698CD3B",
+      "size": 4196
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_02.blocks.nim",
+      "sha256": "7944DE69E4B6AC50D870AEC5AB3E810442AD5E58716FAE74D0B1839C26CDB480",
+      "size": 4085
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_02.tts",
+      "sha256": "3853AA7FD4622EEA3D7D588F61E742C3E2499B6CAA5FDE6F55917C41525A489A",
+      "size": 271256
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_02.xml",
+      "sha256": "D8E0D369849DB3631469FA8E76E14C7DE0C844C221A34E6D88DAD9F69E068EDD",
+      "size": 4068
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_03.blocks.nim",
+      "sha256": "8482F20AF5CE2C61107059B3B1DF5F1248A8AA2CD5A4BAD75BF5DBC2D16921D6",
+      "size": 4195
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_03.tts",
+      "sha256": "1A8C99D6EEBD5CC36EEDA718630FE2D17087A5B1E738CCD73B0135115EDDA5E3",
+      "size": 304182
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_03.xml",
+      "sha256": "5A7EF74564AAF46F16B58A694E6FE936768D482D890C18ABE83B02C052A79515",
+      "size": 3969
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_07.blocks.nim",
+      "sha256": "2ECE1BC11EC1A851BA761DA22916012F38AAA860084AA8A3CDD1AFCF5F4A3871",
+      "size": 2887
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_07.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_07.tts",
+      "sha256": "1905AE632D6533B59CDEB54CA57A860385ECB63B097B2644C2166FCFB586834F",
+      "size": 76721
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_07.xml",
+      "sha256": "1F5FE9A22FE9B496255F8398080FECF307940C26C8F41E9DCB39DCF77858F217",
+      "size": 4135
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_09.blocks.nim",
+      "sha256": "F3D11E8AE5527A3651EDA7AB19431F2E2AA5E8B17FBF68347A95C3D9B86EB4D0",
+      "size": 6050
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_09.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_09.tts",
+      "sha256": "91A9BA88B587E65453DA24A7ACC4F7B002AA175E9B73564F4E4A748097E3FD2C",
+      "size": 289530
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_09.xml",
+      "sha256": "6987A51775D32F59A78279578B62578275DC2A59206DE4687CEAB8CE56D3D864",
+      "size": 4563
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_10.blocks.nim",
+      "sha256": "B8CDD3AEF5357D5FCBFD270F5EE5285D6DE1487657C10E2A7E7F97C70F388BA9",
+      "size": 6433
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_10.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_10.tts",
+      "sha256": "70930520E24E6948161E947CDB1FACDFCD16523FF310CCDF9CE5646F5B7E0634",
+      "size": 286054
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_burnt_10.xml",
+      "sha256": "A177F83AC0F0734F43328DD9B01F508E6BA110F0C998D72AECE1F00BA25DC316",
+      "size": 4231
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_church_01.blocks.nim",
+      "sha256": "62500994C282E31B86F21050B4574BD1A40473F96F75144AA2315ECD5082CE3B",
+      "size": 18154
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_church_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_church_01.tts",
+      "sha256": "152FC980E8E43A1C565D6BF2EB801D429C588666009BF24F8DB06A5451884B2D",
+      "size": 1194698
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_church_01.xml",
+      "sha256": "3DE11266457E9CC4BD38DB4C56BE32335CFD6DC54E3369752501C6405E4805BD",
+      "size": 5568
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_03.blocks.nim",
+      "sha256": "57BBD1579F54A1F4880DAE3BD5132F5F0B498E928478FE84A572C82ECA7C0021",
+      "size": 9334
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_03.tts",
+      "sha256": "03AD3AFC0D7DFAA9A5179CE990CCE55C0457268DDA4B41B26C28C5277E26C400",
+      "size": 571400
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_03.xml",
+      "sha256": "AF1959DC5EE7BEBF494806B7A35B838F4D56B5FFD15AB8CBB95258258B64805A",
+      "size": 4834
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_05.blocks.nim",
+      "sha256": "CC69A910C21A0118AF4C63A313A5B92B549AD7A74F49C419699C46B0CDE7380C",
+      "size": 8118
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_05.tts",
+      "sha256": "489316EA15870B1CD2F197D103F6D21A7D96CBCCA7C5CB6FF13837CD5F2698AB",
+      "size": 779826
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_farm_05.xml",
+      "sha256": "7BE8C5B080CFF82D1431B09A7923F3386109AE805B78DF94900C9D9A7FC78878",
+      "size": 4567
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_01.blocks.nim",
+      "sha256": "B7448343D41872DA982D2B589408212658F378A76F864AB0706BB8E1E3B30ACA",
+      "size": 682
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_01.tts",
+      "sha256": "15A126B49B1131B9266DCF45667AD7EEF08016CDC703A3969EEF4FE52C0A402F",
+      "size": 23699
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_01.xml",
+      "sha256": "2986593508C52E9962C2A1B4F01A288240F899683A22FB4934B3905D71909D90",
+      "size": 3180
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_02.blocks.nim",
+      "sha256": "494C68555292C6BAC3B786DE9E16CE7CA1E84402BC9D8400604B003694C014B8",
+      "size": 330
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_02.tts",
+      "sha256": "BC6864C80B70DD1A4F07B1C34A27FC51D3635A3C89B5065FC388962903F80B98",
+      "size": 2998
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_02.xml",
+      "sha256": "549F555AC1741FB27EEA6C3A2D4E65A69AEB1B4A84E677D29657DE3F6839A342",
+      "size": 2531
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_03.blocks.nim",
+      "sha256": "EFEDA813801006D87CB4E8FD95D0BBF0169D6A6E01709CC4E0B3CD09AB95AB56",
+      "size": 298
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_03.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_03.tts",
+      "sha256": "69D92408A5B2DC84FAB124644485922117C21E6B6A697DC92717B3E68239EBEE",
+      "size": 3338
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_03.xml",
+      "sha256": "E97631D06776F3D8A7EC2D49A9931820C80D9CADD8BEFCBF39CE3848048AD042",
+      "size": 2571
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_04.blocks.nim",
+      "sha256": "E43D3EFB9F06287845CEF5597106D7A12D07A90079A08CA7412E55DE1854D8F9",
+      "size": 2006
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_04.tts",
+      "sha256": "D63A9E262BBB2AF58838041B6AD5EA8FB282E6F616D9025EA72C8980181D314A",
+      "size": 64197
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_04.xml",
+      "sha256": "1B36EEB54AA3379003233DE8AA3C93A8BB2AB34BEFA0881E0DA6B5C314E4121A",
+      "size": 2512
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_05.blocks.nim",
+      "sha256": "8DCE3BA3FA28825905347CD0B609D210D09A7FD22FF9BA0D2937AAAC578F4E50",
+      "size": 774
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_05.tts",
+      "sha256": "656426E526513F21E9D7EA280A385F6AEC032C3D799630F38C0F213A129B107C",
+      "size": 55794
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_05.xml",
+      "sha256": "55D4D13093C23234A70BBA0390FDBD38342C4CF629CD138A216E2DB3A2B9EED1",
+      "size": 2308
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_06.blocks.nim",
+      "sha256": "840FA3825F91EDD901D40FB9BAF2FD78A9B44F671E679A1A73ED420B21C4FE39",
+      "size": 1371
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_06.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_06.tts",
+      "sha256": "4BBAF6BA2158E23BE076030F94C352DA7FC58449FF181DD29A65439B3F9C8F97",
+      "size": 65240
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_06.xml",
+      "sha256": "2E6A1F2E915C3B2A19E53A263B8B72788F2E38F39F5962CC68EF39CBC68DF010",
+      "size": 2155
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_07.blocks.nim",
+      "sha256": "4EBBDAC2E3CB53510E21780BE9D376CBC98041AAF0B4306DC8ED4F809165C78C",
+      "size": 2823
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_07.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_07.tts",
+      "sha256": "1707A5FC57C011C6450FE3F96164008BEBE00D5835F521A5180F416519DB9703",
+      "size": 84161
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_07.xml",
+      "sha256": "E53CFADED8E2B2D8D64B926739376BDEB177609C2F07621D667924B75A76E9A0",
+      "size": 2925
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_08.blocks.nim",
+      "sha256": "BCD52A166878745DB637F16DD617AACCE2EDEAF7A2D4C001EF3D68E19BE0B45D",
+      "size": 1533
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_08.tts",
+      "sha256": "1BD318C5AA870A8E80B267B4025C2A046BFF821E748A3592A5DDDABB6DF922B5",
+      "size": 91383
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_remnant_oldwest_08.xml",
+      "sha256": "F0728B40BBE32CAA830D706F895D0985791272D7EDC8D8677110911A9E302DDD",
+      "size": 2302
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_01.blocks.nim",
+      "sha256": "D180F21C64F321117937C74F42B14FE8175210B82956083A0EEE878B0B2C2615",
+      "size": 8367
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_01.tts",
+      "sha256": "A27B92B6FC469390713CD8DE92FF75559FD2378356AD4AD0565D1F3ADE3F1D19",
+      "size": 1088738
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_01.xml",
+      "sha256": "75DAC729B879C8E8DD917A62F5D3B42A963726E014A7DB5D79A3B5EB94D6D0EC",
+      "size": 5282
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_02.blocks.nim",
+      "sha256": "AAE6C48431835BB6948E43E80E50FF7CC223631DBEA491588DD86DAC707A1C98",
+      "size": 6894
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_02.tts",
+      "sha256": "5360EF72EEA91831F541F67D5D540939C2B99EEC17D80DFC592C1D31E6722B36",
+      "size": 611782
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_arbor_rural_church_02.xml",
+      "sha256": "CD2686DEAC67ACB945C6977D4B9DAB5C1E01FFB564AA635F27C788BCF8AAAC03",
+      "size": 5203
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_06.blocks.nim",
+      "sha256": "04899571EA17CD52FA855B7AA04E90470E53BF0D1D368CFE883D42EA5A124FB8",
+      "size": 1626
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_06.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_06.tts",
+      "sha256": "8A07BC5A47A33755F909C3399044849F6156DA7E0B619ECEF71A9EC6C634648C",
+      "size": 204889
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_06.xml",
+      "sha256": "4FA8BFBDFF868E3486E86D63033532BAD6C54ACF60A7ADB2A689115ED662EDBF",
+      "size": 4335
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_11.blocks.nim",
+      "sha256": "BFBA9717DED4C1B709C0D114E5B5CD6CD13C3E3B3F69A4B9E44E1C4574B34987",
+      "size": 1359
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_11.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_11.tts",
+      "sha256": "ABD81D982E7CCF8AA50C2FF2BB91594138E0AE26CEFA65CFED8445AB42F35701",
+      "size": 204675
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_11.xml",
+      "sha256": "5C0AE7A8C64DACB38FDFB5F0EBD5054C7751E2CCE076CCE7579A33F493C1B007",
+      "size": 4190
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_12.blocks.nim",
+      "sha256": "59C288733F644532FB6727124699F11076DB0F66CD2D7343D99D2D1807D05073",
+      "size": 1831
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_12.tts",
+      "sha256": "0FEEDE1B923A4DEFE0BA184F7AC4A1A0680F604D6FCE21290FF3D809204922AA",
+      "size": 206391
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cave_12.xml",
+      "sha256": "F79A99A284EB0C73E15A0000FA024CD3FC46DE7E61BBA072954CBB922CF57C2A",
+      "size": 4363
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cemetery_02.blocks.nim",
+      "sha256": "797B99ED2839E3975C907CC7C1C654BC95036774273866BAC5C4A28571853703",
+      "size": 6921
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cemetery_02.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cemetery_02.tts",
+      "sha256": "CFE75B393AA9F907275A62BE75C8CD1218B95510D5414D68717FF27B842B62E2",
+      "size": 412888
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_dungeon_cemetery_02.xml",
+      "sha256": "127FA70366028C10D9961CDCEB970CC789492CFA1328E0E7DAEF0976894BEE53",
+      "size": 5186
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01.blocks.nim",
+      "sha256": "4311674DB35F6F9EF89F1097AE1DCFCB1879FCF5412DF7AE48AC24CB80E794AF",
+      "size": 4919
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01.tts",
+      "sha256": "5BC480FB7B66E7362EAED66F837317388D7A3AC35346872C27CF7C8E052D0169",
+      "size": 215778
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01.xml",
+      "sha256": "6F166A5575945F971F232253D44A45FE120ADB5F98FA919495FC5725AEF791CD",
+      "size": 4654
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01_garden.blocks.nim",
+      "sha256": "22798EFF1A5D444801D52B5CDA6C0DC7B3A28BE99BAFA7EDEBE18E7FFFCF2CB9",
+      "size": 5361
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01_garden.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01_garden.tts",
+      "sha256": "277D4B2110F84C2BAE0BB0BD7F8A0A883ABE4ADF6898D5D0DD9AB0534BEC4336",
+      "size": 215778
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_01_garden.xml",
+      "sha256": "E493F5E19B408912C98F323DC243C6CE2B0145457784A030C646BBB87841922A",
+      "size": 4657
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04.blocks.nim",
+      "sha256": "717E4202C816A9355DD60A9AAA6314A149A0120600A40BA76CACC0AA2414D4ED",
+      "size": 4754
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04.tts",
+      "sha256": "DDE890477C33F4B990C789731901E80AB00152D4F17643E222EDA558F4348231",
+      "size": 292718
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04.xml",
+      "sha256": "B566FFB5D20424AFB398FAD3BAC382E46DAD58F15060F2F1362205B7358478EB",
+      "size": 4930
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04_garden.blocks.nim",
+      "sha256": "6A7369AA1FD30577E9B5BDD32BBD735ADC547B144092A9C6A30C3DE583E1A087",
+      "size": 5196
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04_garden.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04_garden.tts",
+      "sha256": "6E6B93AFD309638DD9C7B87DF2DB0B47FBF2DD70564267C3F907023F4B7C4D68",
+      "size": 292718
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_04_garden.xml",
+      "sha256": "11EA5333F0E8C91DC4F99680CB1D5E1C18904B771BFD645E7174318DE94BEF08",
+      "size": 4933
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_05.blocks.nim",
+      "sha256": "54CD5A972C7F457556A054B0AC4E4DBEFBA5FAD8809815B6D1DF5ACA90913463",
+      "size": 6646
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_05.tts",
+      "sha256": "322D5324B9069D36370B574D560D64E9A44CBCA0C4497D80D949E4B6D09729C7",
+      "size": 323588
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_05.xml",
+      "sha256": "26FD321D16FDF45C22731F0B45F6945C680A9E5FFB37F6FC79EBF54C061A81FC",
+      "size": 4762
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_06.blocks.nim",
+      "sha256": "3BDCA2CC5105EAA935099C4ABD7909B3FBDE850AD6CEF30E0C9F5BEB5724A5E4",
+      "size": 7177
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_06.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_06.tts",
+      "sha256": "56F7F606C2536F18B9C816A7464E0BD6E7489EEB964CF76A5E2BED838B59DF49",
+      "size": 200906
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_06.xml",
+      "sha256": "E79341FDF3797677E7AF4D3F51D829DFF24B1DBC2DE496E4AD87BE4A2C4E4A72",
+      "size": 4024
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_07.blocks.nim",
+      "sha256": "2C86673B2BE77DA3FC4ED15F5E04C37C7094F82379C7F73AD2818064532A86AD",
+      "size": 8820
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_07.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_07.tts",
+      "sha256": "22B362C3DA1DAE9D503D5604FE1F290664E13F70B17281C1DFC33E8DF957C3E9",
+      "size": 290152
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_07.xml",
+      "sha256": "1D9AA21C41FC0000BA4A1CC89B65E7A099BB19F4BACCA9846F8B8D3ED9A45455",
+      "size": 6155
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_08.blocks.nim",
+      "sha256": "4EB2C40CDD6EB0A67A742C1FF5A946876C23E4D391914EA7D04126F6BE93F7F1",
+      "size": 5961
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_08.tts",
+      "sha256": "63E1ABE7E1B638AAF6F64F21EDD315C14B41904969A90EA771A4031D361342A0",
+      "size": 282672
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_08.xml",
+      "sha256": "36845892555118C37B468C3B86842DA8727EE5999BB2F9C29F11ED272B2A41EA",
+      "size": 5840
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_10.blocks.nim",
+      "sha256": "DB855931552D5174DCBA165B69D4EC58C67DFF02897B6E948DAEF09D1BCBD964",
+      "size": 6353
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_10.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_10.tts",
+      "sha256": "E1363D5D4B73EF8BA4F6C1EC5212C6EAB82BEBB367028075689C4924431CB6CD",
+      "size": 307276
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_10.xml",
+      "sha256": "56CA859CF0D1BF2299042863D3A15FF9B817CEEF8D0FA09A017D406F985261E8",
+      "size": 4803
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_12.blocks.nim",
+      "sha256": "57E5DCAD555372D39B8913102E4083E25615CAF5091E66A2FA10F144631FF8C5",
+      "size": 5699
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_12.tts",
+      "sha256": "3C955CC293AC61265EA776E2F2B47B35BC4FE896DBFABC92A77C6DDD16262073",
+      "size": 339494
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_12.xml",
+      "sha256": "E76062C145EF13B963496874EA49775282988BC455695CFEF25CD1B1367ABEA2",
+      "size": 4568
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_14.blocks.nim",
+      "sha256": "D26D165CF6C0E4CA9285339B7F1E9D9382DE4C7F94EBED508B97AA156911D93F",
+      "size": 4302
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_14.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_14.tts",
+      "sha256": "2384D0CCF68FBCCD71F6637D44E124D773EFCB5958317CE9425015A95CD94242",
+      "size": 306684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cabin_14.xml",
+      "sha256": "14C16FDAB3E74C45B02C42DE3C2F7FE52F6D8CEEE400DB9CF9BC57B7BE6579DA",
+      "size": 4563
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cemetery_01.blocks.nim",
+      "sha256": "2F2713AD16CC9C65E056C36B6386764F6AC55449E39CC182695430E162175441",
+      "size": 4824
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cemetery_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cemetery_01.tts",
+      "sha256": "7DB1A0407E9E7F7C8D6CC72AD9510DCBCBB929DD1FAAB722AAAC57ED488DC044",
+      "size": 222916
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_cemetery_01.xml",
+      "sha256": "7B5ACB913D54B889F305EAF88EFC6D1634714F4A488CC5DF79C8101474306343",
+      "size": 4420
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12.blocks.nim",
+      "sha256": "9960DDE13537EE195F04C029B6246C913A619AA5A61E037E014B3B03E90A9F3A",
+      "size": 7042
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12.tts",
+      "sha256": "2160EDAA1960612567ADCEC930149D3D72631525AA53902555951071639E50F3",
+      "size": 593298
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12.xml",
+      "sha256": "19184123BC1D0BA112DC863102DD7C8013C88ED47538799C95C1E888E2E0DAF2",
+      "size": 4850
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12_garden.blocks.nim",
+      "sha256": "7CA9161A9D8D655F3BC0DF216F5D6E63D2E66EE83454B96998D9BC1BC6A0CAB7",
+      "size": 7484
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12_garden.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12_garden.tts",
+      "sha256": "EEB4F6E4F6C15E26267BCB1DD5CF297A6E8947E8F8B7EB68ABA6034461F2E058",
+      "size": 593298
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_farm_12_garden.xml",
+      "sha256": "BC14CB46C9800206364951D1E54331057284145546D186B417C85FFC6A84FFDB",
+      "size": 4853
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_01.blocks.nim",
+      "sha256": "B738178A816DD34A1A5F401F67725ED2D117D3D9B025FAB0414D842138FBE6AD",
+      "size": 6217
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_01.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_01.tts",
+      "sha256": "FD16319569A7B657F7B6519762EF00A0CE2266CDDC4880F41F864C45D0FC7175",
+      "size": 105920
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_01.xml",
+      "sha256": "E74F02AA57B0A0E7675E574A6EB54040C57777B51CB7D1183DC1BCC502A800C1",
+      "size": 3944
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_08.blocks.nim",
+      "sha256": "B1A4EF78546CB627DE7C28F84B5059008164AF8F4E39FD97B8924C7173C21F0B",
+      "size": 3644
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_08.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_08.tts",
+      "sha256": "897A047B931193B3AEC7DC9F04723EAC98BA8B0347D563524BAADC07CA660A3D",
+      "size": 118231
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_business_08.xml",
+      "sha256": "020CB268AB1773A4858857F8DE3B5804E1443F72FB7F7BB8033CD63A3206FB19",
+      "size": 4159
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_church.blocks.nim",
+      "sha256": "6C63E54368562AB8326B65463AFAFCEE550C6D1FBE6CBCBEBDCF053EDD5E758A",
+      "size": 5525
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_church.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_church.tts",
+      "sha256": "B178556716BA435D557E95763E047EE3F3EEDE77B2052549C40C4F4C448A26AD",
+      "size": 367244
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_oldwest_church.xml",
+      "sha256": "924D1E199B2E599F39F903270620D89E2880692341116C3B28A6AC6E89992BFC",
+      "size": 4388
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_ranger_station_05.blocks.nim",
+      "sha256": "DC2A8ECB219E04A49AE5787B78690A02A558F05876E5EC185831E34D463C95E2",
+      "size": 3315
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_ranger_station_05.ins",
+      "sha256": "395C2F5598A1643A205154C6F4C46CE36895B28E6C35660A95E5C6FD5EF9AEAB",
+      "size": 5
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_ranger_station_05.tts",
+      "sha256": "DF3CBF826B9699C19321C29E331EDCD96C925AC19308A27743BDE51A0B35E325",
+      "size": 400964
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_forest_ranger_station_05.xml",
+      "sha256": "27F2279DBA8D2650D096066F0EB4642AA1EACDFFA15AB8318458D17CD8BFA22B",
+      "size": 5128
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_coal.blocks.nim",
+      "sha256": "EA3C32A92326F3976737D25EB6C7CE50CA293570D148A2A6509FB4047E2C3B33",
+      "size": 66
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_coal.tts",
+      "sha256": "E0CC0D14D512BFF088F7A3420EA724EE5BED5B15F6ED0F7887103364D4E97146",
+      "size": 29432
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_coal.xml",
+      "sha256": "02CCF2AEC6B4EC05A6BBB27A02A2B0E7F518AD6E7760193F2858AFCDC9ADCB81",
+      "size": 684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_iron.blocks.nim",
+      "sha256": "F63EF5F427370E4C9F2A82D19F6122FA454287C27B3FBD05ABCADE6A11EFBA6B",
+      "size": 66
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_iron.tts",
+      "sha256": "54074E3D2DAA131227B8C26BC7E331E3CC206AF4933C344DB3D9C9FE8ADE0FF8",
+      "size": 29432
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_iron.xml",
+      "sha256": "02CCF2AEC6B4EC05A6BBB27A02A2B0E7F518AD6E7760193F2858AFCDC9ADCB81",
+      "size": 684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_lead.blocks.nim",
+      "sha256": "C0BDA77CB79B4A72ABFDE9F234F262BE8260C7C58B82ED3EFCFFE12F6B7B46B4",
+      "size": 66
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_lead.tts",
+      "sha256": "FE2BD8DC718E74020DCF7A1E7FF8D8AF57C9042E5E5EE6BDA57360276099D24B",
+      "size": 29432
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_lead.xml",
+      "sha256": "02CCF2AEC6B4EC05A6BBB27A02A2B0E7F518AD6E7760193F2858AFCDC9ADCB81",
+      "size": 684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_nitrate.blocks.nim",
+      "sha256": "097205D471721E5BA4E40C3584A22463976AC43A34518E35C470D4C84124FCCE",
+      "size": 90
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_nitrate.tts",
+      "sha256": "C02C52516053FFEC5311EE306D87DACC088AB15B39C355E2CE523272D6D911BF",
+      "size": 29432
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_nitrate.xml",
+      "sha256": "02CCF2AEC6B4EC05A6BBB27A02A2B0E7F518AD6E7760193F2858AFCDC9ADCB81",
+      "size": 684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_shale.blocks.nim",
+      "sha256": "E9FF5BB84087FDF7437FFEBEB2F17B58FA125063C469E0BFC0323B6CC21C4D63",
+      "size": 73
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_shale.tts",
+      "sha256": "4CEA0C1ED10446A231E41841DDF719F63B56273B6294DC44A96A9239613B9B93",
+      "size": 29432
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_ore_shale.xml",
+      "sha256": "02CCF2AEC6B4EC05A6BBB27A02A2B0E7F518AD6E7760193F2858AFCDC9ADCB81",
+      "size": 684
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_01.blocks.nim",
+      "sha256": "45DE9E6887260D189B73D9B44DE9B2ED509787DB4AD9C0498B8D3640843FF889",
+      "size": 221
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_01.tts",
+      "sha256": "35400263B3EC6A67A88E94789498B6BDD98C5685424A6B60AD26D38A2BD5A508",
+      "size": 469826
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_01.xml",
+      "sha256": "9392C3C05CEB19AAD735911EF4329912E91B02B6ADBABD2812FD53B815DCFF04",
+      "size": 1177
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_forest.blocks.nim",
+      "sha256": "1904B6812975D99D9372ACB6825924ADBDEEFC73DA4BFB8CA74DBD56E47FA2A3",
+      "size": 564
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_forest.tts",
+      "sha256": "3A483D17EDC77BE94AFC07E627D08E32B533823FE9097A315AC0D931ACCA6C89",
+      "size": 512458
+    },
+    {
+      "path": "Mods/DelveWayrest/Prefabs/POIs/delve_wayrest_forest.xml",
+      "sha256": "986873FE3F2EE457F9123CA8FCAA5468FFBE39E5CF5CF48F3946E621BF53066C",
+      "size": 1178
+    },
+    {
+      "path": "Mods/DelveWildlife/Config/spawning.xml",
+      "sha256": "930840EB97A221C0320925DA616CBAC08C512E6D0A90A2A114F9413591404243",
+      "size": 1137
+    },
+    {
+      "path": "Mods/DelveWildlife/ModInfo.xml",
+      "sha256": "2EFFE15153BAA882897674E99A67F2CE2887D6BF5B5D782C004C5FA7BACBE38A",
+      "size": 295
+    },
+    {
+      "path": "Mods/ZDelveDungeons/Config/dialogs.xml",
+      "sha256": "8C78EE43F1AC851FB5333188EC6134DEB905121328D3E96A5A064743F83A60B7",
+      "size": 698
+    },
+    {
+      "path": "Mods/ZDelveDungeons/Config/Localization.csv",
+      "sha256": "1C8737AE44C687452CB71470284E7C0C18DA41AB2B8C1C0B489293D8FA5094F2",
+      "size": 389
+    },
+    {
+      "path": "Mods/ZDelveDungeons/Config/quests.xml",
+      "sha256": "13041890EF814A9F26FE179C98D410C60A4773F39174BF6C8D6A6D1FCF2B64AA",
+      "size": 9308
+    },
+    {
+      "path": "Mods/ZDelveDungeons/ForestDelves.dll",
+      "sha256": "D840B84EBBEDAE186FDE57D48894AD85D6EA7DF17DB6F14AC6E33BC227FA870B",
+      "size": 5632
+    },
+    {
+      "path": "Mods/ZDelveDungeons/ModInfo.xml",
+      "sha256": "2597B4F2E29BF428F9207EBB42CBC009CB673A867F5BDE491D92F9B177F4E66A",
+      "size": 287
+    },
+    {
+      "path": "Mods/ZDelveForest/Bestiary.xml",
+      "sha256": "17D3DA15738F49CE609DE48078A835021D45D0BF29B05FE76B4012F1D110000C",
+      "size": 3018
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/buffs.xml",
+      "sha256": "94B0112FD939FFD4AFFE2A78B2AED4F691B5BD72686EF973A797BB66E1F799DC",
+      "size": 1588
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/entityclasses.xml",
+      "sha256": "22EA42DC06C23C2EAB72E8F927847857149C57FA43C7D0B0A644CAAF7CDE4292",
+      "size": 10218
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/entitygroups.xml",
+      "sha256": "3F25B7C508AC8A68AAE0B54FD495F313B08A994BE6FFF64941EE93B4FB09B1B3",
+      "size": 561317
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/items.xml",
+      "sha256": "40A20A5F6B85CC0538AAFFD1C3FB017F87EC6EC6AF9FAF4FC78A0B47465C4502",
+      "size": 10182
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/Localization.csv",
+      "sha256": "086BAFEADC5CB40ABC440BF90B30C6336CDC4046AF4AD13C2D244168FDB34C0F",
+      "size": 3242
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/recipes.xml",
+      "sha256": "9225D59B679D974B0153C12E578BE6BC83B93F41522BA479C0B718C80849D493",
+      "size": 500
+    },
+    {
+      "path": "Mods/ZDelveForest/Config/spawning.xml",
+      "sha256": "6F58FC29E0F4D4B6D1170F83FC523AF2C85534561D5B16769039CE9B7D9CEFCA",
+      "size": 1056
+    },
+    {
+      "path": "Mods/ZDelveForest/DelveForest.dll",
+      "sha256": "F891C6CADC79769DF9AB72BE9EDFD96D17B2E631457CB4B9ABA0DB6EF92D1616",
+      "size": 20992
+    },
+    {
+      "path": "Mods/ZDelveForest/ForestEncounters.xml",
+      "sha256": "598AE50E99FB973F10A80DC2EC0ACF4CB0D1E984FE9681010CB6169D67FF19B2",
+      "size": 1504
+    },
+    {
+      "path": "Mods/ZDelveForest/ModInfo.xml",
+      "sha256": "B23DBA27EE2C3A4E3CA682707227EB687CF9DFCEAE4309461590067DF1D91F81",
+      "size": 337
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Config/blocks.xml",
+      "sha256": "17BAD270A689EDF990366E56EE725585B0C5539EBAC88D32EB6086CC988FBF7A",
+      "size": 13960
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Config/items.xml",
+      "sha256": "9BFD858109476DF57E32A50DE9667A65D90841137618987E893292B2A68BE0B0",
+      "size": 38365
+    },
+    {
+      "path": "Mods/ZDelvePresentation/DelvePresentation.dll",
+      "sha256": "49B2EEECCF20DB1746323BDAD4A0FE97FA1605657F451E3A564992B6EBBDD825",
+      "size": 114688
+    },
+    {
+      "path": "Mods/ZDelvePresentation/ModInfo.xml",
+      "sha256": "B0AD4830276545CC5E5EB9695B658D4650A5DA421E6B0C1A0A9FAE6315BAD616",
+      "size": 159
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delveashboundwarden.unity3d",
+      "sha256": "A41BC710320571CD283CD7C622CD8DE603CB36C307498AD4993AB33386EE84DC",
+      "size": 7634204
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvecorruptedwalker.unity3d",
+      "sha256": "6EAF4D6FC00BD62FA5DE7A47F74984AF848C73DCCCBDD54C96488A5AA0E31ED0",
+      "size": 6923321
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvecrystalstag.unity3d",
+      "sha256": "72BB04D3E8FB1ABA135ADA2737B6C09BF71BC6D739579906FBB5A1CE91ADA804",
+      "size": 5798420
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvedemonspawn.unity3d",
+      "sha256": "4730C1A9868756F94E8A28ADD8F6AE4F5BB145AFF4431BAC9A9844B853B0C043",
+      "size": 6978219
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvegloomcat.unity3d",
+      "sha256": "D07BAC3DF23D0F22FDCD08900EF179AAD0F608FA5A5F8DF5E6751313A9DDADC6",
+      "size": 6156276
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvehellhound.unity3d",
+      "sha256": "C9B702E55C3FF33CDB1BE6C424983D004DD788DFD1266A4052B20F0A9CB8DC15",
+      "size": 6046930
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delveimp.unity3d",
+      "sha256": "3E57AF242DC4E91D811935ACBD70C9C377D1ABA73DB29602F6C83D4706ED4755",
+      "size": 7674460
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvepossessedsoldier.unity3d",
+      "sha256": "ED53DCCE47BB2FE2F7F9CFA3A409FBC04899A948DA1AF692D4F08D5746677F83",
+      "size": 7450409
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/delvewarpedbrute.unity3d",
+      "sha256": "9AFA81AE6BAEBCE6F5F546C863EB1D97CEF66D94BDFBF4B4A1B95664B78D889A",
+      "size": 9012650
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/forestarmor.unity3d",
+      "sha256": "884372A29F7C0FEC8E37243FF20A5467728C7E5E33B6AF83AD885A60E5E5F8BA",
+      "size": 55406364
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/forestprops.unity3d",
+      "sha256": "0665A6451397E621F00DEA6E6DE0466FAB174A6A3C85471A0CC4575CB5588BCE",
+      "size": 16939998
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/forestweapons.unity3d",
+      "sha256": "3C70E8813E5567B63AE2D26E352A5BC9AB0A1F197C470ECDC54E1168836319DC",
+      "size": 29337557
+    },
+    {
+      "path": "Mods/ZDelvePresentation/Resources/thornback.unity3d",
+      "sha256": "644B96323F43D358CA22E78B5B08A501EF4B7C89A7E903182E1E6E9FFC3FC041",
+      "size": 6784661
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/blocks.xml",
+      "sha256": "8B70573A04511444071297B87D5CAD7CA80887256FB7F35E923701815ACDB465",
+      "size": 1349
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/dialogs.xml",
+      "sha256": "07BC615FC21F57DE3AA47149B7F95A4E62B67CE1359DC2C0C158D5F749C3F34B",
+      "size": 1044
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/entityclasses.xml",
+      "sha256": "F06FC820D4C994A8C2FF96669AB7EB6D294E0934B9CABAF77A2B31BEF6EE682B",
+      "size": 2135
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/items.xml",
+      "sha256": "39003A96E2F015E3CF0A1B3673ACB69FD8E4D0F1A728999A83379A663C9AEAD3",
+      "size": 910
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/Localization.csv",
+      "sha256": "597EC14727679E35C533E2A3C15CF96E2BAAFEC690734596950BC5736F1548D2",
+      "size": 3121
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/npc.xml",
+      "sha256": "44112A142FF454DAF18E2785D2E5F95C777AD822A02B45A1061692D69A6B2A9F",
+      "size": 521
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/recipes.xml",
+      "sha256": "27A10C050519CDFED7C9F8462475EF4EEF69B76DABEA9DBF039994CBBBE5B2E4",
+      "size": 666
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/XUi_InGame/windows.xml",
+      "sha256": "B27A1C863DE727B671690670E3B919AEF6C21D26538C7A7530E7DE1749440331",
+      "size": 4699
+    },
+    {
+      "path": "Mods/ZDelveRecruits/Config/XUi_InGame/xui.xml",
+      "sha256": "B4B29FF1330D137CA12F3514ADC878FDE5E2EC533805ACEB898A5F4615604E49",
+      "size": 205
+    },
+    {
+      "path": "Mods/ZDelveRecruits/ModInfo.xml",
+      "sha256": "377D80F34E8EF335EE236C23EFB5CF9918C4AAE7898F1644EFF020FB41DF2DAE",
+      "size": 271
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/Config/blocks.xml",
+      "sha256": "25B19BE95B0734E056701B12F3C2BAA412ED629D3B06393FA2DCEACA543E7664",
+      "size": 253486
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/Config/items.xml",
+      "sha256": "ABBE878941F2F1D492C2A290E11BBDC4DA547F8F6AA84DF533CEB875564008B7",
+      "size": 568
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/Config/Localization.csv",
+      "sha256": "C07DEA7CAA49D9C96ADDC8677E042CEF671C3F8636143935BB502390805B83B8",
+      "size": 24246
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/ModInfo.xml",
+      "sha256": "B24E4219C73DC79C571D2CC59CE97D452B74F6A396FC09E2A5BAF71BAA7E677C",
+      "size": 234
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/Resources/batchone.unity3d",
+      "sha256": "55C4730E1D059FDB283469DFBBE35AB027778E8AFE1DC045E23A6285FD06FE55",
+      "size": 779669
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/UIAtlases/ItemIconAtlas/delveCraftingResin.png",
+      "sha256": "97F151EA21B4E77F31D47B43DB901AE3119210568E0CAAB849B1095505657FD9",
+      "size": 31463
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/UIAtlases/ItemIconAtlas/delveWagon0.png",
+      "sha256": "8D1E952690B6A6E7927738319C46C90501D6C330FE5AD673C99B6045402715EB",
+      "size": 7453
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/UIAtlases/ItemIconAtlas/delveWagon1.png",
+      "sha256": "B7357B8D3D109BD01BCDC3704E988613C6796F8015B77DDB3E82A13C0385DF9E",
+      "size": 18246
+    },
+    {
+      "path": "Mods/ZZZDelveBatch01/UIAtlases/ItemIconAtlas/delveWagon2.png",
+      "sha256": "EEA136205F184CF310AFF051A2350E019A1698B02D2ED7EB201F92C31B685F08",
+      "size": 13075
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/blocks.xml",
+      "sha256": "20433D606C91AB0D7878F1CC7FDC90A2E4AAFC201E59963200B9C4A69604E399",
+      "size": 67310
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/challenges.xml",
+      "sha256": "309FE59090E36D373A184A3E8699F18928AB35428C638F51482A0F43BE66A884",
+      "size": 11
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/items.xml",
+      "sha256": "C965751DC0FA6372326AB31AA9E5DF2A7C5256B2D54727ACCB8A35941A2482CB",
+      "size": 68510
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/Localization.csv",
+      "sha256": "353F419B7CC4E4462B53C772860F0BE7D1DA1A2382659EB23FF7DDA52851BA0B",
+      "size": 8193
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/loot.xml",
+      "sha256": "C534C6EA1CCF48002E8DFF020134F2E79F8A2D34D532E9892ED39BA0091D502E",
+      "size": 30625
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/medieval-containers.xml",
+      "sha256": "2F6BBFFAAF9BF471A6061E2F88C843EE8D20F423CFAF1EB9C53F720D4C7A15D6",
+      "size": 60146
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/quests.xml",
+      "sha256": "727D0DEE572340C6ECC776037D77F5665A1B8E7EDBE5CA60F8870A66CB00E09F",
+      "size": 2081
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/recipes.xml",
+      "sha256": "2F9E239A01D0FB9160E70C6E86C7213D3D6D322561373916AF3644A1B07FF5BA",
+      "size": 3776
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/traders.xml",
+      "sha256": "4628CAF2E00E8B9C8FF0D9A39096091291E2A35F8999CC3A286CC8E305E8D813",
+      "size": 7605
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/XUi_InGame/windows.xml",
+      "sha256": "5860C0A121954F9B01227909DA088FBECC5208E0C8B0F526CA8783167DAD7CE5",
+      "size": 725
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/Config/XUi_InGame/xui.xml",
+      "sha256": "C6424015D0F6E646466A002CE682FE778678F6A98776DE85566AA92382B8C77F",
+      "size": 118
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/ModInfo.xml",
+      "sha256": "7FDB06F1B342F042780AA76E164E550FB01B9A4AA6A38557648F9EBF5738171C",
+      "size": 130
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/ammoArrowIron.png",
+      "sha256": "451E8423922EBDA6060A0234979074E8853BBA715CC4281E6413D9FDFF651C7A",
+      "size": 3767
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/ammoArrowStone.png",
+      "sha256": "50F6E6AAE8F125A4D0A2CDE8636D255E0A53ED4D4C63769D4C1DC16FCE7B0B9A",
+      "size": 3746
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/ammoCrossbowBoltIron.png",
+      "sha256": "65E9CC24889C40BF3A2CAB2A2603AD0C6138AB2C87B4F52A016DE71FEF925513",
+      "size": 5212
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/ammoCrossbowBoltStone.png",
+      "sha256": "79378E1F69D5677D33E725C98F4866886BB32C75D4F6FC2C033BC1DA5188C5F2",
+      "size": 5262
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedHeavyBoots.png",
+      "sha256": "2B73223BFC38B632D28EAFDB1C207F4ACF79FF01636F770348685AFC0F45CFDA",
+      "size": 154041
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedHeavyGloves.png",
+      "sha256": "668F6A09EEBD58E0FD1558262D9B99B35DFDDD2F8B5C1E7EA170F9EC5DE64C59",
+      "size": 54302
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedHeavyHelmet.png",
+      "sha256": "B48A37A7F12E4DA7018A24FB63486F04DCD8597EF1F01216AFAA0D1ACFEB2188",
+      "size": 204659
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedHeavyOutfit.png",
+      "sha256": "C61E543B779406D90D4191C76C7BF52F57FF368567CCDA5F6E3F71AECF458EDF",
+      "size": 103431
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedLightBoots.png",
+      "sha256": "37CF5C9E97CF632A41B5C1F3197406E12C152ABDF0563FE157C5D9764DF1425F",
+      "size": 136731
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedLightGloves.png",
+      "sha256": "3CB925025EA057FEA1CE9FCBAE652D4B0FC7A06BE4BC9A51E36131C4997B99D0",
+      "size": 51718
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedLightHelmet.png",
+      "sha256": "6EC01FA8CAF1F05029743181C7B5E20E45A73DF0C14BE1A82CD01E74CE467797",
+      "size": 177611
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedLightOutfit.png",
+      "sha256": "A7020C57D92DD519CB1A18B848C852FA0B981C5E5FF0E9CAD9E9E6C7458A926D",
+      "size": 99844
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedMediumBoots.png",
+      "sha256": "E95B0B0770BD3E87C39A2D9E78B27A2D8D69585C91CD75D77A817C96EBE2C9B9",
+      "size": 152490
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedMediumGloves.png",
+      "sha256": "6CCE1B9AF621373D5E0F926EA27CB67312076E2DB8F54329E3CCE4BA3422558E",
+      "size": 52867
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedMediumHelmet.png",
+      "sha256": "89D964BC29EF40BB8FA95219BE588A4D1175A570F0A86F5D20CD16A90D3FE334",
+      "size": 205422
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveForgedMediumOutfit.png",
+      "sha256": "304F4CA7E25E3B7DF7383C96B941B67C8C6A04F84237701BD77C1DAF8CC307DA",
+      "size": 102928
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveHeavyBoots.png",
+      "sha256": "7E4B9F5E70F0E1DFB14EDB2584BD6745470632221452D1F5E1E57EEC6BA2863A",
+      "size": 152322
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveHeavyGloves.png",
+      "sha256": "1D8DDEA11D980B20EACB0B1CFA57990A153C98D64203FF44AFBC81B31E4E9D75",
+      "size": 52007
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveHeavyHelmet.png",
+      "sha256": "5D00766A5183758472FDE41CA53B14B880842F0B3842462C4185026F103BCBC8",
+      "size": 202763
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveHeavyOutfit.png",
+      "sha256": "283AFE0A2EB459EE3C4F8460A6D5730FEF312DE2D932757E7F6CE901F16297CC",
+      "size": 102826
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveLightBoots.png",
+      "sha256": "2CAA62B0B64ECA37C571EB66120F73AA570D03C3FE79A5101F9DDA8C39366D3F",
+      "size": 132908
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveLightGloves.png",
+      "sha256": "5EF991491708D1FE633E5B22F13E10B74962E6F38F418FD95F9433585968B320",
+      "size": 49503
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveLightHelmet.png",
+      "sha256": "7DC2D31F740374979CFA54A9ACBCE030D15512F522685F5C5C3BCC35C6A9A502",
+      "size": 183056
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveLightOutfit.png",
+      "sha256": "D40DEFFF988E4846329CD354EB04F732954BD55F98E29BC5A02B39A5506EBCAF",
+      "size": 100392
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveMediumBoots.png",
+      "sha256": "83A4D2285572E8BA001546489286847B1FB33D28D13D82417F8CFDF84D1E35DA",
+      "size": 149559
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveMediumGloves.png",
+      "sha256": "7C51DDAA77E52946FF8358C14AB5FBDDF41FF206ED19D28E172568A86690639F",
+      "size": 50663
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveMediumHelmet.png",
+      "sha256": "D70434A6C5C23D9533ABF8AA15F23F3B2C84FD182FFAE5A5F4D15CF21A83D62C",
+      "size": 199325
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelveMediumOutfit.png",
+      "sha256": "B1A9F30E0F7D67A0CA568BFC297CB78ECD569B69E0605FCE12E9BCCD13A2B264",
+      "size": 101386
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelvePaddedBoots.png",
+      "sha256": "4BD52CF1AD65F27C202C1130C8A14B6E9ADD27CB7FBE0EFA44E7D0D0352F6935",
+      "size": 133119
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelvePaddedGloves.png",
+      "sha256": "BA4CF9101EB4B312608DF993037BF80E4F4A92EBC0FFD8EABB3A645C2094D372",
+      "size": 49606
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelvePaddedHelmet.png",
+      "sha256": "36BF617EED3315DEB1F4C7A7A96C4019787C9F05CA2A952C39F6F82B0A72C226",
+      "size": 180868
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/armorDelvePaddedOutfit.png",
+      "sha256": "928D7C104F22ECA632A25E559DBBA9C9611E1AED36A45F4AC3BF34E45270BF78",
+      "size": 99023
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveAshSpear.png",
+      "sha256": "0089588F7827181D5336F173B1C148ECBC5A431F447132FE5CDAF5B08E420354",
+      "size": 4719
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveBoneDagger.png",
+      "sha256": "74B0643C1DB719B74728122E5BBCF865FEBE2C653762B350CF2DE58186A94FF2",
+      "size": 10697
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveBorderBow.png",
+      "sha256": "9F280EDF15E26AD7B3C2DE5A5BF3737BC79DD5404D1EB366D7A94A420B3D9C1E",
+      "size": 6600
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveCharcoal.png",
+      "sha256": "EEF5ED035A82BCAA2265EE9C122560C0A57FAD487A6A38529B7D3BCF87EF0794",
+      "size": 128134
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveCompost.png",
+      "sha256": "8BB56699F4203DAF44832692E70C8E096A6AA16035913887BE9D1971AE6202BA",
+      "size": 128026
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveCompostBin.png",
+      "sha256": "3E08CBE9AAE747DD4D068ECE670504E63F10B7206327386E8F5DF9EC6BDDB73C",
+      "size": 179811
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveCompostedFarmPlot.png",
+      "sha256": "BFAF58AA5950B7DFA8B815C3362EBB4C1B462A00B3D6B905C87196C8DC2CEFAE",
+      "size": 8805
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveCuredLeather.png",
+      "sha256": "425809E9131693C8EBE0AF7062B24298A3ECCECDADF9B85FBE634A7D70CFB221",
+      "size": 127999
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveDressedStone.png",
+      "sha256": "28435DB06D18C71C7CD25EF30997ED9BCC2EAC22DC2452A4C09E1A24BD589784",
+      "size": 210116
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveDriedThyme.png",
+      "sha256": "71EAB73B2D2CDB664C4769247044817217B30293834C3697521D6F5BB0E29D14",
+      "size": 75531
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveDriedYarrow.png",
+      "sha256": "6F3A90674C2006972F997AE07701BA6E6EC727C6B72FF63FB830DAD847F7CF42",
+      "size": 90583
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveDryingRack.png",
+      "sha256": "03016A82DE6F43FA015A97CC48118895DFE8C75410F32727A0150AE7114B9B89",
+      "size": 109287
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEmberSalts.png",
+      "sha256": "DD74792C58D3E899CBBF2D6B6D90C61744C048A7D7F38B4B76B9059B83A06A45",
+      "size": 129022
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEtchedHealingRune.png",
+      "sha256": "0AB26C00892DE01051811CBF7467A0182DEC3F9874DDCD8861343615A7AEAFC8",
+      "size": 17417
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEtchedHexRune.png",
+      "sha256": "7B92BF860AE21E1148DB766C623F1F74E2D46C0ACD59BCD638927B264BAE8E05",
+      "size": 17680
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEtchedStaffRune.png",
+      "sha256": "9C24A2D91B070D1F60B61053220C9D175C32F900930E746102E62DEE607E5965",
+      "size": 17377
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEtchedWandRune.png",
+      "sha256": "B90161C7F96FBF25D876015F0584E0FE69A4F9D08DA5D9F2B7F73753DD93517F",
+      "size": 17565
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveEtchedWardRune.png",
+      "sha256": "954D1A632D9804A1A15652D565B1C49FC1A918ACB17D642E6111F3261671EAE3",
+      "size": 17928
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmDispatch.png",
+      "sha256": "A71691EAFC1222BCA95F22EA1AE10CB825C91F8E4F584ECB92DF4ED87DE3C246",
+      "size": 157726
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmHandbook.png",
+      "sha256": "D66C5E7E9F04722A70DCFB7B5AAC497C416E98209436471D283C134EB118F304",
+      "size": 105379
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmNoticeBread.png",
+      "sha256": "3AAB166BF919E129A3991F1EACC57E8BFF50D4816F8F3D83F07E008799FC2C45",
+      "size": 71217
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmNoticeHerbs.png",
+      "sha256": "A747509415FBD4E4878F79ADCAD6476BB19AB69828831575EE60A79053295ADB",
+      "size": 71382
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmNoticeMedicine.png",
+      "sha256": "C3E7E3096F877C455406DA5FF7921547EF9359443A1A826E756553EBC40A0F3D",
+      "size": 71275
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmNoticePantry.png",
+      "sha256": "F2BAFE607E1B929045D6EF1CF2218239AF357DBFD6E34669F53C5A87D3A951B5",
+      "size": 71478
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmNoticeRations.png",
+      "sha256": "F847426E7D91F811A28F3DA74AC0EC1152BB2F3E67655D507FCD1FFFD126BB7C",
+      "size": 71492
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmParcelBread.png",
+      "sha256": "66504F65E51C85C3B49CA04E77F7851DB9B8C42887920BB70EFDEB3F8776F645",
+      "size": 144965
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmParcelHerbs.png",
+      "sha256": "7CC95899F746133ECE0551B258AA3A6F3D4DBED07C967B29E83793DBEB4F725E",
+      "size": 145109
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmParcelMedicine.png",
+      "sha256": "9DDF5F1996D222EBD78BA1F03DB7DF543C9FB7F87B24A625EA054CDA11B55772",
+      "size": 145112
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmParcelPantry.png",
+      "sha256": "4E250A40DC7B898C29041AABA6A3DBE6A5CE8B5DF6AF972250588EE7B36C7166",
+      "size": 145221
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmParcelRations.png",
+      "sha256": "EC4EF4666EBCC1B1B97AB6D71E2F2440D9ADA195DB60D367A7F4EC090E4216A2",
+      "size": 145113
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFarmPlotPlate.png",
+      "sha256": "6270111B7CE51EA054B8D23C707ACB03844F16AFFCA7F3029B23C8B020FA8E4A",
+      "size": 6194
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFermentingBarrel.png",
+      "sha256": "C9A4B3AE8D313C4B4116A71B1147A70489910FD1FA9026B7F938BE8EBDB6DD4D",
+      "size": 144932
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFieldGuide.png",
+      "sha256": "3DC608B507A6139AFD6332E91B33E8519115B41FF0360847E7A4B981821CB524",
+      "size": 105111
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFieldHearth.png",
+      "sha256": "FEFBE8A201FD615CA69608E1BE1A07704D75CEB83FEF8AED46369A10207D139D",
+      "size": 130913
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveFocusRepair.png",
+      "sha256": "AB3ABF172004DCDC8B836D20CE3106756BCF80E179D9A09D6047865D9BCEFD88",
+      "size": 138503
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForestCrystal.png",
+      "sha256": "1C0D8FBD7A0BA746FE191AE0B33F649D0AF5C4490DFF2805EED242E0E87CBA4A",
+      "size": 118276
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForestReadinessGuide.png",
+      "sha256": "84D456800ABB7107593BEB6162326E2E98EC180A93B396F4822D661C04649136",
+      "size": 107603
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgeAnvil.png",
+      "sha256": "A8850BE7237D777C2A13E65F646763D955F8DAD84555429012D1DB091CF739D0",
+      "size": 162402
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedAxe.png",
+      "sha256": "8CF25836775A1B0881134C715D8B1A726B2BAAAEE8FE7989572117EEE4189E0B",
+      "size": 41782
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedBow.png",
+      "sha256": "01D78F6A8AF474A1B5E42CFA52197FF2C819DFF982DB1BAADF58F734829AC99F",
+      "size": 5999
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedCrossbow.png",
+      "sha256": "FE6AB77736F0DA499BAB2666EEA56F74084E0AB9B7A1A47D8D7F4AE42EA639A4",
+      "size": 7814
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedDagger.png",
+      "sha256": "847C1B38576210E71BA21826D18372C4FBE0F2A1A3FAFF88AFA0E159E1B76696",
+      "size": 10261
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedKnuckles.png",
+      "sha256": "805B9873594A3687A36A14A15996711674BD37187CBABD163BA006EE9405697D",
+      "size": 23162
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedMace.png",
+      "sha256": "82AE86C84204014CA1DA27A6597E682B3ED51CC7BF939B7162DD112E9E9C1A77",
+      "size": 12092
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedMendingTotem.png",
+      "sha256": "71C67B418E818FD40B8092DCC0D05C16549CB94C399791E353377E43B2BE7B17",
+      "size": 18501
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedPickaxe.png",
+      "sha256": "0481653B0F87D7389165A8FDC3572FFAD73891860590A8497D61A4EDFCA4AD59",
+      "size": 38427
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedShovel.png",
+      "sha256": "E83A78AA0A43C2C950BF4B25470990B58EDBD3D8467A09D8E9A3D9A7DFF29F49",
+      "size": 39774
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedSpear.png",
+      "sha256": "D6F85D5508B3917A925939A1100E426863326F68AA215680D8FBF13EFBD81FF1",
+      "size": 4695
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedStaff.png",
+      "sha256": "908F7F3AC1669FE533E04B5F605CF6A0EF373488114718923C4F493EE0590C07",
+      "size": 5367
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedTotem.png",
+      "sha256": "5E2E458A5349C17B2EA0249E3A56D6CF348B56705E85D6F6788D8F6346CCF6AC",
+      "size": 17169
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveForgedWand.png",
+      "sha256": "B3108D7761778BE30EA4DDA4F663AB083A978BC67D165392317CCB9001B2C5DB",
+      "size": 12544
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveGloomPelt.png",
+      "sha256": "0181732CEBE5FB08134B6B4B57C815C47F3FCD7CD53FBFFDE9FF9DE7BE975418",
+      "size": 121470
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveGrainMill.png",
+      "sha256": "BC4E8F6CA5D32B0E63E34FE2DFC8A2AD8C3E81347DE9F9295215D453C6DC5D1C",
+      "size": 142608
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHealingPoultice.png",
+      "sha256": "C24147693EC00496352937281E8CBB77EA111337433EB09782ED51485CF16F52",
+      "size": 136894
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHealingRune.png",
+      "sha256": "B0340335E4015406A7197BE3A1CD85CBD2D8C98596CA99F73A78B0CAE44B7492",
+      "size": 17057
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHerbalExtract.png",
+      "sha256": "C7A08E9609498C03D6A969A037389DF5BD08CFE9B9859C7380AFAD585413871D",
+      "size": 101045
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHerbalSpirit.png",
+      "sha256": "E7A21D1E38404CE9ACB64A2A013773C28601B63B8A29CBCF9C303B9E6112C80B",
+      "size": 102663
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageDwarf.png",
+      "sha256": "FE478EF607B1FAA34F39EB1392795DA94914645A09C53AE077A299CDC0884F7C",
+      "size": 73325
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageElf.png",
+      "sha256": "7C069F4C8757C3845F6E5EB48CC73043D5A9BE6E38F0DAFAB20A2460337EDFC3",
+      "size": 73035
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageHalfling.png",
+      "sha256": "09E27F8EC9CD4A73A7ADC39048A0167996C1EFCF694F6D300011E27FB5A13068",
+      "size": 73042
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageHuman.png",
+      "sha256": "FEE6FBED4A9AEBC5396E3929852B8E582AC57EAF3AB2E4923B721ECEBEAA05AA",
+      "size": 73702
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageOrc.png",
+      "sha256": "4FBCA2D7F561ACF75CFD7FF0FD12CA8275095B61A89D0627580F47DCE715E19A",
+      "size": 73281
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHeritageTiefling.png",
+      "sha256": "AB9786F0339DB84BB757B5EE63A27154AC025BE217D898F667C7D6F372A0C224",
+      "size": 73316
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHideRepair.png",
+      "sha256": "CDCB0EAF7682AA7E42C0DC91DAC5457EF1D81FFB072062E01C140126EE0E75D2",
+      "size": 136121
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveHuntingBow.png",
+      "sha256": "01D78F6A8AF474A1B5E42CFA52197FF2C819DFF982DB1BAADF58F734829AC99F",
+      "size": 5999
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveInscriptionKit.png",
+      "sha256": "72D612746FDB785363E458A0B74AE87708B48804423E574E68331BB3318B3513",
+      "size": 126428
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveIronConcentrate.png",
+      "sha256": "93624801C71D497D5A70729ED6A4755D1261DB6739FDC92098C17133C6312C7D",
+      "size": 128849
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveIronDagger.png",
+      "sha256": "847C1B38576210E71BA21826D18372C4FBE0F2A1A3FAFF88AFA0E159E1B76696",
+      "size": 10261
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveIronFittings.png",
+      "sha256": "C7E3886AB28CF0F74CE0FA5921C18B534033E98495992FB2456F9B1D861ED6D4",
+      "size": 105474
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveIronMace.png",
+      "sha256": "82AE86C84204014CA1DA27A6597E682B3ED51CC7BF939B7162DD112E9E9C1A77",
+      "size": 12092
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveIronSpear.png",
+      "sha256": "D6F85D5508B3917A925939A1100E426863326F68AA215680D8FBF13EFBD81FF1",
+      "size": 4695
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLeatherBinding.png",
+      "sha256": "44795405211432C1D92953D72A3486415FCC2138822A3FC9C5C0C260B1A86C67",
+      "size": 88044
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLeatherKnuckles.png",
+      "sha256": "30AB56E853CAAAF24A0B870CE4148582B53F2503D6CDC0535182A2991BB276C9",
+      "size": 22994
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLesserHealingPotion.png",
+      "sha256": "F84A45CBB157D9F4CC2E94F407F3A45B3B39CFEBE5592F283A51A3B4A1322F07",
+      "size": 102838
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLesserStaminaPotion.png",
+      "sha256": "CE8BC50C7073AAF2EA5D35A17FDEA62BCA9030740439EEE178B9A3A16B96D8C9",
+      "size": 101044
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonAlchemyNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonCarpentryNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonCookingNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonFarmingNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonMiningNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveLessonSmithingNotes.png",
+      "sha256": "51F5ED5DFC70197ECFF15AAEAE2BB7FA40D4BAB72E10F74268B18AAA0F83BFB8",
+      "size": 39488
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMendingTotem.png",
+      "sha256": "5648D08F617871ED94D3CA4FFDF5DAFF2BAE6BB2DB33BAAABBBD0D89FB76C3D1",
+      "size": 18025
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMetalRepair.png",
+      "sha256": "14A2E7C665556F7B5A9F7D1918F9E837519C4D25E4339B21E608B167B44A0BA0",
+      "size": 138568
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMilledGrain.png",
+      "sha256": "34626AAA5F5154EC4AA2FF75C75DB3CD17897901C67919A993CEE2A07580898E",
+      "size": 129098
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMooncapHealingRune.png",
+      "sha256": "C5BD87B32126ED57027637E9262877AC32D455E5656512E213FE30E76E402BEF",
+      "size": 18049
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMooncapStaffRune.png",
+      "sha256": "1DBA72C25B8450364452EDBA747198B30B88AF2F4954F6F236A4ADFE80FBD118",
+      "size": 17993
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMooncapTotemRune.png",
+      "sha256": "F9A975C9E9345495CA29115EE06139F76A3CB63105FAFD4DC3B637BE445CFB28",
+      "size": 18168
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMooncapWandRune.png",
+      "sha256": "9D795E58E01BEE56B8183623A7EA99B002720053F0FB86348909BC62D4488FE5",
+      "size": 18158
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveMortarKit.png",
+      "sha256": "0DCC6D99D8D725C9BC632723657B1F3536359D4F238B39DC52E0DAE5868A6DC2",
+      "size": 133105
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveOakCudgel.png",
+      "sha256": "503CCCAC9BB31E37D52D11D8EA0A7B40AE55AF406D1948221BC5A85DB62C2D4E",
+      "size": 11714
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveOutfittingKit.png",
+      "sha256": "DACB30406E7E83DF50792D2E2116F3A55FFAA03096D41292F064A08A04F44802",
+      "size": 129175
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delvePreservingCrock.png",
+      "sha256": "0F817FDDF9478E8BBBC2945E6AA1B5E80CD7FB9AC3A5C98E8D5CB0BA3D8D3479",
+      "size": 132869
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveProcessingGuide.png",
+      "sha256": "2E82F41FC1FCCE60D0B01F613F87D639BE518D0A9DDDADAF348911878CF3B089",
+      "size": 106562
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRainCollector.png",
+      "sha256": "C61D00C7F681B9A315547B67C1AB17AAFADAD37C5EDAC91D351DAE2D6E1DD12B",
+      "size": 130058
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRallyFlag.png",
+      "sha256": "FF9A93F5B976C893ECC72189299E5C968977DA8F3E365CC53CBF8A329B3EE706",
+      "size": 6018
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRecoveryShrine.png",
+      "sha256": "493DECCE86BCB908D897401EBCB9B2B22DA646F71F8DBBEBBC553BDE39A1A0EA",
+      "size": 8144
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRecruitLedger.png",
+      "sha256": "1AE0F94CB484A8D727CF3D5A92B5E71B1A2CBBB19A91749C43BCDDBE6B01E028",
+      "size": 3120
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRoughHandle.png",
+      "sha256": "0EBC082861336A29EB2F4F3345BB459ACDE41B17CC4349F9C95F2466A28790FC",
+      "size": 45052
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveRuneBlank.png",
+      "sha256": "913C4617D83E1E1FFE651671D23656A4856C2CF36E102F0F5C7550851F0A12B0",
+      "size": 62190
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveSawKit.png",
+      "sha256": "D7CBC5C93781ED7329D67BE234FA3F317C9F042DB45156871F593F6B8C4E30FF",
+      "size": 145522
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveSeasonedTimber.png",
+      "sha256": "6A9B925FE91409224AF1B9320D03F3C6F7D526BDBC9998CED3E8AE4CEFB0668D",
+      "size": 91818
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveSortingTable.png",
+      "sha256": "FDBE1488CDB410AE602020FD94D69D4DB576C9324CC666A240183C44BDD7FC40",
+      "size": 138840
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveStaffRune.png",
+      "sha256": "E158DAE360027C35509F40469C0D8D7B6082C71E082D6B396BF19500D86BF61D",
+      "size": 16979
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveStarterStaff.png",
+      "sha256": "D889413A8E336BC34CCD643B85AE7BC0A1A4DEB96622C42B369EF8C073A31D55",
+      "size": 5271
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveStarterTotem.png",
+      "sha256": "367D5B825FC329D8B53E6A324E2009167C3CDE7B4A801A6496C8163AA66872C1",
+      "size": 16820
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveStarterWand.png",
+      "sha256": "0C04BB68CB85DEA3B0573ED3BE242140453FF5A3B0A0293ABC35338752A0D141",
+      "size": 12360
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveThornhide.png",
+      "sha256": "661691097905417262064484E7A6D2648263F8C49FDD62EF00A269823311856A",
+      "size": 138663
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveTotemRune.png",
+      "sha256": "E2FAB0C5C967E959A6F5CC554C6B58EC50E3018D039A0452FFFBAC16FEE41B58",
+      "size": 17152
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveWandRune.png",
+      "sha256": "C75ED5BBD34D5A2DA8E996F95B1270B53597F2B40CE4AD75E6CEBD25CD8D1A9E",
+      "size": 17156
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveWardDraught.png",
+      "sha256": "A44314AA4AE712C223FEFB56B4D1CBAEC5F75A5677C8B92BB13B99582D798755",
+      "size": 102401
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveWardTotem.png",
+      "sha256": "0342F289F5C583F103824BCEA86ECE54E235004C2F3BC2644BDF7EA222E48099",
+      "size": 18304
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveWayfarerTea.png",
+      "sha256": "5B44D658779B15A7B34529B20D3AF89BA818B2607186DD905870A334EBE50F2C",
+      "size": 107531
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/delveWovenCloth.png",
+      "sha256": "26A93BD52AD40ED4C89FD106D8F1329EE49FDF5719EDA3CDEA47D1058DF2DF53",
+      "size": 132465
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/drinkDelveGoldenrodTea.png",
+      "sha256": "5B44D658779B15A7B34529B20D3AF89BA818B2607186DD905870A334EBE50F2C",
+      "size": 107531
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/drinkDelveWoodlandBroth.png",
+      "sha256": "9DEA5778D8A909816825270F5242EA1E1AB94AF46762ED7198D4D44D9E2E7375",
+      "size": 107587
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveBerryPorridge.png",
+      "sha256": "BAEBB50EDEF2C25B26B41E77783477DBC5F1D7EEF293EE805446001D554E4898",
+      "size": 77754
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveBerryPreserve.png",
+      "sha256": "DFF91145C583AC36FF53D947BB0A987AF4E8328707B0E4299FFD4C9FFAA0226F",
+      "size": 109523
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveBerryPreserveDelvePacked.png",
+      "sha256": "DFF91145C583AC36FF53D947BB0A987AF4E8328707B0E4299FFD4C9FFAA0226F",
+      "size": 109523
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveBrambleberries.png",
+      "sha256": "ED2D5A9D05221AF1A6AD885EFC7CB70D1F5C3DF4B8DF4976C863DC08B8145F9D",
+      "size": 82112
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveCookedBerries.png",
+      "sha256": "305D19B4335146F1DBCF50B7B4F1C44877388E9AE96BD7FEEBEFE30E6142E64F",
+      "size": 77708
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveCornPorridge.png",
+      "sha256": "C594827D682E25C11347A6ACE293BDADCFB3AFA9C82E3953A1499FFB57C5F7DE",
+      "size": 77562
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveGathererPorridge.png",
+      "sha256": "642BE7960F0C1C359E21931B4918E04D7B78AA675301029800B4A681961C7938",
+      "size": 77836
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveHoneyberryCakes.png",
+      "sha256": "64118198C82B86EA415E3F5F1D9AD22E9F3D096FD9AF76D92A6527606EB3846B",
+      "size": 78511
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveHoneyberryCakesDelvePacked.png",
+      "sha256": "64118198C82B86EA415E3F5F1D9AD22E9F3D096FD9AF76D92A6527606EB3846B",
+      "size": 78511
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveHunterStew.png",
+      "sha256": "3A9E51B7183A0BB7AF52AAFAF0E59DD0FFDF2D6BE5629F158A260450727C312B",
+      "size": 78046
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveIncursionSupper.png",
+      "sha256": "D8B2A75BD770723ECA1A8566A637056CF59C2FA704A690994C7FA12E4567C6D9",
+      "size": 64755
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveMushroomSkewers.png",
+      "sha256": "9F01E8B77D3CE7A6E1DB4AF4E191BCFB859989A28849499CE99FE803C2F54C42",
+      "size": 50282
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveRoastedPumpkin.png",
+      "sha256": "1081F204DC8C151290D22E010104636E860B75E22174DF28A95BAFFF823F10AC",
+      "size": 58623
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveSeasonedRoast.png",
+      "sha256": "19BFD85029288D00D9F965FE8D52DAE0E2EF34964017C93ABC8F75C7D5B9322D",
+      "size": 62070
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTrailRation.png",
+      "sha256": "4AB45A2D28C79720A6D80D251A78FB8D846A88349A78289B82AF4BAB86332A73",
+      "size": 91663
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTrailRationDelvePacked.png",
+      "sha256": "4AB45A2D28C79720A6D80D251A78FB8D846A88349A78289B82AF4BAB86332A73",
+      "size": 91663
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTrailRations.png",
+      "sha256": "285666687B2CAB381606EE942B9306B0AAE0C8D49E5C0A83E00182CB24D276B5",
+      "size": 94423
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTrailRationsDelvePacked.png",
+      "sha256": "285666687B2CAB381606EE942B9306B0AAE0C8D49E5C0A83E00182CB24D276B5",
+      "size": 94423
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTravelBread.png",
+      "sha256": "C8B9C6A08407892EFBF646766C067CF1693D61193D78BD063474B005730DA1A9",
+      "size": 65224
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/foodDelveTravelBreadDelvePacked.png",
+      "sha256": "C8B9C6A08407892EFBF646766C067CF1693D61193D78BD063474B005730DA1A9",
+      "size": 65224
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/medicalDelveFieldPoultice.png",
+      "sha256": "0DACF98A6584D4B0DA425CDA0D1D6475185DBF3C9BE7EC4ECAAC4B9D36AA8CD7",
+      "size": 136929
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/medicalDelveHerbalDressing.png",
+      "sha256": "05094274DBF932B72DD77C3C022CCE611032163459926669D932CC8A6CBF91C4",
+      "size": 136875
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/medicalDelveYarrowTincture.png",
+      "sha256": "C7A08E9609498C03D6A969A037389DF5BD08CFE9B9859C7380AFAD585413871D",
+      "size": 101045
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/plantedDelveBramble1.png",
+      "sha256": "B0C188CA66CCE8E56E3DBB1497BDA7F326B05CDB127A8005B9D2A2605E3ABD7F",
+      "size": 87206
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/plantedDelveMooncap1.png",
+      "sha256": "96B39050B77F995506C996AB9F058299A6E9BD25DB09B11967E8AE559212EF84",
+      "size": 54832
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/plantedDelveMooncap3Harvest.png",
+      "sha256": "86B6DBC6A6F74329EC34AD411F9CF97D66BFACDA2B7270477AB47A7C537C7FE8",
+      "size": 70489
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/plantedDelveThyme1.png",
+      "sha256": "94B98D6B809EB5A64A488BEE66F7CFB4BCBC09540B84A63393BC5BD39533459B",
+      "size": 71521
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/plantedDelveYarrow1.png",
+      "sha256": "BA9E7A8FF4A9FAFA863320E5984F7153948AAD09219A7E2F14CF01C3E690EDC4",
+      "size": 80730
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/resourceDelveMooncap.png",
+      "sha256": "5DE23C807692CD4218E59069CED5D4627DB1DB6A99F07FA6FEEE8512D7E7F40D",
+      "size": 88183
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/resourceDelveThyme.png",
+      "sha256": "01761E823DCD89761B5B18D443B2D1A8030A1F164C3C5CD44DEA64F979C6468F",
+      "size": 74564
+    },
+    {
+      "path": "Mods/ZZZZDelveBatch02/UIAtlases/ItemIconAtlas/resourceDelveYarrow.png",
+      "sha256": "70B7ACC9CE227006C9FC1BD79F2D33EE5080635C42AA8B7A9504E5DD2FD25DAE",
+      "size": 89765
+    },
+    {
+      "path": "Mods/ZZZZZDelvePitch/Config/items.xml",
+      "sha256": "DD36424F98707540A4D3B7CF9224C31F4BDD6F7AF4C51FD87F1B84092DEA47D3",
+      "size": 693
+    },
+    {
+      "path": "Mods/ZZZZZDelvePitch/Config/Localization.csv",
+      "sha256": "A41B49FDC4346C951F4D7C56691481B253F8D53728CDDBC8D1C3066DC48EAF45",
+      "size": 574
+    },
+    {
+      "path": "Mods/ZZZZZDelvePitch/ModInfo.xml",
+      "sha256": "F2F03389558D4CFF9F129CAE5E930D5A635B36F1973F93FE5D60FE2AB4AC662B",
+      "size": 287
+    },
+    {
+      "path": "Mods/ZZZZZDelvePitch/UIAtlases/ItemIconAtlas/delvePitch.png",
+      "sha256": "EABC9DF8D8BBAFD40E4A25F642C96D88DAD1A14A2DAE9FCCFEC2F69408E5C122",
+      "size": 1550042
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/Config/blocks.xml",
+      "sha256": "15173070078D50FB1EE2D53680289939179592F80F8E9CB4CE47154B3E6DD527",
+      "size": 36009
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/Config/Localization.csv",
+      "sha256": "9E6CE59F914690D49CC510DC7142C10F16579D2FF37C60AF57034A44D7D884A8",
+      "size": 1474
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/ModInfo.xml",
+      "sha256": "9DF817F36D01BF7088BBDD5730C1788BACBC445490C9137A393B3953EECBAA9F",
+      "size": 138
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/Resources/batchthree.unity3d",
+      "sha256": "DA2ADA582B070D8EA870E55E4BC2BB29DA394D3EA95B18B3132FA3F18177EF5B",
+      "size": 139984
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/UIAtlases/ItemIconAtlas/delveCrateStack.png",
+      "sha256": "BA52B14EF75E9FA1D20CDD08DA14D9D15585F28E06F1CD289D80E81542C72D58",
+      "size": 132392
+    },
+    {
+      "path": "Mods/ZZZZZZDelveBatch03/UIAtlases/ItemIconAtlas/delveCrateStackScattered.png",
+      "sha256": "BBEE15DA3F75D338CBA86B275F5943D2CC962C590822E9F01E9D1B76B3298E7D",
+      "size": 95160
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Config/biomes.xml",
+      "sha256": "0837DF7F7314D55A14C672FAD42C864B75D51637E72F1050BD3EB3AB759BF2FF",
+      "size": 13787
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Config/blocks.xml",
+      "sha256": "D1E5A6DD4D6E4AD682C6EE1ECAB8237758C8AE0F7D7E07810126FA4200990258",
+      "size": 53821
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Config/Localization.csv",
+      "sha256": "5566E11812A40451485F3DA0883532F8D431455810D7D8A071A7DABCF8813402",
+      "size": 2774
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Config/loot.xml",
+      "sha256": "25587299E823E8B365F9581B2CF8CB3350DDB886C88A8C3F132AF93CF24682B4",
+      "size": 139
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Config/recipes.xml",
+      "sha256": "945C8729B44FABB7BBE3584CE3F476A54078A80AC6D7F01238AE534102F74CC3",
+      "size": 1101
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/ModInfo.xml",
+      "sha256": "92F007E17749BE2429C5C94D1A2D2F87961B5CC98D130F3C470CDF8E3CF7BCE6",
+      "size": 139
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/Resources/batchfour.unity3d",
+      "sha256": "09C612FC06FFE2BE12D8C1657F550F6D588F2043743D04ECBE5183350B7A27A7",
+      "size": 181812
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/UIAtlases/ItemIconAtlas/delveApothecaryChest.png",
+      "sha256": "3BB61BCFCFFF10CCDBE3E0890323FB9F1A5622B85EC47DAC1D24D5A2FFB565F8",
+      "size": 70733
+    },
+    {
+      "path": "Mods/ZZZZZZZDelveBatch04/UIAtlases/ItemIconAtlas/delveIronboundChest.png",
+      "sha256": "04F4275DE274133B97DA9B9EAA2AA2B939C375DE7F9E9CD388DB5FB5584D7B27",
+      "size": 76717
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/challenges.xml",
+      "sha256": "05EC5FBC1361EA14C50CF7FACD968081ADC00CEF40027E57AC2595F9A881F57E",
+      "size": 284
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/items.xml",
+      "sha256": "2B8B133FA68F07A1A8ED100F3BBFEBEBF3560B3A277F822E22D1EC89951C7406",
+      "size": 14702
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/Localization.csv",
+      "sha256": "5F0D1F2653E227EFFF4CBF7D33E86F23DD04ABB031E5A29522409EB0D8893263",
+      "size": 2317
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/loot.xml",
+      "sha256": "259B3D9C5869C4C0FAD02A9995DBC58F2BA04F53303D0EDABB97DBE6F34A2523",
+      "size": 2707
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/quests.xml",
+      "sha256": "9FE9D09346E561EEA855004EE8AF074E8EE52600E5BCC550EBD93037C1F64049",
+      "size": 12083
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/Config/traders.xml",
+      "sha256": "AB433BBC8B8F74272C4886ECB2CD3310AEEBD7A4FA7BD979F9CBC2C2E15BF29D",
+      "size": 1104
+    },
+    {
+      "path": "Mods/ZZZZZZZZDelveRecipeLearning/ModInfo.xml",
+      "sha256": "BC179D7399FC66DA4FEC6A027BFF2EB4EDC35E60F93AB96464699E48969F439F",
+      "size": 250
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/items.xml",
+      "sha256": "BC7627F3CAB1BCFBA06D0822811A7B314638E1D91CCEAD4951E838366CE13BF5",
+      "size": 1373
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/Localization.csv",
+      "sha256": "71C9064AC3EAF5994B7F7149D27A6ACF5EA77B7578FAEBD7CA0F957CF592A5F4",
+      "size": 1068
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/loot.xml",
+      "sha256": "7042A8859D21763EF22831ED11046EE06D9B07DD4116DE680C4A2D00721252AB",
+      "size": 18868
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/quests.xml",
+      "sha256": "6D4FC9DE5783F5C400A011AECC00BF06280A5C5E07BDEAF6C013C13A39D85DBC",
+      "size": 1344
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/recipes.xml",
+      "sha256": "75A776BD4C289CDE5DA0C27FD5BD2916006007A6F3CAB0C29ACF1D0FF7CD5099",
+      "size": 1452
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/Config/traders.xml",
+      "sha256": "47F9919F83868A8779AD4C799B031EE45D7EA46ED853D16B66AEFB8220DAE5BA",
+      "size": 11767
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/DelveSkillCoverage.dll",
+      "sha256": "AE08E0CDC239919B3B12E5A1FAA4FCC075DE2D6F6DF5F032187F9240C1A57022",
+      "size": 20480
+    },
+    {
+      "path": "Mods/ZZZZZZZZZDelveSkillCoverage/ModInfo.xml",
+      "sha256": "9C49A9C775D7BA343C343862255BBF85713FD135214E07538706A53FEC07A383",
+      "size": 135
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveCraftingStations/Config/blocks.xml",
+      "sha256": "28BE1452AF03DBA4115CFE09B23CCEC5FEB1656CCD383D9A4B14F5B30581F2CE",
+      "size": 10298
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveCraftingStations/Config/Localization.csv",
+      "sha256": "98F7787BC5FA499181BE9E91BD188D41CA444B71405C7C801E43DF0E8087F8B8",
+      "size": 5546
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveCraftingStations/Config/recipes.xml",
+      "sha256": "AE50EAE2AD8326946FFCC0626E3E1C36AA44CE553C94884F636672809A25FBFE",
+      "size": 103016
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveCraftingStations/DelveCraftingStations.dll",
+      "sha256": "29EBE74704FBC8D260B987BE6D7581BE5F26720403ABB00F0A53A95D72FCA806",
+      "size": 60416
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveCraftingStations/ModInfo.xml",
+      "sha256": "D286936FFB6A29AC4AB470CBD036BFDF155FA07234F56F20A084FD10241B6FA1",
+      "size": 153
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/blocks.xml",
+      "sha256": "7D68724BE6F91BD73A6149CEC3763DAF60051864CA19C240BF7C3688A793FB5C",
+      "size": 40075
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/items.xml",
+      "sha256": "B69DE55586666F809D9D0B8E7DD4BF555821E915792C71D9BC0B628D42649957",
+      "size": 9178
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/Localization.csv",
+      "sha256": "1AC27A6F741B33B68DE4C07590741CFC71F63600FF162806D0C8AE35E8776A33",
+      "size": 18327
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/recipes.xml",
+      "sha256": "C5DBF9BB85B4FC1282120D4602EAC689DD244C186D6FB6D9E80173EF40307E98",
+      "size": 61282
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/XUi_InGame/windows.xml",
+      "sha256": "BE66D0C67D93F5F98461DC6E6C26AAAB12FDF6D6CFE82ECD85998BC1D8917845",
+      "size": 7010
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/Config/XUi_InGame/xui.xml",
+      "sha256": "787E93C3CCB82E6B852E5E5E877B0954C71DD22A0717AF78BD63EFC1DBA13CB0",
+      "size": 4929
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/DelveStations.dll",
+      "sha256": "9CAC4285158ED8AAE4EF56069527C53B8663C6CBF2844044364E521E79ED5EA7",
+      "size": 17408
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZDelveStations/ModInfo.xml",
+      "sha256": "ACC0A77DA9499D61282BECFA63E42E67E85C88B9F50483BBEAA976DFC73957AF",
+      "size": 143
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Config/blocks.xml",
+      "sha256": "8B91452768D9ACD1A24E24B9473A225813C26B03A6C4E7B1410005F80CB9DC7E",
+      "size": 1465
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Config/items.xml",
+      "sha256": "45BA8A690ABD6A63754A7A27C486456FE403206A213043B27315937F913E4CB5",
+      "size": 13012
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Config/Localization.csv",
+      "sha256": "62800F9D43014BF822B1D0CAE71CBA557C4BC8E49EACE277B1AAB4038944B673",
+      "size": 10624
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Config/recipes.xml",
+      "sha256": "69ED5253C595392E77FAFCA723863ECC7DC8446A42197EE9465066010C8CF7EE",
+      "size": 8756
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Config/XUi_InGame/xui.xml",
+      "sha256": "7B71E7C2639CF6774064C15481E0249A130260ABAEF57A99343056865F0C3146",
+      "size": 510
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/DelveBatchFive.dll",
+      "sha256": "69D7A4E099A7BB9B0DBDC8C218CEFDCB3F8D7B653145D2C407E8023A2C584597",
+      "size": 14848
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/ModInfo.xml",
+      "sha256": "DDB8BCD09BE6A64EFCEF393292AC82130A21C86EF540DBFAB3954110E1BE9BBB",
+      "size": 140
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/Resources/fieldmat.unity3d",
+      "sha256": "00B482A211EBD34AD1F09FC15A8AE8E5FD7BA052FFBEB30D755EF48E1B7FB4B9",
+      "size": 227878
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZDelveBatch05/UIAtlases/ItemIconAtlas/delveFieldCraftingMat.png",
+      "sha256": "DBD4A2376BB9F1E6A6E2978BD6ECB4D43713C7D3427815BC8B2F161000D15777",
+      "size": 53674
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Config/blocks.xml",
+      "sha256": "3108023756C1726CC088D36B537E62958A659296B5278C03A2E4EB990362EE5C",
+      "size": 9986
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Config/items.xml",
+      "sha256": "A4C1B26762B09A8F94DD54F6F2EBCC203B0899A94F2700E0BED286A5294CB6D6",
+      "size": 620
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Config/loadingscreen.xml",
+      "sha256": "F8758B38407C76EE9B079F7722119F84D26C7452DEF3AC189EC478E8AA07B9A6",
+      "size": 404
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Config/Localization.csv",
+      "sha256": "229EA33FBAAA8CF7745D53F8F886FE4C47245EB844182874BC6BD9EFE33E8586",
+      "size": 2919
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Config/XUi_Menu/windows.xml",
+      "sha256": "32A4C7395891555D8E13DC082CAA3E950AE361747F1B9005C55EA81F55D55F41",
+      "size": 800
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/DelveBatchFiveWorld.dll",
+      "sha256": "13571F2C10B3FC9C999A2CB35BB20D131CFB7CDABD08EA0D41D62FCB0CD713EF",
+      "size": 6144
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/ModInfo.xml",
+      "sha256": "82C99932BCE95AE9BD228332E063C2FA9FB327AC5E97BCC07A90C8A579966302",
+      "size": 137
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Resources/batchfiveworld.unity3d",
+      "sha256": "462C26AB8E28A4F886AE6CD5A17A971322E97DA5519DE8F5C05CB2DD4D7A2726",
+      "size": 165485
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Textures/incursions.png",
+      "sha256": "38FFB6849AE1A4E41F609555FA3E065EB874252EFD0C0DED3DFB830A61B172CD",
+      "size": 2687102
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Textures/menu.png",
+      "sha256": "6227C922CDD5575C44C175E79E6AC4A4FA8242AEF7FF162DF908D7020102E268",
+      "size": 2836512
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/Textures/wayrest.png",
+      "sha256": "F574A9387FE5C502847C82FCF8F450DC6DD960C1E78F931326A47E2F335DC5B3",
+      "size": 3047262
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZDelveBatch05World/UIAtlases/ItemIconAtlas/delveIronboundCrate.png",
+      "sha256": "B9BC19D5988A94DE9EAD36AF2B6DA46CD1790610CECDF724D37C37B72334E401",
+      "size": 126220
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/Config/blocks.xml",
+      "sha256": "3CF8EED8AF5E1D2C9CE1C0F664443AFF4C35D5C44A37A031EA167896CE42F337",
+      "size": 186
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/Config/XUi_Menu/windows.xml",
+      "sha256": "EE8793DEC158F8FF3B2440FB00882E3ABD8830BD78210F1AD119362F9E979F3E",
+      "size": 348
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/ModInfo.xml",
+      "sha256": "D2A694BF5C6D93181871E5BD055CF2272FF7A378BA073B01211487E01DB7F665",
+      "size": 147
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/Resources/fieldmatbatch08.unity3d",
+      "sha256": "9A8875599EF586F5721D6F5A1E75605A4004ABE10408F1DC5BD24EAB8730FEB5",
+      "size": 243354
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/Textures/delve-logo.png",
+      "sha256": "900C4C925EB5A69F94463E52541239357D66340681AB147B3498F0AC3575650B",
+      "size": 1818132
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZDelveBatch08/UIAtlases/ItemIconAtlas/delveFieldCraftingMat.png",
+      "sha256": "169A39F41525E11474759639444D35559CFFF9E49E928814BF1BCADA30D72739",
+      "size": 156261
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZDelveBatch09/Config/items.xml",
+      "sha256": "02D9204E7AB0B6F58D25D8F4ECE6539AAEC98F9BCC5A4455C7ECE1F8188B4668",
+      "size": 1395
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZDelveBatch09/Config/Localization.csv",
+      "sha256": "CC95DA624BB2E8CE774B7564A0A27E9C5839AC208195493893CDB06092911D0E",
+      "size": 310
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZDelveBatch09/ModInfo.xml",
+      "sha256": "00B05D6FBE29B6CE36CF082796E63ABB1AE8293AD4DEA57FAF2FCAD46B311AF9",
+      "size": 147
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/BatchTen.cs",
+      "sha256": "2505B6538DC7E3D8A2C15EB922889E6EFE68EC79275398299B250CF3598BAA7B",
+      "size": 1767
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Config/blocks.xml",
+      "sha256": "56C947B22CE5A1335DBE3A1CD34F0993D5EB7B08A534ED3715F223C2AF38BDBF",
+      "size": 4342
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Config/items.xml",
+      "sha256": "77175F3C0ABF301937B0683D9FE86C4F8D1F9F523DCD3A9471D95833722AD262",
+      "size": 3587
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Config/Localization.csv",
+      "sha256": "4D19732A7D8B6F2CC53826AE8B7B930CD51A3BB5135DC7D5C92B8B3FB63D98BF",
+      "size": 637
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Config/recipes.xml",
+      "sha256": "A67E566686DE2EDA6911750B7A8938EA10B8DF2FA74A02B669B923E4EF5BFFFE",
+      "size": 14191
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Config/XUi_Menu/windows.xml",
+      "sha256": "3A3B505CCBBDBCEA8E3C96C150A2623B6098A5C53898941BDD57D92CD6781751",
+      "size": 112
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/DelveBatchTen.dll",
+      "sha256": "1E1611A9517AB55F32F3F8CBA1F5E26AC633597125C5EEA58D78D82A6E31ECC2",
+      "size": 26112
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/MagicVisuals.cs",
+      "sha256": "EBAF7DECDDE0C521CD3CC789B10378AFF306C33926D12DCE09179AC96D27B2B3",
+      "size": 7446
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/ModInfo.xml",
+      "sha256": "9EB793878C6F0086D352A5EB905F432FC2126E59CF2736B13C69DE1166359D09",
+      "size": 153
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Resources/batchten.unity3d",
+      "sha256": "E2FBFAC833E583ED29B851257F577523E1FE45D5B3C96E460BFD8E9D0AED8D20",
+      "size": 82056
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Routes.generated.cs",
+      "sha256": "FEE9166EB44943141E90C2CEDC305144FF05DC7E6781847CB853ED30219C9F94",
+      "size": 5230
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/Scythe.cs",
+      "sha256": "526332517CE0CCBA59601ECAAEA35697438DB26DBBA5F0D6F826A352A9CD9B8C",
+      "size": 3125
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZDelveBatch10/UIAtlases/ItemIconAtlas/delveHarvestScythe.png",
+      "sha256": "30A087DDFE172A6ABD6404449CEFB50D66F9CE74FB7AA7F4CBF531848C63D121",
+      "size": 28743
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZDelveTotemHex/Config/Localization.csv",
+      "sha256": "2D622C381F576A2C6AF4696F4729C9FB3DE789C7C6A160B0F985D0DA814D987C",
+      "size": 724
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZDelveTotemHex/ModInfo.xml",
+      "sha256": "26CB8E58718569ED6E3528EA99F9ED213A22B131C1B6B232E6A837DE9D13204D",
+      "size": 137
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/BatchEleven.cs",
+      "sha256": "05B48FCF5DECC8504751E34D74B49BD65DD351FA493213BA2EEE721CA1BDDC94",
+      "size": 9606
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/blocks.xml",
+      "sha256": "79882612F2A343E5DE076CBE594D29C642ABBBAC3724F3D76256A0C8083594B0",
+      "size": 1739
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/buffs.xml",
+      "sha256": "AA6434995947519339227461275BBBD4A1DD95F2AFCF6F45B80CB8B00F2CE500",
+      "size": 218
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/items.xml",
+      "sha256": "AC6353FD3DD8B67294941DB85BB7899ED659148A183F7BFDA322AEC35EF80DE1",
+      "size": 2125
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/Localization.csv",
+      "sha256": "1B3C5FC59A8F0F6CFAAC4916E520C7470ADDBF1C57A26733CA68C5F58BC16ADC",
+      "size": 2598
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/loot.xml",
+      "sha256": "558E777D08590BEE564ACEDADDC93100AF9B469C7D0249F2445D393610A7DCFB",
+      "size": 1906
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/quests.xml",
+      "sha256": "FF3ECFD100935C65C98452E402D465391E31F394580431419624044B93E4F3C9",
+      "size": 9776
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/recipes.xml",
+      "sha256": "6E4C1DE88B0632BD9E2B4F1813C9C06B49F72D0E6702E3CFEDCE690911FB10CF",
+      "size": 3534
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/sounds.xml",
+      "sha256": "0CFCC59B5BC9CEA02B842009D4459F60A6F7CE4EDD7599990B54FD5D3D81FDA9",
+      "size": 364
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/traders.xml",
+      "sha256": "59C3C9D718249340A9E7FBBE3D29136ABAEB40B486D2341856AEAE3C3D252E03",
+      "size": 1682
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/ui_display.xml",
+      "sha256": "7F97D5B22B0C1CF2E2C9E48152AF3C84CF58CC6AAC7F2BAA173368B3500CACB9",
+      "size": 34928
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Config/XUi_InGame/windows.xml",
+      "sha256": "8901DD5D9B74E6B7CF4A245D01FDBB3EE3C8C6E5067A63E2CC7BCD9D86E2006D",
+      "size": 319
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/DelveBatchEleven.dll",
+      "sha256": "215101E8ACE67CA2A00A2FF191160E642E94BE1D1F8B8A7B1349C20CBB4BCD22",
+      "size": 17920
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Exchanges.generated.cs",
+      "sha256": "C2C0857DAC3043B8F28EA9733FE03EDDA5C86EDC63CD02660AA18190371C7C8B",
+      "size": 1817
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/ModInfo.xml",
+      "sha256": "04D340E9A15892D23E6386F4B320DC12B3BAAE8BE155E01DE46C7CF2634363B1",
+      "size": 153
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/RechargeSound.cs",
+      "sha256": "5739D742057DB871568BE71C498CAD758ECA3E82307E59A2B9372EDBD2E84F31",
+      "size": 967
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveBatch11/Resources/batcheleven.unity3d",
+      "sha256": "88E74BBF097A0FBB6302E3B2118F1DC2BC931BC4F93992BE8FCCC12EDAD97A87",
+      "size": 98996
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/buffs.xml",
+      "sha256": "3D01EA16B28D404D20580D1F6EE229C5D5EBBF1951A6D10CC2D33FC5038DA759",
+      "size": 483
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/entityclasses.xml",
+      "sha256": "6D60C498D2BBECB738A7F86689015DF69716B9F74C65D8C0767352CE7622F705",
+      "size": 4779
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/items.xml",
+      "sha256": "2B414D4337796F38463538C0706C25A97256708E3A1D288D0C6F91F8B3328599",
+      "size": 5963
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/Localization.csv",
+      "sha256": "98273D3CB071990DB6FE36B49B2620F42578A985548F98D4BD325E53BB25B63A",
+      "size": 928
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/recipes.xml",
+      "sha256": "C0A00513710F9E36488437467DF08AC8A32C3B2A940194C1599F70374D2101D1",
+      "size": 940
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/Config/XUi_InGame/windows.xml",
+      "sha256": "025D67D2961C2C1915C46A7CDECD1D52F1B8866A5C24DF201188D7E533887D6F",
+      "size": 2069
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZDelveSummoning/ModInfo.xml",
+      "sha256": "4CC99A1D42E38605F569C2BE625F887065C93F5164573912990EAC0C4F0FF3C9",
+      "size": 136
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/Config/items.xml",
+      "sha256": "B4FD629F2307E868D30D16C7A3960E85D42F5D382C5A7F69F54AE151A6A6F980",
+      "size": 4341
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/Config/Localization.csv",
+      "sha256": "4D0BEFF056FA12004B972F61ED451E53AC1C3314531065E130A4BD4AE289F633",
+      "size": 2637
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/Config/progression.xml",
+      "sha256": "04451F12FBD394DC99B6EDD9877C785ED57CC0B253D7E5D4B1B1F05A4D975188",
+      "size": 4632
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/Config/recipes.xml",
+      "sha256": "1165E661F13A6E9292E0097ABEBB12C84D205688897B26F5D8AE23DC12CB7DDD",
+      "size": 395
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/Config/XUi_InGame/windows.xml",
+      "sha256": "C95F888E86B4A52A7DF03B6EACDB5423929EBFE55AA2CD7A4B9AF5DD1FB5CD63",
+      "size": 17005
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZDelveSummoning20/ModInfo.xml",
+      "sha256": "8EDADE3783D2A24E763020CCD2841571C06DF5F6146618E99C273C4B21F9DFE9",
+      "size": 147
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/Config/items.xml",
+      "sha256": "C93E1403746A70E493A1E47C42BFCAA6865D94C4CE07CCDD33A8432FBCB65F39",
+      "size": 1976
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/ModInfo.xml",
+      "sha256": "E55064D1A51B5B07B86AFDA736EB5712B2F8D6F95C656E680EA199E208202814",
+      "size": 170
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconArmorForm.png",
+      "sha256": "19728A18086730D3D512DB64A1A9AACA31DF50FEC75868A7AB8297946FCA216E",
+      "size": 1616255
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconCompostBasket.png",
+      "sha256": "BAA703237947A6E32D975930C2237F776E19C5728430EEAD6D22C1481ADAFFD2",
+      "size": 2270420
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconDressingFrame.png",
+      "sha256": "FBCF0C5E858529B03227759D0A493CAF1E43F11E6360A670843569D77253C017",
+      "size": 2412059
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconDryingRack.png",
+      "sha256": "F65747CAB03A245A0E730A2B57B49303DB3FC47913DAEA22BD3BFE70E6982C60",
+      "size": 2130077
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconEngravingTools.png",
+      "sha256": "629F1B89C50E036AA88534D169B8D4CC1B0341C324F1C183438B9BE77BA84589",
+      "size": 2577362
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconEtchingTools.png",
+      "sha256": "61C097BF27282F0EBF323D68DF853351E9F511FA8ACE45D39EE014BCEBCFC13A",
+      "size": 2288079
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconFermenter.png",
+      "sha256": "677FB96C6A771BCE3568A377AB2A0C1C176D08EC5775F0974F33EB4E90444E21",
+      "size": 1828781
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconGrainMill.png",
+      "sha256": "88AF9EE031FD9E73045E8E385ECD4EF3A657E48A9352CFEB2888DBA5E8BD5848",
+      "size": 2395024
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconMortar.png",
+      "sha256": "64927FC7F1DDE50978D74305551671A0AFCCA089075B14CFE529BF0D9137F058",
+      "size": 2499439
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconOreSieve.png",
+      "sha256": "1D828385E5551942D82FC2E650CDDA3D1B5E91ECF88EA18F259F44D415AF1701",
+      "size": 2448396
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconPrecisionJig.png",
+      "sha256": "A374464AC1912C118E29FE595478A3977273D65086F3091D5B90EE583D695C37",
+      "size": 2348130
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconPreservingCrock.png",
+      "sha256": "7A3F644476991B99D1183F32C93E2B12D9FA4AF660D2B0E463A5E70E7AB95B5B",
+      "size": 2315892
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconSeasoningRack.png",
+      "sha256": "C531B79C3653E1C618009E1AF4B8AD5B1177C039BA5D7DABFBD77749B33C68EF",
+      "size": 2550846
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconSeedPress.png",
+      "sha256": "4EA81BB2C71AD8D6633B6E8EA12B3564A7AAA606103CCB59F90EC1527E1B6354",
+      "size": 2065717
+    },
+    {
+      "path": "Mods/ZZZZZZZZZZZZZZZZZZZDelveStationIcons/UIAtlases/ItemIconAtlas/delveAddonIconStoneCutter.png",
+      "sha256": "DE38F292A3D7326AE4E9F2D88F545C296D58F8EB5C9157606368EC047C84505D",
+      "size": 2442960
+    },
+    {
+      "path": "Play-Delve.cmd",
+      "sha256": "F0F13DDF24EF1D394BE0B38DAFA09B8C95B7269099B67980C9D1CC15B108820C",
+      "size": 113
+    },
+    {
+      "path": "Play-Delve.ps1",
+      "sha256": "2AC7F3E6D4C2D7769C0351CC894B93E8C545B7BA7DA4DB29EF37AAAD2714AC46",
+      "size": 7225
+    },
+    {
+      "path": "START-HERE.txt",
+      "sha256": "2A096EDBB7C3467756164B8EF850E0CD81FA33C2BCA1BCF721F40CC345C2FAC6",
+      "size": 3876
+    },
+    {
+      "path": "Verify-Package.ps1",
+      "sha256": "7F50D810517BEB3AF4282FB012C65E1D2A2A661A5A13886D9836356409CF0513",
+      "size": 1455
+    },
+    {
+      "path": "Worlds/Allium-v0.10/biomes.png",
+      "sha256": "F63C0F228574D34C89C593F9227010BEB886E6318AEB6DF3E4883099688150FE",
+      "size": 225843
+    },
+    {
+      "path": "Worlds/Allium-v0.10/dtm.raw",
+      "sha256": "18BCA79EBC4805852E5937D3A084B8739C955FB88F74908D39F87DABEC91E75D",
+      "size": 134217728
+    },
+    {
+      "path": "Worlds/Allium-v0.10/main.ttw",
+      "sha256": "3B18537C011313F5A2356CFD13072AB58ED6015A54ADAD4D213E06E7321BFB64",
+      "size": 264
+    },
+    {
+      "path": "Worlds/Allium-v0.10/map_info.xml",
+      "sha256": "8B5280DABAACB4649FA576E97994AC6968D2519426DF96B25CE5234D075CBB9D",
+      "size": 488
+    },
+    {
+      "path": "Worlds/Allium-v0.10/poi-elevation.json",
+      "sha256": "9BFDFF317EE1C35CD05DF3337276D616942E0C8A66046F9019D54E14D42EBFB2",
+      "size": 103068
+    },
+    {
+      "path": "Worlds/Allium-v0.10/prefabs.xml",
+      "sha256": "34D0B032680DA65460E0D650180F832A93A1A858F3537FDAC8206D03B0561B18",
+      "size": 107902
+    },
+    {
+      "path": "Worlds/Allium-v0.10/radiation.png",
+      "sha256": "C845831B15EE49A9A84A34735C50ECB0A5D2442B0E77B94E349DED16FB70A8EA",
+      "size": 1895
+    },
+    {
+      "path": "Worlds/Allium-v0.10/spawnpoints.xml",
+      "sha256": "447D8699B54F8DEAD45FF0036423F108C99936E3BF73DE97A48AF2393DE5A67F",
+      "size": 317
+    },
+    {
+      "path": "Worlds/Allium-v0.10/splat1.png",
+      "sha256": "8716326E6C80774FCE73F0C21EB300FDF342DB60915B54A73E4914C121734CDB",
+      "size": 260628
+    },
+    {
+      "path": "Worlds/Allium-v0.10/splat2.png",
+      "sha256": "8716326E6C80774FCE73F0C21EB300FDF342DB60915B54A73E4914C121734CDB",
+      "size": 260628
+    },
+    {
+      "path": "Worlds/Allium-v0.10/splat3.png",
+      "sha256": "828CB999937CAAF00CF883CFAE48886A191198EFB594FD82715401DD58D436B7",
+      "size": 440319
+    },
+    {
+      "path": "Worlds/Allium-v0.10/splat4.png",
+      "sha256": "8F4F3606AC8C21445E1E15F62899B93DACDCC2E7005CE84F44746ED745D67808",
+      "size": 360342
+    },
+    {
+      "path": "Worlds/Allium-v0.10/water_info.xml",
+      "sha256": "29726CE19E3C7E4DEBD1ECD6CFCE1CAA42AC008073B504C41B9450911D8E89FB",
+      "size": 56
+    }
+  ]
+}

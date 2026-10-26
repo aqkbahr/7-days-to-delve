@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/entity_classes">
+    <color name="delveCorruptedWalkerColor" value=".48,.62,.35,0" />
+    <color name="delveImpColor" value=".85,.36,.22,.08" />
+    <color name="delvePossessedSoldierColor" value=".42,.5,.38,0" />
+    <color name="delveDemonSpawnColor" value=".72,.28,.2,.06" />
+    <color name="delveHellhoundColor" value=".8,.31,.16,.1" />
+    <color name="delveWarpedBruteColor" value=".46,.35,.55,0" />
+    <color name="delveAshboundWardenColor" value=".95,.45,.12,.18" />
+    <color name="delveThornbackBoarColor" value=".45,.6,.27,0" />
+    <entity_class name="delveThornbackBoar" extends="animalBoar">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1.12" />
+      <property name="ExperienceGain" value="300" />
+      <property name="DelveTint" value=".45,.6,.27,0" />
+      <property name="MoveSpeedAggro" value=".8,1" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveThornbackBoarAttack" />
+      <drop event="Harvest" name="delveThornhide" count="2" />
+      <property name="IsEnemyEntity" value="true" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="260" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="20" />
+      </effect_group>
+    </entity_class>
+    <color name="delveGloomcatColor" value=".24,.22,.32,0" />
+    <entity_class name="delveGloomcat" extends="animalMountainLion">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="0.9" />
+      <property name="ExperienceGain" value="275" />
+      <property name="DelveTint" value=".24,.22,.32,0" />
+      <property name="MoveSpeedAggro" value="1.2,1.45" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveGloomcatAttack" />
+      <drop event="Harvest" name="delveGloomPelt" count="1" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="120" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+      </effect_group>
+    </entity_class>
+    <color name="delveCrystalStagColor" value=".38,.82,1,.25" />
+    <entity_class name="delveCrystalStag" extends="animalStag">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1.08" />
+      <property name="ExperienceGain" value="250" />
+      <property name="DelveTint" value=".38,.82,1,.25" />
+      <property name="MoveSpeedAggro" value="1.6,1.8" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveCrystalStagAttack" />
+      <drop event="Harvest" name="delveForestCrystal" count="2" />
+      <property name="MoveSpeedPanic" value="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="160" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveCorruptedWalker']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveCorruptedWalker" extends="zombieBoe">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="0.95" />
+      <property name="ExperienceGain" value="200" />
+      <property name="MatColor" value="delveCorruptedWalkerColor" />
+      <property name="MoveSpeedAggro" value=".65,.95" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveCorruptedWalkerAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="110" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveImp']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveImp" extends="zombieSpider">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="0.75" />
+      <property name="ExperienceGain" value="175" />
+      <property name="MatColor" value="delveImpColor" />
+      <property name="MoveSpeedAggro" value="1.1,1.3" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveImpAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="1" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="70" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delvePossessedSoldier']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delvePossessedSoldier" extends="zombieSoldier">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1" />
+      <property name="ExperienceGain" value="300" />
+      <property name="MatColor" value="delvePossessedSoldierColor" />
+      <property name="MoveSpeedAggro" value=".55,.8" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delvePossessedSoldierAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="170" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="30" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveDemonSpawn']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveDemonSpawn" extends="zombieJoe">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1" />
+      <property name="ExperienceGain" value="250" />
+      <property name="MatColor" value="delveDemonSpawnColor" />
+      <property name="MoveSpeedAggro" value=".8,1.05" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveDemonSpawnAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="140" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="5" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveHellhound']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveHellhound" extends="animalZombieDog">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="0.9" />
+      <property name="ExperienceGain" value="225" />
+      <property name="DelveTint" value=".8,.31,.16,.1" />
+      <property name="MoveSpeedAggro" value="1.35,1.5" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveHellhoundAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="110" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="0" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveWarpedBrute']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveWarpedBrute" extends="zombieFatHawaiian">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1.12" />
+      <property name="ExperienceGain" value="400" />
+      <property name="MatColor" value="delveWarpedBruteColor" />
+      <property name="MoveSpeedAggro" value=".5,.65" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveWarpedBruteAttack" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="300" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="10" />
+      </effect_group>
+    </entity_class>
+  </append>
+  <remove xpath="/entity_classes/entity_class[@name='delveAshboundWarden']" />
+  <append xpath="/entity_classes">
+    <entity_class name="delveAshboundWarden" extends="zombieBiker">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="SizeScale" value="1.15" />
+      <property name="ExperienceGain" value="1500" />
+      <property name="MatColor" value="delveAshboundWardenColor" />
+      <property name="MoveSpeedAggro" value=".85,1.05" />
+      <property name="TimeStayAfterDeath" value="300" />
+      <property name="HandItem" value="delveAshboundWardenAttack" />
+      <property name="LootDropProb" value="1" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <drop event="Harvest" name="delveEmberSalts" count="12" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="900" />
+        <passive_effect name="PhysicalDamageResist" operation="base_set" value="15" />
+      </effect_group>
+    </entity_class>
+  </append>
+</configs>

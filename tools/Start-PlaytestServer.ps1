@@ -1,4 +1,4 @@
-param([string]$ProfileName='LivingBorder')
+param([string]$ProfileName='LivingBorder',[switch]$Graphics)
 $ErrorActionPreference='Stop'
 if ($ProfileName -notmatch '^[A-Za-z0-9_-]+$') { throw 'Invalid profile name.' }
 $root=Split-Path $PSScriptRoot -Parent
@@ -8,8 +8,13 @@ $exe=Join-Path $profile.GamePath '7DaysToDie.exe'
 $config=Join-Path $profilePath 'serverconfig.xml'
 $log=Join-Path $profilePath 'server.log'
 $arguments=@('-quit','-batchmode','-nographics','-noeac',('-UserDataFolder="'+$profilePath+'"'),('-configfile="'+$config+'"'),'-logfile',('"'+$log+'"'),'-dedicated')
+if($Graphics){$arguments=@($arguments|Where-Object {$_ -ne '-nographics'})}
 $existing=Get-Content (Join-Path $profilePath 'server.pid') -ErrorAction SilentlyContinue
-if ($existing -and (Get-Process -Id $existing -ErrorAction SilentlyContinue)) { throw 'The recorded server process is still running.' }
+if ($existing) {
+    $recordedProcess=Get-Process -Id $existing -ErrorAction SilentlyContinue
+    # Windows can reuse a departed server PID for an unrelated application.
+    if ($recordedProcess -and $recordedProcess.ProcessName -eq '7DaysToDie') { throw 'The recorded server process is still running.' }
+}
 $env:SteamAppId='251570'; $env:SteamGameId='251570'
 $process=Start-Process -FilePath $exe -ArgumentList $arguments -WorkingDirectory $profile.GamePath -WindowStyle Hidden -PassThru
 $process.Id | Set-Content (Join-Path $profilePath 'server.pid')

@@ -1,0 +1,408 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedCorn3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedPotato3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedPumpkin3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedCotton3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedCotton3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedCotton3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedChrysanthemum3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedGoldenrod3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedDelveBramble3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedDelveThyme3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[7]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[8]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='pine_forest']//decorations)[9]">
+    <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedCoffee3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedHop3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[1]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[2]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[3]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[4]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[5]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='burnt_forest']//decorations)[6]">
+    <decoration type="block" blockname="plantedMushroom3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[1]">
+    <decoration type="block" blockname="plantedAloe3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[2]">
+    <decoration type="block" blockname="plantedAloe3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[6]">
+    <decoration type="block" blockname="plantedAloe3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[1]">
+    <decoration type="block" blockname="plantedYucca3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[2]">
+    <decoration type="block" blockname="plantedYucca3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='desert']//decorations)[6]">
+    <decoration type="block" blockname="plantedYucca3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[2]">
+    <decoration type="block" blockname="plantedSnowberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[3]">
+    <decoration type="block" blockname="plantedSnowberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[5]">
+    <decoration type="block" blockname="plantedSnowberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[6]">
+    <decoration type="block" blockname="plantedSnowberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[2]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[3]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[5]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='snow']//decorations)[6]">
+    <decoration type="block" blockname="plantedBlueberry3Harvest" prob="0.002" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[1]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[2]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[3]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[4]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[5]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[6]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[7]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+  <append xpath="(/worldgeneration/biomes/biome[@name='wasteland']//decorations)[8]">
+    <decoration type="block" blockname="plantedGraceCorn3Harvest" prob="0.0004" rotatemax="3" />
+  </append>
+</configs>

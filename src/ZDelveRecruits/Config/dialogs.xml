@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/dialogs/dialog[@id='delveWayrest']/statement[@id='start']">
+    <response_entry id="wayrestRecruitment" />
+  </append>
+  <append xpath="/dialogs/dialog[@id='delveWayrest']">
+    <response id="wayrestRecruitment" text="delveAskRecruits" nextstatementid="wayrestRecruitment" />
+    <statement id="wayrestRecruitment" text="delveRecruitWelcome">
+      <response_entry id="wayrestOpenRoster" />
+      <response_entry id="wayrestResurrection" />
+      <response_entry id="nevermind" />
+    </statement>
+    <response id="wayrestResurrection" text="delveAskResurrection" nextstatementid="wayrestResurrection" />
+    <statement id="wayrestResurrection" text="delveResurrectionWelcome">
+      <response_entry id="wayrestOpenRoster" />
+      <response_entry id="nevermind" />
+    </statement>
+    <response id="wayrestOpenRoster" text="delveOpenRoster">
+      <action type="Delve.DialogActionDelveRecruits, Delve" id="open" />
+    </response>
+  </append>
+</configs>

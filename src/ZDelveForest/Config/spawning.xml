@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']/@entitygroup">delveForest_ZombiesAll</set>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesNight']/@entitygroup">delveForest_ZombiesNight</set>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesForestDowntown']/@entitygroup">delveForest_ZombiesForestDowntown</set>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesForestDowntownNight']/@entitygroup">delveForest_ZombiesForestDowntownNight</set>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='WildGameForestNight']/@entitygroup">delveForest_WildGameForestNight</set>
+  <set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='EnemyAnimalsForest']/@entitygroup">delveForest_EnemyAnimalsForest</set>
+  <set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForestNight']/@entitygroup">delveArborNight</set>
+</configs>

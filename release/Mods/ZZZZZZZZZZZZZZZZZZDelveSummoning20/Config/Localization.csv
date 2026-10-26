@@ -1,0 +1,21 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveTreeSummoning,Delve,,,,Summoning
+delveSummoningFundamentalsRequired,Delve,,,,Requires Binding Discipline and Primal Bond.
+delveForgedSummoningRod,Delve,,,,Forged Summoning Rod
+delveForgedSummoningRodDesc,Delve,,,,"Carpentry 20, upgraded Carpenter Bench. Uses existing Boar Summoning Runes. New boars have 25% more health and damage than the starter rod at equal rank and quality. Base duration 60 seconds; Enduring Pact extends it to 75. One summon per caster. Base durability 400; repair with Focus Repair Supplies."
+delveSummoningRodDesc,Delve,,,,"Field Crafting Mat starter rod. Summons one allied boar for 60 seconds using a Boar Summoning Rune. Summoning practice raises companion health and damage. Rank10 fundamentals and rank20 talents improve reloading, health, damage, toughness and duration. Rod quality improves health and damage. Recasting replaces the previous summon; repair with Focus Repair Supplies."
+delvePerkSummoningBindingDiscipline,Delve,,,,Binding Discipline
+delvePerkSummoningBindingDisciplineDesc,Delve,,,,+10% summoning rod reload speed. Costs one skill point. Companion bonuses are snapshotted on cast; recast after learning or respeccing.
+delvePerkSummoningBindingDisciplineRank,Delve,,,,Requires Summoning 10.
+delvePerkSummoningPrimalBond,Delve,,,,Primal Bond
+delvePerkSummoningPrimalBondDesc,Delve,,,,New summons have 15% more maximum health. Costs one skill point. Companion bonuses are snapshotted on cast; recast after learning or respeccing.
+delvePerkSummoningPrimalBondRank,Delve,,,,Requires Summoning 10.
+delvePerkSummoningFierceCompanion,Delve,,,,Fierce Companion
+delvePerkSummoningFierceCompanionDesc,Delve,,,,New summons deal 20% more damage. Costs one skill point. Companion bonuses are snapshotted on cast; recast after learning or respeccing.
+delvePerkSummoningFierceCompanionRank,Delve,,,,Requires Summoning 20.
+delvePerkSummoningStalwartCompanion,Delve,,,,Stalwart Companion
+delvePerkSummoningStalwartCompanionDesc,Delve,,,,New summons take 15% less incoming damage from hostile creatures. Costs one skill point. Companion bonuses are snapshotted on cast; recast after learning or respeccing.
+delvePerkSummoningStalwartCompanionRank,Delve,,,,Requires Summoning 20.
+delvePerkSummoningEnduringPact,Delve,,,,Enduring Pact
+delvePerkSummoningEnduringPactDesc,Delve,,,,New summons last 75 seconds instead of 60. One summon per caster remains the limit. Costs one skill point. Companion bonuses are snapshotted on cast; recast after learning or respeccing.
+delvePerkSummoningEnduringPactRank,Delve,,,,Requires Summoning 20.

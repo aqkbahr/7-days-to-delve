@@ -9,7 +9,7 @@ namespace Delve
     public static class CharacterProgression
     {
         public static readonly string[] Attributes = { "Strength", "Dexterity", "Constitution", "Intelligence", "Wisdom", "Charisma" };
-        public static bool IsAttribute(string name) { return name != null && name.StartsWith("delveAtt", StringComparison.Ordinal); }
+        public static bool IsAttribute(string name) { return name != null && name.StartsWith("delveAtt", StringComparison.OrdinalIgnoreCase); }
         public static bool IsLocal(EntityAlive p) { return p is EntityPlayerLocal && !p.isEntityRemote; }
         public static float Get(EntityAlive p, string key) { return p.Buffs.GetCustomVar(key); }
         public static void Set(EntityAlive p, string key, float value)
@@ -65,8 +65,9 @@ namespace Delve
                 foreach (string skill in ProficiencyRules.Skills) RefreshSkill(p,skill);
                 Set(p,"delveProgressionVersion",2);
             }
+            RefreshSkill(p,"Summoning");
             ReconcileTalents(p);
-            if (p.QuestJournal != null && p.QuestJournal.FindCompletedQuest("delveEmbers", -1)) Set(p,"delveTutorialAward",1);
+            if (p.QuestJournal != null && (p.QuestJournal.FindCompletedQuest("delveEmbers", -1) || p.QuestJournal.FindCompletedQuest("delveembers", -1))) Set(p,"delveTutorialAward",1);
 
             Set(p,"delveAttributePoints",UnspentAttributes(p));
             if (!p.Buffs.HasBuff("delveAdvancement")) p.Buffs.AddBuff("delveAdvancement");
@@ -184,7 +185,7 @@ namespace Delve
     {
         private static void Postfix(QuestJournal __instance, Quest __0)
         {
-            if (__0 == null || __0.ID != "delveEmbers" || !CharacterProgression.IsLocal(__instance.OwnerPlayer)) return;
+            if (__0 == null || !String.Equals(__0.ID,"delveEmbers",StringComparison.OrdinalIgnoreCase) || !CharacterProgression.IsLocal(__instance.OwnerPlayer)) return;
             CharacterProgression.Set(__instance.OwnerPlayer,"delveTutorialAward",1);
             CharacterProgression.Initialize(__instance.OwnerPlayer);
         }

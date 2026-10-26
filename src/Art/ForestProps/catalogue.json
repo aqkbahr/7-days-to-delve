@@ -1,0 +1,2445 @@
+{
+  "assets": [
+    {
+      "id": "delveFieldHearth",
+      "kind": "station",
+      "family": "hearth",
+      "name": "Field Hearth",
+      "triangles": {
+        "Prop_LOD0": 2080,
+        "Prop_LOD1": 1144,
+        "Prop_LOD2": 518
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForgeAnvil",
+      "kind": "station",
+      "family": "forge",
+      "name": "Forest Forge",
+      "triangles": {
+        "Prop_LOD0": 868,
+        "Prop_LOD1": 476,
+        "Prop_LOD2": 214
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Work": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveSawKit",
+      "kind": "station",
+      "family": "saw",
+      "name": "Saw and Seasoning Bench",
+      "triangles": {
+        "Prop_LOD0": 1004,
+        "Prop_LOD1": 552,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Work": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveOutfittingKit",
+      "kind": "station",
+      "family": "outfitter",
+      "name": "Outfitting Bench",
+      "triangles": {
+        "Prop_LOD0": 940,
+        "Prop_LOD1": 516,
+        "Prop_LOD2": 232
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveMortarKit",
+      "kind": "station",
+      "family": "apothecary",
+      "name": "Apothecary Bench",
+      "triangles": {
+        "Prop_LOD0": 10180,
+        "Prop_LOD1": 5588,
+        "Prop_LOD2": 2544
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveSortingTable",
+      "kind": "station",
+      "family": "sorter",
+      "name": "Ore Sorting Table",
+      "triangles": {
+        "Prop_LOD0": 1976,
+        "Prop_LOD1": 1086,
+        "Prop_LOD2": 482
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveInscriptionKit",
+      "kind": "station",
+      "family": "inscription",
+      "name": "Rune Inscription Bench",
+      "triangles": {
+        "Prop_LOD0": 1428,
+        "Prop_LOD1": 784,
+        "Prop_LOD2": 348
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmDispatch",
+      "kind": "station",
+      "family": "desk",
+      "name": "Settlement Supply Desk",
+      "triangles": {
+        "Prop_LOD0": 1580,
+        "Prop_LOD1": 868,
+        "Prop_LOD2": 392
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveCompostBin",
+      "kind": "station",
+      "family": "composter",
+      "name": "Compost Bin",
+      "triangles": {
+        "Prop_LOD0": 1116,
+        "Prop_LOD1": 612,
+        "Prop_LOD2": 276
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveDryingRack",
+      "kind": "station",
+      "family": "dryrack",
+      "name": "Herb Drying Rack",
+      "triangles": {
+        "Prop_LOD0": 11880,
+        "Prop_LOD1": 6534,
+        "Prop_LOD2": 2968
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveGrainMill",
+      "kind": "station",
+      "family": "mill",
+      "name": "Hand Grain Mill",
+      "triangles": {
+        "Prop_LOD0": 2316,
+        "Prop_LOD1": 1272,
+        "Prop_LOD2": 578
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Work": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delvePreservingCrock",
+      "kind": "station",
+      "family": "crock",
+      "name": "Preserving Crock",
+      "triangles": {
+        "Prop_LOD0": 868,
+        "Prop_LOD1": 476,
+        "Prop_LOD2": 214
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFermentingBarrel",
+      "kind": "station",
+      "family": "barrel",
+      "name": "Fermentation Barrel",
+      "triangles": {
+        "Prop_LOD0": 5184,
+        "Prop_LOD1": 2838,
+        "Prop_LOD2": 1290
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        2,
+        2,
+        1
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveRainCollector",
+      "kind": "station",
+      "family": "collector",
+      "name": "Forest Rain Collector",
+      "triangles": {
+        "Prop_LOD0": 8004,
+        "Prop_LOD1": 4402,
+        "Prop_LOD2": 1980
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Empty": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Fill": {
+          "seconds": 2,
+          "loop": false
+        },
+        "Full": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "native_footprint": [
+        3,
+        3,
+        3
+      ],
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "plantedDelveBramble1",
+      "kind": "plant",
+      "family": "Bramble",
+      "stage": 1,
+      "visual_only": false,
+      "name": "Brambleberries Seeds",
+      "triangles": {
+        "Prop_LOD0": 360,
+        "Prop_LOD1": 136,
+        "Prop_LOD2": 39
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveBramble2",
+      "kind": "plant",
+      "family": "Bramble",
+      "stage": 2,
+      "visual_only": false,
+      "name": "Brambleberries (Growing)",
+      "triangles": {
+        "Prop_LOD0": 2976,
+        "Prop_LOD1": 1130,
+        "Prop_LOD2": 327
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveBramble3Harvest",
+      "kind": "plant",
+      "family": "Bramble",
+      "stage": 3,
+      "visual_only": false,
+      "name": "Brambleberries (Ripe)",
+      "triangles": {
+        "Prop_LOD0": 9840,
+        "Prop_LOD1": 3739,
+        "Prop_LOD2": 1081
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveBrambleHarvestedVisual",
+      "kind": "plant",
+      "family": "Bramble",
+      "stage": 4,
+      "visual_only": true,
+      "name": "plantedDelveBrambleHarvestedVisual",
+      "triangles": {
+        "Prop_LOD0": 2976,
+        "Prop_LOD1": 1130,
+        "Prop_LOD2": 327
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveBramble1_Seed",
+      "kind": "item",
+      "family": "seed",
+      "plant": "Bramble",
+      "visual_only": true,
+      "name": "plantedDelveBramble1_Seed",
+      "triangles": {
+        "Prop_LOD0": 433,
+        "Prop_LOD1": 164,
+        "Prop_LOD2": 47
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveYarrow1",
+      "kind": "plant",
+      "family": "Yarrow",
+      "stage": 1,
+      "visual_only": false,
+      "name": "Yarrow Seeds",
+      "triangles": {
+        "Prop_LOD0": 1264,
+        "Prop_LOD1": 480,
+        "Prop_LOD2": 139
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveYarrow2",
+      "kind": "plant",
+      "family": "Yarrow",
+      "stage": 2,
+      "visual_only": false,
+      "name": "Yarrow (Growing)",
+      "triangles": {
+        "Prop_LOD0": 4328,
+        "Prop_LOD1": 1643,
+        "Prop_LOD2": 476
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveYarrow3Harvest",
+      "kind": "plant",
+      "family": "Yarrow",
+      "stage": 3,
+      "visual_only": false,
+      "name": "Yarrow (Ripe)",
+      "triangles": {
+        "Prop_LOD0": 18360,
+        "Prop_LOD1": 6976,
+        "Prop_LOD2": 2574
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveYarrowHarvestedVisual",
+      "kind": "plant",
+      "family": "Yarrow",
+      "stage": 4,
+      "visual_only": true,
+      "name": "plantedDelveYarrowHarvestedVisual",
+      "triangles": {
+        "Prop_LOD0": 4328,
+        "Prop_LOD1": 1643,
+        "Prop_LOD2": 476
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveYarrow1_Seed",
+      "kind": "item",
+      "family": "seed",
+      "plant": "Yarrow",
+      "visual_only": true,
+      "name": "plantedDelveYarrow1_Seed",
+      "triangles": {
+        "Prop_LOD0": 1969,
+        "Prop_LOD1": 748,
+        "Prop_LOD2": 216
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveThyme1",
+      "kind": "plant",
+      "family": "Thyme",
+      "stage": 1,
+      "visual_only": false,
+      "name": "Wild Thyme Seeds",
+      "triangles": {
+        "Prop_LOD0": 732,
+        "Prop_LOD1": 277,
+        "Prop_LOD2": 80
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveThyme2",
+      "kind": "plant",
+      "family": "Thyme",
+      "stage": 2,
+      "visual_only": false,
+      "name": "Wild Thyme (Growing)",
+      "triangles": {
+        "Prop_LOD0": 3612,
+        "Prop_LOD1": 1372,
+        "Prop_LOD2": 397
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveThyme3Harvest",
+      "kind": "plant",
+      "family": "Thyme",
+      "stage": 3,
+      "visual_only": false,
+      "name": "Wild Thyme (Ripe)",
+      "triangles": {
+        "Prop_LOD0": 8316,
+        "Prop_LOD1": 3159,
+        "Prop_LOD2": 914
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveThymeHarvestedVisual",
+      "kind": "plant",
+      "family": "Thyme",
+      "stage": 4,
+      "visual_only": true,
+      "name": "plantedDelveThymeHarvestedVisual",
+      "triangles": {
+        "Prop_LOD0": 3612,
+        "Prop_LOD1": 1371,
+        "Prop_LOD2": 397
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveThyme1_Seed",
+      "kind": "item",
+      "family": "seed",
+      "plant": "Thyme",
+      "visual_only": true,
+      "name": "plantedDelveThyme1_Seed",
+      "triangles": {
+        "Prop_LOD0": 1049,
+        "Prop_LOD1": 397,
+        "Prop_LOD2": 115
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveMooncap1",
+      "kind": "plant",
+      "family": "Mooncap",
+      "stage": 1,
+      "visual_only": false,
+      "name": "Mooncaps Seeds",
+      "triangles": {
+        "Prop_LOD0": 1800,
+        "Prop_LOD1": 684,
+        "Prop_LOD2": 197
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveMooncap2",
+      "kind": "plant",
+      "family": "Mooncap",
+      "stage": 2,
+      "visual_only": false,
+      "name": "Mooncaps (Growing)",
+      "triangles": {
+        "Prop_LOD0": 3600,
+        "Prop_LOD1": 1368,
+        "Prop_LOD2": 396
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveMooncap3Harvest",
+      "kind": "plant",
+      "family": "Mooncap",
+      "stage": 3,
+      "visual_only": false,
+      "name": "Mooncaps (Ripe)",
+      "triangles": {
+        "Prop_LOD0": 5400,
+        "Prop_LOD1": 2052,
+        "Prop_LOD2": 594
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveMooncapHarvestedVisual",
+      "kind": "plant",
+      "family": "Mooncap",
+      "stage": 4,
+      "visual_only": true,
+      "name": "plantedDelveMooncapHarvestedVisual",
+      "triangles": {
+        "Prop_LOD0": 2700,
+        "Prop_LOD1": 1025,
+        "Prop_LOD2": 296
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Sway": {
+          "seconds": 3,
+          "loop": true
+        },
+        "HarvestReact": {
+          "seconds": 0.5,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "plantedDelveMooncap1_Seed",
+      "kind": "item",
+      "family": "seed",
+      "plant": "Mooncap",
+      "visual_only": true,
+      "name": "plantedDelveMooncap1_Seed",
+      "triangles": {
+        "Prop_LOD0": 2773,
+        "Prop_LOD1": 1053,
+        "Prop_LOD2": 304
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "delveEmberSalts",
+      "kind": "item",
+      "family": "delveEmberSalts",
+      "name": "Ember Salts",
+      "triangles": {
+        "Prop_LOD0": 956,
+        "Prop_LOD1": 524,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHealingPoultice",
+      "kind": "item",
+      "family": "delveHealingPoultice",
+      "name": "Greenleaf Poultice",
+      "triangles": {
+        "Prop_LOD0": 280,
+        "Prop_LOD1": 154,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveWayfarerTea",
+      "kind": "item",
+      "family": "delveWayfarerTea",
+      "name": "Wayfarer Tea",
+      "triangles": {
+        "Prop_LOD0": 664,
+        "Prop_LOD1": 364,
+        "Prop_LOD2": 158
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveWardDraught",
+      "kind": "item",
+      "family": "delveWardDraught",
+      "name": "Ember Ward Draught",
+      "triangles": {
+        "Prop_LOD0": 676,
+        "Prop_LOD1": 370,
+        "Prop_LOD2": 166
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageHuman",
+      "kind": "item",
+      "family": "delveHeritageHuman",
+      "name": "Human Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 488,
+        "Prop_LOD1": 268,
+        "Prop_LOD2": 122
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageElf",
+      "kind": "item",
+      "family": "delveHeritageElf",
+      "name": "Elf Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 524,
+        "Prop_LOD1": 288,
+        "Prop_LOD2": 130
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageDwarf",
+      "kind": "item",
+      "family": "delveHeritageDwarf",
+      "name": "Dwarf Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 488,
+        "Prop_LOD1": 268,
+        "Prop_LOD2": 122
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageHalfling",
+      "kind": "item",
+      "family": "delveHeritageHalfling",
+      "name": "Halfling Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 524,
+        "Prop_LOD1": 288,
+        "Prop_LOD2": 130
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageOrc",
+      "kind": "item",
+      "family": "delveHeritageOrc",
+      "name": "Orc Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 452,
+        "Prop_LOD1": 248,
+        "Prop_LOD2": 112
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHeritageTiefling",
+      "kind": "item",
+      "family": "delveHeritageTiefling",
+      "name": "Tiefling Heritage Seal",
+      "triangles": {
+        "Prop_LOD0": 524,
+        "Prop_LOD1": 288,
+        "Prop_LOD2": 128
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFieldGuide",
+      "kind": "item",
+      "family": "delveFieldGuide",
+      "name": "Field Guide: The Living Border",
+      "triangles": {
+        "Prop_LOD0": 284,
+        "Prop_LOD1": 156,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveBrambleberries",
+      "kind": "item",
+      "family": "foodDelveBrambleberries",
+      "name": "Brambleberries",
+      "triangles": {
+        "Prop_LOD0": 4108,
+        "Prop_LOD1": 1561,
+        "Prop_LOD2": 451
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "resourceDelveYarrow",
+      "kind": "item",
+      "family": "resourceDelveYarrow",
+      "name": "Yarrow",
+      "triangles": {
+        "Prop_LOD0": 8520,
+        "Prop_LOD1": 3237,
+        "Prop_LOD2": 1293
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "resourceDelveThyme",
+      "kind": "item",
+      "family": "resourceDelveThyme",
+      "name": "Wild Thyme",
+      "triangles": {
+        "Prop_LOD0": 3264,
+        "Prop_LOD1": 1239,
+        "Prop_LOD2": 359
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "resourceDelveMooncap",
+      "kind": "item",
+      "family": "resourceDelveMooncap",
+      "name": "Mooncaps",
+      "triangles": {
+        "Prop_LOD0": 2700,
+        "Prop_LOD1": 1026,
+        "Prop_LOD2": 297
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "foodDelveCookedBerries",
+      "kind": "item",
+      "family": "foodDelveCookedBerries",
+      "name": "Cooked Berries",
+      "triangles": {
+        "Prop_LOD0": 856,
+        "Prop_LOD1": 470,
+        "Prop_LOD2": 205
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveMushroomSkewers",
+      "kind": "item",
+      "family": "foodDelveMushroomSkewers",
+      "name": "Mushroom Skewers",
+      "triangles": {
+        "Prop_LOD0": 1596,
+        "Prop_LOD1": 876,
+        "Prop_LOD2": 398
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveCornPorridge",
+      "kind": "item",
+      "family": "foodDelveCornPorridge",
+      "name": "Corn Porridge",
+      "triangles": {
+        "Prop_LOD0": 856,
+        "Prop_LOD1": 470,
+        "Prop_LOD2": 205
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveRoastedPumpkin",
+      "kind": "item",
+      "family": "foodDelveRoastedPumpkin",
+      "name": "Roasted Pumpkin",
+      "triangles": {
+        "Prop_LOD0": 434,
+        "Prop_LOD1": 238,
+        "Prop_LOD2": 106
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveSeasonedRoast",
+      "kind": "item",
+      "family": "foodDelveSeasonedRoast",
+      "name": "Seasoned Roast",
+      "triangles": {
+        "Prop_LOD0": 648,
+        "Prop_LOD1": 356,
+        "Prop_LOD2": 162
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "drinkDelveWoodlandBroth",
+      "kind": "item",
+      "family": "drinkDelveWoodlandBroth",
+      "name": "Woodland Broth",
+      "triangles": {
+        "Prop_LOD0": 664,
+        "Prop_LOD1": 364,
+        "Prop_LOD2": 158
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveBerryPorridge",
+      "kind": "item",
+      "family": "foodDelveBerryPorridge",
+      "name": "Berry Porridge",
+      "triangles": {
+        "Prop_LOD0": 856,
+        "Prop_LOD1": 470,
+        "Prop_LOD2": 205
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveHunterStew",
+      "kind": "item",
+      "family": "foodDelveHunterStew",
+      "name": "Hunter's Stew",
+      "triangles": {
+        "Prop_LOD0": 856,
+        "Prop_LOD1": 470,
+        "Prop_LOD2": 205
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveHoneyberryCakes",
+      "kind": "item",
+      "family": "foodDelveHoneyberryCakes",
+      "name": "Honeyberry Cakes",
+      "triangles": {
+        "Prop_LOD0": 924,
+        "Prop_LOD1": 508,
+        "Prop_LOD2": 226
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "drinkDelveGoldenrodTea",
+      "kind": "item",
+      "family": "drinkDelveGoldenrodTea",
+      "name": "Border Goldenrod Tea",
+      "triangles": {
+        "Prop_LOD0": 664,
+        "Prop_LOD1": 364,
+        "Prop_LOD2": 158
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "medicalDelveFieldPoultice",
+      "kind": "item",
+      "family": "medicalDelveFieldPoultice",
+      "name": "Field Poultice",
+      "triangles": {
+        "Prop_LOD0": 280,
+        "Prop_LOD1": 154,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "medicalDelveHerbalDressing",
+      "kind": "item",
+      "family": "medicalDelveHerbalDressing",
+      "name": "Herbal Dressing",
+      "triangles": {
+        "Prop_LOD0": 280,
+        "Prop_LOD1": 154,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveLesserHealingPotion",
+      "kind": "item",
+      "family": "delveLesserHealingPotion",
+      "name": "Lesser Healing Potion",
+      "triangles": {
+        "Prop_LOD0": 712,
+        "Prop_LOD1": 390,
+        "Prop_LOD2": 176
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveLesserStaminaPotion",
+      "kind": "item",
+      "family": "delveLesserStaminaPotion",
+      "name": "Lesser Stamina Potion",
+      "triangles": {
+        "Prop_LOD0": 748,
+        "Prop_LOD1": 410,
+        "Prop_LOD2": 184
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveCompost",
+      "kind": "item",
+      "family": "delveCompost",
+      "name": "Mature Compost",
+      "triangles": {
+        "Prop_LOD0": 956,
+        "Prop_LOD1": 524,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveDriedThyme",
+      "kind": "item",
+      "family": "delveDriedThyme",
+      "name": "Dried Thyme",
+      "triangles": {
+        "Prop_LOD0": 2304,
+        "Prop_LOD1": 874,
+        "Prop_LOD2": 253
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "delveDriedYarrow",
+      "kind": "item",
+      "family": "delveDriedYarrow",
+      "name": "Dried Yarrow",
+      "triangles": {
+        "Prop_LOD0": 8520,
+        "Prop_LOD1": 3237,
+        "Prop_LOD2": 1293
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+      "art_revision": "BotanicalRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+    },
+    {
+      "id": "delveMilledGrain",
+      "kind": "item",
+      "family": "delveMilledGrain",
+      "name": "Milled Grain",
+      "triangles": {
+        "Prop_LOD0": 956,
+        "Prop_LOD1": 524,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHerbalSpirit",
+      "kind": "item",
+      "family": "delveHerbalSpirit",
+      "name": "Herbal Spirit",
+      "triangles": {
+        "Prop_LOD0": 676,
+        "Prop_LOD1": 370,
+        "Prop_LOD2": 166
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveTravelBread",
+      "kind": "item",
+      "family": "foodDelveTravelBread",
+      "name": "Herbed Travel Bread",
+      "triangles": {
+        "Prop_LOD0": 332,
+        "Prop_LOD1": 182,
+        "Prop_LOD2": 76
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveBerryPreserve",
+      "kind": "item",
+      "family": "foodDelveBerryPreserve",
+      "name": "Bramble Preserve",
+      "triangles": {
+        "Prop_LOD0": 648,
+        "Prop_LOD1": 356,
+        "Prop_LOD2": 160
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveTrailRation",
+      "kind": "item",
+      "family": "foodDelveTrailRation",
+      "name": "Harvest Trail Ration",
+      "triangles": {
+        "Prop_LOD0": 328,
+        "Prop_LOD1": 180,
+        "Prop_LOD2": 82
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "medicalDelveYarrowTincture",
+      "kind": "item",
+      "family": "medicalDelveYarrowTincture",
+      "name": "Yarrow Tincture",
+      "triangles": {
+        "Prop_LOD0": 676,
+        "Prop_LOD1": 370,
+        "Prop_LOD2": 166
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmNoticePantry",
+      "kind": "item",
+      "family": "delveFarmNoticePantry",
+      "name": "Supply Order: Wayrest Pantry",
+      "triangles": {
+        "Prop_LOD0": 244,
+        "Prop_LOD1": 134,
+        "Prop_LOD2": 60
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmParcelPantry",
+      "kind": "item",
+      "family": "delveFarmParcelPantry",
+      "name": "Sealed Supplies: Wayrest Pantry",
+      "triangles": {
+        "Prop_LOD0": 332,
+        "Prop_LOD1": 182,
+        "Prop_LOD2": 82
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmNoticeHerbs",
+      "kind": "item",
+      "family": "delveFarmNoticeHerbs",
+      "name": "Supply Order: Wayrest Infirmary: Dried Herbs",
+      "triangles": {
+        "Prop_LOD0": 280,
+        "Prop_LOD1": 154,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmParcelHerbs",
+      "kind": "item",
+      "family": "delveFarmParcelHerbs",
+      "name": "Sealed Supplies: Wayrest Infirmary: Dried Herbs",
+      "triangles": {
+        "Prop_LOD0": 368,
+        "Prop_LOD1": 202,
+        "Prop_LOD2": 92
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmNoticeBread",
+      "kind": "item",
+      "family": "delveFarmNoticeBread",
+      "name": "Supply Order: Wayrest Guard: Bread Supply",
+      "triangles": {
+        "Prop_LOD0": 244,
+        "Prop_LOD1": 134,
+        "Prop_LOD2": 60
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmParcelBread",
+      "kind": "item",
+      "family": "delveFarmParcelBread",
+      "name": "Sealed Supplies: Wayrest Guard: Bread Supply",
+      "triangles": {
+        "Prop_LOD0": 332,
+        "Prop_LOD1": 182,
+        "Prop_LOD2": 82
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmNoticeMedicine",
+      "kind": "item",
+      "family": "delveFarmNoticeMedicine",
+      "name": "Supply Order: Wayrest Infirmary: Tinctures",
+      "triangles": {
+        "Prop_LOD0": 280,
+        "Prop_LOD1": 154,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmParcelMedicine",
+      "kind": "item",
+      "family": "delveFarmParcelMedicine",
+      "name": "Sealed Supplies: Wayrest Infirmary: Tinctures",
+      "triangles": {
+        "Prop_LOD0": 368,
+        "Prop_LOD1": 202,
+        "Prop_LOD2": 92
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmNoticeRations",
+      "kind": "item",
+      "family": "delveFarmNoticeRations",
+      "name": "Supply Order: Wayrest Expedition: Rations",
+      "triangles": {
+        "Prop_LOD0": 208,
+        "Prop_LOD1": 114,
+        "Prop_LOD2": 52
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmParcelRations",
+      "kind": "item",
+      "family": "delveFarmParcelRations",
+      "name": "Sealed Supplies: Wayrest Expedition: Rations",
+      "triangles": {
+        "Prop_LOD0": 296,
+        "Prop_LOD1": 162,
+        "Prop_LOD2": 74
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFarmHandbook",
+      "kind": "item",
+      "family": "delveFarmHandbook",
+      "name": "Farming: First Harvest",
+      "triangles": {
+        "Prop_LOD0": 320,
+        "Prop_LOD1": 176,
+        "Prop_LOD2": 80
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveRoughHandle",
+      "kind": "item",
+      "family": "delveRoughHandle",
+      "name": "Rough Handle",
+      "triangles": {
+        "Prop_LOD0": 36,
+        "Prop_LOD1": 18,
+        "Prop_LOD2": 8
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveLeatherBinding",
+      "kind": "item",
+      "family": "delveLeatherBinding",
+      "name": "Leather Binding",
+      "triangles": {
+        "Prop_LOD0": 864,
+        "Prop_LOD1": 474,
+        "Prop_LOD2": 216
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveSeasonedTimber",
+      "kind": "item",
+      "family": "delveSeasonedTimber",
+      "name": "Seasoned Timber",
+      "triangles": {
+        "Prop_LOD0": 220,
+        "Prop_LOD1": 120,
+        "Prop_LOD2": 54
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveCuredLeather",
+      "kind": "item",
+      "family": "delveCuredLeather",
+      "name": "Cured Leather",
+      "triangles": {
+        "Prop_LOD0": 220,
+        "Prop_LOD1": 120,
+        "Prop_LOD2": 54
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveWovenCloth",
+      "kind": "item",
+      "family": "delveWovenCloth",
+      "name": "Woven Cloth",
+      "triangles": {
+        "Prop_LOD0": 220,
+        "Prop_LOD1": 120,
+        "Prop_LOD2": 54
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveIronFittings",
+      "kind": "item",
+      "family": "delveIronFittings",
+      "name": "Iron Fittings",
+      "triangles": {
+        "Prop_LOD0": 264,
+        "Prop_LOD1": 144,
+        "Prop_LOD2": 66
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveDressedStone",
+      "kind": "item",
+      "family": "delveDressedStone",
+      "name": "Dressed Stone",
+      "triangles": {
+        "Prop_LOD0": 132,
+        "Prop_LOD1": 72,
+        "Prop_LOD2": 32
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveIronConcentrate",
+      "kind": "item",
+      "family": "delveIronConcentrate",
+      "name": "Iron Concentrate",
+      "triangles": {
+        "Prop_LOD0": 956,
+        "Prop_LOD1": 524,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHerbalExtract",
+      "kind": "item",
+      "family": "delveHerbalExtract",
+      "name": "Herbal Extract",
+      "triangles": {
+        "Prop_LOD0": 676,
+        "Prop_LOD1": 370,
+        "Prop_LOD2": 166
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveRuneBlank",
+      "kind": "item",
+      "family": "delveRuneBlank",
+      "name": "Rune Blank",
+      "triangles": {
+        "Prop_LOD0": 132,
+        "Prop_LOD1": 72,
+        "Prop_LOD2": 27
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveCharcoal",
+      "kind": "item",
+      "family": "delveCharcoal",
+      "name": "Charcoal",
+      "triangles": {
+        "Prop_LOD0": 956,
+        "Prop_LOD1": 524,
+        "Prop_LOD2": 238
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveHideRepair",
+      "kind": "item",
+      "family": "delveHideRepair",
+      "name": "Hide Repair Supplies",
+      "triangles": {
+        "Prop_LOD0": 292,
+        "Prop_LOD1": 160,
+        "Prop_LOD2": 72
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveMetalRepair",
+      "kind": "item",
+      "family": "delveMetalRepair",
+      "name": "Metal Repair Supplies",
+      "triangles": {
+        "Prop_LOD0": 388,
+        "Prop_LOD1": 212,
+        "Prop_LOD2": 96
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveFocusRepair",
+      "kind": "item",
+      "family": "delveFocusRepair",
+      "name": "Focus Repair Supplies",
+      "triangles": {
+        "Prop_LOD0": 288,
+        "Prop_LOD1": 158,
+        "Prop_LOD2": 72
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveTrailRations",
+      "kind": "item",
+      "family": "foodDelveTrailRations",
+      "name": "Forest Trail Rations",
+      "triangles": {
+        "Prop_LOD0": 372,
+        "Prop_LOD1": 204,
+        "Prop_LOD2": 92
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveGathererPorridge",
+      "kind": "item",
+      "family": "foodDelveGathererPorridge",
+      "name": "Gatherer Porridge",
+      "triangles": {
+        "Prop_LOD0": 856,
+        "Prop_LOD1": 470,
+        "Prop_LOD2": 205
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "foodDelveIncursionSupper",
+      "kind": "item",
+      "family": "foodDelveIncursionSupper",
+      "name": "Incursion Supper",
+      "triangles": {
+        "Prop_LOD0": 888,
+        "Prop_LOD1": 488,
+        "Prop_LOD2": 222
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveProcessingGuide",
+      "kind": "item",
+      "family": "delveProcessingGuide",
+      "name": "Forest Processing Guide",
+      "triangles": {
+        "Prop_LOD0": 284,
+        "Prop_LOD1": 156,
+        "Prop_LOD2": 70
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForgedPickaxe",
+      "kind": "tool",
+      "family": "delveForgedPickaxe",
+      "name": "Border Pickaxe",
+      "triangles": {
+        "Prop_LOD0": 3048,
+        "Prop_LOD1": 1676,
+        "Prop_LOD2": 762
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Swing": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForgedAxe",
+      "kind": "tool",
+      "family": "delveForgedAxe",
+      "name": "Border Axe",
+      "triangles": {
+        "Prop_LOD0": 2968,
+        "Prop_LOD1": 1632,
+        "Prop_LOD2": 742
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Swing": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForgedShovel",
+      "kind": "tool",
+      "family": "delveForgedShovel",
+      "name": "Border Shovel",
+      "triangles": {
+        "Prop_LOD0": 2972,
+        "Prop_LOD1": 1634,
+        "Prop_LOD2": 742
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Swing": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForestReadinessGuide",
+      "kind": "item",
+      "family": "delveForestReadinessGuide",
+      "name": "Forest: First Horde Crafting Guide",
+      "triangles": {
+        "Prop_LOD0": 320,
+        "Prop_LOD1": 176,
+        "Prop_LOD2": 80
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveThornhide",
+      "kind": "item",
+      "family": "delveThornhide",
+      "name": "Thornhide",
+      "triangles": {
+        "Prop_LOD0": 436,
+        "Prop_LOD1": 238,
+        "Prop_LOD2": 108
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveGloomPelt",
+      "kind": "item",
+      "family": "delveGloomPelt",
+      "name": "Gloom Pelt",
+      "triangles": {
+        "Prop_LOD0": 364,
+        "Prop_LOD1": 200,
+        "Prop_LOD2": 90
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "delveForestCrystal",
+      "kind": "item",
+      "family": "delveForestCrystal",
+      "name": "Forest Crystal",
+      "triangles": {
+        "Prop_LOD0": 160,
+        "Prop_LOD1": 88,
+        "Prop_LOD2": 40
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "drinkJarEmpty",
+      "kind": "item",
+      "family": "drinkJarEmpty",
+      "name": "drinkJarEmpty",
+      "triangles": {
+        "Prop_LOD0": 428,
+        "Prop_LOD1": 234,
+        "Prop_LOD2": 106
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "drinkJarRiverWater",
+      "kind": "item",
+      "family": "drinkJarRiverWater",
+      "name": "drinkJarRiverWater",
+      "triangles": {
+        "Prop_LOD0": 520,
+        "Prop_LOD1": 286,
+        "Prop_LOD2": 122
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    },
+    {
+      "id": "drinkJarBoiledWater",
+      "kind": "item",
+      "family": "drinkJarBoiledWater",
+      "name": "drinkJarBoiledWater",
+      "triangles": {
+        "Prop_LOD0": 520,
+        "Prop_LOD1": 286,
+        "Prop_LOD2": 122
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "native_footprint": null,
+      "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+    }
+  ],
+  "aliases": {
+    "plantedDelveBramble3HarvestPlayer": "plantedDelveBramble3Harvest",
+    "plantedDelveYarrow3HarvestPlayer": "plantedDelveYarrow3Harvest",
+    "plantedDelveThyme3HarvestPlayer": "plantedDelveThyme3Harvest",
+    "plantedDelveMooncap3HarvestPlayer": "plantedDelveMooncap3Harvest"
+  },
+  "scope": "Live Forest station/plant/item art plus explicitly marked harvested/seed review props. Native crop/resource reuse and planned Arbor/knowledge mechanics unchanged.",
+  "axes": "Blender Z-up / Unity Y-up; ground-centred stations/plants, hand pivot gathering tools; integration must account for native ModelOffset."
+}

@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/entity_classes">
+    <entity_class name="delveCorruptedWalker" extends="zombieBoe">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="0.95" />
+      <property name="ExperienceGain" value="200" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="130" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+    </entity_class>
+    <entity_class name="delvePossessedSoldier" extends="zombieSoldier">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="1" />
+      <property name="ExperienceGain" value="200" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="220" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="3" />
+    </entity_class>
+    <entity_class name="delveImp" extends="zombieSpider">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="0.75" />
+      <property name="ExperienceGain" value="200" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="85" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="1" />
+    </entity_class>
+    <entity_class name="delveHellhound" extends="animalZombieDog">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="0.9" />
+      <property name="ExperienceGain" value="200" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="120" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+    </entity_class>
+    <entity_class name="delveDemonSpawn" extends="zombieJoe">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="1" />
+      <property name="ExperienceGain" value="200" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="120" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="2" />
+    </entity_class>
+    <entity_class name="delveWarpedBrute" extends="zombieFatHawaiian">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="1.12" />
+      <property name="ExperienceGain" value="200" />
+      <property name="MoveSpeedAggro" value=".65,.85" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="260" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="4" />
+    </entity_class>
+    <entity_class name="delveAshboundWarden" extends="zombieBiker">
+      <property name="UserSpawnType" value="Menu" />
+      <property name="Tags" value="entity,zombie,walker,delveCorrupted" />
+      <property name="SizeScale" value="1.15" />
+      <property name="ExperienceGain" value="1500" />
+      <property name="MoveSpeedAggro" value="1,1.2" />
+      <property name="LootDropProb" value="1" />
+      <effect_group name="Base Effects">
+        <passive_effect name="HealthMax" operation="base_set" value="900" />
+      </effect_group>
+      <drop event="Harvest" name="delveEmberSalts" count="12" />
+    </entity_class>
+  </append>
+  <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@class='ItemsOnEnterGame']/property[@name='GameModeSurvival']/@value">drinkJarBoiledWater=2,foodCanChili,medicalFirstAidBandage,meleeToolTorch,noteDuke01,delveFieldGuide,medicalBandage=2,delveFarmHandbook,delveForestReadinessGuide</set>
+  <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@class='ItemsOnEnterGame']/property[@name='GameModeSurvivalSP']/@value">drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,delveFieldGuide,medicalBandage=2,delveFarmHandbook,delveForestReadinessGuide</set>
+  <set xpath="/entity_classes/entity_class[@name='playerMale']/property[@class='ItemsOnEnterGame']/property[@name='GameModeSurvivalMP']/@value">drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,delveFieldGuide,medicalBandage=2,delveFarmHandbook,delveForestReadinessGuide</set>
+</configs>

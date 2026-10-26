@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/blocks">
+    <block name="delveRecruitLedger">
+      <property name="Extends" value="cntWoodWritableCrate" />
+      <property name="Class" value="Delve.BlockDelveRecruitLedger, Delve" />
+      <property name="DescriptionKey" value="delveRecruitLedgerDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="cntWoodWritableCrate" />
+    </block>
+    <block name="delveRallyFlag">
+      <property name="Extends" value="woodLogPillar100" />
+      <property name="Class" value="Delve.BlockDelveRallyFlag, Delve" />
+      <property name="DescriptionKey" value="delveRallyFlagDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="woodLogPillar100" />
+    </block>
+    <block name="delveRecoveryShrine">
+      <property name="Extends" value="graveStone01" />
+      <property name="Class" value="Delve.BlockDelveRecoveryShrine, Delve" />
+      <property name="DescriptionKey" value="delveRecoveryShrineDesc" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="graveStone01" />
+      <property name="IsTerrainDecoration" value="false" />
+      <property name="MaxDamage" value="500" />
+    </block>
+  </append>
+</configs>

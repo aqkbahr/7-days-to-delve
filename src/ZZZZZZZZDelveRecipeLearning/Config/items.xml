@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/items/item[@name='adminSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='adminSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='armorSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='armorSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='backpackSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='backpackSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='bladesSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='bladesSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='bowsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='bowsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='clubsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='clubsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='electricianSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='electricianSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='explosivesSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='explosivesSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='foodSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='foodSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='handgunsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='handgunsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='harvestingToolsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='harvestingToolsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='knucklesSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='knucklesSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='machineGunsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='machineGunsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='medicalSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='medicalSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='questRewardT1SkillMagazineBundle']/*"/>
+  <append xpath="/items/item[@name='questRewardT1SkillMagazineBundle']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='repairToolsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='repairToolsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='riflesSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='riflesSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='roboticsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='roboticsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='salvageToolsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='salvageToolsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='seedSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='seedSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='shotgunsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='shotgunsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='sledgehammersSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='sledgehammersSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='spearsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='spearsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='trapsSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='trapsSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='vehiclesSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='vehiclesSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='workstationSkillMagazine']/*"/>
+  <append xpath="/items/item[@name='workstationSkillMagazine']">
+    <property name="Extends" value="resourcePaper"/>
+    <property name="CustomIcon" value="resourcePaper"/>
+    <property name="CreativeMode" value="None"/>
+    <property name="EconomicValue" value="0"/>
+    <property name="SellableToTrader" value="false"/>
+    <property name="DescriptionKey" value="delveRetiredMagazineDesc"/>
+    <property name="Tags" value="paper,delveRetiredMagazine"/>
+  </append>
+  <remove xpath="/items/item[@name='foodBakedPotato']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='foodBakedPotato']">
+    <property name="UnlockedBy" value=""/>
+  </append>
+  <remove xpath="/items/item[@name='foodGrilledMeat']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='foodGrilledMeat']">
+    <property name="UnlockedBy" value=""/>
+  </append>
+  <remove xpath="/items/item[@name='medicalPlasterCast']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='medicalPlasterCast']">
+    <property name="UnlockedBy" value=""/>
+  </append>
+  <remove xpath="/items/item[@name='resourceCloth']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='resourceCloth']">
+    <property name="UnlockedBy" value=""/>
+  </append>
+</configs>

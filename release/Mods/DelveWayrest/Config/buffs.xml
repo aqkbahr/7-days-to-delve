@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/buffs">
+    <buff name="delveWayrestProgress" name_key="delveWayrestProgress" description_key="delveWayrestProgressDesc" icon="ui_game_symbol_quest" remove_on_death="false">
+      <stack_type value="ignore" />
+      <duration value="0" />
+      <display_value value="delveWayrestJobs" />
+    </buff>
+  </append>
+</configs>

@@ -3,24 +3,23 @@ namespace Delve
 {
     public static class RecipeProgression
     {
-        public static int Minimum(string name)
-        {
-            // Explicit authored prototype recipes. Unknown recipes retain native
-            // knowledge checks until their itemization rows have been reviewed.
-            switch(name)
-            {
-                case "delveIronDagger":case "delveIronMace":case "delveIronSpear":return 20;
-                case "delveHuntingBow":return 20;
-                default:return 1;
-            }
-        }
+        public static int Minimum(string name) { return ForestSliceCatalog.Minimum(name); }
         public static bool Allowed(Recipe recipe,EntityAlive player)
         {
-            if(recipe==null || player==null || recipe.IsScrap) return true;
-            string skill=TrainingHooks.CraftedSkill(recipe.GetName(),recipe.craftingArea);
-            if(skill==null) return true;
-            return ProficiencyRules.Rank(CharacterProgression.Get(player,"delvePractice"+skill))>=Minimum(recipe.GetName());
+            if(recipe==null || player==null || recipe.IsScrap)return true;
+            string recruitKey=ForestSliceCatalog.Key(recipe);
+            if(recruitKey=="delverecruitledger||1|resourcewood=20" || recruitKey=="delverallyflag||1|resourcecloth=5,resourcewood=15" || recruitKey=="delverecoveryshrine||1|resourcecloth=5,resourcerocksmall=30,resourcewood=10")return true;
+            if(recipe.GetName()=="delveSummoningRod" || recipe.GetName()=="delveSummoningRune")return recipe.craftingArea=="delveFieldCraftingMat" || recipe.GetName()=="delveSummoningRune" && recipe.craftingArea=="delveInscriptionKit";
+            if(recipe.GetName()=="delveForgedSummoningRod")return recipe.craftingArea=="delveSawKitTier3" && ProficiencyRules.Rank(CharacterProgression.Get(player,"delvePracticeCarpentry"))>=20;
+            int rank=ForestSliceCatalog.Rank(recipe);
+            // This release advertises only audited Forest variants. Later native
+            // facilities/recipes remain outside the first-playtest crafting menu.
+            if(rank>20)return false;
+            string skill=ForestSliceCatalog.Skill(recipe.GetName());
+            if(skill==null)return true;
+            return ProficiencyRules.Rank(CharacterProgression.Get(player,"delvePractice"+skill))>=rank;
         }
+
     }
     [HarmonyPatch(typeof(Recipe),"IsUnlocked")]
     public static class RecipeKnowledgeGate

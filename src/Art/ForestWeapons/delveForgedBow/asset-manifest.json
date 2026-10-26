@@ -1,0 +1,70 @@
+{
+  "id": "delveForgedBow",
+  "name": "Seasoned Longbow",
+  "family": "bow",
+  "tier": "Forged",
+  "bones": [
+    "Root",
+    "Weapon",
+    "GripRight",
+    "GripLeft",
+    "Muzzle",
+    "EffectOrigin",
+    "EdgeBase",
+    "EdgeTip",
+    "Focus",
+    "LeftWrap",
+    "BowUpper",
+    "BowLower",
+    "String",
+    "Ammo"
+  ],
+  "triangles": {
+    "Weapon_LOD0": 3718,
+    "Weapon_LOD1": 1557,
+    "Weapon_LOD2": 481
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Equip": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Unequip": {
+      "seconds": 0.5,
+      "loop": false
+    },
+    "Aim": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Recover": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Draw": {
+      "seconds": 0.9,
+      "loop": false
+    },
+    "Hold": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Release": {
+      "seconds": 0.35,
+      "loop": false
+    },
+    "Reload": {
+      "seconds": 1.4,
+      "loop": false
+    }
+  },
+  "gameplay_events": false,
+  "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+  "visual_revision": 3,
+  "art_revision": "WeaponRebuild20261026",
+  "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+}

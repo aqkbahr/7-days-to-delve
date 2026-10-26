@@ -1,0 +1,1 @@
+Original project-authored geometry, texture atlas, weights and animation curves. Native skeleton transform metadata used only for fitting. No native mesh, texture or animation copied. Generator: tools/art/build_forest_quadrupeds.py; original geometry helpers from build_thornback.py. Gameplay and live-ragdoll integration pending.

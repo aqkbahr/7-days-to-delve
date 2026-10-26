@@ -1,0 +1,19 @@
+{
+  "id": "delveWayfarerTea",
+  "kind": "item",
+  "family": "delveWayfarerTea",
+  "name": "Wayfarer Tea",
+  "triangles": {
+    "Prop_LOD0": 664,
+    "Prop_LOD1": 364,
+    "Prop_LOD2": 158
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

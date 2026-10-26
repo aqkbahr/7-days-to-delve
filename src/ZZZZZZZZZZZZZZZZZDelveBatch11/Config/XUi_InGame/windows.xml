@@ -1,0 +1,1 @@
+<configs><set xpath="/windows/window[@name='windowCraftingList']//grid[@name='categories']/@cols">10</set><set xpath="/windows/window[@name='windowCraftingList']//grid[@name='categories']/@cell_width">39</set><set xpath="/windows/window[@name='windowCraftingList']//grid[@name='categories']/@pos">20,-21</set></configs>

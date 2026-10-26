@@ -1,0 +1,32 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+adminSkillMagazine,items,Item,false,false,Recovered paper
+armorSkillMagazine,items,Item,false,false,Recovered paper
+backpackSkillMagazine,items,Item,false,false,Recovered paper
+bladesSkillMagazine,items,Item,false,false,Recovered paper
+bowsSkillMagazine,items,Item,false,false,Recovered paper
+clubsSkillMagazine,items,Item,false,false,Recovered paper
+electricianSkillMagazine,items,Item,false,false,Recovered paper
+explosivesSkillMagazine,items,Item,false,false,Recovered paper
+foodSkillMagazine,items,Item,false,false,Recovered paper
+handgunsSkillMagazine,items,Item,false,false,Recovered paper
+harvestingToolsSkillMagazine,items,Item,false,false,Recovered paper
+knucklesSkillMagazine,items,Item,false,false,Recovered paper
+machineGunsSkillMagazine,items,Item,false,false,Recovered paper
+medicalSkillMagazine,items,Item,false,false,Recovered paper
+questRewardT1SkillMagazineBundle,items,Item,false,false,Recovered paper
+repairToolsSkillMagazine,items,Item,false,false,Recovered paper
+riflesSkillMagazine,items,Item,false,false,Recovered paper
+roboticsSkillMagazine,items,Item,false,false,Recovered paper
+salvageToolsSkillMagazine,items,Item,false,false,Recovered paper
+seedSkillMagazine,items,Item,false,false,Recovered paper
+shotgunsSkillMagazine,items,Item,false,false,Recovered paper
+sledgehammersSkillMagazine,items,Item,false,false,Recovered paper
+spearsSkillMagazine,items,Item,false,false,Recovered paper
+trapsSkillMagazine,items,Item,false,false,Recovered paper
+vehiclesSkillMagazine,items,Item,false,false,Recovered paper
+workstationSkillMagazine,items,Item,false,false,Recovered paper
+delveRetiredMagazineDesc,items,Item,false,false,Obsolete crafting pages. Scrap for paper. Crafting recipes now use your related proficiency; these pages grant no skill levels.
+challengeReadMagazines,items,Item,false,false,Practice a craft
+challengeReadMagazinesHint1,items,Item,false,false,"Gather wood, stone and plant fibers, then craft a stone axe."
+challengeReadMagazinesShort,items,Item,false,false,Craft a stone axe to practice Carpentry.
+challengeReadMagazinesDesc,items,Item,false,false,Recipes unlock through proficiency gained by doing related work. Craft a stone axe to begin practicing Carpentry. No skill magazine is required.

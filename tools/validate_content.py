@@ -21,6 +21,8 @@ patch_count=0
 for path in sorted(mod.glob('*.xml')):
     doc=E.parse(str(base/path.name))
     for operation in E.parse(str(path)).getroot():
+        if operation.tag=='set' and not (operation.text or '').strip():
+            errors.append(f'{path.name}: engine rejects an empty set; remove the property instead')
         targets=doc.xpath(operation.get('xpath'))
         if not targets:
             errors.append(f'{path.name}: unmatched XPath {operation.get("xpath")}')
@@ -31,6 +33,7 @@ for path in sorted(mod.glob('*.xml')):
                 if getattr(target,'is_attribute',False):
                     target.getparent().set(target.attrname,operation.text or '')
                 else: target.text=operation.text or ''
+            elif operation.tag=='remove': target.getparent().remove(target)
             else: errors.append(f'Unsupported validator operation: {operation.tag}')
         patch_count+=1
     merged[path.stem]=doc
@@ -42,7 +45,7 @@ def ids(doc,tag,attr='name'):
     return set(values)
 
 items=ids(merged['items'],'item')
-blocks={n.get('name') for n in E.parse(str(base/'blocks.xml')).xpath('//block')}
+blocks=ids(merged['blocks'],'block')
 entities=ids(merged['entityclasses'],'entity_class')
 buffs=ids(merged['buffs'],'buff')
 quests=ids(merged['quests'],'quest','id')

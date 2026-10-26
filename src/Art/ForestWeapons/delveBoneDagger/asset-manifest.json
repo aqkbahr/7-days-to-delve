@@ -1,0 +1,66 @@
+{
+  "id": "delveBoneDagger",
+  "name": "Wayfarer Dagger",
+  "family": "dagger",
+  "tier": "Field",
+  "bones": [
+    "Root",
+    "Weapon",
+    "GripRight",
+    "GripLeft",
+    "Muzzle",
+    "EffectOrigin",
+    "EdgeBase",
+    "EdgeTip",
+    "Focus",
+    "LeftWrap",
+    "BowUpper",
+    "BowLower",
+    "String",
+    "Ammo"
+  ],
+  "triangles": {
+    "Weapon_LOD0": 2600,
+    "Weapon_LOD1": 1092,
+    "Weapon_LOD2": 335
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Equip": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Unequip": {
+      "seconds": 0.5,
+      "loop": false
+    },
+    "Aim": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Recover": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "LightAttack": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "HeavyAttack": {
+      "seconds": 0.95,
+      "loop": false
+    },
+    "Block": {
+      "seconds": 1,
+      "loop": true
+    }
+  },
+  "gameplay_events": false,
+  "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+  "visual_revision": 3,
+  "art_revision": "WeaponRebuild20261026",
+  "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+}

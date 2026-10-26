@@ -1,0 +1,118 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,KeepLoaded,english
+delve_wayrest_01,DelveWayrest,,,,,Wayrest
+delveWayrestSteward,DelveWayrest,,,,,Wayrest Steward
+delveWayrestGreeting,DelveWayrest,,,,,"Welcome to Wayrest, a foothold on the Living Border. We endure by helping one another. Speak with me about our work, the Queen's incursions, or preparing your refuge."
+delveWayrestAskWelcome,DelveWayrest,,,,,Tell me about Wayrest.
+delveWayrestSupplies,DelveWayrest,,,,,Wayrest: Ready for the Frontier
+delveWayrestSuppliesSub,DelveWayrest,,,,,Gather supplies and prepare healing poultices.
+delveWayrestSuppliesDesc,DelveWayrest,,,,,"Before you venture into the ruins, prepare supplies and healing. Gather 30 wood and 20 small stones, then craft two Greenleaf Poultices. You keep your supplies. This optional personal exercise does not count toward Reclaim Wayrest. Ask the Steward for woodland contracts to advance reclamation."
+delveWayrestFetch,DelveWayrest,,,,,Wayrest: Recover Woodland Supplies
+delveWayrestClear,DelveWayrest,,,,,Wayrest: Clear the Woodland Ruins
+delveWayrestFetchClear,DelveWayrest,,,,,Wayrest: Secure and Recover
+delveWayrestReclamation,DelveWayrest,,,,,Reclaim Wayrest
+delveWayrestReclamationSub,DelveWayrest,,,,,Ten contracts for the Living Border
+delveWayrestReclamationDesc,DelveWayrest,,,,,Complete ten contracts from the Wayrest Steward. All adventurers contribute to the same world tally. A shared contract counts once when its owner turns it in. Failed or abandoned jobs do not count. At 10/10 ask the Steward for the special road-to-Arbor job. Ordinary work remains available afterward.
+delveWayrestOnward,DelveWayrest,,,,,The Road to Arbor Camp
+delveWayrestOnwardDesc,DelveWayrest,,,,,"Wayrest has ten completed contracts. Before following the road to Arbor Camp, train Alchemy to proficiency 20 and craft Arbor Protection Draught at an Apothecary Bench: one boiled water, three Ember Salts, two yarrow. All inputs are available in the Forest. Drink before crossing; carry a spare or retreat before its ten-minute timer expires. The Field Guide preparation chain teaches this route. Arrival at Arbor Camp advances the settlement campaign independently of Warden victory."
+delveWayrestProgress,DelveWayrest,,,,,Wayrest contracts completed / 10
+delveWayrestProgressDesc,DelveWayrest,,,,,"World-shared reclamation. Any ten Wayrest contracts count; shared jobs count once at the owner's hand-in. Check Reclaim Wayrest in the quest journal. At ten, request the special onward job from the Steward."
+delveWayrestWelcome,DelveWayrest,,,,,"We cannot take back Allium in a single battle. First we recover our stores and clear the woodland ruins. Take Reclaim Wayrest here, then return to my main choices and ask for jobs. Follow your contract marker, activate its rally point, finish the objectives, and return to me for your reward. Ten returned contracts advance our shared foothold; a shared job counts once at its owner's hand-in. The supply exercise is optional preparation and does not count. Champion victories are a separate struggle."
+delve_wayrest_forest,DelveWayrest,,,,,Wayrest
+delve_forest_cabin_01,DelveWayrest,,,,,Wayrest woodland cabin
+delve_forest_cabin_04,DelveWayrest,,,,,Forest supply cottage
+delve_forest_cemetery_01,DelveWayrest,,,,,Old border graves
+delve_forest_cabin_05,DelveWayrest,,,,,Forager cottage
+delve_forest_cabin_06,DelveWayrest,,,,,Woodcutter refuge
+delve_forest_cabin_07,DelveWayrest,,,,,Abandoned hunting lodge
+delve_forest_cabin_08,DelveWayrest,,,,,Fernwood homestead
+delve_forest_cabin_10,DelveWayrest,,,,,Hillside cottage
+delve_forest_cabin_12,DelveWayrest,,,,,Old forester house
+delve_forest_cabin_14,DelveWayrest,,,,,Mosswood cabin
+delve_forest_farm_12,DelveWayrest,,,,,Border farm
+delve_forest_oldwest_business_01,DelveWayrest,,,,,Forest trading post
+delve_forest_oldwest_business_08,DelveWayrest,,,,,Roadside provisioner
+delve_forest_oldwest_church,DelveWayrest,,,,,Woodland chapel
+delve_forest_ranger_station_05,DelveWayrest,,,,,Forest watch
+delve_arbor_cabin_01,DelveWayrest,,,,,Ashwood Woodcutter’s Cottage
+delve_arbor_cabin_02,DelveWayrest,,,,,Cinder Woodcutter’s Cottage
+delve_arbor_cabin_03,DelveWayrest,,,,,Blackbough Woodcutter’s Cottage
+delve_arbor_cabin_04,DelveWayrest,,,,,Ember Woodcutter’s Cottage
+delve_arbor_cabin_05,DelveWayrest,,,,,Sootfall Woodcutter’s Cottage
+delve_arbor_cabin_07,DelveWayrest,,,,,Charred Oak Woodcutter’s Cottage
+delve_arbor_cabin_08,DelveWayrest,,,,,Hollow Ash Woodcutter’s Cottage
+delve_arbor_cabin_09,DelveWayrest,,,,,Duskwood Woodcutter’s Cottage
+delve_arbor_cabin_10,DelveWayrest,,,,,Coalbrook Woodcutter’s Cottage
+delve_arbor_cabin_11,DelveWayrest,,,,,Ashwood Hunting Lodge
+delve_arbor_cabin_12,DelveWayrest,,,,,Cinder Hunting Lodge
+delve_arbor_cabin_13,DelveWayrest,,,,,Blackbough Hunting Lodge
+delve_arbor_cabin_14,DelveWayrest,,,,,Ember Hunting Lodge
+delve_arbor_cabin_15,DelveWayrest,,,,,Sootfall Hunting Lodge
+delve_arbor_cabin_16,DelveWayrest,,,,,Greyroot Hunting Lodge
+delve_arbor_cabin_17,DelveWayrest,,,,,Charred Oak Hunting Lodge
+delve_arbor_cabin_18,DelveWayrest,,,,,Hollow Ash Hunting Lodge
+delve_arbor_cemetery_01,DelveWayrest,,,,,Cinder Burial Ground
+delve_arbor_cemetery_02,DelveWayrest,,,,,Ashen Crypt
+delve_arbor_farm_01,DelveWayrest,,,,,Ashwood Farmstead
+delve_arbor_farm_02,DelveWayrest,,,,,Cinder Farmstead
+delve_arbor_farm_03,DelveWayrest,,,,,Blackbough Farmstead
+delve_arbor_farm_04,DelveWayrest,,,,,Ember Farmstead
+delve_arbor_farm_05,DelveWayrest,,,,,Sootfall Farmstead
+delve_arbor_farm_06,DelveWayrest,,,,,Greyroot Farmstead
+delve_arbor_farm_08,DelveWayrest,,,,,Hollow Ash Farmstead
+delve_arbor_farm_10,DelveWayrest,,,,,Coalbrook Farmstead
+delve_arbor_farm_12,DelveWayrest,,,,,Cinder Grange
+delve_arbor_farm_14,DelveWayrest,,,,,Ember Grange
+delve_arbor_farm_16,DelveWayrest,,,,,Greyroot Grange
+delve_arbor_oldwest_business_01,DelveWayrest,,,,,Ashmarket Storehouse
+delve_arbor_oldwest_business_02,DelveWayrest,,,,,Cinder Butchery
+delve_arbor_oldwest_business_03,DelveWayrest,,,,,Charcoal Row
+delve_arbor_oldwest_business_04,DelveWayrest,,,,,Emberwright Workshop
+delve_arbor_oldwest_business_05,DelveWayrest,,,,,Abandoned Timber Shop
+delve_arbor_oldwest_business_06,DelveWayrest,,,,,Ashen Counting House
+delve_arbor_oldwest_business_07,DelveWayrest,,,,,Deserted Provisioner
+delve_arbor_oldwest_business_08,DelveWayrest,,,,,The Sooted Lantern Inn
+delve_arbor_oldwest_business_09,DelveWayrest,,,,,Empty Market Hall
+delve_arbor_oldwest_business_10,DelveWayrest,,,,,Cinder Apothecary
+delve_arbor_oldwest_business_11,DelveWayrest,,,,,The Black Bough Tavern
+delve_arbor_oldwest_business_12,DelveWayrest,,,,,Cooper’s Workshop
+delve_arbor_oldwest_business_13,DelveWayrest,,,,,Ashwood Guildhouse
+delve_arbor_oldwest_business_14,DelveWayrest,,,,,Scorched Trading House
+delve_arbor_oldwest_church,DelveWayrest,,,,,Chapel of Embers
+delve_arbor_oldwest_gallows,DelveWayrest,,,,,Ashen Gallows
+delve_arbor_oldwest_jail,DelveWayrest,,,,,Abandoned Watch House
+delve_arbor_oldwest_strip_01,DelveWayrest,,,,,Ashwood Artisan Row
+delve_arbor_oldwest_strip_02,DelveWayrest,,,,,Cinder Artisan Row
+delve_arbor_oldwest_strip_04,DelveWayrest,,,,,Ember Artisan Row
+delve_arbor_remnant_burnt_01,DelveWayrest,,,,,Ashwood Burned Homestead
+delve_arbor_remnant_burnt_02,DelveWayrest,,,,,Cinder Burned Homestead
+delve_arbor_remnant_burnt_03,DelveWayrest,,,,,Blackbough Burned Homestead
+delve_arbor_remnant_burnt_07,DelveWayrest,,,,,Charred Oak Burned Homestead
+delve_arbor_remnant_burnt_09,DelveWayrest,,,,,Duskwood Burned Homestead
+delve_arbor_remnant_burnt_10,DelveWayrest,,,,,Coalbrook Burned Homestead
+delve_arbor_remnant_church_01,DelveWayrest,,,,,Ashwood Chapel Ruins
+delve_arbor_remnant_farm_03,DelveWayrest,,,,,Blackbough Abandoned Farm
+delve_arbor_remnant_farm_05,DelveWayrest,,,,,Sootfall Abandoned Farm
+delve_arbor_remnant_oldwest_01,DelveWayrest,,,,,Ashwood Market Ruins
+delve_arbor_remnant_oldwest_02,DelveWayrest,,,,,Cinder Market Ruins
+delve_arbor_remnant_oldwest_03,DelveWayrest,,,,,Blackbough Market Ruins
+delve_arbor_remnant_oldwest_04,DelveWayrest,,,,,Ember Market Ruins
+delve_arbor_remnant_oldwest_05,DelveWayrest,,,,,Sootfall Market Ruins
+delve_arbor_remnant_oldwest_06,DelveWayrest,,,,,Greyroot Market Ruins
+delve_arbor_remnant_oldwest_07,DelveWayrest,,,,,Charred Oak Market Ruins
+delve_arbor_remnant_oldwest_08,DelveWayrest,,,,,Hollow Ash Market Ruins
+delve_arbor_rural_church_01,DelveWayrest,,,,,Blackbough Sanctuary
+delve_arbor_rural_church_02,DelveWayrest,,,,,Ember Parish
+delve_arbor_ranger_station_01,DelveWayrest,,,,,Arbor Watch
+delve_forest_cabin_01_garden,DelveWayrest,,,,,Wayrest woodland cabin
+delve_forest_cabin_04_garden,DelveWayrest,,,,,Forest supply cottage
+delve_forest_farm_12_garden,DelveWayrest,,,,,Border farm
+delve_dungeon_cave_06,DelveWayrest,,,,,Rootbound Hollow
+delve_dungeon_cave_11,DelveWayrest,,,,,Smuggler's Rest
+delve_dungeon_cemetery_02,DelveWayrest,,,,,Briarstone Crypt
+delve_dungeon_cave_12,DelveWayrest,,,,,Old Warden's Deep
+delveWayrestAskIncursions,DelveWayrest,,,,,Tell me about the Queen's incursions.
+delveWayrestIncursions,DelveWayrest,,,,,"The Queen sends more than wandering creatures. When the blood moon rises, her forces come in strength and our gates close. Build your own defenses outside Wayrest. Scouts will warn you on the day of an incursion. The undefeated Ashbound Warden comes two game-hours before dawn: defeat it before daylight. If it withdraws, it remains undefeated and returns on a later incursion. A victory belongs to everyone and cannot be undone by later deaths. Reclaiming settlements and defeating champions advance separately. This chapter begins with the Warden; the other champions and the Queen await later chapters."
+delveWayrestAskRefuge,DelveWayrest,,,,,How should we prepare?
+delveWayrestRefuge,DelveWayrest,,,,,"Read your Field Guide and follow its preparation journal. Choose any starter weapon, establish a Settlement Stone, bedroll and campfire outside Wayrest, then secure food, clean water, healing, ammunition and repairs. Ask about our crafts for optional Crafting Tomes. Take woodland contracts and return them for payment. Both quests can progress independently: you need not defeat the Warden to complete our ten contracts."
+delveTrainingAsk,DelveWayrest,,,,,Where can I learn our crafts?
+delveTrainingReply,DelveWayrest,,,,,"Vendors sell Crafting Tomes for Farming, Cooking, Mining, Smithing, Carpentry and Alchemy for 500 gold each. Every inventory restock includes at least three different tome types. Buy a tome and READ it to track an optional lesson about recipes and stations. Tomes are not craftable and are not required to unlock recipes or stations. Craft before reading a tome and you may need to make the lesson items again: read first. These lessons are separate from the ten contracts. Each skill opens two fundamentals at proficiency 10 and three branch choices at 20; character levels supply the points to buy them."

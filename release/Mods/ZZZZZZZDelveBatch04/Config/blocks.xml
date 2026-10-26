@@ -1,0 +1,1078 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/blocks/block[@name='cntMedicLootPileA']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicLootPileA']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileA']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileA']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileA']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicLootPileA']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntMedicLootPileA']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicLootPileACorner']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicLootPileACorner']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicLootPileACorner']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntMedicLootPileACorner']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileACorner']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileACorner']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileACorner']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicLootPileB']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicLootPileB']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileB']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileB']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileB']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicLootPileB']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateHero']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateHero']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateHero']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateHero']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateHero']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateHero']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateHero']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateShamway']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateShamway']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShamway']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShamway']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShamway']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateShamway']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateShamway']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateLabEquipment']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateBookstore']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateCarParts']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateSavageCountry']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateHero']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateBookstore']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateBookstore']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateCarParts']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateLabEquipment']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateShamway']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateSavageCountry']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHero']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHero']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecure']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntLootChestHeroInsecure']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestSecure']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecure']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestSecureT5']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecureT5']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecureT5']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecureT5']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecureT5']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecureT5']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecureT5']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecureT5']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecureT5']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecureT5']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecureT5']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedFoodStashChest']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedFoodStashChest']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedWeaponChest']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedWeaponChest']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedLootStashChest']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedLootStashChest']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedLootStashChest']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntTestTreasureChest']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntTestTreasureChest']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveIronboundChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="CustomIcon" value="delveIronboundChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntTestTreasureChestInsecure']/property[@name='TintColor']"/>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetClosed']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetFaucetRandomLootHelper']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetOpen']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetOpen']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetClosed']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosed']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntMedicineCabinetClosedRandomLootHelper']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntPillCaseEmpty']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntPillCaseEmpty']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseEmpty']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseEmpty']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseEmpty']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntPillCaseEmpty']/property[@name='Shape']"/>
+  <append xpath="/blocks/block[@name='cntPillCaseEmpty']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntPillCaseClosed']/property[@name='Model']"/>
+  <append xpath="/blocks/block[@name='cntPillCaseClosed']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseClosed']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseClosed']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseClosed']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseClosed']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchfour.unity3d?delveApothecaryChest"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']/property[@name='CustomIcon']"/>
+  <append xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']">
+    <property name="CustomIcon" value="delveApothecaryChest"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF"/>
+  </append>
+  <remove xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']/property[@name='CustomIconTint']"/>
+  <append xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntPillCaseRandomLootHelper']">
+    <property name="Shape" value="ModelEntity"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedtreeGrassSeed1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedtreeGrassSeedRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedtreeGrassAirRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedMushroom1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedMushroom2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedMushroom3Harvest']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedYucca1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedYucca2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedYuccaDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedYucca3HarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedYucca3HarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedYucca3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCotton1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCotton2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCottonDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCottonHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCottonHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffee1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffee2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffeeDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCoffeeHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCoffeeHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffee3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGoldenrod1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGoldenrod2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedGoldenrodHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedGoldenrodHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloe1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloe2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloeDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedAloeHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedAloeHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberry1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberry2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberryDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedBlueberryHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedBlueberryHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotatoDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedPotatoHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedPotatoHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedChrysanthemum1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedChrysanthemum2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedChrysanthemumHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedChrysanthemumHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCorn1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCorn2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCornHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCornHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedCorn2Deco']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCornDeadSmall']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCornDeadSmall']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCornDeadMedium']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCornDeadMedium']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedCornDead']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedCornDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGraceCorn1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGraceCorn2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedGraceCornHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedGraceCornHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedGraceCorn3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedHop1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedHop2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedHop3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedHopDead']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedHopHarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedHopHarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedHop3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedSnowberry1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedSnowberry2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedSnowberry3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPumpkin1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPumpkin2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedPumpkin3HarvestRandomHelper']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedPumpkin3HarvestRandomHelper']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveBramble1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveBramble2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveBramble3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveBramble3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveYarrow1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveYarrow2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveYarrow3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveYarrow3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveThyme1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveThyme2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveThyme3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveThyme3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveMooncap1']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveMooncap2']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <remove xpath="/blocks/block[@name='plantedDelveMooncap3Harvest']/property[@name='DisplayInfo']"/>
+  <append xpath="/blocks/block[@name='plantedDelveMooncap3Harvest']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+  <append xpath="/blocks/block[@name='plantedDelveMooncap3HarvestPlayer']">
+    <property name="DisplayInfo" value="None"/>
+  </append>
+</configs>

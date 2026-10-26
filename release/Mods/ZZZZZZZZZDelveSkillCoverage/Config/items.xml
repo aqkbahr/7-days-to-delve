@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/items">
+    <item name="delveBlastingPowder">
+      <property name="Extends" value="resourceGunPowder"/>
+      <property name="CustomIcon" value="resourceGunPowder"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="delveBlastingPowderDesc"/>
+      <property name="Tags" value="resource,delveReagent,delveAlchemy"/>
+      <property name="UnlockedBy" value=""/>
+    </item>
+  </append>
+  <remove xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='thrownAmmoPipeBomb']">
+    <property name="UnlockedBy" value=""/>
+    <property name="DescriptionKey" value="thrownAmmoPipeBombDelveCoverageDesc"/>
+  </append>
+  <remove xpath="/items/item[@name='thrownDynamite']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='thrownDynamite']">
+    <property name="UnlockedBy" value=""/>
+    <property name="DescriptionKey" value="thrownDynamiteDelveCoverageDesc"/>
+  </append>
+  <remove xpath="/items/item[@name='meleeToolSalvageT1Wrench']/property[@name='UnlockedBy']"/>
+  <append xpath="/items/item[@name='meleeToolSalvageT1Wrench']">
+    <property name="UnlockedBy" value=""/>
+    <property name="DescriptionKey" value="meleeToolSalvageT1WrenchDelveCoverageDesc"/>
+  </append>
+</configs>

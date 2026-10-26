@@ -19,9 +19,9 @@ namespace Delve
             bool other=false;
             if(def.Rank==100)
                 foreach(var pair in TalentCatalog.Entries)
-                    if(pair.Value.Skill==def.Skill && pair.Value.Rank==100 && pair.Key!=key && Owns(p,pair.Key)) {other=true;break;}
-            if(key=="delvePerkBladesSpellblade" && CharacterProgression.Get(p,"delveLevelWands")<40 && CharacterProgression.Get(p,"delveLevelStaffs")<40) return false;
-            if(key=="delvePerkBluntBattleSmith" && CharacterProgression.Get(p,"delveLevelSmithing")<40) return false;
+                    if(pair.Value.Skill==def.Skill && pair.Value.Rank==100 && !string.Equals(pair.Key,key,StringComparison.OrdinalIgnoreCase) && Owns(p,pair.Key)) {other=true;break;}
+            if(string.Equals(key,"delvePerkBladesSpellblade",StringComparison.OrdinalIgnoreCase) && CharacterProgression.Get(p,"delveLevelWands")<40 && CharacterProgression.Get(p,"delveLevelStaffs")<40) return false;
+            if(string.Equals(key,"delvePerkBluntBattleSmith",StringComparison.OrdinalIgnoreCase) && CharacterProgression.Get(p,"delveLevelSmithing")<40) return false;
             return def.CanBuy(ProficiencyRules.Rank(CharacterProgression.Get(p,"delvePractice"+def.Skill)),
                 CharacterProgression.Get(p,"delveTrial"+def.Skill)>0,other,k=>Owns(p,k));
         }

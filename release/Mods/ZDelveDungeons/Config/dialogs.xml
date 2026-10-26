@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/dialogs/dialog[@id='delveWayrest']/statement[@id='start']">
+    <response_entry id="delveForestDepthsBoard" />
+  </append>
+  <append xpath="/dialogs/dialog[@id='delveWayrest']">
+    <response id="delveForestDepthsBoard" text="delveForestDepthsBoard" nextstatementid="currentjobs2">
+      <requirement type="CheckCVar" id="delveWayrestReady" value="1" requirementtype="Hide" />
+      <requirement type="QuestStatus" value="NotStarted" requirementtype="Hide" />
+    </response>
+  </append>
+  <remove xpath="/dialogs/dialog[@id='delveWayrest']/response[@id='jobshave1']/requirement[@type='QuestTierHighest']" />
+</configs>

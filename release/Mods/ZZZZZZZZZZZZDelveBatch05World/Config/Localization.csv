@@ -1,0 +1,40 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+foodDelveBrambleberriesDesc,,,True,False,"Wild brambleberries. Eat raw for 3 food and 3 water, or save them for cooking."
+delveLoadingWayrest_title,,,True,False,WAYREST - A LIGHT IN THE FOREST
+delveLoadingWayrest,,,True,False,"Beyond the walls, Allium is dangerous. Wayrest offers a place to gather supplies, learn the crafts and prepare for the road. Visit the steward before venturing farther into the forest."
+delveLoadingIncursions_title,,,True,False,THE QUEEN'S INCURSIONS
+delveLoadingIncursions,,,True,False,"The Queen's incursions threaten even the walls of a refuge. Prepare before nightfall: repair your gear, stock food and remedies, and leave yourself a way to retreat. A strong party brings more than weapons."
+cntShippingCrateHero,,,True,False,Ironbound Supply Crate
+cntShippingCrateShamway,,,True,False,Ironbound Supply Crate
+cntShippingCrateLabEquipment,,,True,False,Ironbound Supply Crate
+cntShippingCrateBookstore,,,True,False,Ironbound Supply Crate
+cntShippingCrateCarParts,,,True,False,Ironbound Supply Crate
+cntShippingCrateShotgunMessiah,,,True,False,Ironbound Supply Crate
+cntShippingCrateWorkingStiffs,,,True,False,Ironbound Supply Crate
+cntShippingCrateSavageCountry,,,True,False,Ironbound Supply Crate
+cntShippingCrateMoPowerElectronics,,,True,False,Ironbound Supply Crate
+cntShippingCrateConstructionSupplies,,,True,False,Ironbound Supply Crate
+cntLootCrateHero,,,True,False,Ironbound Supply Crate
+cntLootCrateConstructionSupplies,,,True,False,Ironbound Supply Crate
+cntLootCrateBookstore,,,True,False,Ironbound Supply Crate
+cntLootCrateCarParts,,,True,False,Ironbound Supply Crate
+cntLootCrateLabEquipment,,,True,False,Ironbound Supply Crate
+cntLootCrateShamway,,,True,False,Ironbound Supply Crate
+cntLootCrateShotgunMessiah,,,True,False,Ironbound Supply Crate
+cntLootCrateWorkingStiffs,,,True,False,Ironbound Supply Crate
+cntLootCrateSavageCountry,,,True,False,Ironbound Supply Crate
+cntLootCrateMoPowerElectronics,,,True,False,Ironbound Supply Crate
+cntLootChestHeroInsecureT1,,,True,False,Ironbound Supply Crate
+cntLootChestHeroInsecureT2,,,True,False,Ironbound Supply Crate
+cntLootChestHero,,,True,False,Ironbound Supply Crate
+cntLootChestHeroInsecure,,,True,False,Ironbound Supply Crate
+cntHardenedChestSecure,,,True,False,Ironbound Supply Crate
+cntHardenedChestInsecure,,,True,False,Ironbound Supply Crate
+cntHardenedChestSecureT5,,,True,False,Ironbound Supply Crate
+cntHardenedChestInsecureT5,,,True,False,Ironbound Supply Crate
+cntBuriedFoodStashChest,,,True,False,Ironbound Supply Crate
+cntBuriedWeaponChest,,,True,False,Ironbound Supply Crate
+cntBuriedLootStashChest,,,True,False,Ironbound Supply Crate
+cntBuriedLootStashChestInsecure,,,True,False,Ironbound Supply Crate
+cntTestTreasureChest,,,True,False,Ironbound Supply Crate
+cntTestTreasureChestInsecure,,,True,False,Ironbound Supply Crate

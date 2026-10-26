@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <set xpath="/items/item[@name='delveBoneDagger']/effect_group[@name='Delve crafted weapon']/passive_effect[@name='EntityDamage']/@value">0.25</set>
+  <append xpath="/items/item[@name='delveBoneDagger']">
+    <effect_group name="Batch 5 reinforced starter">
+      <passive_effect name="DegradationMax" operation="perc_add" value="0.25"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveOakCudgel']/effect_group[@name='Delve crafted weapon']/passive_effect[@name='EntityDamage']/@value">0.25</set>
+  <append xpath="/items/item[@name='delveOakCudgel']">
+    <effect_group name="Batch 5 reinforced starter">
+      <passive_effect name="DegradationMax" operation="perc_add" value="0.25"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveAshSpear']/effect_group[@name='Delve crafted weapon']/passive_effect[@name='EntityDamage']/@value">0.25</set>
+  <append xpath="/items/item[@name='delveAshSpear']">
+    <effect_group name="Batch 5 reinforced starter">
+      <passive_effect name="DegradationMax" operation="perc_add" value="0.25"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveLeatherKnuckles']/effect_group[@name='Delve crafted weapon']/passive_effect[@name='EntityDamage']/@value">0.25</set>
+  <append xpath="/items/item[@name='delveLeatherKnuckles']">
+    <effect_group name="Batch 5 reinforced starter">
+      <passive_effect name="DegradationMax" operation="perc_add" value="0.25"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveBorderBow']/effect_group[@name='Delve crafted weapon']/passive_effect[@name='EntityDamage']/@value">0.25</set>
+  <append xpath="/items/item[@name='delveBorderBow']">
+    <effect_group name="Batch 5 reinforced starter">
+      <passive_effect name="DegradationMax" operation="perc_add" value="0.25"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveBoneDagger']/property[@name='RepairTools']/@value">resourceBone</set>
+  <set xpath="/items/item[@name='delveStarterWand']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <append xpath="/items/item[@name='delveStarterWand']">
+    <effect_group name="Batch 5 focus">
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveStarterStaff']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <append xpath="/items/item[@name='delveStarterStaff']">
+    <effect_group name="Batch 5 focus">
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveStarterTotem']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <append xpath="/items/item[@name='delveStarterTotem']">
+    <effect_group name="Batch 5 focus">
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.1"/>
+    </effect_group>
+  </append>
+  <set xpath="/items/item[@name='delveMendingTotem']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='delveMendingTotem']/effect_group/passive_effect[@name='MagazineSize']/@value">5</set>
+  <set xpath="/items/item[@name='armorDelveLightHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightHelmet']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveLightOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightOutfit']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveLightGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightGloves']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveLightBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">10</set>
+  <set xpath="/items/item[@name='armorDelveLightBoots']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelvePaddedHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedHelmet']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelvePaddedOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedOutfit']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelvePaddedGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedGloves']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelvePaddedBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">11</set>
+  <set xpath="/items/item[@name='armorDelvePaddedBoots']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveMediumHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumHelmet']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveMediumOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumOutfit']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveMediumGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumGloves']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveMediumBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">12</set>
+  <set xpath="/items/item[@name='armorDelveMediumBoots']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveHeavyHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyHelmet']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveHeavyOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyOutfit']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveHeavyGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyGloves']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveHeavyBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">14</set>
+  <set xpath="/items/item[@name='armorDelveHeavyBoots']/effect_group/passive_effect[@name='DegradationMax']/@value">300</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedLightBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">13</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedMediumBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">16</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyHelmet']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyHelmet']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyOutfit']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyOutfit']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyGloves']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyGloves']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyBoots']/effect_group/passive_effect[@name='PhysicalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='armorDelveForgedHeavyBoots']/effect_group/passive_effect[@name='ElementalDamageResist']/@value">19</set>
+  <set xpath="/items/item[@name='delveForgedKnuckles']/effect_group[@name='Forged handling']/passive_effect[@name='EntityDamage']/@value">.50</set>
+</configs>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/items">
+    <item name="delveCorruptedWalkerAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="10" />
+        <property name="DamageBlock" value="12" />
+        <property name="Delay" value="1.1" />
+        <property name="Range" value="1.65" />
+      </property>
+      <effect_group name="delveCorruptedWalkerAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="10" />
+        <passive_effect name="BlockDamage" operation="base_set" value="12" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="54.545" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.65" />
+      </effect_group>
+    </item>
+    <item name="delveImpAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="7" />
+        <property name="DamageBlock" value="6" />
+        <property name="Delay" value="0.8" />
+        <property name="Range" value="1.3" />
+      </property>
+      <effect_group name="delveImpAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="7" />
+        <passive_effect name="BlockDamage" operation="base_set" value="6" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="75.0" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.3" />
+      </effect_group>
+    </item>
+    <item name="delvePossessedSoldierAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="14" />
+        <property name="DamageBlock" value="20" />
+        <property name="Delay" value="1.3" />
+        <property name="Range" value="1.7" />
+      </property>
+      <effect_group name="delvePossessedSoldierAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="14" />
+        <passive_effect name="BlockDamage" operation="base_set" value="20" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="46.154" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.7" />
+      </effect_group>
+    </item>
+    <item name="delveDemonSpawnAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="12" />
+        <property name="DamageBlock" value="16" />
+        <property name="Delay" value="1" />
+        <property name="Range" value="1.65" />
+      </property>
+      <effect_group name="delveDemonSpawnAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="12" />
+        <passive_effect name="BlockDamage" operation="base_set" value="16" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="60.0" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.65" />
+      </effect_group>
+    </item>
+    <item name="delveHellhoundAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="35" />
+      <property class="Action0">
+        <property name="DamageEntity" value="10" />
+        <property name="DamageBlock" value="8" />
+        <property name="Delay" value="0.9" />
+        <property name="Range" value="1.5" />
+      </property>
+      <effect_group name="delveHellhoundAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="10" />
+        <passive_effect name="BlockDamage" operation="base_set" value="8" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="66.667" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.5" />
+      </effect_group>
+    </item>
+    <item name="delveWarpedBruteAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="20" />
+        <property name="DamageBlock" value="30" />
+        <property name="Delay" value="1.7" />
+        <property name="Range" value="1.9" />
+      </property>
+      <effect_group name="delveWarpedBruteAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="20" />
+        <passive_effect name="BlockDamage" operation="base_set" value="30" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="35.294" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.9" />
+      </effect_group>
+    </item>
+    <item name="delveAshboundWardenAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="9" />
+      <property class="Action0">
+        <property name="DamageEntity" value="22" />
+        <property name="DamageBlock" value="32" />
+        <property name="Delay" value="1.4" />
+        <property name="Range" value="1.9" />
+      </property>
+      <effect_group name="delveAshboundWardenAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="22" />
+        <passive_effect name="BlockDamage" operation="base_set" value="32" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="42.857" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.9" />
+      </effect_group>
+    </item>
+    <item name="delveThornbackBoarAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="35" />
+      <property class="Action0">
+        <property name="DamageEntity" value="16" />
+        <property name="DamageBlock" value="16" />
+        <property name="Delay" value="1.3" />
+        <property name="Range" value="1.7" />
+      </property>
+      <effect_group name="delveThornbackBoarAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="16" />
+        <passive_effect name="BlockDamage" operation="base_set" value="16" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="46.154" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.7" />
+      </effect_group>
+    </item>
+    <item name="delveGloomcatAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="35" />
+      <property class="Action0">
+        <property name="DamageEntity" value="13" />
+        <property name="DamageBlock" value="8" />
+        <property name="Delay" value="1" />
+        <property name="Range" value="1.7" />
+      </property>
+      <effect_group name="delveGloomcatAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="13" />
+        <passive_effect name="BlockDamage" operation="base_set" value="8" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="60.0" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1.7" />
+      </effect_group>
+    </item>
+    <item name="delveCrystalStagAttack">
+      <property name="Extends" value="meleeHandMaster" />
+      <property name="CreativeMode" value="None" />
+      <property name="HoldType" value="35" />
+      <property class="Action0">
+        <property name="DamageEntity" value="0" />
+        <property name="DamageBlock" value="0" />
+        <property name="Delay" value="1" />
+        <property name="Range" value="1" />
+      </property>
+      <effect_group name="delveCrystalStagAttack" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="0" />
+        <passive_effect name="BlockDamage" operation="base_set" value="0" />
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="60.0" />
+        <passive_effect name="DamageFalloffRange" operation="base_set" value="1" />
+      </effect_group>
+    </item>
+    <item name="delveThornhide">
+      <property name="Extends" value="resourceLeather" />
+      <property name="CustomIcon" value="resourceLeather" />
+      <property name="CustomIconTint" value="98,135,66" />
+      <property name="DescriptionKey" value="delveThornhideDesc" />
+      <property name="EconomicValue" value="18" />
+      <property name="Stacknumber" value="100" />
+    </item>
+    <item name="delveGloomPelt">
+      <property name="Extends" value="resourceLeather" />
+      <property name="CustomIcon" value="resourceLeather" />
+      <property name="CustomIconTint" value="90,67,119" />
+      <property name="DescriptionKey" value="delveGloomPeltDesc" />
+      <property name="EconomicValue" value="30" />
+      <property name="Stacknumber" value="100" />
+    </item>
+    <item name="delveForestCrystal">
+      <property name="Extends" value="resourceRockSmall" />
+      <property name="CustomIcon" value="resourceRockSmall" />
+      <property name="CustomIconTint" value="99,211,244" />
+      <property name="DescriptionKey" value="delveForestCrystalDesc" />
+      <property name="EconomicValue" value="40" />
+      <property name="Stacknumber" value="100" />
+    </item>
+  </append>
+</configs>

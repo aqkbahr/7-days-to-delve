@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="True" />
+  <property name="ExcludePOICulling" value="True" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="AllowDecorations" value="False" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="True" />
+  <property name="YOffset" value="-2" />
+  <property name="PrefabSize" value="60, 18, 60" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="QuestTags" value="trader, traderJoel" />
+  <property class="IndexedBlockOffsets">
+    <property class="Trader">
+      <property name="0" value="30, 2, 49" />
+    </property>
+  </property>
+  <property name="TeleportVolumeStart" value="1, 1, 1" />
+  <property name="TeleportVolumeSize" value="58, 16, 58" />
+  <property name="TraderAreaProtect" value="0,0,0" />
+  <property name="Tags" value="gateway, nocheckpoint" />
+  <property name="EditorGroups" value="settlements" />
+  <property name="ThemeTags" value="delveWayrest" />
+</prefab>

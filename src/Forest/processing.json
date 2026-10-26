@@ -1,0 +1,641 @@
+{
+  "recipes": [
+    {
+      "name": "delveFieldHearth",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceRockSmall": 20,
+        "resourceClayLump": 10
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveForgeAnvil",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceRockSmall": 40,
+        "resourceClayLump": 30,
+        "resourceWood": 20
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveSawKit",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 4,
+        "resourceWood": 20
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveOutfittingKit",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 8,
+        "resourceBone": 4
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveMortarKit",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "resourceRockSmall": 20,
+        "resourceClayLump": 10,
+        "resourceWood": 5
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveSortingTable",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceRockSmall": 20
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveInscriptionKit",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "resourceRockSmall": 10,
+        "resourceCloth": 4,
+        "resourceForgedIron": 2
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveRoughHandle",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceWood": 6
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveLeatherBinding",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 4,
+      "ingredients": {
+        "resourceLeather": 2
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveSeasonedTimber",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 4,
+      "ingredients": {
+        "resourceWood": 12
+      },
+      "station": "delveSawKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveCuredLeather",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 2,
+      "ingredients": {
+        "resourceLeather": 4,
+        "resourceWood": 2
+      },
+      "station": "delveOutfittingKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveWovenCloth",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 2,
+      "ingredients": {
+        "resourceCloth": 4
+      },
+      "station": "delveOutfittingKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveIronFittings",
+      "skill": "Smithing",
+      "rank": 10,
+      "count": 4,
+      "ingredients": {
+        "resourceForgedIron": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveForgeAnvil",
+      "seconds": 20
+    },
+    {
+      "name": "delveDressedStone",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 4,
+      "ingredients": {
+        "resourceRockSmall": 10
+      },
+      "station": "delveSortingTable",
+      "seconds": 20
+    },
+    {
+      "name": "delveIronConcentrate",
+      "skill": "Mining",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "resourceScrapIron": 20
+      },
+      "station": "delveSortingTable",
+      "seconds": 20
+    },
+    {
+      "name": "delveHerbalExtract",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 2,
+      "ingredients": {
+        "resourceDelveYarrow": 2,
+        "resourceDelveThyme": 1
+      },
+      "station": "delveMortarKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveRuneBlank",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 10,
+      "ingredients": {
+        "resourceRockSmall": 5
+      },
+      "station": "delveSortingTable",
+      "seconds": 20
+    },
+    {
+      "name": "delveCharcoal",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 5,
+      "ingredients": {
+        "resourceWood": 10
+      },
+      "station": "delveFieldHearth",
+      "seconds": 20
+    },
+    {
+      "name": "delveHideRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceLeather": 2,
+        "resourceCloth": 2
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveMetalRepair",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceScrapIron": 10,
+        "resourceCloth": 2
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "delveFocusRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceWood": 5,
+        "resourceCloth": 2
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "resourceForgedIron",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceScrapIron": 20,
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveForgeAnvil",
+      "seconds": 30
+    },
+    {
+      "name": "resourceForgedIron",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "delveIronConcentrate": 1,
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveForgeAnvil",
+      "seconds": 30
+    },
+    {
+      "name": "resourceCloth",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 10
+      },
+      "station": "",
+      "seconds": 10
+    },
+    {
+      "name": "resourceGlue",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceBone": 3,
+        "drinkJarBoiledWater": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 20
+    },
+    {
+      "name": "resourceLeather",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceYuccaFibers": 20,
+        "delveHerbalExtract": 1
+      },
+      "station": "delveOutfittingKit",
+      "seconds": 30
+    },
+    {
+      "name": "toolCookingPot",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceScrapIron": 20,
+        "delveCharcoal": 2
+      },
+      "station": "delveForgeAnvil",
+      "seconds": 30
+    },
+    {
+      "name": "drinkJarEmpty",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 15
+    },
+    {
+      "name": "drinkJarBoiledWater",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "drinkJarRiverWater": 1,
+        "delveCharcoal": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 20
+    },
+    {
+      "name": "delveEmberSalts",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 2,
+      "ingredients": {
+        "resourceDelveMooncap": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveMortarKit",
+      "seconds": 20
+    },
+    {
+      "name": "medicalBandage",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 3,
+      "ingredients": {
+        "delveWovenCloth": 1
+      },
+      "station": "delveOutfittingKit",
+      "seconds": 10
+    },
+    {
+      "name": "resourceRepairKit",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 1,
+        "resourceCloth": 2,
+        "resourceGlue": 1
+      },
+      "station": "delveForgeAnvil",
+      "seconds": 20
+    },
+    {
+      "name": "delveFocusRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 3,
+      "ingredients": {
+        "delveSeasonedTimber": 1,
+        "delveWovenCloth": 1
+      },
+      "station": "delveSawKit",
+      "seconds": 10
+    },
+    {
+      "name": "delveHideRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 3,
+      "ingredients": {
+        "delveCuredLeather": 1,
+        "delveWovenCloth": 1
+      },
+      "station": "delveOutfittingKit",
+      "seconds": 10
+    },
+    {
+      "name": "resourceCobblestones",
+      "skill": "Mining",
+      "rank": 1,
+      "count": 12,
+      "ingredients": {
+        "delveDressedStone": 2,
+        "resourceClayLump": 2
+      },
+      "station": "delveSortingTable",
+      "seconds": 10
+    },
+    {
+      "name": "delveWandRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      },
+      "station": "delveInscriptionKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveStaffRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      },
+      "station": "delveInscriptionKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveTotemRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      },
+      "station": "delveInscriptionKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveHealingRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      },
+      "station": "delveInscriptionKit",
+      "seconds": 20
+    },
+    {
+      "name": "delveArborProtection",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "drinkJarBoiledWater": 1,
+        "delveEmberSalts": 3,
+        "resourceDelveYarrow": 2
+      },
+      "station": "delveMortarKit",
+      "seconds": 30
+    },
+    {
+      "name": "delveRainCollector",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 40,
+        "resourceCloth": 10,
+        "resourceRockSmall": 20
+      },
+      "station": "",
+      "seconds": 20
+    },
+    {
+      "name": "foodDelveTrailRations",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodDelveBrambleberries": 2,
+        "delveCharcoal": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 30
+    },
+    {
+      "name": "foodDelveGathererPorridge",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "foodCornMeal": 2,
+        "drinkJarBoiledWater": 1,
+        "resourceDelveThyme": 1,
+        "delveCharcoal": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 30
+    },
+    {
+      "name": "foodDelveIncursionSupper",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodCropPotato": 2,
+        "drinkJarBoiledWater": 1,
+        "resourceDelveThyme": 1,
+        "delveCharcoal": 1
+      },
+      "station": "delveFieldHearth",
+      "seconds": 30
+    },
+    {
+      "name": "delveProcessingGuide",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "",
+      "seconds": 20
+    }
+  ],
+  "stations": [
+    {
+      "name": "delveFieldHearth",
+      "skill": "Cooking",
+      "rank": 1
+    },
+    {
+      "name": "delveForgeAnvil",
+      "skill": "Smithing",
+      "rank": 1
+    },
+    {
+      "name": "delveSawKit",
+      "skill": "Carpentry",
+      "rank": 10
+    },
+    {
+      "name": "delveOutfittingKit",
+      "skill": "Carpentry",
+      "rank": 10
+    },
+    {
+      "name": "delveMortarKit",
+      "skill": "Alchemy",
+      "rank": 10
+    },
+    {
+      "name": "delveSortingTable",
+      "skill": "Mining",
+      "rank": 10
+    },
+    {
+      "name": "delveInscriptionKit",
+      "skill": "Alchemy",
+      "rank": 10
+    }
+  ],
+  "repairs": {
+    "delveLeatherKnuckles": "delveHideRepair",
+    "delveBoneDagger": "delveMetalRepair",
+    "delveOakCudgel": "delveFocusRepair",
+    "delveAshSpear": "delveFocusRepair",
+    "delveBorderBow": "delveFocusRepair",
+    "delveIronDagger": "delveMetalRepair",
+    "delveIronMace": "delveMetalRepair",
+    "delveIronSpear": "delveMetalRepair",
+    "delveHuntingBow": "delveFocusRepair",
+    "delveStarterWand": "delveFocusRepair",
+    "delveStarterStaff": "delveFocusRepair",
+    "delveStarterTotem": "delveFocusRepair",
+    "delveMendingTotem": "delveFocusRepair",
+    "armorDelveLightHelmet": "delveHideRepair",
+    "armorDelveLightOutfit": "delveHideRepair",
+    "armorDelveLightGloves": "delveHideRepair",
+    "armorDelveLightBoots": "delveHideRepair",
+    "armorDelveMediumHelmet": "delveHideRepair",
+    "armorDelveMediumOutfit": "delveHideRepair",
+    "armorDelveMediumGloves": "delveHideRepair",
+    "armorDelveMediumBoots": "delveHideRepair",
+    "armorDelveHeavyHelmet": "delveMetalRepair",
+    "armorDelveHeavyOutfit": "delveMetalRepair",
+    "armorDelveHeavyGloves": "delveMetalRepair",
+    "armorDelveHeavyBoots": "delveMetalRepair",
+    "armorDelvePaddedHelmet": "delveHideRepair",
+    "armorDelvePaddedOutfit": "delveHideRepair",
+    "armorDelvePaddedGloves": "delveHideRepair",
+    "armorDelvePaddedBoots": "delveHideRepair"
+  },
+  "meal_items": [
+    "foodDelveCookedBerries",
+    "foodDelveMushroomSkewers",
+    "foodDelveCornPorridge",
+    "foodDelveRoastedPumpkin",
+    "foodDelveSeasonedRoast",
+    "foodDelveBerryPorridge",
+    "foodDelveHunterStew",
+    "foodDelveHoneyberryCakes",
+    "foodDelveTravelBread",
+    "foodDelveBerryPreserve",
+    "foodDelveTrailRation",
+    "foodDelveTrailRations",
+    "foodDelveGathererPorridge",
+    "foodDelveIncursionSupper"
+  ],
+  "drink_items": [
+    "delveWayfarerTea",
+    "drinkDelveWoodlandBroth",
+    "drinkDelveGoldenrodTea"
+  ]
+}

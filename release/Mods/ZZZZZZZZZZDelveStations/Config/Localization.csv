@@ -1,0 +1,112 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveStationUpgradeHeading,DelveStations,,,,ADD-ONS
+delveFarmDispatch,DelveStations,,,,Farm Workbench
+delveFarmDispatchDesc,DelveStations,,,,"Farming base station. Install removable add-ons in its tool slots: Compost Basket (10), Seed Sorting Press (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveCompostBin,DelveStations,,,,Farm Workbench (Legacy)
+delveCompostBinDesc,DelveStations,,,,"Farming base station. Install removable add-ons in its tool slots: Compost Basket (10), Seed Sorting Press (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveFieldHearth,DelveStations,,,,Field Hearth
+delveFieldHearthDesc,DelveStations,,,,"Cooking base station. Install removable add-ons in its tool slots: Hearth Cooking Pot (10), Hearth Roasting Grill (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveFieldHearthTier2,DelveStations,,,,Field Hearth (Legacy)
+delveFieldHearthTier2Desc,DelveStations,,,,"Cooking base station. Install removable add-ons in its tool slots: Hearth Cooking Pot (10), Hearth Roasting Grill (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveFieldHearthTier3,DelveStations,,,,Field Hearth (Legacy)
+delveFieldHearthTier3Desc,DelveStations,,,,"Cooking base station. Install removable add-ons in its tool slots: Hearth Cooking Pot (10), Hearth Roasting Grill (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveGrainMill,DelveStations,,,,Pantry Bench
+delveGrainMillDesc,DelveStations,,,,"Cooking base station. Install removable add-ons in its tool slots: Hand-Mill Attachment (10), Preserving Crock Insert (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delvePreservingCrock,DelveStations,,,,Pantry Bench (Legacy)
+delvePreservingCrockDesc,DelveStations,,,,"Cooking base station. Install removable add-ons in its tool slots: Hand-Mill Attachment (10), Preserving Crock Insert (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveForgeAnvil,DelveStations,,,,Forest Forge
+delveForgeAnvilDesc,DelveStations,,,,"Smithing base station. Install removable add-ons in its tool slots: Forge Anvil (10), Forge Bellows (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveForgeAnvilTier2,DelveStations,,,,Forest Forge (Legacy)
+delveForgeAnvilTier2Desc,DelveStations,,,,"Smithing base station. Install removable add-ons in its tool slots: Forge Anvil (10), Forge Bellows (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveForgeAnvilTier3,DelveStations,,,,Forest Forge (Legacy)
+delveForgeAnvilTier3Desc,DelveStations,,,,"Smithing base station. Install removable add-ons in its tool slots: Forge Anvil (10), Forge Bellows (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSawKit,DelveStations,,,,Carpenter's Bench
+delveSawKitDesc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Seasoning-Rack Attachment (10), Precision Joinery Jig (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSawKitTier2,DelveStations,,,,Carpenter's Bench (Legacy)
+delveSawKitTier2Desc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Seasoning-Rack Attachment (10), Precision Joinery Jig (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSawKitTier3,DelveStations,,,,Carpenter's Bench (Legacy)
+delveSawKitTier3Desc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Seasoning-Rack Attachment (10), Precision Joinery Jig (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveOutfittingKit,DelveStations,,,,Outfitting Bench
+delveOutfittingKitDesc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Leather and Weaving Frame (10), Armor-Fitting Form (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveOutfittingKitTier2,DelveStations,,,,Outfitting Bench (Legacy)
+delveOutfittingKitTier2Desc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Leather and Weaving Frame (10), Armor-Fitting Form (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveOutfittingKitTier3,DelveStations,,,,Outfitting Bench (Legacy)
+delveOutfittingKitTier3Desc,DelveStations,,,,"Carpentry base station. Install removable add-ons in its tool slots: Leather and Weaving Frame (10), Armor-Fitting Form (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveMortarKit,DelveStations,,,,Apothecary Bench
+delveMortarKitDesc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Mortar and Pestle (10), Herb-Drying Attachment (10), Fermentation Vessel (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveDryingRack,DelveStations,,,,Apothecary Bench (Legacy)
+delveDryingRackDesc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Mortar and Pestle (10), Herb-Drying Attachment (10), Fermentation Vessel (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveFermentingBarrel,DelveStations,,,,Apothecary Bench (Legacy)
+delveFermentingBarrelDesc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Mortar and Pestle (10), Herb-Drying Attachment (10), Fermentation Vessel (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveMortarKitTier2,DelveStations,,,,Apothecary Bench (Legacy)
+delveMortarKitTier2Desc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Mortar and Pestle (10), Herb-Drying Attachment (10), Fermentation Vessel (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveMortarKitTier3,DelveStations,,,,Apothecary Bench (Legacy)
+delveMortarKitTier3Desc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Mortar and Pestle (10), Herb-Drying Attachment (10), Fermentation Vessel (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveInscriptionKit,DelveStations,,,,Rune Bench
+delveInscriptionKitDesc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Rune Engraving Tools (10), Rune Etching Set (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveInscriptionKitTier2,DelveStations,,,,Rune Bench (Legacy)
+delveInscriptionKitTier2Desc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Rune Engraving Tools (10), Rune Etching Set (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveInscriptionKitTier3,DelveStations,,,,Rune Bench (Legacy)
+delveInscriptionKitTier3Desc,DelveStations,,,,"Alchemy base station. Install removable add-ons in its tool slots: Rune Engraving Tools (10), Rune Etching Set (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSortingTable,DelveStations,,,,Ore Processing Table
+delveSortingTableDesc,DelveStations,,,,"Mining base station. Install removable add-ons in its tool slots: Stone-Cutting Set (10), Ore-Sorting Sieve (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSortingTableTier2,DelveStations,,,,Ore Processing Table (Legacy)
+delveSortingTableTier2Desc,DelveStations,,,,"Mining base station. Install removable add-ons in its tool slots: Stone-Cutting Set (10), Ore-Sorting Sieve (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveSortingTableTier3,DelveStations,,,,Ore Processing Table (Legacy)
+delveSortingTableTier3Desc,DelveStations,,,,"Mining base station. Install removable add-ons in its tool slots: Stone-Cutting Set (10), Ore-Sorting Sieve (20). Proficiency and recipe ingredients still apply. Existing station variants remain usable."
+delveUpgradeCompostBasket,DelveStations,,,,Compost Basket
+delveUpgradeCompostBasketDesc,DelveStations,,,,Farming 10. Compost production at the Farm Workbench. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeSeedPress,DelveStations,,,,Seed Sorting Press
+delveUpgradeSeedPressDesc,DelveStations,,,,Farming 20. Efficient seed batches: three crop ingredients produce two seeds. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+toolCookingPot,DelveStations,,,,Hearth Cooking Pot
+toolCookingPotDesc,DelveStations,,,,Cooking 10. Cooked meals and hot drinks beyond basic water and roast food. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+toolCookingGrill,DelveStations,,,,Hearth Roasting Grill
+toolCookingGrillDesc,DelveStations,,,,Cooking 20. Advanced hearth meals. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeGrainMill,DelveStations,,,,Hand-Mill Attachment
+delveUpgradeGrainMillDesc,DelveStations,,,,Cooking 10. Milled grain and travel bread at the Pantry Bench. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradePreservingCrock,DelveStations,,,,Preserving Crock Insert
+delveUpgradePreservingCrockDesc,DelveStations,,,,Cooking 20. Preserves at the Pantry Bench. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeAnvil,DelveStations,,,,Forge Anvil
+delveUpgradeAnvilDesc,DelveStations,,,,Smithing 10. Iron fittings and intermediate smithing. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeBellows,DelveStations,,,,Forge Bellows
+delveUpgradeBellowsDesc,DelveStations,,,,Smithing 20. Forged equipment and concentrate smelting. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeSeasoningRack,DelveStations,,,,Seasoning-Rack Attachment
+delveUpgradeSeasoningRackDesc,DelveStations,,,,Carpentry 10. Seasoned timber and improved focus repair supplies. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradePrecisionJig,DelveStations,,,,Precision Joinery Jig
+delveUpgradePrecisionJigDesc,DelveStations,,,,Carpentry 20. Forged bows and casting focuses. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeDressingFrame,DelveStations,,,,Leather and Weaving Frame
+delveUpgradeDressingFrameDesc,DelveStations,,,,"Carpentry 10. Cured leather, woven cloth and batch repair/medical supplies. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable."
+delveUpgradeArmorForm,DelveStations,,,,Armor-Fitting Form
+delveUpgradeArmorFormDesc,DelveStations,,,,Carpentry 20. Forged light and medium armor. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeMortar,DelveStations,,,,Mortar and Pestle
+delveUpgradeMortarDesc,DelveStations,,,,"Alchemy 10. Herbal extracts, Ember Salts and prepared reagents. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable."
+delveUpgradeDryingRack,DelveStations,,,,Herb-Drying Attachment
+delveUpgradeDryingRackDesc,DelveStations,,,,Alchemy 10. Dried thyme and yarrow. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeFermenter,DelveStations,,,,Fermentation Vessel
+delveUpgradeFermenterDesc,DelveStations,,,,"Alchemy 20. Herbal spirits, tinctures and advanced alchemical charges. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable."
+delveUpgradeEngravingTools,DelveStations,,,,Rune Engraving Tools
+delveUpgradeEngravingToolsDesc,DelveStations,,,,Alchemy 10. Efficient batches of basic runes and Mooncap runes. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeEtchingTools,DelveStations,,,,Rune Etching Set
+delveUpgradeEtchingToolsDesc,DelveStations,,,,Alchemy 20. Etched runes. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+delveUpgradeStoneCutter,DelveStations,,,,Stone-Cutting Set
+delveUpgradeStoneCutterDesc,DelveStations,,,,"Mining 10. Dressed stone, rune blanks and efficient masonry. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable."
+delveUpgradeOreSieve,DelveStations,,,,Ore-Sorting Sieve
+delveUpgradeOreSieveDesc,DelveStations,,,,Mining 20. Iron concentrate. Install in the matching workstation add-on slot; carrying it in your backpack is not enough. Removable and reusable.
+toolDewGatherer,DelveStations,,,,Catchment Funnel
+toolDewGathererDesc,DelveStations,,,,Farming 10. Native faster rain collection. Install in the Forest Rain Collector.
+toolDewTarp,DelveStations,,,,Raincloth Canopy
+toolDewTarpDesc,DelveStations,,,,Farming 10. Native increased water yield. Install in the Forest Rain Collector.
+toolDewFilter,DelveStations,,,,Charcoal Water Filter
+toolDewFilterDesc,DelveStations,,,,Farming 20. Native clean-water filtering. Install in the Forest Rain Collector.
+delveRainCollectorDesc,DelveStations,,,,Farming 1. Place outside under open sky and supply empty jars. Farming 10 adds a Catchment Funnel and Raincloth Canopy; Farming 20 adds a Charcoal Water Filter. Install upgrades in the collector slots.
+delveCompostDesc,DelveStations,,,,Farming proficiency 10. Compost plant fibers and rotten flesh at a Farm Workbench with a Compost Basket. Used to make inexpensive farm plots; does not apply a growth buff.
+delveDriedThymeDesc,DelveStations,,,,"Alchemy proficiency 10. Dry herbs at an Apothecary Bench with a Herb-Drying Attachment. Used in prepared meals, medicine and settlement orders."
+delveDriedYarrowDesc,DelveStations,,,,"Alchemy proficiency 10. Dry herbs at an Apothecary Bench with a Herb-Drying Attachment. Used in prepared meals, medicine and settlement orders."
+delveLessonAlchemyDesc,DelveStations,,,,"Make a Greenleaf Poultice and an Ember Ward Draught. Train Alchemy with useful medicine and reagents; proficiency 10 opens Apothecary add-ons and 20 opens etched runes and Arbor protection. This ward draught is NOT Arbor smoke protection. Read before crafting; objectives advance in order. These optional lessons do not count toward Wayrest contracts. Recipe knowledge is already available: proficiency, ingredients and the listed station determine access."
+delveLessonMiningDesc,DelveStations,,,,"Craft a stone shovel, then cobblestones from stone and clay. Mine marked Forest iron, coal and nitrate deposits. Mining proficiency 10 opens the Stone-Cutting Set for the Ore Processing Table; 20 unlocks its branch choices. Read before crafting; objectives advance in order. These optional lessons do not count toward Wayrest contracts. Recipe knowledge is already available: proficiency, ingredients and the listed station determine access."
+delveSupplyLessonDesc,DelveStations,,,,"Make clean water and cooked food, then a repair supply for a focus or wooden weapon. Optional Crafting Tomes cost 500 gold from traders and provide step-by-step lessons. Prepare ammunition or runes for your chosen weapon, carry medicine, and equip any armor class. Settlement gates close on horde night: build and defend your own refuge."
+delveBlastingPowderDesc,DelveStations,,,,Alchemy 10 at the Apothecary Bench. Reagent for blast and excavation charges.
+thrownAmmoPipeBombDelveCoverageDesc,DelveStations,,,,"Alchemy 20 at the Apothecary Bench. Light, then throw. Enemy damage trains Alchemy; +0.5% damage per proficiency above 1. Native fuse and friendly-fire rules apply."
+thrownDynamiteDelveCoverageDesc,DelveStations,,,,Alchemy 40 at the Apothecary Bench. A powerful excavation explosive. Enemy damage trains Alchemy; +0.5% damage per proficiency above 1. Native terrain damage and fuse apply.
+delveProcessingGuideDesc,DelveStations,,,,Build base stations at proficiency 1. Install removable add-ons in their ADD-ONS slots at proficiency 10 and 20; backpack tools do not enable station recipes. Farming: Farm Workbench and Rain Collector. Cooking: Field Hearth and Pantry Bench. Smithing: Forest Forge. Carpentry: Carpenter and Outfitting benches. Alchemy: Apothecary and Rune benches. Mining: Ore Processing Table. Basic water and meals need no hearth tool; advanced meals require a pot or grill. See STATION-UPGRADES.txt for the full progression.
+delveForestReadinessGuideDesc,DelveStations,,,,"Forest recipes use crafting proficiency 1-20, independent of character level. Gather wood, stone, grass, clay and marked ores. Build a refuge with doors and spikes; prepare weapons, armor, ammunition/runes, medicine, food and repair supplies. Build base stations at proficiency 1 and install specialized add-ons at 10 and 20. Gardens supply plants and seeds; wildlife supplies meat, hides and bone. Collect rainwater in clay jars and boil it at the Field Hearth. All recipes through 20 remain available within the Forest. See STATION-UPGRADES.txt for station tools and ingredient routes."

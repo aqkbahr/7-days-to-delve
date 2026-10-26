@@ -1,0 +1,70 @@
+{
+  "id": "delveForgedWand",
+  "name": "Carved Spark Wand",
+  "family": "wand",
+  "tier": "Forged",
+  "bones": [
+    "Root",
+    "Weapon",
+    "GripRight",
+    "GripLeft",
+    "Muzzle",
+    "EffectOrigin",
+    "EdgeBase",
+    "EdgeTip",
+    "Focus",
+    "LeftWrap",
+    "BowUpper",
+    "BowLower",
+    "String",
+    "Ammo"
+  ],
+  "triangles": {
+    "Weapon_LOD0": 3110,
+    "Weapon_LOD1": 1305,
+    "Weapon_LOD2": 404
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Equip": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Unequip": {
+      "seconds": 0.5,
+      "loop": false
+    },
+    "Aim": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Recover": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Cast": {
+      "seconds": 0.65,
+      "loop": false
+    },
+    "Channel": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Recharge": {
+      "seconds": 1.8,
+      "loop": false
+    },
+    "EmptyCast": {
+      "seconds": 0.35,
+      "loop": false
+    }
+  },
+  "gameplay_events": false,
+  "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+  "visual_revision": 3,
+  "art_revision": "WeaponRebuild20261026",
+  "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+}

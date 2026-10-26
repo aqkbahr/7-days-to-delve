@@ -1,0 +1,38 @@
+{
+  "id": "delveWandRune",
+  "name": "delveWandRune",
+  "family": "rune",
+  "tier": "Field",
+  "bones": [
+    "Root",
+    "Weapon",
+    "GripRight",
+    "GripLeft",
+    "Muzzle",
+    "EffectOrigin",
+    "EdgeBase",
+    "EdgeTip",
+    "Focus",
+    "LeftWrap",
+    "BowUpper",
+    "BowLower",
+    "String",
+    "Ammo"
+  ],
+  "triangles": {
+    "Weapon_LOD0": 544,
+    "Weapon_LOD1": 227,
+    "Weapon_LOD2": 69
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "gameplay_events": false,
+  "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+  "visual_revision": 3,
+  "art_revision": "WeaponRebuild20261026",
+  "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+}

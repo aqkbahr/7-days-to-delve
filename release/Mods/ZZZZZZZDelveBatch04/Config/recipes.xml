@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <set xpath="/recipes/recipe[@name='delveWandRune']/ingredient[@name='resourceCropChrysanthemumPlant']/@name">resourceScrapLead</set>
+  <set xpath="/recipes/recipe[@name='delveStaffRune']/ingredient[@name='resourceCropChrysanthemumPlant']/@name">resourceScrapIron</set>
+  <set xpath="/recipes/recipe[@name='delveMooncapWandRune']/ingredient[@name='resourceDelveMooncap']/@name">resourceScrapLead</set>
+  <set xpath="/recipes/recipe[@name='delveMooncapStaffRune']/ingredient[@name='resourceDelveMooncap']/@name">resourceScrapIron</set>
+  <set xpath="/recipes/recipe[@name='delveWandRune']/ingredient[@name='delveHerbalExtract']/@name">resourceScrapLead</set>
+  <set xpath="/recipes/recipe[@name='delveStaffRune']/ingredient[@name='delveHerbalExtract']/@name">resourceScrapIron</set>
+  <set xpath="/recipes/recipe[@name='delveEtchedWandRune']/ingredient[@name='delveHerbalExtract']/@name">resourceScrapLead</set>
+  <set xpath="/recipes/recipe[@name='delveEtchedStaffRune']/ingredient[@name='delveHerbalExtract']/@name">resourceScrapIron</set>
+</configs>

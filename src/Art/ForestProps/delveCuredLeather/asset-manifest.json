@@ -1,0 +1,19 @@
+{
+  "id": "delveCuredLeather",
+  "kind": "item",
+  "family": "delveCuredLeather",
+  "name": "Cured Leather",
+  "triangles": {
+    "Prop_LOD0": 220,
+    "Prop_LOD1": 120,
+    "Prop_LOD2": 54
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "delveForgedShovel",
+  "kind": "tool",
+  "family": "delveForgedShovel",
+  "name": "Border Shovel",
+  "triangles": {
+    "Prop_LOD0": 2972,
+    "Prop_LOD1": 1634,
+    "Prop_LOD2": 742
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Swing": {
+      "seconds": 0.8,
+      "loop": false
+    },
+    "Recover": {
+      "seconds": 0.6,
+      "loop": false
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

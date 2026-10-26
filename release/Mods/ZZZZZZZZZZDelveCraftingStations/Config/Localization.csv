@@ -1,0 +1,43 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,KeepLoaded,english
+delveFieldHearth,Delve,,,,,Basic Field Hearth
+delveFieldHearthDesc,Delve,,,,,Cooking 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Cooking 10. Earlier recipes remain available at higher station tiers.
+delveFieldHearthTier2,Delve,,,,,Improved Field Hearth
+delveFieldHearthTier2Desc,Delve,,,,,"Cooking 10. Craft at the previous station tier, then place and use. Includes all earlier Field Hearth recipes. Prepared repair supplies still work in the field."
+delveFieldHearthTier3,Delve,,,,,Masterwork Field Hearth
+delveFieldHearthTier3Desc,Delve,,,,,"Cooking 20. Craft at the previous station tier, then place and use. Includes all earlier Field Hearth recipes. Prepared repair supplies still work in the field."
+delveForgeAnvil,Delve,,,,,Basic Forest Forge
+delveForgeAnvilDesc,Delve,,,,,Smithing 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Smithing 10. Earlier recipes remain available at higher station tiers.
+delveForgeAnvilTier2,Delve,,,,,Improved Forest Forge
+delveForgeAnvilTier2Desc,Delve,,,,,"Smithing 10. Craft at the previous station tier, then place and use. Includes all earlier Forest Forge recipes. Prepared repair supplies still work in the field."
+delveForgeAnvilTier3,Delve,,,,,Masterwork Forest Forge
+delveForgeAnvilTier3Desc,Delve,,,,,"Smithing 20. Craft at the previous station tier, then place and use. Includes all earlier Forest Forge recipes. Prepared repair supplies still work in the field."
+delveSawKit,Delve,,,,,Basic Woodworking Bench
+delveSawKitDesc,Delve,,,,,Carpentry 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Carpentry 10. Earlier recipes remain available at higher station tiers.
+delveSawKitTier2,Delve,,,,,Improved Woodworking Bench
+delveSawKitTier2Desc,Delve,,,,,"Carpentry 10. Craft at the previous station tier, then place and use. Includes all earlier Woodworking Bench recipes. Prepared repair supplies still work in the field."
+delveSawKitTier3,Delve,,,,,Masterwork Woodworking Bench
+delveSawKitTier3Desc,Delve,,,,,"Carpentry 20. Craft at the previous station tier, then place and use. Includes all earlier Woodworking Bench recipes. Prepared repair supplies still work in the field."
+delveOutfittingKit,Delve,,,,,Basic Outfitting Bench
+delveOutfittingKitDesc,Delve,,,,,Carpentry 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Carpentry 10. Earlier recipes remain available at higher station tiers.
+delveOutfittingKitTier2,Delve,,,,,Improved Outfitting Bench
+delveOutfittingKitTier2Desc,Delve,,,,,"Carpentry 10. Craft at the previous station tier, then place and use. Includes all earlier Outfitting Bench recipes. Prepared repair supplies still work in the field."
+delveOutfittingKitTier3,Delve,,,,,Masterwork Outfitting Bench
+delveOutfittingKitTier3Desc,Delve,,,,,"Carpentry 20. Craft at the previous station tier, then place and use. Includes all earlier Outfitting Bench recipes. Prepared repair supplies still work in the field."
+delveMortarKit,Delve,,,,,Basic Apothecary Bench
+delveMortarKitDesc,Delve,,,,,Alchemy 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Alchemy 10. Earlier recipes remain available at higher station tiers.
+delveMortarKitTier2,Delve,,,,,Improved Apothecary Bench
+delveMortarKitTier2Desc,Delve,,,,,"Alchemy 10. Craft at the previous station tier, then place and use. Includes all earlier Apothecary Bench recipes. Prepared repair supplies still work in the field."
+delveMortarKitTier3,Delve,,,,,Masterwork Apothecary Bench
+delveMortarKitTier3Desc,Delve,,,,,"Alchemy 20. Craft at the previous station tier, then place and use. Includes all earlier Apothecary Bench recipes. Prepared repair supplies still work in the field."
+delveSortingTable,Delve,,,,,Basic Ore Sorting Table
+delveSortingTableDesc,Delve,,,,,Mining 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Mining 10. Earlier recipes remain available at higher station tiers.
+delveSortingTableTier2,Delve,,,,,Improved Ore Sorting Table
+delveSortingTableTier2Desc,Delve,,,,,"Mining 10. Craft at the previous station tier, then place and use. Includes all earlier Ore Sorting Table recipes. Prepared repair supplies still work in the field."
+delveSortingTableTier3,Delve,,,,,Masterwork Ore Sorting Table
+delveSortingTableTier3Desc,Delve,,,,,"Mining 20. Craft at the previous station tier, then place and use. Includes all earlier Ore Sorting Table recipes. Prepared repair supplies still work in the field."
+delveInscriptionKit,Delve,,,,,Basic Rune Inscription Bench
+delveInscriptionKitDesc,Delve,,,,,Alchemy 1. Build by hand from early Forest supplies. Upgrade by crafting the Improved version here at Alchemy 10. Earlier recipes remain available at higher station tiers.
+delveInscriptionKitTier2,Delve,,,,,Improved Rune Inscription Bench
+delveInscriptionKitTier2Desc,Delve,,,,,"Alchemy 10. Craft at the previous station tier, then place and use. Includes all earlier Rune Inscription Bench recipes. Prepared repair supplies still work in the field."
+delveInscriptionKitTier3,Delve,,,,,Masterwork Rune Inscription Bench
+delveInscriptionKitTier3Desc,Delve,,,,,"Alchemy 20. Craft at the previous station tier, then place and use. Includes all earlier Rune Inscription Bench recipes. Prepared repair supplies still work in the field."

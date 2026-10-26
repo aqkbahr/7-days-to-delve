@@ -1,0 +1,40 @@
+<configs>
+  <append xpath="/lootcontainers">
+    <lootgroup name="delveReward11Supplies" count="1">
+      <item name="resourceForgedIron" count="8" prob="1"/>
+      <item name="resourceLeather" count="12" prob="1"/>
+      <item name="resourceCloth" count="20" prob="1"/>
+      <item name="delveCharcoal" count="15" prob="1"/>
+      <item name="resourceScrapLead" count="25" prob="1"/>
+      <item name="resourceGlue" count="5" prob="1"/>
+    </lootgroup>
+  </append>
+  <append xpath="/lootcontainers">
+    <lootgroup name="delveReward11Provisions" count="1">
+      <item name="delveHealingPoultice" count="3" prob="1"/>
+      <item name="foodCornBread" count="3" prob="1"/>
+      <item name="foodBakedPotato" count="5" prob="1"/>
+      <item name="foodDelveCookedBerries" count="5" prob="1"/>
+      <item name="drinkJarBoiledWater" count="3" prob="1"/>
+      <item name="medicalBandage" count="5" prob="1"/>
+    </lootgroup>
+  </append>
+  <append xpath="/lootcontainers">
+    <lootgroup name="delveReward11Gear" count="1">
+      <item name="delveBoneDagger" count="1" prob="1"/>
+      <item name="delveOakCudgel" count="1" prob="1"/>
+      <item name="delveAshSpear" count="1" prob="1"/>
+      <item name="delveBorderBow" count="1" prob="1"/>
+      <item name="delveWandRune" count="30" prob="1"/>
+      <item name="delveStaffRune" count="20" prob="1"/>
+      <item name="delveTotemRune" count="20" prob="1"/>
+      <item name="delveHealingRune" count="15" prob="1"/>
+      <item name="delveLessonFarmingNotes" count="1" prob="0.1"/>
+      <item name="delveLessonCookingNotes" count="1" prob="0.1"/>
+      <item name="delveLessonMiningNotes" count="1" prob="0.1"/>
+      <item name="delveLessonSmithingNotes" count="1" prob="0.1"/>
+      <item name="delveLessonCarpentryNotes" count="1" prob="0.1"/>
+      <item name="delveLessonAlchemyNotes" count="1" prob="0.1"/>
+    </lootgroup>
+  </append>
+</configs>

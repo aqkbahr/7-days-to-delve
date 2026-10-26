@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<forest>
+  <poi name="delve_forest_cabin_01" volume="2" kind="corrupted" count="2" />
+  <poi name="delve_forest_cabin_04" volume="4" kind="corrupted" count="2" />
+  <poi name="delve_forest_cabin_05" volume="2" kind="corrupted" count="3" />
+  <poi name="delve_forest_cabin_06" volume="1" kind="corrupted" count="3" />
+  <poi name="delve_forest_cabin_07" volume="3" kind="imp" count="3" />
+  <poi name="delve_forest_cabin_08" volume="1" kind="corrupted" count="2" />
+  <poi name="delve_forest_cabin_10" volume="0" kind="corrupted" count="3" />
+  <poi name="delve_forest_cabin_12" volume="2" kind="imp" count="2" />
+  <poi name="delve_forest_cabin_14" volume="4" kind="imp" count="3" />
+  <poi name="delve_forest_cemetery_01" volume="0" kind="corrupted" count="2" />
+  <poi name="delve_forest_farm_12" volume="4" kind="corrupted" count="3" />
+  <poi name="delve_forest_oldwest_business_01" volume="4" kind="occupation" count="3" />
+  <poi name="delve_forest_oldwest_business_08" volume="3" kind="occupation" count="3" />
+  <poi name="delve_forest_oldwest_church" volume="1" kind="corrupted" count="3" />
+  <poi name="delve_forest_ranger_station_05" volume="2" kind="soldier" count="2" />
+  <poi name="delve_forest_cabin_01_garden" volume="2" kind="corrupted" count="2" />
+  <poi name="delve_forest_cabin_04_garden" volume="4" kind="corrupted" count="2" />
+  <poi name="delve_forest_farm_12_garden" volume="4" kind="corrupted" count="3" />
+</forest>

@@ -1,0 +1,1257 @@
+<configs><append xpath="/blocks">
+    <block name="delveMedieval_appliancesVariantHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntBathTubGore">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="bathtub"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntBathTubsRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="bathtub"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCabinetGraniteSinkHoleRound">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="sinks"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCharcoalGrillClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="charcoalGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCharcoalGrillOpen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="charcoalGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCharcoalGrillRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="charcoalGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoffeeMaker">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="coffeeMaker"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoffeeMakerCommercial">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="coffeeMaker"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCommercialCoolerFull">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_steel"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCommercialCoolerLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_steel"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerBlue">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="playerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerClosedGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerClosedRed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerClosedYellow">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="coolerMedical"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="playerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerOpen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerOpenGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerOpenRed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerOpenYellow">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="cooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerRed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="playerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntCoolerVariantHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="playerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherBlackRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherEmptyBlack">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherEmptyGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherEmptyWhite">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherEmptyYellow">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullBlack">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullBlack_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasherNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullGreen_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasherNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullWhite">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullWhite_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasherNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullYellow">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherFullYellow_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasherNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherGreenRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherWhiteRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDishwasherYellowRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="dishwasher"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDryerClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDryerClosed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntDryerRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntFridgeStainlessSteel">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_steel"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntFridgeStainlessSteelRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_steel"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntFridgeStainlessSteelVer2Open">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_retro"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntFridgeStainlessSteel_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_steelNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntGasGrillClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="gasGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntGasGrillOpen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="gasGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntGasGrillRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="gasGrill"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMicrowaveOvenVer1Closed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="microwave"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMicrowaveOvenVer1Closed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="microwaveNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMicrowaveOvenVer2Closed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="microwave"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMicrowaveOvenVer2Closed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="microwaveNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMicrowaveRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="microwave"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCooler">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerEmpty">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerPlayer">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCoolerPlayer"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerUnderCounter">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerUnderCounterEmpty">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerUnderCounterPlayer">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCoolerPlayer"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntMiniBeverageCoolerUnderCounterRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="beerCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntRetroFridgeRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_retro"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntRetroFridgeVer1Closed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_retro"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntRetroFridgeVer1Closed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_retroNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntRetroFridgeVer2Open">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="refrigerator_retro"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveModernVer1Closed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveModernVer1Closed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="ovenNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveModernVer2Open">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveOldVer1Closed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveOldVer1Closed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="ovenNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveOldVer2Open">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntStoveRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntToilet01">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="toilet"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntToilet02">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="toilet"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntToilet03">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="toilet"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWasherClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWasherClosed_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWasherIndustrialClosed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWasherIndustrialRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWasherRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundry"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWaterCoolerBottle">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="waterCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWaterCoolerBottleSideCentered">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="waterCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWaterCoolerFull">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="waterCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntWaterCoolerFullSideCentered">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="waterCooler"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryBlackRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryBlueRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryBrownRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullBlack">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullBlue">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullBrown">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullGreen">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullGrey">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullOrange">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullRed">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullWhite">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryFullYellow">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryGreenRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryGreyRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryOrangeRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryRedRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryWhiteRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntbasketLaundryYellowRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="laundryBasket"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenBlackRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullBlack">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullBlack_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="ovenNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullGrey">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullGrey_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="ovenNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullWhite">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenFullWhite_Player">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="ovenNOPOP"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenGreyRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_cntwallOvenWhiteRandomLootHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="oven"/>
+		</property>
+	</property>
+    </block>
+    <block name="delveMedieval_toiletsBlockVariantHelper">
+      <property name="Extends" value="wineBarrelPlayer"/>
+      <property name="CreativeMode" value="None"/>
+      <property name="CustomIcon" value="delveFermentingBarrel"/>
+      <property name="DescriptionKey" value="delveMedievalContainerDesc"/>
+      <property name="CanPickup" value="false"/>
+      <property class="CompositeFeatures"><property class="TEFeatureStorage">
+			<property name="LootList" value="toilet"/>
+		</property>
+	</property>
+    </block>
+  </append>
+<set xpath="/blocks/block[@name=&quot;delveFarmPlotPlate&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmPlotPlate</set><append xpath="/blocks/block[@name=&quot;delveFarmPlotPlate&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;plantedDelveBramble1&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">plantedDelveBramble1</set><set xpath="/blocks/block[@name=&quot;plantedDelveBramble1&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;plantedDelveYarrow1&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">plantedDelveYarrow1</set><set xpath="/blocks/block[@name=&quot;plantedDelveYarrow1&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;plantedDelveThyme1&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">plantedDelveThyme1</set><set xpath="/blocks/block[@name=&quot;plantedDelveThyme1&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;plantedDelveMooncap1&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">plantedDelveMooncap1</set><set xpath="/blocks/block[@name=&quot;plantedDelveMooncap1&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;plantedDelveMooncap3Harvest&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">plantedDelveMooncap3Harvest</set><set xpath="/blocks/block[@name=&quot;plantedDelveMooncap3Harvest&quot;]/property[@name=&quot;CustomIconTint&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;delveFarmDispatch&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFarmDispatch</set><append xpath="/blocks/block[@name=&quot;delveFarmDispatch&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveCompostBin&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveCompostBin</set><append xpath="/blocks/block[@name=&quot;delveCompostBin&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveDryingRack&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveDryingRack</set><append xpath="/blocks/block[@name=&quot;delveDryingRack&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveGrainMill&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveGrainMill</set><append xpath="/blocks/block[@name=&quot;delveGrainMill&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delvePreservingCrock&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delvePreservingCrock</set><append xpath="/blocks/block[@name=&quot;delvePreservingCrock&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveFermentingBarrel&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFermentingBarrel</set><append xpath="/blocks/block[@name=&quot;delveFermentingBarrel&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveCompostedFarmPlot&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveCompostedFarmPlot</set><append xpath="/blocks/block[@name=&quot;delveCompostedFarmPlot&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveFieldHearth&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveFieldHearth</set><append xpath="/blocks/block[@name=&quot;delveFieldHearth&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveForgeAnvil&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveForgeAnvil</set><append xpath="/blocks/block[@name=&quot;delveForgeAnvil&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveSawKit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveSawKit</set><append xpath="/blocks/block[@name=&quot;delveSawKit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveOutfittingKit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveOutfittingKit</set><append xpath="/blocks/block[@name=&quot;delveOutfittingKit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveMortarKit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveMortarKit</set><append xpath="/blocks/block[@name=&quot;delveMortarKit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveSortingTable&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveSortingTable</set><append xpath="/blocks/block[@name=&quot;delveSortingTable&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveInscriptionKit&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveInscriptionKit</set><append xpath="/blocks/block[@name=&quot;delveInscriptionKit&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveRainCollector&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRainCollector</set><append xpath="/blocks/block[@name=&quot;delveRainCollector&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveRecruitLedger&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRecruitLedger</set><append xpath="/blocks/block[@name=&quot;delveRecruitLedger&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveRallyFlag&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRallyFlag</set><append xpath="/blocks/block[@name=&quot;delveRallyFlag&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;delveRecoveryShrine&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveRecoveryShrine</set><append xpath="/blocks/block[@name=&quot;delveRecoveryShrine&quot;]"><property name="CustomIconTint" value="FFFFFF"/></append><set xpath="/blocks/block[@name=&quot;tractorGreen&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder(ZZZDelveBatch01):Resources/batchone.unity3d?delveWagon1</set><set xpath="/blocks/block[@name=&quot;tractorGreen&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWagon1</set><set xpath="/blocks/block[@name=&quot;tractorGreen&quot;]/property[@name=&quot;TintColor&quot;]/@value">FFFFFF</set><set xpath="/blocks/block[@name=&quot;tractorRed&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder(ZZZDelveBatch01):Resources/batchone.unity3d?delveWagon1</set><set xpath="/blocks/block[@name=&quot;tractorRed&quot;]/property[@name=&quot;CustomIcon&quot;]/@value">delveWagon1</set><set xpath="/blocks/block[@name=&quot;tractorRed&quot;]/property[@name=&quot;TintColor&quot;]/@value">FFFFFF</set><append xpath="/blocks/block[@name=&quot;delveFarmPlotPlate&quot;]"><property name="ModelOffset" value="1,-1,1"/></append></configs>

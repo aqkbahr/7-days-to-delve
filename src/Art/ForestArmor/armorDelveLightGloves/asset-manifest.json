@@ -1,0 +1,45 @@
+{
+  "id": "armorDelveLightGloves",
+  "name": "Wayfarer Cloth Gloves",
+  "set": "Light",
+  "slot": "Gloves",
+  "family": "armor",
+  "tier": "Field",
+  "bones": 99,
+  "triangles": {
+    "Gloves_LOD0": 6224,
+    "Gloves_LOD1": 3422,
+    "Gloves_LOD2": 1556
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Walk": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Run": {
+      "seconds": 0.7,
+      "loop": true
+    },
+    "Crouch": {
+      "seconds": 1.4,
+      "loop": false
+    },
+    "Attack": {
+      "seconds": 0.8,
+      "loop": false
+    },
+    "Cast": {
+      "seconds": 1.2,
+      "loop": false
+    },
+    "Grip": {
+      "seconds": 1,
+      "loop": false
+    }
+  },
+  "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+}

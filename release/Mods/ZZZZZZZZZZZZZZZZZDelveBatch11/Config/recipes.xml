@@ -1,0 +1,74 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="60" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="foodCropCorn" count="6"/>
+      <ingredient name="foodCropPotato" count="4"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="90" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveDriedYarrow" count="3"/>
+      <ingredient name="delveDriedThyme" count="2"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="140" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="foodDelveTravelBread" count="4"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="180" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="medicalDelveYarrowTincture" count="3"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="240" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="foodDelveTrailRation" count="4"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="resourceForgedIron" count="4" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="foodBakedPotato" count="6"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="resourceLeather" count="6" craft_time="10" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="foodCornBread" count="4"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveFarmNoticePantry']"/>
+  <remove xpath="/recipes/recipe[@name='delveFarmParcelPantry']"/>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="60" craft_time="1" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveFarmParcelPantry" count="1"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveFarmNoticeHerbs']"/>
+  <remove xpath="/recipes/recipe[@name='delveFarmParcelHerbs']"/>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="90" craft_time="1" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveFarmParcelHerbs" count="1"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveFarmNoticeBread']"/>
+  <remove xpath="/recipes/recipe[@name='delveFarmParcelBread']"/>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="140" craft_time="1" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveFarmParcelBread" count="1"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveFarmNoticeMedicine']"/>
+  <remove xpath="/recipes/recipe[@name='delveFarmParcelMedicine']"/>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="180" craft_time="1" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveFarmParcelMedicine" count="1"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveFarmNoticeRations']"/>
+  <remove xpath="/recipes/recipe[@name='delveFarmParcelRations']"/>
+  <append xpath="/recipes">
+    <recipe name="casinoCoin" count="240" craft_time="1" craft_area="delveFarmDispatch" tags="delveSupplyExchange">
+      <ingredient name="delveFarmParcelRations" count="1"/>
+    </recipe>
+  </append>
+</configs>

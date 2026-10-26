@@ -1,0 +1,2035 @@
+{
+  "weapons": [
+    {
+      "id": "delveBoneDagger",
+      "name": "Wayfarer Dagger",
+      "family": "dagger",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2600,
+        "Weapon_LOD1": 1092,
+        "Weapon_LOD2": 335
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveOakCudgel",
+      "name": "Oak Cudgel",
+      "family": "mace",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2366,
+        "Weapon_LOD1": 993,
+        "Weapon_LOD2": 306
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveAshSpear",
+      "name": "Ashwood Spear",
+      "family": "spear",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3472,
+        "Weapon_LOD1": 1457,
+        "Weapon_LOD2": 451
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveLeatherKnuckles",
+      "name": "Wayfarer Handwraps",
+      "family": "wraps",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 4296,
+        "Weapon_LOD1": 1804,
+        "Weapon_LOD2": 558
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveBorderBow",
+      "name": "Border Scout Bow",
+      "family": "bow",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3718,
+        "Weapon_LOD1": 1557,
+        "Weapon_LOD2": 481
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Draw": {
+          "seconds": 0.9,
+          "loop": false
+        },
+        "Hold": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Release": {
+          "seconds": 0.35,
+          "loop": false
+        },
+        "Reload": {
+          "seconds": 1.4,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveStarterWand",
+      "name": "Spark Wand",
+      "family": "wand",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3110,
+        "Weapon_LOD1": 1305,
+        "Weapon_LOD2": 404
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveStarterStaff",
+      "name": "Ember Staff",
+      "family": "staff",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3078,
+        "Weapon_LOD1": 1292,
+        "Weapon_LOD2": 400
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveStarterTotem",
+      "name": "Withering Totem",
+      "family": "hex",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2240,
+        "Weapon_LOD1": 940,
+        "Weapon_LOD2": 291
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveMendingTotem",
+      "name": "Mending Totem",
+      "family": "heal",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2232,
+        "Weapon_LOD1": 936,
+        "Weapon_LOD2": 290
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedDagger",
+      "name": "Balanced Iron Dagger",
+      "family": "dagger",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2072,
+        "Weapon_LOD1": 870,
+        "Weapon_LOD2": 267
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedMace",
+      "name": "Balanced Iron Mace",
+      "family": "mace",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2448,
+        "Weapon_LOD1": 1028,
+        "Weapon_LOD2": 312
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedSpear",
+      "name": "Balanced Iron Spear",
+      "family": "spear",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3472,
+        "Weapon_LOD1": 1457,
+        "Weapon_LOD2": 451
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedKnuckles",
+      "name": "Reinforced Handwraps",
+      "family": "wraps",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 4296,
+        "Weapon_LOD1": 1804,
+        "Weapon_LOD2": 558
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "LightAttack": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HeavyAttack": {
+          "seconds": 0.95,
+          "loop": false
+        },
+        "Block": {
+          "seconds": 1,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedBow",
+      "name": "Seasoned Longbow",
+      "family": "bow",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3718,
+        "Weapon_LOD1": 1557,
+        "Weapon_LOD2": 481
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Draw": {
+          "seconds": 0.9,
+          "loop": false
+        },
+        "Hold": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Release": {
+          "seconds": 0.35,
+          "loop": false
+        },
+        "Reload": {
+          "seconds": 1.4,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedCrossbow",
+      "name": "Border Crossbow",
+      "family": "crossbow",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3602,
+        "Weapon_LOD1": 1509,
+        "Weapon_LOD2": 467
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Draw": {
+          "seconds": 0.9,
+          "loop": false
+        },
+        "Hold": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Release": {
+          "seconds": 0.35,
+          "loop": false
+        },
+        "Reload": {
+          "seconds": 1.4,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedWand",
+      "name": "Carved Spark Wand",
+      "family": "wand",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3110,
+        "Weapon_LOD1": 1305,
+        "Weapon_LOD2": 404
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedStaff",
+      "name": "Carved Ember Staff",
+      "family": "staff",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 3078,
+        "Weapon_LOD1": 1292,
+        "Weapon_LOD2": 400
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedTotem",
+      "name": "Carved Hex Totem",
+      "family": "hex",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2240,
+        "Weapon_LOD1": 940,
+        "Weapon_LOD2": 291
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveForgedMendingTotem",
+      "name": "Carved Mending Totem",
+      "family": "heal",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2232,
+        "Weapon_LOD1": 936,
+        "Weapon_LOD2": 290
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveWardTotem",
+      "name": "Protective Totem",
+      "family": "ward",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 2172,
+        "Weapon_LOD1": 911,
+        "Weapon_LOD2": 282
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Equip": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Unequip": {
+          "seconds": 0.5,
+          "loop": false
+        },
+        "Aim": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Recover": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "Cast": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "Channel": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Recharge": {
+          "seconds": 1.8,
+          "loop": false
+        },
+        "EmptyCast": {
+          "seconds": 0.35,
+          "loop": false
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveWandRune",
+      "name": "delveWandRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 544,
+        "Weapon_LOD1": 227,
+        "Weapon_LOD2": 69
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveStaffRune",
+      "name": "delveStaffRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 512,
+        "Weapon_LOD1": 215,
+        "Weapon_LOD2": 66
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveTotemRune",
+      "name": "delveTotemRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 528,
+        "Weapon_LOD1": 220,
+        "Weapon_LOD2": 67
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveHealingRune",
+      "name": "delveHealingRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 544,
+        "Weapon_LOD1": 228,
+        "Weapon_LOD2": 69
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveMooncapWandRune",
+      "name": "delveMooncapWandRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 796,
+        "Weapon_LOD1": 333,
+        "Weapon_LOD2": 102
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveMooncapStaffRune",
+      "name": "delveMooncapStaffRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 764,
+        "Weapon_LOD1": 320,
+        "Weapon_LOD2": 98
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveMooncapTotemRune",
+      "name": "delveMooncapTotemRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 780,
+        "Weapon_LOD1": 326,
+        "Weapon_LOD2": 100
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveMooncapHealingRune",
+      "name": "delveMooncapHealingRune",
+      "family": "rune",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 796,
+        "Weapon_LOD1": 333,
+        "Weapon_LOD2": 102
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveEtchedWandRune",
+      "name": "delveEtchedWandRune",
+      "family": "rune",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 552,
+        "Weapon_LOD1": 231,
+        "Weapon_LOD2": 71
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveEtchedStaffRune",
+      "name": "delveEtchedStaffRune",
+      "family": "rune",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 520,
+        "Weapon_LOD1": 218,
+        "Weapon_LOD2": 66
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveEtchedHexRune",
+      "name": "delveEtchedHexRune",
+      "family": "rune",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 536,
+        "Weapon_LOD1": 225,
+        "Weapon_LOD2": 68
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveEtchedHealingRune",
+      "name": "delveEtchedHealingRune",
+      "family": "rune",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 552,
+        "Weapon_LOD1": 230,
+        "Weapon_LOD2": 71
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "delveEtchedWardRune",
+      "name": "delveEtchedWardRune",
+      "family": "rune",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 568,
+        "Weapon_LOD1": 238,
+        "Weapon_LOD2": 73
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "ammoArrowStone",
+      "name": "ammoArrowStone",
+      "family": "arrow",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 918,
+        "Weapon_LOD1": 381,
+        "Weapon_LOD2": 118
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "ammoArrowIron",
+      "name": "ammoArrowIron",
+      "family": "arrow",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 918,
+        "Weapon_LOD1": 381,
+        "Weapon_LOD2": 118
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "ammoCrossbowBoltStone",
+      "name": "ammoCrossbowBoltStone",
+      "family": "bolt",
+      "tier": "Field",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 918,
+        "Weapon_LOD1": 381,
+        "Weapon_LOD2": 118
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    },
+    {
+      "id": "ammoCrossbowBoltIron",
+      "name": "ammoCrossbowBoltIron",
+      "family": "bolt",
+      "tier": "Forged",
+      "bones": [
+        "Root",
+        "Weapon",
+        "GripRight",
+        "GripLeft",
+        "Muzzle",
+        "EffectOrigin",
+        "EdgeBase",
+        "EdgeTip",
+        "Focus",
+        "LeftWrap",
+        "BowUpper",
+        "BowLower",
+        "String",
+        "Ammo"
+      ],
+      "triangles": {
+        "Weapon_LOD0": 918,
+        "Weapon_LOD1": 381,
+        "Weapon_LOD2": 118
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 2,
+          "loop": true
+        }
+      },
+      "gameplay_events": false,
+      "status": "Reconstructed weapon design and original detailed materials; rig/action/socket contract preserved; offline checks and bundle reload passed; in-game review pending",
+      "visual_revision": 3,
+      "art_revision": "WeaponRebuild20261026",
+      "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026"
+    }
+  ],
+  "aliases": {
+    "delveIronDagger": "delveForgedDagger",
+    "delveIronMace": "delveForgedMace",
+    "delveIronSpear": "delveForgedSpear",
+    "delveHuntingBow": "delveForgedBow"
+  },
+  "scope": "20 weapon/focus variants, 13 rune tokens, 4 ammunition variants",
+  "axes": "Blender Z-up; bow/bolt aim -Y -> Unity +Z; grip pivot at origin; lengths in metres",
+  "integration": "WeaponRebuild20261026: reconstructed canonical art and bundle ready for the next package; original held runtime and gameplay definitions preserved. Project: D:\\Projects\\Codex\\7DaysToDelve\\WeaponRebuild20261026",
+  "visual_revision": 2,
+  "surfaces": [
+    "ForestWeaponAtlas.png",
+    "ForestWeaponNormal.png",
+    "ForestWeaponMetallic.png",
+    "ForestWeaponOcclusion.png",
+    "ForestWeaponEmission.png"
+  ]
+}

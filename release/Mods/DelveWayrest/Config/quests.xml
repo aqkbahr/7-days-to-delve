@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/quests">
+    <quest id="delveWayrestSupplies">
+      <property name="name_key" value="delveWayrestSupplies" />
+      <property name="subtitle_key" value="delveWayrestSuppliesSub" />
+      <property name="description_key" value="delveWayrestSuppliesDesc" />
+      <property name="offer_key" value="delveWayrestSuppliesDesc" />
+      <property name="icon" value="ui_game_symbol_campfire" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="FetchKeep" id="resourceWood" value="30" phase="1" />
+      <objective type="FetchKeep" id="resourceRockSmall" value="20" phase="1" />
+      <objective type="Craft" id="delveHealingPoultice" value="2" phase="2" />
+      <reward type="Exp" value="250" />
+      <reward type="Item" id="casinoCoin" value="50" />
+    </quest>
+    <quest id="delveWayrestFetch">
+      <property name="name_key" value="delveWayrestFetch" />
+      <property name="subtitle_key" value="quest_fetch_subtitle" />
+      <property name="description_key" value="quest_fetch_description" />
+      <property name="icon" value="ui_game_symbol_quest" />
+      <property name="repeatable" value="true" />
+      <property name="category_key" value="quest" />
+      <property name="difficulty_tier" value="1" />
+      <property name="offer_key" value="quest_tier1_fetch_offer" />
+      <property name="statement_key" value="quest_fetch_statement" />
+      <property name="response_key" value="quest_fetch_response" />
+      <property name="login_rally_reset" value="true" />
+      <property name="reward_choices_count" value="3" />
+      <property name="filter_tags" value="poi" />
+      <property name="shareable" value="true" />
+      <property name="completiontype" value="TurnIn" />
+      <property name="completion_key" value="quest_fetch_completion" />
+      <objective type="RandomPOIGoto">
+        <property name="phase" value="1" />
+        <property name="biome_filter_type" value="OnlyBiome" />
+        <property name="biome_filter" value="pine_forest" />
+        <property name="nav_object" value="quest" />
+      </objective>
+      <objective type="RallyPoint">
+        <property name="phase" value="2" />
+        <property name="nav_object" value="rally" />
+        <property name="rally_marker_type" value="questRallyMarkerFetch" />
+      </objective>
+      <objective type="FetchFromContainer">
+        <property name="phase" value="3" />
+        <property name="quest_item_ID" value="1" />
+        <property name="item_count" value="1" />
+        <property name="default_container" value="cntFetchQuestSatchel" />
+        <property name="nav_object" value="fetch_container" />
+      </objective>
+      <objective type="POIStayWithin">
+        <property name="phase" value="3" />
+        <property name="radius" value="25" />
+      </objective>
+      <action type="UnlockPOI">
+        <property name="phase" value="4" />
+      </action>
+      <objective type="ReturnToNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <objective type="InteractWithNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <property name="add_to_tier_complete" value="false" />
+      <reward type="Exp" value="2500" />
+      <reward type="Item" id="casinoCoin" value="150" />
+      <reward type="Item" id="delveHealingPoultice" value="3" ischosen="true" />
+      <reward type="Item" id="foodCornBread" value="3" ischosen="true" />
+      <reward type="Item" id="resourceForgedIron" value="8" ischosen="true" />
+    </quest>
+    <quest id="delveWayrestClear">
+      <property name="name_key" value="delveWayrestClear" />
+      <property name="subtitle_key" value="quest_clear_subtitle" />
+      <property name="description_key" value="quest_clear_description" />
+      <property name="icon" value="ui_game_symbol_quest" />
+      <property name="repeatable" value="true" />
+      <property name="category_key" value="quest" />
+      <property name="offer_key" value="quest_tier1_clear_offer" />
+      <property name="difficulty_tier" value="1" />
+      <property name="statement_key" value="quest_clear_statement" />
+      <property name="response_key" value="quest_clear_response" />
+      <property name="login_rally_reset" value="true" />
+      <property name="reward_choices_count" value="3" />
+      <property name="extra_tags" value="" />
+      <property name="filter_tags" value="poi" />
+      <property name="shareable" value="true" />
+      <property name="completiontype" value="TurnIn" />
+      <property name="completion_key" value="quest_clear_completion" />
+      <objective type="RandomPOIGoto">
+        <property name="phase" value="1" />
+        <property name="biome_filter_type" value="OnlyBiome" />
+        <property name="biome_filter" value="pine_forest" />
+        <property name="nav_object" value="quest" />
+        <property name="poi_tier" value="-1" />
+      </objective>
+      <objective type="RallyPoint">
+        <property name="phase" value="2" />
+        <property name="nav_object" value="rally" />
+        <property name="rally_marker_type" value="questRallyMarkerClear" />
+      </objective>
+      <objective type="ClearSleepers">
+        <property name="phase" value="3" />
+        <property name="nav_object" value="sleeper_volume" />
+      </objective>
+      <objective type="POIStayWithin">
+        <property name="phase" value="3" />
+        <property name="radius" value="25" />
+      </objective>
+      <action type="UnlockPOI">
+        <property name="phase" value="4" />
+      </action>
+      <objective type="ReturnToNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <objective type="InteractWithNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <property name="add_to_tier_complete" value="false" />
+      <reward type="Exp" value="2500" />
+      <reward type="Item" id="casinoCoin" value="150" />
+      <reward type="Item" id="delveHealingPoultice" value="3" ischosen="true" />
+      <reward type="Item" id="foodCornBread" value="3" ischosen="true" />
+      <reward type="Item" id="resourceForgedIron" value="8" ischosen="true" />
+    </quest>
+    <quest id="delveWayrestFetchClear">
+      <property name="name_key" value="delveWayrestFetchClear" />
+      <property name="subtitle_key" value="quest_fetch_clear_subtitle" />
+      <property name="description_key" value="quest_fetch_clear_description" />
+      <property name="icon" value="ui_game_symbol_quest" />
+      <property name="repeatable" value="true" />
+      <property name="category_key" value="quest" />
+      <property name="difficulty_tier" value="1" />
+      <property name="offer_key" value="quest_tier2_fetch_clear_offer" />
+      <property name="statement_key" value="quest_fetch_clear_statement" />
+      <property name="response_key" value="quest_fetch_clear_response" />
+      <property name="login_rally_reset" value="true" />
+      <property name="reward_choices_count" value="3" />
+      <property name="extra_tags" value="" />
+      <property name="filter_tags" value="poi" />
+      <property name="shareable" value="true" />
+      <property name="completiontype" value="TurnIn" />
+      <property name="completion_key" value="quest_fetch_clear_completion" />
+      <objective type="RandomPOIGoto">
+        <property name="phase" value="1" />
+        <property name="biome_filter_type" value="OnlyBiome" />
+        <property name="biome_filter" value="pine_forest" />
+        <property name="nav_object" value="quest" />
+      </objective>
+      <objective type="RallyPoint">
+        <property name="phase" value="2" />
+        <property name="nav_object" value="rally" />
+        <property name="rally_marker_type" value="questRallyMarkerFetchClear" />
+      </objective>
+      <objective type="ClearSleepers">
+        <property name="phase" value="3" />
+        <property name="nav_object" value="sleeper_volume" />
+      </objective>
+      <objective type="FetchFromContainer">
+        <property name="phase" value="3" />
+        <property name="quest_item_ID" value="1" />
+        <property name="item_count" value="1" />
+        <property name="default_container" value="cntFetchQuestSatchel" />
+        <property name="nav_object" value="fetch_container" />
+      </objective>
+      <objective type="POIStayWithin">
+        <property name="phase" value="3" />
+        <property name="radius" value="25" />
+      </objective>
+      <action type="UnlockPOI">
+        <property name="phase" value="4" />
+      </action>
+      <objective type="ReturnToNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <objective type="InteractWithNPC">
+        <property name="phase" value="4" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <property name="add_to_tier_complete" value="false" />
+      <reward type="Exp" value="3000" />
+      <reward type="Item" id="casinoCoin" value="200" />
+      <reward type="Item" id="delveHealingPoultice" value="3" ischosen="true" />
+      <reward type="Item" id="foodCornBread" value="3" ischosen="true" />
+      <reward type="Item" id="resourceForgedIron" value="8" ischosen="true" />
+    </quest>
+    <quest id="delveWayrestReclamation">
+      <property name="name_key" value="delveWayrestReclamation" />
+      <property name="description_key" value="delveWayrestReclamationDesc" />
+      <property name="offer_key" value="delveWayrestReclamationDesc" />
+      <property name="subtitle_key" value="delveWayrestReclamationSub" />
+      <property name="icon" value="ui_game_symbol_quest" />
+      <property name="category_key" value="quest" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="DelveWayrest, Delve" value="10" phase="1" />
+    </quest>
+    <quest id="delveWayrestOnward">
+      <property name="group_name_key" value="quest_next_trader" />
+      <property name="name_key" value="delveWayrestOnward" />
+      <property name="subtitle_key" value="quest_next_trader_subtitle" />
+      <property name="description_key" value="delveWayrestOnwardDesc" />
+      <property name="icon" value="ui_game_symbol_map_trader" />
+      <property name="category_key" value="quest" />
+      <property name="shareable" value="false" />
+      <property name="repeatable" value="false" />
+      <property name="difficulty_tier" value="1" />
+      <property name="extra_tags" value="nexttrader" />
+      <property name="reward_choices_count" value="1" />
+      <property name="unique_key" value="delveWayrestOnward" />
+      <property name="offer_key" value="delveWayrestOnwardDesc" />
+      <property name="statement_key" value="quest_next_trader_statement" />
+      <property name="response_key" value="quest_next_trader_response" />
+      <property name="quest_hints" value="quest_next_trader_hint1" />
+      <property name="quest_hint_requirement" value="" />
+      <property name="completiontype" value="TurnIn" />
+      <property name="completion_key" value="quest_next_trader_completion" />
+      <property name="return_to_quest_giver" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="quest_type" value="special" />
+      <objective type="Goto" value="5" phase="1">
+        <property name="location_tag" value="TraderJen" />
+        <property name="location_name" value="trader_jen" />
+        <property name="nav_object" value="go_to_trader" />
+        <property name="biome_filter_type" value="AnyBiome" />
+      </objective>
+      <objective type="InteractWithNPC">
+        <property name="phase" value="2" />
+        <property name="nav_object" value="return_to_trader" />
+      </objective>
+      <reward type="Exp" value="1000" />
+      <reward type="Item" id="delveWardDraught" value="2" />
+    </quest>
+    <quest_list id="delveWayrestJobs">
+      <quest id="delveWayrestFetch" />
+      <quest id="delveWayrestClear" />
+      <quest id="delveWayrestFetchClear" />
+      <quest id="delveWayrestOnward" cvar="delveWayrestReady" />
+    </quest_list>
+  </append>
+</configs>

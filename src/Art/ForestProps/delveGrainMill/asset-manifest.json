@@ -1,0 +1,27 @@
+{
+  "id": "delveGrainMill",
+  "kind": "station",
+  "family": "mill",
+  "name": "Hand Grain Mill",
+  "triangles": {
+    "Prop_LOD0": 2316,
+    "Prop_LOD1": 1272,
+    "Prop_LOD2": 578
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Work": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

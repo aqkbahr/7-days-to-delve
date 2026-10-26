@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/progression/skills">
+    <skill name="delveTreeSummoning" parent="delveAttWisdom" name_key="delveTreeSummoning" icon="ui_game_symbol_tracking_pig"/>
+  </append>
+  <append xpath="/progression/perks">
+    <perk name="delvePerkSummoningBindingDiscipline" parent="delveTreeSummoning" name_key="delvePerkSummoningBindingDiscipline" desc_key="delvePerkSummoningBindingDisciplineDesc" icon="ui_game_symbol_tracking_pig" max_level="1" override_cost="1">
+      <level_requirements level="1">
+        <requirement name="CVarCompare" cvar="delveLevelSummoning" operation="GTE" value="10" desc_key="delvePerkSummoningBindingDisciplineRank"/>
+      </level_requirements>
+      <effect_group>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".1" level="1" tags="delveSummoning"/>
+        <effect_description level="1" desc_key="delvePerkSummoningBindingDiscipline" long_desc_key="delvePerkSummoningBindingDisciplineDesc"/>
+      </effect_group>
+    </perk>
+    <perk name="delvePerkSummoningPrimalBond" parent="delveTreeSummoning" name_key="delvePerkSummoningPrimalBond" desc_key="delvePerkSummoningPrimalBondDesc" icon="ui_game_symbol_tracking_pig" max_level="1" override_cost="1">
+      <level_requirements level="1">
+        <requirement name="CVarCompare" cvar="delveLevelSummoning" operation="GTE" value="10" desc_key="delvePerkSummoningPrimalBondRank"/>
+      </level_requirements>
+      <effect_group>
+        <effect_description level="1" desc_key="delvePerkSummoningPrimalBond" long_desc_key="delvePerkSummoningPrimalBondDesc"/>
+      </effect_group>
+    </perk>
+    <perk name="delvePerkSummoningFierceCompanion" parent="delveTreeSummoning" name_key="delvePerkSummoningFierceCompanion" desc_key="delvePerkSummoningFierceCompanionDesc" icon="ui_game_symbol_tracking_pig" max_level="1" override_cost="1">
+      <level_requirements level="1">
+        <requirement name="CVarCompare" cvar="delveLevelSummoning" operation="GTE" value="20" desc_key="delvePerkSummoningFierceCompanionRank"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningBindingDiscipline" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningPrimalBond" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+      </level_requirements>
+      <effect_group>
+        <effect_description level="1" desc_key="delvePerkSummoningFierceCompanion" long_desc_key="delvePerkSummoningFierceCompanionDesc"/>
+      </effect_group>
+    </perk>
+    <perk name="delvePerkSummoningStalwartCompanion" parent="delveTreeSummoning" name_key="delvePerkSummoningStalwartCompanion" desc_key="delvePerkSummoningStalwartCompanionDesc" icon="ui_game_symbol_tracking_pig" max_level="1" override_cost="1">
+      <level_requirements level="1">
+        <requirement name="CVarCompare" cvar="delveLevelSummoning" operation="GTE" value="20" desc_key="delvePerkSummoningStalwartCompanionRank"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningBindingDiscipline" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningPrimalBond" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+      </level_requirements>
+      <effect_group>
+        <effect_description level="1" desc_key="delvePerkSummoningStalwartCompanion" long_desc_key="delvePerkSummoningStalwartCompanionDesc"/>
+      </effect_group>
+    </perk>
+    <perk name="delvePerkSummoningEnduringPact" parent="delveTreeSummoning" name_key="delvePerkSummoningEnduringPact" desc_key="delvePerkSummoningEnduringPactDesc" icon="ui_game_symbol_tracking_pig" max_level="1" override_cost="1">
+      <level_requirements level="1">
+        <requirement name="CVarCompare" cvar="delveLevelSummoning" operation="GTE" value="20" desc_key="delvePerkSummoningEnduringPactRank"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningBindingDiscipline" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+        <requirement name="ProgressionLevel" progression_name="delvePerkSummoningPrimalBond" operation="GTE" value="1" desc_key="delveSummoningFundamentalsRequired"/>
+      </level_requirements>
+      <effect_group>
+        <effect_description level="1" desc_key="delvePerkSummoningEnduringPact" long_desc_key="delvePerkSummoningEnduringPactDesc"/>
+      </effect_group>
+    </perk>
+  </append>
+</configs>

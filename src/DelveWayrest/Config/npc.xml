@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/npc">
+    <npc_info id="delveWayrestSteward" name="Wayrest Steward" name_key="delveWayrestSteward" faction="whiteriver" portrait="npc_joel" greeting_type="nearby" stance="Like" voice_set="trader_joel" trader_id="1" dialog_id="delveWayrest" quest_faction="1" localization_id="delveWayrestSteward" quest_list="delveWayrestJobs" dms_section_type="TraderJoel" />
+  </append>
+</configs>

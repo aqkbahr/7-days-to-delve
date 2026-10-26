@@ -1,0 +1,19 @@
+{
+  "id": "delveThornhide",
+  "kind": "item",
+  "family": "delveThornhide",
+  "name": "Thornhide",
+  "triangles": {
+    "Prop_LOD0": 436,
+    "Prop_LOD1": 238,
+    "Prop_LOD2": 108
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "drinkJarEmpty",
+  "kind": "item",
+  "family": "drinkJarEmpty",
+  "name": "drinkJarEmpty",
+  "triangles": {
+    "Prop_LOD0": 428,
+    "Prop_LOD1": 234,
+    "Prop_LOD2": 106
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

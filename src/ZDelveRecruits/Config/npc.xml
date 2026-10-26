@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/npc">
+    <npc_info id="delveRecruitWorker" name="Wayrest Worker" name_key="delveRecruitWorker" faction="whiteriver" portrait="npc_joel" greeting_type="none" stance="Like" voice_set="" dialog_id="delveWayrest" />
+    <npc_info id="delveRecruitDefender" name="Wayrest Defender" name_key="delveRecruitDefender" faction="whiteriver" portrait="npc_joel" greeting_type="none" stance="Like" voice_set="" dialog_id="delveWayrest" />
+  </append>
+</configs>

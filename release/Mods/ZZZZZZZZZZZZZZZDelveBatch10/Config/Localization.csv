@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveHarvestScythe,,,,,Harvest Scythe
+delveHarvestScytheDesc,,,,,"Sweep through ripe plants and grass in a three-block-wide forward arc. Quality 1-6 adds 0/10/20/30/40/50 percent harvest yield, excluding seeds. Leaves immature crops, trees and structures intact. Craft at a basic forge."
+delveUpgradeEngravingToolsDesc,,,,,"Alchemy 10. Craft at the Field Crafting Mat or forge, then install in the Rune Bench for efficient batches of basic runes."
+delveUpgradeEtchingToolsDesc,,,,,"Alchemy 20. Craft at the forge, then install in the Rune Bench for Mooncap and etched rune recipes."

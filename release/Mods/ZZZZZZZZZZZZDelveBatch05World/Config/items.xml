@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/items/item[@name='foodDelveBrambleberries']">
+    <effect_group name="Food Tier 0" tiered="false">
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="3"/>
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="3"/>
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+      <display_value name="dSmellUse" value="0"/>
+    </effect_group>
+  </append>
+</configs>

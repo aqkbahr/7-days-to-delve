@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xml>
+  <Name value="ZDelveForest" />
+  <DisplayName value="Delve Forest Bestiary" />
+  <Version value="0.1.0" />
+  <Author value="Delve" />
+  <Description value="Reusable Forest enemies, magical wildlife and native POI encounter integration." />
+  <SkipWithAntiCheat value="true" />
+</xml>

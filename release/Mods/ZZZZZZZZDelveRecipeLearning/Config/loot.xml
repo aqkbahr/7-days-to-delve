@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="//item[@name='adminSkillMagazine' or @name='armorSkillMagazine' or @name='backpackSkillMagazine' or @name='bladesSkillMagazine' or @name='bowsSkillMagazine' or @name='clubsSkillMagazine' or @name='electricianSkillMagazine' or @name='explosivesSkillMagazine' or @name='foodSkillMagazine' or @name='handgunsSkillMagazine' or @name='harvestingToolsSkillMagazine' or @name='knucklesSkillMagazine' or @name='machineGunsSkillMagazine' or @name='masterSkillMagazine' or @name='medicalSkillMagazine' or @name='questRewardT1SkillMagazineBundle' or @name='repairToolsSkillMagazine' or @name='riflesSkillMagazine' or @name='roboticsSkillMagazine' or @name='salvageToolsSkillMagazine' or @name='seedSkillMagazine' or @name='shotgunsSkillMagazine' or @name='sledgehammersSkillMagazine' or @name='spearsSkillMagazine' or @name='trapsSkillMagazine' or @name='vehiclesSkillMagazine' or @name='workstationSkillMagazine']"/>
+  <append xpath="//lootgroup[@name='skillMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupQuestRewardSkillMagazinesAll01']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupChallengeRewardSkillMagazinesAll01']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='weaponSkillMagazinesOnly']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupWorkingStiffsMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupQuestT1SkillMagazineBundle']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupBuriedSuppliesT1_03']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupMoPower02']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupPassNGasMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupSavageCountryMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupZpackNurse02']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupShotgunMessiahCrateMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupShamwayMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+  <append xpath="//lootgroup[@name='groupPopNPillsMagazines']">
+    <item name="resourcePaper" count="1,3"/>
+  </append>
+</configs>

@@ -5,13 +5,20 @@ using System.Xml;
 
 public class ConsoleCmdForestArt : ConsoleCmdAbstract
 {
-    static readonly string[] Sources={"delve_wayrest_01","cabin_01","cabin_04","cemetery_01","cabin_05","cabin_06","cabin_07","cabin_08","cabin_10","cabin_12","cabin_14","farm_12","oldwest_business_01","oldwest_business_08","oldwest_church","ranger_station_05"};
+    static readonly string[] DefaultSources={"delve_wayrest_01","cabin_01","cabin_04","cemetery_01","cabin_05","cabin_06","cabin_07","cabin_08","cabin_10","cabin_12","cabin_14","farm_12","oldwest_business_01","oldwest_business_08","oldwest_church","ranger_station_05"};
+    static string[] Sources=DefaultSources;
+    static bool Arbor, Dungeon;
+    static void Emit(string message){Log.Out(message);SdtdConsole.Instance.Output(message);}
     public override string[] getCommands(){return new[]{"forestart"};}
     public override string getDescription(){return "Development-only Forest prefab inventory / art conversion.";}
     public override void Execute(List<string> args,CommandSenderInfo sender)
     {
         try {
-            string output=Path.Combine(ModManager.GetMod("AlliumTools",true).Path,"forest-inventory.tsv");
+            Sources=DefaultSources;
+            Dungeon=args.Contains("dungeon");
+            Arbor=args.Contains("arbor")||Dungeon;
+            if(Arbor) Sources=File.ReadAllLines(Path.Combine(ModManager.GetMod("AlliumTools",true).Path,Dungeon?"dungeon-sources.txt":"arbor-sources.txt"));
+            string output=Path.Combine(ModManager.GetMod("AlliumTools",true).Path,Dungeon?"dungeon-inventory.tsv":Arbor?"arbor-inventory.tsv":"forest-inventory.tsv");
             if(args.Count>0 && args[0]=="build") { Build(); return; }
             using(var writer=new StreamWriter(output)) {
                 writer.WriteLine("prefab\tblock\tcount");
@@ -25,8 +32,8 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
                     foreach(var pair in counts)writer.WriteLine(name+"\t"+pair.Key+"\t"+pair.Value);
                 }
             }
-            SdtdConsole.Instance.Output("[ForestArt] Inventory saved "+output);
-        }catch(Exception ex){SdtdConsole.Instance.Output("[ForestArt] FAIL "+ex);}
+            Emit("[ForestArt] Inventory saved "+output);
+        }catch(Exception ex){Emit("[ForestArt] FAIL "+ex);}
     }
 
     static TextureFullArray Paint(int side,int top)
@@ -37,6 +44,19 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
     static string Replacement(string n)
     {
         string s=n.ToLowerInvariant();
+        if(Arbor) {
+            if(s.StartsWith("questgenerator"))return "woodShapes:storageCubeHalf";
+            if(s.Contains("quest")||s.Contains("sleeper")||s.Contains("trap")||s.Contains("hero")||s.Contains("safe")||s.Contains("keyrack")||s.Contains("switch"))return null;
+            if(s=="terrasphalt"||s=="terrconcrete")return "terrGravel";
+            if(s.StartsWith("cnt") && (s.Contains("truck")||s.StartsWith("cntcar0")||s.Contains("cart")||s.Contains("generator")||s.Contains("garagestorage")||s.Contains("cardboard")))return "cntWoodenChestRottenClosed";
+            if(s.StartsWith("cnt") && (s.Contains("vending")||s.Contains("soda")||s.Contains("gasrange")||s.Contains("walloven")))return "cntFoodPileSmall";
+            if(s.StartsWith("cnt") && (s.Contains("garbage")||s.Contains("plastic")))return "cntOldWestChestRandomLootHelper";
+            if(s.StartsWith("tractor")||s.StartsWith("abandonedpickup"))return "woodShapes:storageCubeHalf";
+            if(s.StartsWith("aircondition")||s.StartsWith("utilitygas")||s.StartsWith("recessedlight")||s.StartsWith("tracklight")||s.StartsWith("lightpanel")||s.StartsWith("streetlight")||s.StartsWith("roadbarricade")||s.StartsWith("sign"))return "air";
+            if(s.StartsWith("hospitalbed"))return "bedrollPOI";
+            if(s.StartsWith("barrierplastic"))return "woodShapes:storageCubeHalf";
+        }
+
         // Quest actors, reset/fetch markers, switches, traps, and hero rewards
         // are deliberately left intact. These contain gameplay data.
         if(s.Contains("quest")||s.Contains("sleeper")||s.Contains("trap")||s.Contains("hero")||s.Contains("safe")||s.Contains("keyrack"))return null;
@@ -71,15 +91,15 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
     static void Build()
     {
         Mod mod=ModManager.GetMod("DelveWayrest",true),tools=ModManager.GetMod("AlliumTools",true);
-        string reportPath=Path.Combine(tools.Path,"forest-art-report.xml");
+        string reportPath=Path.Combine(tools.Path,Dungeon?"dungeon-art-report.xml":Arbor?"arbor-art-report.xml":"forest-art-report.xml");
         if(File.Exists(reportPath))File.Delete(reportPath);
-        var report=new XmlDocument();report.LoadXml("<forestArt/> ");
+        var report=new XmlDocument();report.LoadXml(Arbor?"<arborArt/>":"<forestArt/> ");
         foreach(string name in Sources) {
             Prefab original=new Prefab();if(!original.Load(name,true,true,false,false))throw new Exception("Cannot load "+name);
             // Load a separate editable instance, retaining original as comparison data.
             Prefab p=new Prefab();if(!p.Load(name,true,true,false,false))throw new Exception("Cannot reload "+name);
             if(name=="delve_wayrest_01") {
-                SdtdConsole.Instance.Output("[ForestArt] Wayrest original cell="+original.GetBlock(10,2,12).Block.GetBlockName()+" editable cell="+p.GetBlock(10,2,12).Block.GetBlockName());
+                Emit("[ForestArt] Wayrest original cell="+original.GetBlock(10,2,12).Block.GetBlockName()+" editable cell="+p.GetBlock(10,2,12).Block.GetBlockName());
             }
             var replacements=new Dictionary<Vector3i,BlockValue>();int painted=0,removedChildren=0,addedLights=0;
             for(int y=0;y<p.size.y;y++)for(int z=0;z<p.size.z;z++)for(int x=0;x<p.size.x;x++) {
@@ -93,7 +113,7 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
                     // use their canonical upright orientation.
                     if(v.Block.isMultiBlock && (!b.Block.isMultiBlock || v.Block.multiBlockPos.dim!=b.Block.multiBlockPos.dim))
                         v=Block.GetBlockValue("cntWoodenChestRottenClosed",false);
-                    if(old.ToLowerInvariant().Contains("door")||replacement=="candleWallLight"||replacement.Contains(":plate"))v.rotation=b.rotation;
+                    if(v.Block.isMultiBlock || old.ToLowerInvariant().Contains("door")||replacement=="candleWallLight"||replacement.Contains(":plate"))v.rotation=b.rotation;
                     replacements.Add(new Vector3i(x,y,z),v);
                 }
                 if(old.Contains("Shapes:") && !old.StartsWith("glass") && !old.StartsWith("awning")) {
@@ -134,10 +154,15 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
             p.AddAllChildBlocks();p.bExcludeDistantPOIMesh=true;
             foreach(var change in replacements) {
                 var pos=change.Key;
-                if(p.GetBlock(pos.x,pos.y,pos.z).rawData!=change.Value.rawData)
-                    throw new Exception("Replacement did not land at "+pos);
+                if(p.GetBlock(pos.x,pos.y,pos.z).rawData!=change.Value.rawData && !(change.Value.isair && p.GetBlock(pos.x,pos.y,pos.z).Block.GetBlockName()=="candleTableLight"))
+                    throw new Exception("Replacement did not land at "+pos+" source="+name+" old="+original.GetBlock(pos.x,pos.y,pos.z).Block.GetBlockName()+" replacement="+change.Value.Block.GetBlockName()+" actual="+p.GetBlock(pos.x,pos.y,pos.z).Block.GetBlockName());
             }
-            string dest=name=="delve_wayrest_01"?"delve_wayrest_forest":"delve_forest_"+name;
+            foreach(var trigger in original.triggerData) {
+                var pos=trigger.Key;
+                if(p.GetBlock(pos.x,pos.y,pos.z).rawData!=original.GetBlock(pos.x,pos.y,pos.z).rawData)
+                    throw new Exception("Triggered block changed "+name+" "+pos);
+            }
+            string dest=name=="delve_wayrest_01"?"delve_wayrest_forest":(Dungeon?"delve_dungeon_":Arbor?"delve_arbor_":"delve_forest_")+name;
             var loc=PathAbstractions.PrefabsSearchPaths.BuildLocation((PathAbstractions.EAbstractedLocationType)3,"POIs",dest,mod,null).Value;
             Directory.CreateDirectory(Path.GetDirectoryName(loc.FullPath));if(!p.Save(loc,true))throw new Exception("Save failed "+dest);
             // Save strips generated child cells from this instance. Restore them
@@ -147,7 +172,17 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
             // quest eligibility and height offset exactly. Only LOD/editor tags
             // change; native distant meshes would display the old appearance.
             var xml=new XmlDocument();xml.Load(original.location.FullPathNoExtension+".xml");
-            Set(xml,"ExcludeDistantPOIMesh","True");Set(xml,"EditorGroups","Delve Forest");
+            Set(xml,"ExcludeDistantPOIMesh","True");Set(xml,"EditorGroups",Dungeon?"Delve Forest Dungeons":Arbor?"Delve Burnt Arbor":"Delve Forest");
+            if(Arbor) {
+                // The manual map contains fully authored prefabs: RWG driveway/utility
+                // part expansion is not used. Electrical jobs are excluded from this
+                // candle-lit variant; clear/fetch/infested eligibility is preserved.
+                var tags=xml.SelectSingleNode("/prefab/property[@name='QuestTags']") as XmlElement;
+                if(tags!=null) {
+                    var keep=new List<string>();foreach(string tag in tags.GetAttribute("value").Split(','))if(tag.Trim()!="restore_power" && tag.Trim()!="")keep.Add(tag.Trim());
+                    tags.SetAttribute("value",string.Join(", ",keep.ToArray()));
+                }
+            }
             xml.Save(loc.FullPathNoExtension+".xml");
             Prefab check=new Prefab();if(!check.Load(loc,true,true,false,false))throw new Exception("Reload failed");
             int checkedBlocks=0;
@@ -155,11 +190,13 @@ public class ConsoleCmdForestArt : ConsoleCmdAbstract
                 var v=p.GetBlock(x,y,z);var re=check.GetBlock(x,y,z);
                 if(v.rawData!=re.rawData || p.GetTexture(x,y,z)!=check.GetTexture(x,y,z))throw new Exception("Serialization mismatch "+dest+" "+x+","+y+","+z+" before="+v.rawData+"/"+v.Block.GetBlockName()+" child="+v.ischild+" after="+re.rawData+"/"+re.Block.GetBlockName()+" child="+re.ischild+" textureEqual="+(p.GetTexture(x,y,z)==check.GetTexture(x,y,z)));
                 string n=original.GetBlock(x,y,z).Block.GetBlockName().ToLowerInvariant();
-                if((n.Contains("sleeper")||n.Contains("quest")||n.Contains("trap")||n.Contains("hero")||n.Contains("keyrack")) && original.GetBlock(x,y,z).rawData!=re.rawData)throw new Exception("Gameplay marker changed "+n);
+                if(!(Arbor && n.StartsWith("questgenerator")) && (n.Contains("sleeper")||n.Contains("quest")||n.Contains("trap")||n.Contains("hero")||n.Contains("keyrack")) && original.GetBlock(x,y,z).rawData!=re.rawData)throw new Exception("Gameplay marker changed "+n);
                 checkedBlocks++;
             }
-            var entry=report.CreateElement("prefab");entry.SetAttribute("source",name);entry.SetAttribute("target",dest);entry.SetAttribute("painted",painted.ToString());entry.SetAttribute("replaced",replacements.Count.ToString());entry.SetAttribute("removedChildren",removedChildren.ToString());entry.SetAttribute("tableCandles",addedLights.ToString());entry.SetAttribute("verifiedCells",checkedBlocks.ToString());report.DocumentElement.AppendChild(entry);
-            SdtdConsole.Instance.Output("[ForestArt] PASS "+dest+" paint="+painted+" replace="+replacements.Count+" candles="+addedLights);
+            var entry=report.CreateElement("prefab");entry.SetAttribute("source",name);entry.SetAttribute("target",dest);entry.SetAttribute("painted",painted.ToString());entry.SetAttribute("replaced",replacements.Count.ToString());entry.SetAttribute("removedChildren",removedChildren.ToString());entry.SetAttribute("tableCandles",addedLights.ToString());entry.SetAttribute("verifiedCells",checkedBlocks.ToString());report.DocumentElement.AppendChild(entry);report.Save(reportPath);
+            if(Dungeon&&name=="cave_12")ConsoleCmdDungeonVerify.Reinforce(check);
+            if(Dungeon&&name=="cave_11")ConsoleCmdDungeonVerify.RepairSmugglerTorch(check);
+            Emit("[ForestArt] PASS "+dest+" paint="+painted+" replace="+replacements.Count+" candles="+addedLights);
         }
         report.Save(reportPath);
     }

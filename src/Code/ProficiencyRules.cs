@@ -4,7 +4,7 @@ namespace Delve
 {
     public static class ProficiencyRules
     {
-        public static readonly string[] Skills = { "Blades", "Blunt", "Polearms", "Archery", "Wands", "Staffs", "Totems", "Unarmed", "HeavyArmor", "MediumArmor", "LightArmor", "PackMule", "Athletics", "Stealth", "Farming", "Cooking", "Mining", "Smithing", "Carpentry", "Alchemy" };
+        public static readonly string[] Skills = { "Blades", "Blunt", "Polearms", "Archery", "Wands", "Staffs", "Totems", "Summoning", "Unarmed", "HeavyArmor", "MediumArmor", "LightArmor", "PackMule", "Athletics", "Stealth", "Farming", "Cooking", "Mining", "Smithing", "Carpentry", "Alchemy" };
         public static readonly int[] Bands = { 10, 20, 40, 60, 80, 100 };
         public static readonly int[] BandCosts = { 2, 3, 3, 3, 3, 1 };
         public const int MaxPractice = 23760;
@@ -51,7 +51,9 @@ namespace Delve
         public static string Identify(string itemName)
         {
             string name=(itemName ?? "").ToLowerInvariant();
+            if(name=="delvesummoningrod" || name=="delveforgedsummoningrod" || name=="delvesummoningrune")return "Summoning";
             if (name.Contains("pickaxe")) return null;
+            if(name=="delveetchedhexrune" || name=="delveetchedhealingrune" || name=="delveetchedwardrune")return "Totems";
             if (name.Contains("knuckle") || name.Contains("handplayer") || name.Contains("fist")) return "Unarmed";
             if (name.StartsWith("delve") && (name.Contains("wand") || name.Contains("staff") || name.Contains("spell"))) return name.Contains("staff") ? "Staffs" : "Wands";
             if (name.StartsWith("delve") && (name.Contains("totem") || name.Contains("ritualseal"))) return "Totems";

@@ -1,0 +1,350 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+resourceScrapPolymers,DelveBatch01,,False,False,Crafting Resin
+resourceScrapPolymersDesc,DelveBatch01,,False,False,Hardened amber resin recovered from old bindings and salvaged goods. A versatile raw component used in crafting.
+carsRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+carWrecksRandomHelper,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage0Master,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage1Master,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage2Master,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage0v01,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v02,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v03,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v04,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v05,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v06,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v07,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0v08,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage1v01,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v02,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v03,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v04,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v05,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v06,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v07,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage1v08,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage2v01,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v02,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v03,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v04,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v05,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v06,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v07,DelveBatch01,,False,False,Stripped Wagon
+cntCar03SedanDamage2v08,DelveBatch01,,False,False,Stripped Wagon
+cars3WideRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage0v01,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v01,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v01,DelveBatch01,,False,False,Stripped Wagon
+cntCar03Sedan3WideDamage0v02,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v02,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v02,DelveBatch01,,False,False,Stripped Wagon
+cntCar03Sedan3WideDamage0v03,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v03,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v03,DelveBatch01,,False,False,Stripped Wagon
+cntCar03Sedan3WideDamage0v04,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v04,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v04,DelveBatch01,,False,False,Stripped Wagon
+cntCar03Sedan3WideDamage0v05,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v05,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v05,DelveBatch01,,False,False,Stripped Wagon
+cntCar03Sedan3WideDamage0v06,DelveBatch01,,False,False,Cargo Wagon
+cntCar03Sedan3WideDamage1v06,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03Sedan3WideDamage2v06,DelveBatch01,,False,False,Stripped Wagon
+cntSedan01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01White,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Red,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Green,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Black,DelveBatch01,,False,False,Cargo Wagon
+cntSedan01Pink,DelveBatch01,,False,False,Cargo Wagon
+burntSedan01,DelveBatch01,,False,False,Stripped Wagon
+abandonedSUV01RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01White,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Brown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Red,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Orange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Yellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Green,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Blue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Purple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Grey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01Pink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsRandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsWhite,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsBrown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsRed,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsOrange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsYellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsGreen,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsBlue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsPurple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsGrey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV01DoorsPink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01White,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Brown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Red,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Orange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Yellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Green,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Blue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Purple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Grey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01Pink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorRandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorWhite,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorBrown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorRed,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorOrange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorYellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorGreen,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorBlue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorPurple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorGrey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck01DoorPink,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntSedan3Wide01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01White,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Red,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Green,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Black,DelveBatch01,,False,False,Cargo Wagon
+cntSedan3Wide01Pink,DelveBatch01,,False,False,Cargo Wagon
+burntSedan3Wide01,DelveBatch01,,False,False,Stripped Wagon
+abandonedSUV3Wide01RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01White,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Brown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Red,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Orange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Yellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Green,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Blue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Purple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Grey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01Pink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsRandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsWhite,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsBrown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsRed,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsOrange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsYellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsGreen,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsBlue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsPurple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsGrey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedSUV3Wide01DoorsPink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01White,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Brown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Red,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Orange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Yellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Green,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Blue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Purple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Grey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01Pink,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorRandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorWhite,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorBrown,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorRed,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorOrange,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorYellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorGreen,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorBlue,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorPurple,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorGrey,DelveBatch01,,False,False,Damaged Cargo Wagon
+abandonedPickupTruck3Wide01DoorPink,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01White,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Brown,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Red,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Orange,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Yellow,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Green,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Blue,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Purple,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Grey,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Black,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntFrontCrumpledSedan01Pink,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntMinivan01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01White,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Red,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Green,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Black,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01White,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Red,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Green,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Black,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan3Wide01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01White,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Red,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Green,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01White,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Red,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Green,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntSUV3Wide01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01White,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Red,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Green,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01White,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Red,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Green,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Grey,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck3Wide01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01White,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Brown,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Red,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Yellow,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Green,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Blue,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Purple,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01Pink,DelveBatch01,,False,False,Cargo Wagon
+cntPoliceCar01,DelveBatch01,,False,False,Cargo Wagon
+cntPoliceCar01PickedLockBonus,DelveBatch01,,False,False,Cargo Wagon
+cntPoliceCar01AlarmLocked,DelveBatch01,,False,False,Cargo Wagon
+cntPoliceCar01AlarmUnlocked,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01White,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01Red,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01Orange,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01Yellow,DelveBatch01,,False,False,Cargo Wagon
+crushedCars01White,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Brown,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Red,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Orange,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Yellow,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Green,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Blue,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Purple,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Grey,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Black,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01Pink,DelveBatch01,,False,False,Stripped Wagon
+crushedCars01RandomHelper,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02White,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Brown,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Red,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Orange,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Yellow,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Green,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Blue,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Purple,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Grey,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Black,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02Pink,DelveBatch01,,False,False,Stripped Wagon
+crushedCars02RandomHelper,DelveBatch01,,False,False,Stripped Wagon
+cntBusSchool,DelveBatch01,,False,False,Cargo Wagon
+cntBusSchoolShort,DelveBatch01,,False,False,Cargo Wagon
+cntBusShuttle,DelveBatch01,,False,False,Cargo Wagon
+cntBusCity,DelveBatch01,,False,False,Cargo Wagon
+cntAmbulanceTruck01,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckMoPower,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckWorkingStiffTools,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckWhite,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckBrown,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckRed,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckOrange,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckYellow,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckGreen,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckBlue,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckPurple,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckGrey,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckBlack,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckPink,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckWhite,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckBrown,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckRed,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckOrange,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckYellow,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckGreen,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckBlue,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckPurple,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckGrey,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckBlack,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckPink,DelveBatch01,,False,False,Cargo Wagon
+cntBoxTruckRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntArmyTruckOpen,DelveBatch01,,False,False,Cargo Wagon
+cntArmyTruckClosed,DelveBatch01,,False,False,Cargo Wagon
+cntArmyTruckRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntFarmTruckOpen,DelveBatch01,,False,False,Cargo Wagon
+cntFarmTruckClosed,DelveBatch01,,False,False,Cargo Wagon
+cntFarmTruckRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage0RandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntCar03SedanDamage1RandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntCar03SedanDamage2RandomHelper,DelveBatch01,,False,False,Stripped Wagon
+cntFrontCrumpledSedan01AirRandomHelper,DelveBatch01,,False,False,Damaged Cargo Wagon
+cntSedan01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntMinivan01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSUV01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntPickupTruck01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntSemiTruck01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntPoliceCar01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntFireTruck01AirRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntBusSchoolShortRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntBusSchoolRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntBusShuttleRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntBusCityRandomHelper,DelveBatch01,,False,False,Cargo Wagon
+cntAmbulanceTruck01RandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckMoPowerRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+cntServiceTruckWorkingStiffToolsRandomLootHelper,DelveBatch01,,False,False,Cargo Wagon
+dewCollectorDesc,DelveBatch01,,False,False,Collects dew over time. Unfiltered water should be boiled in a cooking pot before use.\nWorks best outdoors or with 6 air blocks above them.\nRepair with Crafting Resin.
+powerSourceDesc,DelveBatch01,,False,False,"Used to generate power for your electrical components.\n\nRepair with Forged Iron, Electrical Parts, Mechanical Parts or Crafting Resin."
+challengeHarvestPolymers,DelveBatch01,,False,False,Harvest Crafting Resin
+challengeHarvestPolymersDesc,DelveBatch01,,False,False,"[DECEA3]Crafting Resin[-] are a resource used in recipes like [DECEA3]Dew Collectors[-] and [DECEA3]Item Modifications[-].\n\n[DECEA3]Crafting Resin[-] can be harvested from many sources, including blue [DECEA3]Water Barrels[-], [DECEA3]Window Blinds[-], and some [DECEA3]Trash[-]."
+challengeHarvestPolymersShort,DelveBatch01,,False,False,Harvest some Crafting Resin with any Harvest Tool.
+armorFootballHelmetDesc,DelveBatch01,,False,False,Get great concussive & puncture defense & you can cheer for your favorite team as if organized football still existed.\n\nRepair with a Repair Kit.\nScrap to Crafting Resin.
+armorMiningHelmetDesc,DelveBatch01,,False,False,This helmet offers good defense and is usually found with a helmet light installed.\nPress F to activate. Hold F to activate multiple items.\n\nRepair with a Repair Kit.\nScrap to Crafting Resin.

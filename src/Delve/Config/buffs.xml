@@ -50,7 +50,7 @@
         <passive_effect name="HyperthermalResist" operation="base_add" value="5" />
       </effect_group>
     </buff>
-    <buff name="delveSkillBlades" name_key="delveSkillBlades" description_key="delveSkillBladesDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillBlades" name_key="delveSkillBlades" description_key="delveSkillBladesDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelBlades" />
@@ -58,7 +58,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusBlades" tags="bladeSkill" />
       </effect_group>
     </buff>
-    <buff name="delveSkillBlunt" name_key="delveSkillBlunt" description_key="delveSkillBluntDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillBlunt" name_key="delveSkillBlunt" description_key="delveSkillBluntDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelBlunt" />
@@ -66,7 +66,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusBlunt" tags="clubSkill,sledgeSkill,axe" />
       </effect_group>
     </buff>
-    <buff name="delveSkillPolearms" name_key="delveSkillPolearms" description_key="delveSkillPolearmsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillPolearms" name_key="delveSkillPolearms" description_key="delveSkillPolearmsDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelPolearms" />
@@ -74,7 +74,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusPolearms" tags="spearSkill" />
       </effect_group>
     </buff>
-    <buff name="delveSkillArchery" name_key="delveSkillArchery" description_key="delveSkillArcheryDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillArchery" name_key="delveSkillArchery" description_key="delveSkillArcheryDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelArchery" />
@@ -82,7 +82,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusArchery" tags="bowSkill,archery" />
       </effect_group>
     </buff>
-    <buff name="delveSkillWands" name_key="delveSkillWands" description_key="delveSkillWandsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillWands" name_key="delveSkillWands" description_key="delveSkillWandsDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelWands" />
@@ -90,7 +90,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusWands" tags="delveWands" />
       </effect_group>
     </buff>
-    <buff name="delveSkillStaffs" name_key="delveSkillStaffs" description_key="delveSkillStaffsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillStaffs" name_key="delveSkillStaffs" description_key="delveSkillStaffsDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelStaffs" />
@@ -98,7 +98,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusStaffs" tags="delveStaffs" />
       </effect_group>
     </buff>
-    <buff name="delveSkillTotems" name_key="delveSkillTotems" description_key="delveSkillTotemsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillTotems" name_key="delveSkillTotems" description_key="delveSkillTotemsDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelTotems" />
@@ -106,7 +106,7 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusTotems" tags="delveTotems" />
       </effect_group>
     </buff>
-    <buff name="delveSkillUnarmed" name_key="delveSkillUnarmed" description_key="delveSkillUnarmedDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillUnarmed" name_key="delveSkillUnarmed" description_key="delveSkillUnarmedDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelUnarmed" />
@@ -114,73 +114,73 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="@delveBonusUnarmed" tags="knuckleSkill" />
       </effect_group>
     </buff>
-    <buff name="delveSkillHeavyArmor" name_key="delveSkillHeavyArmor" description_key="delveSkillHeavyArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillHeavyArmor" name_key="delveSkillHeavyArmor" description_key="delveSkillHeavyArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelHeavyArmor" />
       <effect_group />
     </buff>
-    <buff name="delveSkillMediumArmor" name_key="delveSkillMediumArmor" description_key="delveSkillMediumArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillMediumArmor" name_key="delveSkillMediumArmor" description_key="delveSkillMediumArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelMediumArmor" />
       <effect_group />
     </buff>
-    <buff name="delveSkillLightArmor" name_key="delveSkillLightArmor" description_key="delveSkillLightArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillLightArmor" name_key="delveSkillLightArmor" description_key="delveSkillLightArmorDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelLightArmor" />
       <effect_group />
     </buff>
-    <buff name="delveSkillPackMule" name_key="delveSkillPackMule" description_key="delveSkillPackMuleDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillPackMule" name_key="delveSkillPackMule" description_key="delveSkillPackMuleDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelPackMule" />
       <effect_group />
     </buff>
-    <buff name="delveSkillAthletics" name_key="delveSkillAthletics" description_key="delveSkillAthleticsDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillAthletics" name_key="delveSkillAthletics" description_key="delveSkillAthleticsDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelAthletics" />
       <effect_group />
     </buff>
-    <buff name="delveSkillStealth" name_key="delveSkillStealth" description_key="delveSkillStealthDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillStealth" name_key="delveSkillStealth" description_key="delveSkillStealthDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelStealth" />
       <effect_group />
     </buff>
-    <buff name="delveSkillFarming" name_key="delveSkillFarming" description_key="delveSkillFarmingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillFarming" name_key="delveSkillFarming" description_key="delveSkillFarmingDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelFarming" />
       <effect_group />
     </buff>
-    <buff name="delveSkillCooking" name_key="delveSkillCooking" description_key="delveSkillCookingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillCooking" name_key="delveSkillCooking" description_key="delveSkillCookingDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelCooking" />
       <effect_group />
     </buff>
-    <buff name="delveSkillMining" name_key="delveSkillMining" description_key="delveSkillMiningDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillMining" name_key="delveSkillMining" description_key="delveSkillMiningDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelMining" />
       <effect_group />
     </buff>
-    <buff name="delveSkillSmithing" name_key="delveSkillSmithing" description_key="delveSkillSmithingDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillSmithing" name_key="delveSkillSmithing" description_key="delveSkillSmithingDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelSmithing" />
       <effect_group />
     </buff>
-    <buff name="delveSkillCarpentry" name_key="delveSkillCarpentry" description_key="delveSkillCarpentryDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillCarpentry" name_key="delveSkillCarpentry" description_key="delveSkillCarpentryDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelCarpentry" />
       <effect_group />
     </buff>
-    <buff name="delveSkillAlchemy" name_key="delveSkillAlchemy" description_key="delveSkillAlchemyDesc" icon="ui_game_symbol_agility" remove_on_death="false">
+    <buff name="delveSkillAlchemy" name_key="delveSkillAlchemy" description_key="delveSkillAlchemyDesc" icon="ui_game_symbol_agility" remove_on_death="false" hidden="true">
       <stack_type value="ignore" />
       <duration value="0" />
       <display_value value="delveLevelAlchemy" />
@@ -213,6 +213,26 @@
         <passive_effect name="FoodLoss" operation="perc_add" value="@delveLoadNeeds" />
         <passive_effect name="WaterLoss" operation="perc_add" value="@delveLoadNeeds" />
       </effect_group>
+    </buff>
+    <buff name="delveBladeWound" name_key="delveBladeWound" description_key="delveBladeWoundDesc" icon="ui_game_symbol_critical" remove_on_death="true">
+      <stack_type value="replace" />
+      <duration value="7" />
+      <damage_type value="bloodloss" />
+      <damage_source value="Internal" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_bleeding" parent_transform=".body" local_offset="0,0,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_bleeding" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_bleeding" />
+      </effect_group>
+    </buff>
+    <buff name="delveCombo" name_key="delveCombo" description_key="delveComboDesc" icon="ui_game_symbol_critical" remove_on_death="true">
+      <stack_type value="replace" />
+      <duration value="0" />
+      <display_value value="delveComboCount" />
+    </buff>
+    <buff name="delveTotemDecay" name_key="delveTotemDecay" description_key="delveTotemDecayDesc" icon="ui_game_symbol_critical" remove_on_death="true">
+      <stack_type value="replace" />
+      <duration value="6" />
     </buff>
     <buff name="delveWardenScaling" name_key="delveWardenScaling" description_key="delveWardenScalingDesc" icon="ui_game_symbol_skull">
       <stack_type value="replace" />
@@ -248,7 +268,599 @@
         <passive_effect name="EntityDamage" operation="perc_add" value="-0.5" />
       </effect_group>
     </buff>
+    <buff name="delveSpark" name_key="delveSpark" description_key="delveSparkDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="2" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+      </effect_group>
+    </buff>
+    <buff name="delveEmberFlash" name_key="delveEmberFlash" description_key="delveEmberFlashDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="2" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+      </effect_group>
+    </buff>
+    <buff name="delveWither" name_key="delveWither" description_key="delveWitherDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="5" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.2" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.2" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.15" />
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+      </effect_group>
+    </buff>
+    <buff name="delveMendingGlow" name_key="delveMendingGlow" description_key="delveMendingGlowDesc" icon="ui_game_symbol_medical">
+      <stack_type value="replace" />
+      <duration value="1" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_weatherEffects_freezingBreath" parent_transform="Camera" local_rotation="90,0,0" oneshot="true" />
+      </effect_group>
+    </buff>
+    <buff name="delveRestorativeCooldown" hidden="true">
+      <stack_type value="replace" />
+      <duration value="20" />
+    </buff>
+    <buff name="delveForestMeal" name_key="delveForestMeal" description_key="delveForestMealDesc" icon="ui_game_symbol_food">
+      <stack_type value="replace" />
+      <duration value="900" />
+      <effect_group>
+        <passive_effect name="StaminaMax" operation="base_add" value="10" />
+      </effect_group>
+    </buff>
+    <buff name="delveForestDrink" name_key="delveForestDrink" description_key="delveForestDrinkDesc" icon="ui_game_symbol_water">
+      <stack_type value="replace" />
+      <duration value="900" />
+      <effect_group>
+        <passive_effect name="StaminaChangeOT" operation="perc_add" value="0.1" />
+      </effect_group>
+    </buff>
+    <buff name="delveForgedHex" name_key="delveForgedHex" description_key="delveForgedHexDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="6" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.2" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.2" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.15" />
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock" />
+      </effect_group>
+    </buff>
+    <buff name="delveProtectiveWard" name_key="delveProtectiveWard" description_key="delveProtectiveWardDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="30" />
+      <effect_group>
+        <passive_effect name="PhysicalDamageResist" operation="base_add" value="8" />
+        <passive_effect name="ElementalDamageResist" operation="base_add" value="8" />
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_weatherEffects_freezingBreath" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_freezingBreath" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_freezingBreath" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_freezingBreath" />
+      </effect_group>
+    </buff>
+    <buff name="delveStaffBurst" name_key="delveStaffBurst" description_key="delveStaffBurstDesc" icon="ui_game_symbol_electric_power">
+      <stack_type value="replace" />
+      <duration value="1" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" parent_transform="Spine1" local_offset="0,-.2,0" />
+        <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+        <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+        <triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_onFire" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse1" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="1" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse2" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="2" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse3" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="3" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse4" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="4" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse5" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="5" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse6" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="6" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse7" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="7" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse8" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="8" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse9" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="9" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse10" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="10" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse11" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="11" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse12" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="12" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse13" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="13" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse14" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="14" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse15" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="15" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse16" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="16" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse17" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="17" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse18" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="18" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse19" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="19" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse20" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="20" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse21" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="21" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse22" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="22" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse23" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="23" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse24" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="24" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse25" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="25" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse26" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="26" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse27" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="27" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse28" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="28" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse29" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="29" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse30" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="30" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse31" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="31" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse32" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="32" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse33" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="33" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse34" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="34" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse35" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="35" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse36" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="36" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse37" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="37" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse38" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="38" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse39" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="39" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse40" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="40" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse41" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="41" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse42" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="42" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse43" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="43" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse44" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="44" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse45" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="45" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse46" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="46" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse47" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="47" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse48" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="48" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse49" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="49" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse50" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="50" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse51" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="51" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse52" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="52" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse53" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="53" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse54" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="54" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse55" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="55" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse56" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="56" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse57" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="57" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse58" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="58" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse59" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="59" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveHealPulse60" hidden="true">
+      <stack_type value="replace" />
+      <duration value="0.5" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="ModifyStats" stat="Health" operation="add" value="60" />
+        <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="delveMendingGlow" />
+      </effect_group>
+    </buff>
+    <buff name="delveArborProtected" name_key="delveArborProtected" description_key="delveArborProtectedDesc" icon="ui_game_symbol_burnt_hazard" remove_on_death="true">
+      <stack_type value="replace" />
+      <duration value="600" />
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffBurnt_Hazard01,buffBurnt_Hazard02" />
+      </effect_group>
+    </buff>
   </append>
   <set xpath="/buffs/buff/effect_group/passive_effect[@name='HealthMax'][@value='@$PlayerLevelBonus']/@value">0</set>
   <set xpath="/buffs/buff/effect_group/passive_effect[@name='StaminaMax'][@value='@$PlayerLevelBonus']/@value">0</set>
+  <append xpath="/buffs/buff[@name='buffBurnt_Hazard']/effect_group/triggered_effect[@buff='buffBurnt_Hazard01' or @buff='buffBurnt_Hazard02']">
+    <requirement name="!HasBuff" buff="delveArborProtected" />
+  </append>
+  <append xpath="/buffs/buff[@name='buffBurnt_Hazard']/effect_group[@name='Update Time']">
+    <requirement name="!HasBuff" buff="delveArborProtected" />
+  </append>
+  <append xpath="/buffs/buff[@name='buffBurnt_Storm_Stage01' or @name='buffBurnt_Storm_Stage02' or @name='buffBurnt_Storm_Recover01']/effect_group[passive_effect[@name='StaminaMaxBlockage'] or triggered_effect[@action='AddHealth']]">
+    <requirement name="!HasBuff" buff="delveArborProtected" />
+  </append>
 </configs>

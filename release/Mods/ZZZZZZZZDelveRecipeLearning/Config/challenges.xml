@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/challenges/challenge[@name='readMagazines']/objective"/>
+  <append xpath="/challenges/challenge[@name='readMagazines']">
+    <objective type="Craft" item="meleeToolRepairT0StoneAxe" count="1"/>
+  </append>
+</configs>

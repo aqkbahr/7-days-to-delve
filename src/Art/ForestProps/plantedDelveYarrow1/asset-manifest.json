@@ -1,0 +1,31 @@
+{
+  "id": "plantedDelveYarrow1",
+  "kind": "plant",
+  "family": "Yarrow",
+  "stage": 1,
+  "visual_only": false,
+  "name": "Yarrow Seeds",
+  "triangles": {
+    "Prop_LOD0": 1264,
+    "Prop_LOD1": 480,
+    "Prop_LOD2": 139
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Sway": {
+      "seconds": 3,
+      "loop": true
+    },
+    "HarvestReact": {
+      "seconds": 0.5,
+      "loop": false
+    }
+  },
+  "native_footprint": null,
+  "status": "Rebuilt botanical geometry, original detailed surfaces, rig/clip contracts preserved; offline checks passed; in-game visual check pending",
+  "art_revision": "BotanicalRebuild20261026",
+  "art_project": "D:\\Projects\\Codex\\7DaysToDelve\\PlantRebuild20261026"
+}

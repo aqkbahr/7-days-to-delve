@@ -3,7 +3,7 @@ $ErrorActionPreference='Stop'
 try {
     $package=$PSScriptRoot
     $worldName=(Get-Content (Join-Path $package 'world-name.txt') -Raw).Trim()
-    if($worldName -notin @('Allium-v0.2','Allium-v0.3','Allium-v0.4','Allium-v0.5','Allium-v0.6')) { throw 'Unexpected packaged world name' }
+    if($worldName -notin @('Allium-v0.2','Allium-v0.3','Allium-v0.4','Allium-v0.5','Allium-v0.6','Allium-v0.7','Allium-v0.8','Allium-v0.9','Allium-v0.10')) { throw 'Unexpected packaged world name' }
     if (!(Test-Path (Join-Path $GamePath '7DaysToDie.exe'))) { throw 'Set -GamePath to the installed 7 Days to Die 3.3 folder.' }
     & (Join-Path $package 'Verify-Package.ps1')
     $data=Join-Path $package 'PlaytestData'
@@ -31,4 +31,5 @@ try {
     Read-Host 'Press Enter to close'
     exit 1
 }
+
 

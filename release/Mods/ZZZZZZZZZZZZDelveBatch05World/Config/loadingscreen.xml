@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/doc/backgrounds/tex"/>
+  <append xpath="/doc/backgrounds">
+    <tex file="@modfolder:Textures/wayrest.png"/>
+    <tex file="@modfolder:Textures/incursions.png"/>
+  </append>
+  <remove xpath="/doc/tips/tip"/>
+  <append xpath="/doc/tips">
+    <tip key="delveLoadingWayrest"/>
+    <tip key="delveLoadingIncursions"/>
+  </append>
+</configs>

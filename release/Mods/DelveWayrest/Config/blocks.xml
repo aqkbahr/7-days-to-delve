@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/blocks">
+    <block name="delveWayrestStewardSpawn">
+      <property name="Extends" value="spawnTrader" />
+      <property name="SpawnClass" value="delveWayrestSteward" />
+    </block>
+  </append>
+</configs>

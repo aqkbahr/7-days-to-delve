@@ -1,0 +1,48 @@
+<configs>
+  <append xpath="/items/item[@name='foodDelveCookedBerries']">
+    <property class="Action0">
+      <property name="Create_item" value=""/>
+      <property name="Class" value="Eat"/>
+      <property name="Delay" value="1.0"/>
+      <property name="Sound_start" value="player_eating"/>
+      <property name="Create_item_count" value="0"/>
+      <property name="Use_jar_refund" value="false"/>
+    </property>
+  </append>
+  <set xpath="/items/item[@name='delveStarterStaff']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveStarterStaff']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveForgedStaff']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveForgedStaff']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveStarterTotem']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveStarterTotem']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveForgedTotem']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveForgedTotem']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveMendingTotem']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveMendingTotem']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveForgedMendingTotem']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveForgedMendingTotem']/property[@name='HoldType']/@value">83</set>
+  <set xpath="/items/item[@name='delveWardTotem']/property[@name='Meshfile']/@value">@:Other/Items/Weapons/Ranged/PipeRevolver/pipeRevolverPrefab.prefab</set>
+  <set xpath="/items/item[@name='delveWardTotem']/property[@name='HoldType']/@value">83</set>
+  <append xpath="/items">
+    <item name="delveHarvestScythe">
+      <property name="Extends" value="meleeWpnBladeT3Machete"/>
+      <property name="CustomIcon" value="delveHarvestScythe"/>
+      <property name="DescriptionKey" value="delveHarvestScytheDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Tags" value="melee,tool,harvestingTool,delveScythe"/>
+      <property name="RepairTools" value="resourceForgedIron"/>
+      <property name="EconomicValue" value="120"/>
+      <property name="DropMeshfile" value="#@modfolder:Resources/batchten.unity3d?delveHarvestScythe"/>
+      <effect_group name="Delve farming scythe" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="5"/>
+        <passive_effect name="BlockDamage" operation="base_set" value="100"/>
+        <passive_effect name="StaminaLoss" operation="base_set" value="10"/>
+        <passive_effect name="AttacksPerMinute" operation="base_set" value="50"/>
+        <passive_effect name="MaxRange" operation="base_set" value="2.5"/>
+        <passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
+        <passive_effect name="DegradationMax" operation="base_set" value="200,600" tier="1,6"/>
+      </effect_group>
+    </item>
+  </append>
+</configs>

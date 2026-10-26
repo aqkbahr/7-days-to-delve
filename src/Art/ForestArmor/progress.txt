@@ -1,0 +1,9 @@
+BUILD START
+Light PASS
+Medium PASS
+Heavy PASS
+Padded PASS
+ForgedLight PASS
+ForgedMedium PASS
+ForgedHeavy PASS
+PASS 28 pieces

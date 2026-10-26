@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node0']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node0" pos="242,-305" width="347" height="52" caption="{dg_nodetext0}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible0}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state0']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state0" pos="242,-354" width="347" height="3" sprite="menu_empty" color="{dg_nodecolor0}" depth="6" visible="{dg_nodevisible0}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node1']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node1" pos="605,-305" width="347" height="52" caption="{dg_nodetext1}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible1}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state1']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state1" pos="605,-354" width="347" height="3" sprite="menu_empty" color="{dg_nodecolor1}" depth="6" visible="{dg_nodevisible1}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node2']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node2" pos="242,-406" width="226" height="50" caption="{dg_nodetext2}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible2}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state2']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state2" pos="242,-453" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor2}" depth="6" visible="{dg_nodevisible2}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector3']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector3" pos="352,-457" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible3}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node3']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node3" pos="242,-465" width="226" height="50" caption="{dg_nodetext3}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible3}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state3']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state3" pos="242,-512" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor3}" depth="6" visible="{dg_nodevisible3}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector4']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector4" pos="352,-516" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible4}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node4']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node4" pos="242,-524" width="226" height="50" caption="{dg_nodetext4}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible4}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state4']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state4" pos="242,-571" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor4}" depth="6" visible="{dg_nodevisible4}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector5']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector5" pos="352,-575" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible5}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node5']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node5" pos="242,-583" width="226" height="50" caption="{dg_nodetext5}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible5}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state5']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state5" pos="242,-630" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor5}" depth="6" visible="{dg_nodevisible5}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node6']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node6" pos="484,-406" width="226" height="50" caption="{dg_nodetext6}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible6}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state6']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state6" pos="484,-453" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor6}" depth="6" visible="{dg_nodevisible6}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector7']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector7" pos="594,-457" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible7}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node7']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node7" pos="484,-465" width="226" height="50" caption="{dg_nodetext7}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible7}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state7']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state7" pos="484,-512" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor7}" depth="6" visible="{dg_nodevisible7}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector8']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector8" pos="594,-516" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible8}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node8']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node8" pos="484,-524" width="226" height="50" caption="{dg_nodetext8}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible8}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state8']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state8" pos="484,-571" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor8}" depth="6" visible="{dg_nodevisible8}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector9']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector9" pos="594,-575" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible9}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node9']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node9" pos="484,-583" width="226" height="50" caption="{dg_nodetext9}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible9}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state9']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state9" pos="484,-630" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor9}" depth="6" visible="{dg_nodevisible9}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node10']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node10" pos="726,-406" width="226" height="50" caption="{dg_nodetext10}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible10}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state10']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state10" pos="726,-453" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor10}" depth="6" visible="{dg_nodevisible10}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector11']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector11" pos="836,-457" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible11}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node11']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node11" pos="726,-465" width="226" height="50" caption="{dg_nodetext11}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible11}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state11']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state11" pos="726,-512" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor11}" depth="6" visible="{dg_nodevisible11}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector12']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector12" pos="836,-516" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible12}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node12']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node12" pos="726,-524" width="226" height="50" caption="{dg_nodetext12}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible12}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state12']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state12" pos="726,-571" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor12}" depth="6" visible="{dg_nodevisible12}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='connector13']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="connector13" pos="836,-575" width="2" height="8" sprite="menu_empty" color="83,104,118" depth="1" type="sliced" visible="{dg_nodevisible13}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='dg_node13']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><simplebutton name="dg_node13" pos="726,-583" width="226" height="50" caption="{dg_nodetext13}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_nodevisible13}"/>
+          </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']/*[@name='state13']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/rect[@name='ordinarytree']"><sprite name="state13" pos="726,-630" width="226" height="3" sprite="menu_empty" color="{dg_nodecolor13}" depth="6" visible="{dg_nodevisible13}"/>
+        </append>
+  <remove xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']/simplebutton[@name='dg_toggleMastery']"/>
+  <append xpath="/windows/window[@name='delveProgression']/rect[@name='skillcontent']"><simplebutton name="dg_toggleMastery" pos="242,-653" width="300" height="36" caption="{dg_masterytoggle}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_hasmasteries}"/>
+        </append>
+</configs>

@@ -1,0 +1,19 @@
+{
+  "id": "delveGloomPelt",
+  "kind": "item",
+  "family": "delveGloomPelt",
+  "name": "Gloom Pelt",
+  "triangles": {
+    "Prop_LOD0": 364,
+    "Prop_LOD1": 200,
+    "Prop_LOD2": 90
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

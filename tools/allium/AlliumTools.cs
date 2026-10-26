@@ -8,7 +8,7 @@ public class AlliumTools : IModApi
     public void InitMod(Mod mod)
     {
         string worldName = File.ReadAllText(Path.Combine(mod.Path,"world-name.txt")).Trim();
-        if(worldName != "Allium-v0.2" && worldName != "Allium-v0.3" && worldName != "Allium-v0.4" && worldName != "Allium-v0.5" && worldName != "Allium-v0.6") throw new InvalidDataException("Unexpected development world");
+        if(worldName != "Allium-v0.2" && worldName != "Allium-v0.3" && worldName != "Allium-v0.4" && worldName != "Allium-v0.5" && worldName != "Allium-v0.6" && worldName != "Allium-v0.7" && worldName != "Allium-v0.8" && worldName != "Allium-v0.9" && worldName != "Allium-v0.10") throw new InvalidDataException("Unexpected development world");
         string path = Path.GetFullPath(Path.Combine(mod.Path, "../../GeneratedWorlds/"+worldName+"/main.ttw"));
         if (!File.Exists(path) && Directory.Exists(Path.GetDirectoryName(path)))
         {
@@ -51,4 +51,5 @@ public class ConsoleCmdAlliumProbe : ConsoleCmdAbstract
         } catch(Exception ex) { SdtdConsole.Instance.Output("[Allium] ERROR "+ex); }
     }
 }
+
 

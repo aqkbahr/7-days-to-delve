@@ -1,0 +1,3 @@
+<configs>
+  <set xpath="/blocks/block[@name='delveFieldCraftingMat']/property[@name='Model']/@value">#@modfolder:Resources/fieldmatbatch08.unity3d?delveFieldCraftingMat</set>
+</configs>

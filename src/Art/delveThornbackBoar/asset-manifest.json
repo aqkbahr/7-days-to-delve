@@ -1,0 +1,87 @@
+{
+  "entity": "delveThornbackBoar",
+  "authoring": "Original procedural mesh, UV atlas, skinning and animation by Codex for this project",
+  "native_geometry_copied": false,
+  "rig_bones": 42,
+  "triangles": {
+    "Thornback_LOD0": 23198,
+    "Thornback_LOD1": 11598,
+    "Thornback_LOD2": 4638
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 4,
+      "loop": true
+    },
+    "Walk": {
+      "seconds": 0.933333,
+      "loop": true
+    },
+    "Run": {
+      "seconds": 0.8,
+      "loop": true
+    },
+    "TurnLeft": {
+      "seconds": 1,
+      "loop": true
+    },
+    "TurnRight": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Alert": {
+      "seconds": 1.2,
+      "loop": false
+    },
+    "Scrape": {
+      "seconds": 1.8,
+      "loop": false
+    },
+    "Brace": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Rush": {
+      "seconds": 0.8,
+      "loop": true
+    },
+    "Brake": {
+      "seconds": 0.45,
+      "loop": false
+    },
+    "Recovery": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Attack": {
+      "seconds": 0.4,
+      "loop": false
+    },
+    "AttackRunning": {
+      "seconds": 0.533333,
+      "loop": false
+    },
+    "Hit": {
+      "seconds": 0.566667,
+      "loop": false
+    },
+    "Death": {
+      "seconds": 0.8,
+      "loop": false
+    },
+    "Corpse": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Sleep": {
+      "seconds": 2.666667,
+      "loop": true
+    },
+    "Wake": {
+      "seconds": 1.333333,
+      "loop": false
+    }
+  },
+  "texture": "Thornback_Albedo.png",
+  "texture_size": 2048
+}

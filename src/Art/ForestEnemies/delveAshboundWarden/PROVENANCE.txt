@@ -1,0 +1,1 @@
+Original project-authored mesh, atlas, weights and animation curves. Native skeleton transforms measured for fitting only. No native mesh, texture or animation copied. Presentation clips contain no damage or AI events. Existing game timing remains authoritative. Native entity, hitbox, ragdoll and multiplayer integration remain pending.

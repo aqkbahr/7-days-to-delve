@@ -1,0 +1,7 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+ammoGasCan,items,Item,false,false,Pitch
+ammoGasCanDesc,items,Item,false,false,"Thick black pitch. A sticky combustible material used as fuel and in crafting."
+delvePitchDesc,items,Item,false,false,"Thick black pitch. A sticky combustible material used as fuel and in crafting."
+ammoGasCanBundle,items,Item,false,false,Bulk Pitch
+ammoGasCanBundleDesc,items,Item,false,false,"A bulk supply of pitch. Open to receive 5000 pitch."
+delvePitchBundleDesc,items,Item,false,false,"A bulk supply of pitch. Open to receive 5000 pitch."

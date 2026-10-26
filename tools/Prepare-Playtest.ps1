@@ -9,6 +9,7 @@ $profilePath=Join-Path $root ('playtest/'+$ProfileName)
 $mods=Join-Path $profilePath 'Mods'
 New-Item -ItemType Directory -Path $mods -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $root 'src/Delve') -Destination $mods -Recurse -Force
+if(Test-Path (Join-Path $root 'src/DelveWildlife')) { Copy-Item -LiteralPath (Join-Path $root 'src/DelveWildlife') -Destination $mods -Recurse -Force }
 [xml]$config=Get-Content -LiteralPath (Join-Path $GamePath 'serverconfig.xml')
 $settings=@{
     ServerName='Delve Living Border Playtest'; ServerDescription='Private Delve prototype test';

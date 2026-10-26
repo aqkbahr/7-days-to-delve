@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/xui/window_group[@name='workstation_delveFarmDispatch']"/>
+  <append xpath="/xui"><window_group name="workstation_delveFarmDispatch" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveFarmDispatch"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveFieldHearth']"/>
+  <append xpath="/xui"><window_group name="workstation_delveFieldHearth" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveFieldHearth"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveGrainMill']"/>
+  <append xpath="/xui"><window_group name="workstation_delveGrainMill" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveGrainMill"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveForgeAnvil']"/>
+  <append xpath="/xui"><window_group name="workstation_delveForgeAnvil" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveForgeAnvil"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveSawKit']"/>
+  <append xpath="/xui"><window_group name="workstation_delveSawKit" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveSawKit"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveOutfittingKit']"/>
+  <append xpath="/xui"><window_group name="workstation_delveOutfittingKit" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveOutfittingKit"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveMortarKit']"/>
+  <append xpath="/xui"><window_group name="workstation_delveMortarKit" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveMortarKit"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveInscriptionKit']"/>
+  <append xpath="/xui"><window_group name="workstation_delveInscriptionKit" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveInscriptionKit"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+  <remove xpath="/xui/window_group[@name='workstation_delveSortingTable']"/>
+  <append xpath="/xui"><window_group name="workstation_delveSortingTable" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
+		<window name="windowCraftingList"/>
+		<window name="craftingInfoPanel"/>
+		<window name="windowCraftingQueue"/>
+		<window name="delveTools_delveSortingTable"/><window name="windowOutput"/>
+		<window name="windowNonPagingHeader"/>
+	</window_group>				
+
+	</append>
+</configs>

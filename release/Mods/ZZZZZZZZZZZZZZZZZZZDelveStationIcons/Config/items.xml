@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <set xpath="/items/item[@name='delveUpgradeCompostBasket']/property[@name='CustomIcon']/@value">delveAddonIconCompostBasket</set>
+  <set xpath="/items/item[@name='delveUpgradeSeedPress']/property[@name='CustomIcon']/@value">delveAddonIconSeedPress</set>
+  <set xpath="/items/item[@name='delveUpgradeGrainMill']/property[@name='CustomIcon']/@value">delveAddonIconGrainMill</set>
+  <set xpath="/items/item[@name='delveUpgradePreservingCrock']/property[@name='CustomIcon']/@value">delveAddonIconPreservingCrock</set>
+  <set xpath="/items/item[@name='delveUpgradeSeasoningRack']/property[@name='CustomIcon']/@value">delveAddonIconSeasoningRack</set>
+  <set xpath="/items/item[@name='delveUpgradePrecisionJig']/property[@name='CustomIcon']/@value">delveAddonIconPrecisionJig</set>
+  <set xpath="/items/item[@name='delveUpgradeDressingFrame']/property[@name='CustomIcon']/@value">delveAddonIconDressingFrame</set>
+  <set xpath="/items/item[@name='delveUpgradeArmorForm']/property[@name='CustomIcon']/@value">delveAddonIconArmorForm</set>
+  <set xpath="/items/item[@name='delveUpgradeMortar']/property[@name='CustomIcon']/@value">delveAddonIconMortar</set>
+  <set xpath="/items/item[@name='delveUpgradeDryingRack']/property[@name='CustomIcon']/@value">delveAddonIconDryingRack</set>
+  <set xpath="/items/item[@name='delveUpgradeFermenter']/property[@name='CustomIcon']/@value">delveAddonIconFermenter</set>
+  <set xpath="/items/item[@name='delveUpgradeEngravingTools']/property[@name='CustomIcon']/@value">delveAddonIconEngravingTools</set>
+  <set xpath="/items/item[@name='delveUpgradeEtchingTools']/property[@name='CustomIcon']/@value">delveAddonIconEtchingTools</set>
+  <set xpath="/items/item[@name='delveUpgradeStoneCutter']/property[@name='CustomIcon']/@value">delveAddonIconStoneCutter</set>
+  <set xpath="/items/item[@name='delveUpgradeOreSieve']/property[@name='CustomIcon']/@value">delveAddonIconOreSieve</set>
+</configs>

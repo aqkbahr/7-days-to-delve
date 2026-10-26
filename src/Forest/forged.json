@@ -1,0 +1,591 @@
+{
+  "recipes": [
+    {
+      "name": "delveForgedDagger",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 1,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedMace",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 12,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedSpear",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveSeasonedTimber": 3,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedKnuckles",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveCuredLeather": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "name": "delveForgedBow",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveLeatherBinding": 4
+      }
+    },
+    {
+      "name": "delveForgedCrossbow",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveIronFittings": 4,
+        "delveLeatherBinding": 4
+      }
+    },
+    {
+      "name": "armorDelveForgedLightHelmet",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedLightOutfit",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedLightGloves",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedLightBoots",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedMediumHelmet",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedMediumOutfit",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedMediumGloves",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedMediumBoots",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveOutfittingKit",
+      "count": 1,
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedHeavyHelmet",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedHeavyOutfit",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedHeavyGloves",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "armorDelveForgedHeavyBoots",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedPickaxe",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedAxe",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveForgedShovel",
+      "skill": "Smithing",
+      "rank": 20,
+      "station": "delveForgeAnvil",
+      "count": 1,
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "name": "delveEtchedWandRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "station": "delveInscriptionKit",
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "name": "delveEtchedStaffRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "station": "delveInscriptionKit",
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "name": "delveEtchedHexRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "station": "delveInscriptionKit",
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "name": "delveEtchedHealingRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "station": "delveInscriptionKit",
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "name": "delveEtchedWardRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "station": "delveInscriptionKit",
+      "count": 10,
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "name": "delveForgedWand",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "name": "delveForgedStaff",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "name": "delveForgedTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "name": "delveForgedMendingTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "name": "delveWardTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "station": "delveSawKit",
+      "count": 1,
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveLeatherBinding": 2
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "name": "delveForgedDagger",
+      "parent": "delveIronDagger",
+      "repair": "delveMetalRepair",
+      "role": "Blades",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedMace",
+      "parent": "delveIronMace",
+      "repair": "delveMetalRepair",
+      "role": "Blunt",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedSpear",
+      "parent": "delveIronSpear",
+      "repair": "delveMetalRepair",
+      "role": "Polearms",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedKnuckles",
+      "parent": "delveLeatherKnuckles",
+      "repair": "delveHideRepair",
+      "role": "Unarmed",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedBow",
+      "parent": "delveHuntingBow",
+      "repair": "delveFocusRepair",
+      "role": "Archery",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedCrossbow",
+      "parent": "gunBowT1IronCrossbow",
+      "repair": "delveFocusRepair",
+      "role": "Archery",
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedLightHelmet",
+      "parent": "armorDelveLightHelmet",
+      "repair": "delveHideRepair",
+      "role": "LightArmor",
+      "armor": 9,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedLightOutfit",
+      "parent": "armorDelveLightOutfit",
+      "repair": "delveHideRepair",
+      "role": "LightArmor",
+      "armor": 9,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedLightGloves",
+      "parent": "armorDelveLightGloves",
+      "repair": "delveHideRepair",
+      "role": "LightArmor",
+      "armor": 9,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedLightBoots",
+      "parent": "armorDelveLightBoots",
+      "repair": "delveHideRepair",
+      "role": "LightArmor",
+      "armor": 9,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedMediumHelmet",
+      "parent": "armorDelveMediumHelmet",
+      "repair": "delveHideRepair",
+      "role": "MediumArmor",
+      "armor": 12,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedMediumOutfit",
+      "parent": "armorDelveMediumOutfit",
+      "repair": "delveHideRepair",
+      "role": "MediumArmor",
+      "armor": 12,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedMediumGloves",
+      "parent": "armorDelveMediumGloves",
+      "repair": "delveHideRepair",
+      "role": "MediumArmor",
+      "armor": 12,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedMediumBoots",
+      "parent": "armorDelveMediumBoots",
+      "repair": "delveHideRepair",
+      "role": "MediumArmor",
+      "armor": 12,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedHeavyHelmet",
+      "parent": "armorDelveHeavyHelmet",
+      "repair": "delveMetalRepair",
+      "role": "HeavyArmor",
+      "armor": 15,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedHeavyOutfit",
+      "parent": "armorDelveHeavyOutfit",
+      "repair": "delveMetalRepair",
+      "role": "HeavyArmor",
+      "armor": 15,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedHeavyGloves",
+      "parent": "armorDelveHeavyGloves",
+      "repair": "delveMetalRepair",
+      "role": "HeavyArmor",
+      "armor": 15,
+      "durability": 400
+    },
+    {
+      "name": "armorDelveForgedHeavyBoots",
+      "parent": "armorDelveHeavyBoots",
+      "repair": "delveMetalRepair",
+      "role": "HeavyArmor",
+      "armor": 15,
+      "durability": 400
+    },
+    {
+      "name": "delveForgedPickaxe",
+      "parent": "meleeToolPickT1IronPickaxe",
+      "repair": "delveMetalRepair",
+      "role": "Gathering",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedAxe",
+      "parent": "meleeToolAxeT1IronFireaxe",
+      "repair": "delveMetalRepair",
+      "role": "Gathering",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedShovel",
+      "parent": "meleeToolShovelT1IronShovel",
+      "repair": "delveMetalRepair",
+      "role": "Gathering",
+      "durability": 400
+    },
+    {
+      "name": "delveForgedWand",
+      "parent": "delveStarterWand",
+      "repair": "delveFocusRepair",
+      "role": "Wands",
+      "durability": 400,
+      "capacity": 10
+    },
+    {
+      "name": "delveForgedStaff",
+      "parent": "delveStarterStaff",
+      "repair": "delveFocusRepair",
+      "role": "Staffs",
+      "durability": 400,
+      "capacity": 1
+    },
+    {
+      "name": "delveForgedTotem",
+      "parent": "delveStarterTotem",
+      "repair": "delveFocusRepair",
+      "role": "Totems",
+      "durability": 400,
+      "capacity": 5
+    },
+    {
+      "name": "delveForgedMendingTotem",
+      "parent": "delveMendingTotem",
+      "repair": "delveFocusRepair",
+      "role": "Totems",
+      "durability": 400,
+      "capacity": 5
+    },
+    {
+      "name": "delveWardTotem",
+      "parent": "delveMendingTotem",
+      "repair": "delveFocusRepair",
+      "role": "Totems",
+      "durability": 400,
+      "capacity": 4
+    }
+  ],
+  "runes": [
+    {
+      "name": "delveEtchedWandRune",
+      "damage": 24,
+      "role": "Wand"
+    },
+    {
+      "name": "delveEtchedStaffRune",
+      "damage": 48,
+      "role": "Staff"
+    },
+    {
+      "name": "delveEtchedHexRune",
+      "damage": 14,
+      "role": "Hex"
+    },
+    {
+      "name": "delveEtchedHealingRune",
+      "damage": 0,
+      "role": "Healing"
+    },
+    {
+      "name": "delveEtchedWardRune",
+      "damage": 0,
+      "role": "Ward"
+    }
+  ]
+}

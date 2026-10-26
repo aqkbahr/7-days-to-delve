@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/recipes"><recipe name="delveForgedSummoningRod" count="1" craft_time="40" craft_area="delveSawKitTier3" craft_tool="delveUpgradePrecisionJig">
+      <ingredient name="delveSeasonedTimber" count="4"/><ingredient name="delveWovenCloth" count="2"/><ingredient name="delveIronFittings" count="2"/></recipe>
+    </append>
+</configs>

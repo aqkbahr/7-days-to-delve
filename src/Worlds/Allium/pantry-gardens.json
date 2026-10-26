@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Wayrest woodland cabin",
+    "hub": 0,
+    "prefab": "delve_forest_cabin_01_garden",
+    "offset": [
+      -190,
+      110
+    ],
+    "center": [
+      -2811,
+      -2102
+    ],
+    "height": 65,
+    "service": false,
+    "anchor": [
+      -2621,
+      -2212,
+      65
+    ],
+    "size": [
+      42,
+      16,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, infested",
+    "position": [
+      -2832,
+      65,
+      -2123
+    ],
+    "access": [
+      [
+        -2621,
+        -2212
+      ],
+      [
+        -2811,
+        -2212
+      ],
+      [
+        -2811,
+        -2128
+      ]
+    ]
+  },
+  {
+    "name": "Forest supply cottage",
+    "hub": 0,
+    "prefab": "delve_forest_cabin_04_garden",
+    "offset": [
+      220,
+      -140
+    ],
+    "center": [
+      -2401,
+      -2352
+    ],
+    "height": 65,
+    "service": false,
+    "anchor": [
+      -2621,
+      -2212,
+      65
+    ],
+    "size": [
+      42,
+      22,
+      42
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -2422,
+      65,
+      -2373
+    ],
+    "access": [
+      [
+        -2621,
+        -2212
+      ],
+      [
+        -2401,
+        -2378
+      ]
+    ]
+  },
+  {
+    "name": "Border farm",
+    "hub": 0,
+    "prefab": "delve_forest_farm_12_garden",
+    "center": [
+      -1875,
+      -2450
+    ],
+    "height": 68,
+    "service": false,
+    "size": [
+      60,
+      22,
+      60
+    ],
+    "tier": 1,
+    "quest_tags": "clear, fetch, infested",
+    "position": [
+      -1905,
+      68,
+      -2480
+    ],
+    "access": [
+      [
+        -1921.3963636363637,
+        -2033.9329292929292
+      ],
+      [
+        -1875,
+        -2486
+      ]
+    ]
+  }
+]

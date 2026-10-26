@@ -1,0 +1,19 @@
+{
+  "id": "foodDelveGathererPorridge",
+  "kind": "item",
+  "family": "foodDelveGathererPorridge",
+  "name": "Gatherer Porridge",
+  "triangles": {
+    "Prop_LOD0": 856,
+    "Prop_LOD1": 470,
+    "Prop_LOD2": 205
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

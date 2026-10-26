@@ -1,0 +1,11 @@
+using System;using UnityEngine;using DelvePresentation;
+public static class NativeFoundationChecks {
+ static int count;static void Check(bool condition,string reason){if(!condition)throw new Exception("Native foundation: "+reason);count++;}
+ public static int Run(){
+  count=0;var visual=new GameObject("Candidate");var body=GameObject.CreatePrimitive(PrimitiveType.Cube);var renderer=body.GetComponent<Renderer>();var material=new Material(Shader.Find("Standard"));material.color=new Color(.7f,.6f,.5f,.8f);renderer.sharedMaterial=material;
+  Check(!NativeBodyFoundation.Enabled(visual),"legacy prefab must not enable native foundation");new GameObject(NativeBodyFoundation.Marker).transform.SetParent(visual.transform,false);Check(NativeBodyFoundation.Enabled(visual),"marker detected");
+  var shader=material.shader;var lease=new NativeBodyFoundation();renderer.forceRenderingOff=false;lease.Apply(new[]{renderer},"delveGloomcat");Check(!renderer.forceRenderingOff,"native visibility retained");Check(renderer.sharedMaterial!=material,"tint is per-instance");Check(renderer.sharedMaterial.shader==shader,"native shader retained");Check(material.color==new Color(.7f,.6f,.5f,.8f),"shared source material untouched");Check(lease.TintedMaterials==1,"tint supported property");Check(Mathf.Abs(renderer.sharedMaterial.color.a-.8f)<.0001f,"alpha retained");Check(renderer.sharedMaterial.color.r<material.color.r,"palette applied");lease.Dispose();Check(renderer.sharedMaterial==material,"original material restored");lease.Dispose();Check(renderer.sharedMaterial==material,"cleanup idempotent");
+  var custom=new Material(Shader.Find("Delve/QualitySurface"));renderer.sharedMaterial=custom;renderer.forceRenderingOff=true;lease.Apply(new[]{renderer},"delveHellhound");Check(renderer.forceRenderingOff,"preexisting native visibility preserved");Check(renderer.sharedMaterial==custom&&lease.TintedMaterials==0,"unknown color interface preserved");lease.Dispose();Check(renderer.sharedMaterial==custom,"untinted cleanup preserves original");
+  UnityEngine.Object.DestroyImmediate(visual);UnityEngine.Object.DestroyImmediate(body);UnityEngine.Object.DestroyImmediate(material);UnityEngine.Object.DestroyImmediate(custom);return count;
+ }
+}

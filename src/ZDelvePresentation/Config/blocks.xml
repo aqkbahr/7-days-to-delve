@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/blocks/block[@name=&quot;delveFieldHearth&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFieldHearth&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveFieldHearth" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFieldHearth&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveForgeAnvil&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveForgeAnvil&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveForgeAnvil" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveForgeAnvil&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSawKit&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSawKit&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveSawKit" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSawKit&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveOutfittingKit&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveOutfittingKit&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveOutfittingKit" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveOutfittingKit&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveMortarKit&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveMortarKit&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveMortarKit" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveMortarKit&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSortingTable&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSortingTable&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveSortingTable" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveSortingTable&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveInscriptionKit&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveInscriptionKit&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveInscriptionKit" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveInscriptionKit&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFarmDispatch&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFarmDispatch&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveFarmDispatch" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFarmDispatch&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveCompostBin&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveCompostBin&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveCompostBin" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveCompostBin&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveDryingRack&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveDryingRack&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveDryingRack" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveDryingRack&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveGrainMill&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveGrainMill&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveGrainMill" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveGrainMill&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delvePreservingCrock&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delvePreservingCrock&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delvePreservingCrock" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delvePreservingCrock&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFermentingBarrel&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFermentingBarrel&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveFermentingBarrel" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveFermentingBarrel&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveRainCollector&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveRainCollector&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?delveRainCollector" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;delveRainCollector&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble1&quot;]/property[@name=&quot;Shape&quot;]/@value">ModelEntity</set>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble1&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveBramble1</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble1&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble2&quot;]/property[@name=&quot;Shape&quot;]/@value">ModelEntity</set>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble2&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveBramble2</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble2&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble3Harvest&quot;]/property[@name=&quot;Shape&quot;]/@value">ModelEntity</set>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveBramble3Harvest&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveBramble3Harvest</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble3Harvest&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow1&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow1&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveYarrow1" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow1&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow2&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow2&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveYarrow2" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow2&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3Harvest&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3Harvest&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveYarrow3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3Harvest&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme1&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme1&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveThyme1" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme1&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme2&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme2&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveThyme2" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme2&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3Harvest&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3Harvest&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveThyme3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3Harvest&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveMooncap1&quot;]/property[@name=&quot;Shape&quot;]/@value">ModelEntity</set>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveMooncap1&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveMooncap1</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap1&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap2&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveMooncap2&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveMooncap2</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap2&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveMooncap3Harvest&quot;]/property[@name=&quot;Shape&quot;]/@value">ModelEntity</set>
+  <set xpath="/blocks/block[@name=&quot;plantedDelveMooncap3Harvest&quot;]/property[@name=&quot;Model&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?plantedDelveMooncap3Harvest</set>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap3Harvest&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble3HarvestPlayer&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble3HarvestPlayer&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveBramble3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveBramble3HarvestPlayer&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3HarvestPlayer&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3HarvestPlayer&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveYarrow3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveYarrow3HarvestPlayer&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3HarvestPlayer&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3HarvestPlayer&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveThyme3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveThyme3HarvestPlayer&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap3HarvestPlayer&quot;]">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap3HarvestPlayer&quot;]">
+    <property name="Model" value="#@modfolder:Resources/forestprops.unity3d?plantedDelveMooncap3Harvest" />
+  </append>
+  <append xpath="/blocks/block[@name=&quot;plantedDelveMooncap3HarvestPlayer&quot;]">
+    <property name="ModelOffset" value="0,0,0" />
+  </append>
+</configs>

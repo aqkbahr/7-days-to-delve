@@ -1,0 +1,346 @@
+{
+  "plants": [
+    {
+      "key": "Bramble",
+      "item": "foodDelveBrambleberries",
+      "seed": "plantedDelveBramble1",
+      "wild": "plantedDelveBramble3Harvest",
+      "cultivated": "plantedDelveBramble3HarvestPlayer"
+    },
+    {
+      "key": "Yarrow",
+      "item": "resourceDelveYarrow",
+      "seed": "plantedDelveYarrow1",
+      "wild": "plantedDelveYarrow3Harvest",
+      "cultivated": "plantedDelveYarrow3HarvestPlayer"
+    },
+    {
+      "key": "Thyme",
+      "item": "resourceDelveThyme",
+      "seed": "plantedDelveThyme1",
+      "wild": "plantedDelveThyme3Harvest",
+      "cultivated": "plantedDelveThyme3HarvestPlayer"
+    },
+    {
+      "key": "Mooncap",
+      "item": "resourceDelveMooncap",
+      "seed": "plantedDelveMooncap1",
+      "wild": "plantedDelveMooncap3Harvest",
+      "cultivated": "plantedDelveMooncap3HarvestPlayer"
+    }
+  ],
+  "recipes": [
+    {
+      "name": "plantedDelveBramble1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "foodDelveBrambleberries": 2
+      }
+    },
+    {
+      "name": "plantedDelveYarrow1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceDelveYarrow": 2
+      }
+    },
+    {
+      "name": "plantedDelveThyme1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceDelveThyme": 2
+      }
+    },
+    {
+      "name": "plantedDelveMooncap1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceDelveMooncap": 2
+      }
+    },
+    {
+      "name": "foodDelveCookedBerries",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "foodDelveBrambleberries": 3
+      }
+    },
+    {
+      "name": "foodDelveMushroomSkewers",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "foodCropMushrooms": 3
+      }
+    },
+    {
+      "name": "foodDelveCornPorridge",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "foodCornMeal": 1,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "foodDelveRoastedPumpkin",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "foodCropPumpkin": 2
+      }
+    },
+    {
+      "name": "foodDelveSeasonedRoast",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "foodRawMeat": 3,
+        "resourceDelveThyme": 1
+      }
+    },
+    {
+      "name": "drinkDelveWoodlandBroth",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "foodCropMushrooms": 2,
+        "resourceDelveThyme": 1,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "foodDelveBerryPorridge",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "ingredients": {
+        "foodCornMeal": 1,
+        "foodDelveBrambleberries": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "foodDelveHunterStew",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodCropPotato": 1,
+        "drinkDelveWoodlandBroth": 1
+      }
+    },
+    {
+      "name": "foodDelveHoneyberryCakes",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 2,
+      "ingredients": {
+        "foodCornMeal": 2,
+        "foodDelveBrambleberries": 2,
+        "foodHoney": 1
+      }
+    },
+    {
+      "name": "drinkDelveGoldenrodTea",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "medicalDelveFieldPoultice",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "ingredients": {
+        "resourceDelveYarrow": 2,
+        "resourceYuccaFibers": 4
+      }
+    },
+    {
+      "name": "medicalDelveHerbalDressing",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "medicalBandage": 1,
+        "resourceDelveYarrow": 2,
+        "foodHoney": 1
+      }
+    },
+    {
+      "name": "delveLesserHealingPotion",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "resourceCropChrysanthemumPlant": 2,
+        "resourceDelveYarrow": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "delveLesserStaminaPotion",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2,
+        "foodDelveBrambleberries": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "name": "delveMooncapWandRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "name": "delveMooncapStaffRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "name": "delveMooncapTotemRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "name": "delveMooncapHealingRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    }
+  ],
+  "biomes": {
+    "pine_forest": [
+      {
+        "block": "plantedCorn3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedPotato3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedPumpkin3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedMushroom3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedBlueberry3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedCotton3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedChrysanthemum3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedGoldenrod3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedDelveBramble3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedDelveYarrow3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedDelveThyme3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedDelveMooncap3Harvest",
+        "prob": 0.0004
+      }
+    ],
+    "burnt_forest": [
+      {
+        "block": "plantedCoffee3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedHop3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedMushroom3Harvest",
+        "prob": 0.002
+      }
+    ],
+    "desert": [
+      {
+        "block": "plantedAloe3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedYucca3Harvest",
+        "prob": 0.002
+      }
+    ],
+    "snow": [
+      {
+        "block": "plantedSnowberry3Harvest",
+        "prob": 0.002
+      },
+      {
+        "block": "plantedBlueberry3Harvest",
+        "prob": 0.002
+      }
+    ],
+    "wasteland": [
+      {
+        "block": "plantedGraceCorn3Harvest",
+        "prob": 0.0004
+      }
+    ]
+  }
+}

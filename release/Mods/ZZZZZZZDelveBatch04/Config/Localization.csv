@@ -1,0 +1,47 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+cntMedicLootPileA,blocks,,,,Apothecary Supplies
+cntMedicLootPileACorner,blocks,,,,Apothecary Supplies
+cntMedicLootPileB,blocks,,,,Apothecary Supplies
+cntShippingCrateHero,blocks,,,,Ironbound Supply Chest
+cntShippingCrateShamway,blocks,,,,Ironbound Supply Chest
+cntShippingCrateLabEquipment,blocks,,,,Ironbound Supply Chest
+cntShippingCrateBookstore,blocks,,,,Ironbound Supply Chest
+cntShippingCrateCarParts,blocks,,,,Ironbound Supply Chest
+cntShippingCrateShotgunMessiah,blocks,,,,Ironbound Supply Chest
+cntShippingCrateWorkingStiffs,blocks,,,,Ironbound Supply Chest
+cntShippingCrateSavageCountry,blocks,,,,Ironbound Supply Chest
+cntShippingCrateMoPowerElectronics,blocks,,,,Ironbound Supply Chest
+cntShippingCrateConstructionSupplies,blocks,,,,Ironbound Supply Chest
+cntLootCrateHero,blocks,,,,Ironbound Supply Chest
+cntLootCrateConstructionSupplies,blocks,,,,Ironbound Supply Chest
+cntLootCrateBookstore,blocks,,,,Ironbound Supply Chest
+cntLootCrateCarParts,blocks,,,,Ironbound Supply Chest
+cntLootCrateLabEquipment,blocks,,,,Ironbound Supply Chest
+cntLootCrateShamway,blocks,,,,Ironbound Supply Chest
+cntLootCrateShotgunMessiah,blocks,,,,Ironbound Supply Chest
+cntLootCrateWorkingStiffs,blocks,,,,Ironbound Supply Chest
+cntLootCrateSavageCountry,blocks,,,,Ironbound Supply Chest
+cntLootCrateMoPowerElectronics,blocks,,,,Ironbound Supply Chest
+cntLootChestHeroInsecureT1,blocks,,,,Ironbound Supply Chest
+cntLootChestHeroInsecureT2,blocks,,,,Ironbound Supply Chest
+cntLootChestHero,blocks,,,,Ironbound Supply Chest
+cntLootChestHeroInsecure,blocks,,,,Ironbound Supply Chest
+cntHardenedChestSecure,blocks,,,,Ironbound Supply Chest
+cntHardenedChestInsecure,blocks,,,,Ironbound Supply Chest
+cntHardenedChestSecureT5,blocks,,,,Ironbound Supply Chest
+cntHardenedChestInsecureT5,blocks,,,,Ironbound Supply Chest
+cntBuriedFoodStashChest,blocks,,,,Ironbound Supply Chest
+cntBuriedWeaponChest,blocks,,,,Ironbound Supply Chest
+cntBuriedLootStashChest,blocks,,,,Ironbound Supply Chest
+cntBuriedLootStashChestInsecure,blocks,,,,Ironbound Supply Chest
+cntTestTreasureChest,blocks,,,,Ironbound Supply Chest
+cntTestTreasureChestInsecure,blocks,,,,Ironbound Supply Chest
+cntMedicineCabinetFaucetOpen,blocks,,,,Apothecary Supplies
+cntMedicineCabinetFaucetClosed,blocks,,,,Apothecary Supplies
+cntMedicineCabinetFaucetRandomLootHelper,blocks,,,,Apothecary Supplies
+cntMedicineCabinetOpen,blocks,,,,Apothecary Supplies
+cntMedicineCabinetClosed,blocks,,,,Apothecary Supplies
+cntMedicineCabinetClosedRandomLootHelper,blocks,,,,Apothecary Supplies
+cntPillCaseEmpty,blocks,,,,Apothecary Supplies
+cntPillCaseClosed,blocks,,,,Apothecary Supplies
+cntPillCaseRandomLootHelper,blocks,,,,Apothecary Supplies

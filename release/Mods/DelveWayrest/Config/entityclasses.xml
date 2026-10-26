@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/entity_classes">
+    <entity_class name="delveWayrestSteward" extends="npcTraderJoel">
+      <property name="NPCID" value="delveWayrestSteward" />
+      <property name="UserSpawnType" value="None" />
+    </entity_class>
+  </append>
+</configs>

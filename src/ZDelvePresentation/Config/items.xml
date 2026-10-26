@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/items/item[@name=&quot;delveEmberSalts&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveEmberSalts_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHealingPoultice&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHealingPoultice_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveWayfarerTea&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveWayfarerTea_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveWardDraught&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveWardDraught_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageHuman&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageHuman_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageElf&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageElf_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageDwarf&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageDwarf_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageHalfling&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageHalfling_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageOrc&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageOrc_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHeritageTiefling&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHeritageTiefling_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFieldGuide&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFieldGuide_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveBrambleberries&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveBrambleberries_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;resourceDelveYarrow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?resourceDelveYarrow_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;resourceDelveThyme&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?resourceDelveThyme_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;resourceDelveMooncap&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?resourceDelveMooncap_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveCookedBerries&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveCookedBerries_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveMushroomSkewers&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveMushroomSkewers_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveCornPorridge&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveCornPorridge_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveRoastedPumpkin&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveRoastedPumpkin_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveSeasonedRoast&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveSeasonedRoast_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;drinkDelveWoodlandBroth&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?drinkDelveWoodlandBroth_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveBerryPorridge&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveBerryPorridge_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveHunterStew&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveHunterStew_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveHoneyberryCakes&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveHoneyberryCakes_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;drinkDelveGoldenrodTea&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?drinkDelveGoldenrodTea_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;medicalDelveFieldPoultice&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?medicalDelveFieldPoultice_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;medicalDelveHerbalDressing&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?medicalDelveHerbalDressing_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveLesserHealingPotion&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveLesserHealingPotion_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveLesserStaminaPotion&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveLesserStaminaPotion_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveCompost&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveCompost_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveDriedThyme&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveDriedThyme_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveDriedYarrow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveDriedYarrow_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveMilledGrain&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveMilledGrain_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHerbalSpirit&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHerbalSpirit_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveTravelBread&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTravelBread_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveBerryPreserve&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveBerryPreserve_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveTrailRation&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTrailRation_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;medicalDelveYarrowTincture&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?medicalDelveYarrowTincture_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmNoticePantry&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmNoticePantry_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmParcelPantry&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmParcelPantry_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmNoticeHerbs&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmNoticeHerbs_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmParcelHerbs&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmParcelHerbs_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmNoticeBread&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmNoticeBread_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmParcelBread&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmParcelBread_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmNoticeMedicine&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmNoticeMedicine_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmParcelMedicine&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmParcelMedicine_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmNoticeRations&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmNoticeRations_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmParcelRations&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmParcelRations_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFarmHandbook&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFarmHandbook_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveRoughHandle&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveRoughHandle_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveLeatherBinding&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveLeatherBinding_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveSeasonedTimber&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveSeasonedTimber_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveCuredLeather&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveCuredLeather_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveWovenCloth&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveWovenCloth_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveIronFittings&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveIronFittings_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveDressedStone&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveDressedStone_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveIronConcentrate&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveIronConcentrate_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHerbalExtract&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHerbalExtract_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveRuneBlank&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveRuneBlank_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveCharcoal&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveCharcoal_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHideRepair&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveHideRepair_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveMetalRepair&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveMetalRepair_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveFocusRepair&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveFocusRepair_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveTrailRations&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTrailRations_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveGathererPorridge&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveGathererPorridge_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveIncursionSupper&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveIncursionSupper_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveProcessingGuide&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveProcessingGuide_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedPickaxe&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveForgedPickaxe_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedAxe&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveForgedAxe_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedShovel&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveForgedShovel_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForestReadinessGuide&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveForestReadinessGuide_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveThornhide&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveThornhide_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveGloomPelt&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveGloomPelt_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForestCrystal&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?delveForestCrystal_Drop" />
+  </append>
+  <set xpath="/items/item[@name=&quot;drinkJarEmpty&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?drinkJarEmpty_Drop</set>
+  <set xpath="/items/item[@name=&quot;drinkJarRiverWater&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?drinkJarRiverWater_Drop</set>
+  <set xpath="/items/item[@name=&quot;drinkJarBoiledWater&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?drinkJarBoiledWater_Drop</set>
+  <append xpath="/items/item[@name=&quot;delveBoneDagger&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveBoneDagger_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveOakCudgel&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveOakCudgel_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveAshSpear&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveAshSpear_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveLeatherKnuckles&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveLeatherKnuckles_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveBorderBow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveBorderBow_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveStarterWand&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveStarterWand_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveStarterStaff&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveStarterStaff_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveStarterTotem&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveStarterTotem_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveMendingTotem&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveMendingTotem_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedDagger&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedDagger_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedMace&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedMace_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedSpear&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedSpear_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedKnuckles&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedKnuckles_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedBow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedBow_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedCrossbow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedCrossbow_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedWand&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedWand_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedStaff&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedStaff_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedTotem&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedTotem_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveForgedMendingTotem&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedMendingTotem_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveWardTotem&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveWardTotem_Drop" />
+  </append>
+  <set xpath="/items/item[@name=&quot;delveWandRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveWandRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveStaffRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveStaffRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveTotemRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveTotemRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveHealingRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveHealingRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveMooncapWandRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveMooncapWandRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveMooncapStaffRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveMooncapStaffRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveMooncapTotemRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveMooncapTotemRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveMooncapHealingRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveMooncapHealingRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveEtchedWandRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveEtchedWandRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveEtchedStaffRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveEtchedStaffRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveEtchedHexRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveEtchedHexRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveEtchedHealingRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveEtchedHealingRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;delveEtchedWardRune&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?delveEtchedWardRune_Drop</set>
+  <set xpath="/items/item[@name=&quot;ammoArrowStone&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?ammoArrowStone_Drop</set>
+  <set xpath="/items/item[@name=&quot;ammoArrowIron&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?ammoArrowIron_Drop</set>
+  <set xpath="/items/item[@name=&quot;ammoCrossbowBoltStone&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?ammoCrossbowBoltStone_Drop</set>
+  <set xpath="/items/item[@name=&quot;ammoCrossbowBoltIron&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestweapons.unity3d?ammoCrossbowBoltIron_Drop</set>
+  <append xpath="/items/item[@name=&quot;delveIronDagger&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedDagger_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveIronMace&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedMace_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveIronSpear&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedSpear_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;delveHuntingBow&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestweapons.unity3d?delveForgedBow_Drop" />
+  </append>
+  <set xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveLightBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveLightBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveMediumBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveMediumBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveHeavyBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveHeavyBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelvePaddedBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelvePaddedBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedLightBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedLightBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedMediumBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedMediumBoots_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyHelmet_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyHelmet_Worn</set>
+  <remove xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Excludes&quot;]" />
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyHelmet&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;HairMaskType&quot;]/@value">Full</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyOutfit&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyOutfit_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyOutfit&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyOutfit_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyGloves&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyGloves_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyGloves&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyGloves_Worn</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyBoots&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyBoots_Drop</set>
+  <set xpath="/items/item[@name=&quot;armorDelveForgedHeavyBoots&quot;]/property[@class=&quot;SDCS&quot;]/property[@name=&quot;Prefab&quot;]/@value">#@modfolder:Resources/forestarmor.unity3d?armorDelveForgedHeavyBoots_Worn</set>
+  <append xpath="/items/item[@name=&quot;foodDelveTrailRationsDelvePacked&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTrailRations_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveTrailRationDelvePacked&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTrailRation_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveTravelBreadDelvePacked&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveTravelBread_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveBerryPreserveDelvePacked&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveBerryPreserve_Drop" />
+  </append>
+  <append xpath="/items/item[@name=&quot;foodDelveHoneyberryCakesDelvePacked&quot;]">
+    <property name="DropMeshfile" value="#@modfolder:Resources/forestprops.unity3d?foodDelveHoneyberryCakes_Drop" />
+  </append>
+  <set xpath="/items/item[@name=&quot;delveArborProtection&quot;]/property[@name=&quot;DropMeshfile&quot;]/@value">#@modfolder:Resources/forestprops.unity3d?drinkJarBoiledWater_Drop</set>
+</configs>

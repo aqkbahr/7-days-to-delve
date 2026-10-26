@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/blocks">
+    <block name="delveFieldHearthTier2">
+      <property name="Extends" value="delveFieldHearth"/>
+      <property name="WorkstationName" value="delveFieldHearthTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveFieldHearth"/>
+      <property name="DescriptionKey" value="delveFieldHearthTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveFieldHearth,delveFieldHearthTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveFieldHearthTier3">
+      <property name="Extends" value="delveFieldHearth"/>
+      <property name="WorkstationName" value="delveFieldHearthTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveFieldHearth"/>
+      <property name="DescriptionKey" value="delveFieldHearthTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveFieldHearth,delveFieldHearthTier2,delveFieldHearthTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveForgeAnvilTier2">
+      <property name="Extends" value="delveForgeAnvil"/>
+      <property name="WorkstationName" value="delveForgeAnvilTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveForgeAnvil"/>
+      <property name="DescriptionKey" value="delveForgeAnvilTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveForgeAnvil,delveForgeAnvilTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveForgeAnvilTier3">
+      <property name="Extends" value="delveForgeAnvil"/>
+      <property name="WorkstationName" value="delveForgeAnvilTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveForgeAnvil"/>
+      <property name="DescriptionKey" value="delveForgeAnvilTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveForgeAnvil,delveForgeAnvilTier2,delveForgeAnvilTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveSawKitTier2">
+      <property name="Extends" value="delveSawKit"/>
+      <property name="WorkstationName" value="delveSawKitTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveSawKit"/>
+      <property name="DescriptionKey" value="delveSawKitTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveSawKit,delveSawKitTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveSawKitTier3">
+      <property name="Extends" value="delveSawKit"/>
+      <property name="WorkstationName" value="delveSawKitTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveSawKit"/>
+      <property name="DescriptionKey" value="delveSawKitTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveSawKit,delveSawKitTier2,delveSawKitTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveOutfittingKitTier2">
+      <property name="Extends" value="delveOutfittingKit"/>
+      <property name="WorkstationName" value="delveOutfittingKitTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveOutfittingKit"/>
+      <property name="DescriptionKey" value="delveOutfittingKitTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveOutfittingKit,delveOutfittingKitTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveOutfittingKitTier3">
+      <property name="Extends" value="delveOutfittingKit"/>
+      <property name="WorkstationName" value="delveOutfittingKitTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveOutfittingKit"/>
+      <property name="DescriptionKey" value="delveOutfittingKitTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveOutfittingKit,delveOutfittingKitTier2,delveOutfittingKitTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveMortarKitTier2">
+      <property name="Extends" value="delveMortarKit"/>
+      <property name="WorkstationName" value="delveMortarKitTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+      <property name="DescriptionKey" value="delveMortarKitTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveMortarKit,delveMortarKitTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveMortarKitTier3">
+      <property name="Extends" value="delveMortarKit"/>
+      <property name="WorkstationName" value="delveMortarKitTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveMortarKit"/>
+      <property name="DescriptionKey" value="delveMortarKitTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveMortarKit,delveMortarKitTier2,delveMortarKitTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveSortingTableTier2">
+      <property name="Extends" value="delveSortingTable"/>
+      <property name="WorkstationName" value="delveSortingTableTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveSortingTable"/>
+      <property name="DescriptionKey" value="delveSortingTableTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveSortingTable,delveSortingTableTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveSortingTableTier3">
+      <property name="Extends" value="delveSortingTable"/>
+      <property name="WorkstationName" value="delveSortingTableTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveSortingTable"/>
+      <property name="DescriptionKey" value="delveSortingTableTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveSortingTable,delveSortingTableTier2,delveSortingTableTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveInscriptionKitTier2">
+      <property name="Extends" value="delveInscriptionKit"/>
+      <property name="WorkstationName" value="delveInscriptionKitTier2"/>
+      <property name="WorkstationWindow" value="workstation_delveInscriptionKit"/>
+      <property name="DescriptionKey" value="delveInscriptionKitTier2Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveInscriptionKit,delveInscriptionKitTier2"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+    <block name="delveInscriptionKitTier3">
+      <property name="Extends" value="delveInscriptionKit"/>
+      <property name="WorkstationName" value="delveInscriptionKitTier3"/>
+      <property name="WorkstationWindow" value="workstation_delveInscriptionKit"/>
+      <property name="DescriptionKey" value="delveInscriptionKitTier3Desc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveInscriptionKit,delveInscriptionKitTier2,delveInscriptionKitTier3"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+  </append>
+  <append xpath="/blocks/block[@name='oreIronBoulder']">
+    <drop event="Harvest" name="resourceScrapLead" count="5" tag="oreWoodHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='terrOreIron']">
+    <drop event="Harvest" name="resourceScrapLead" count="5" tag="oreWoodHarvest"/>
+  </append>
+</configs>

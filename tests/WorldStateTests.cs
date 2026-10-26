@@ -42,10 +42,17 @@ public class WorldStateTests
         Check(ProficiencyRules.Identify("meleeToolPickT1IronPickaxe")==null,"mining picks do not train weapon proficiency");
         Check(ProficiencyRules.Identify("ammoArrowStone")=="Archery","arrow damage identifies Archery without held weapon");
         Check(ProficiencyRules.Identify("delveIronDagger")=="Blades","Delve dagger identifies Blades");
+        foreach(string tool in new[]{"Wand","Staff","Totem"})
+        {
+            string skill=tool=="Staff" ? "Staffs" : tool+"s";
+            Check(ProficiencyRules.Identify("delveStarter"+tool)==skill,"starter tool trains "+skill);
+            Check(ProficiencyRules.Identify("delve"+tool+"Rune")==skill,"rune hit trains "+skill);
+        }
+        Check(ProficiencyRules.Identify("delveLeatherKnuckles")=="Unarmed","starter handwraps train Unarmed");
         Check(ProficiencyRules.Identify("delveAshSpear")=="Polearms","Delve spear identifies Polearms");
         Check(ProficiencyRules.Credit(23750,100)==23760,"proficiency caps at level 100");
         Check(ProficiencyRules.Credit(200,-5)==200,"negative damage cannot reduce or increase proficiency");
-        Check(ProficiencyRules.Skills.Length==20,"all twenty proficiencies registered");
+        Check(ProficiencyRules.Skills.Length==21,"all twenty-one proficiencies registered");
         Check(ProficiencyRules.Rank(0)==1,"new proficiency is usable at rank one");
         Check(ProficiencyRules.Rank(43)==1 && ProficiencyRules.Rank(44)==2,"first advancement requires 44 practice");
         Check(ProficiencyRules.NextCost(50)==240 && ProficiencyRules.NextCost(99)==436,"linear RPG curve, not exponential grind");
@@ -94,3 +101,4 @@ public class WorldStateTests
         return 0;
     }
 }
+

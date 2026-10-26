@@ -1,0 +1,103 @@
+{
+  "entity": "delveImp",
+  "status": "authored review asset; native combat integration pending",
+  "native_geometry_copied": false,
+  "source_size_scale": 0.75,
+  "rig_bones": 90,
+  "triangles": {
+    "Creature_LOD0": 12384,
+    "Creature_LOD1": 6192,
+    "Creature_LOD2": 2476
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Walk": {
+      "seconds": 1.05,
+      "loop": true
+    },
+    "Run": {
+      "seconds": 0.75,
+      "loop": true
+    },
+    "TurnLeft": {
+      "seconds": 1,
+      "loop": true
+    },
+    "TurnRight": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Alert": {
+      "seconds": 1.1,
+      "loop": false
+    },
+    "HitFront": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "HitLeft": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "HitRight": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "AttackWindup": {
+      "seconds": 0.7,
+      "loop": false
+    },
+    "Attack": {
+      "seconds": 0.65,
+      "loop": false
+    },
+    "AttackRunning": {
+      "seconds": 0.8,
+      "loop": false
+    },
+    "Recovery": {
+      "seconds": 1,
+      "loop": false
+    },
+    "Death": {
+      "seconds": 1.3,
+      "loop": false
+    },
+    "Corpse": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Sleep": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Wake": {
+      "seconds": 1.5,
+      "loop": false
+    },
+    "LeapTakeoff": {
+      "seconds": 0.4,
+      "loop": false
+    },
+    "LeapAir": {
+      "seconds": 0.6,
+      "loop": true
+    },
+    "LeapLand": {
+      "seconds": 0.4,
+      "loop": false
+    },
+    "Scamper": {
+      "seconds": 0.65,
+      "loop": true
+    }
+  },
+  "texture_size": 2048,
+  "materials": 1,
+  "uv_tile_validation": "PASS",
+  "root_motion": false,
+  "damage_events": false
+}

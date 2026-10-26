@@ -1,0 +1,3 @@
+<configs>
+  <append xpath="/xui/window_group[@name='dialog']"><window name="delveStewardReply" /></append>
+</configs>

@@ -1,0 +1,96 @@
+<configs>
+  <set xpath="/blocks/block[@name='cntShippingCrateHero']/property[@name='ModelOffset']/@value">0,0,0</set>
+  <set xpath="/blocks/block[@name='cntShippingCrateShamway']/property[@name='ModelOffset']/@value">0,0,0</set>
+  <append xpath="/blocks/block[@name='cntShippingCrateLabEquipment']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateBookstore']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateCarParts']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateShotgunMessiah']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateWorkingStiffs']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateSavageCountry']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateMoPowerElectronics']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntShippingCrateConstructionSupplies']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateHero']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateConstructionSupplies']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateBookstore']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateCarParts']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateLabEquipment']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShamway']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateShotgunMessiah']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateWorkingStiffs']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateSavageCountry']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootCrateMoPowerElectronics']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT1']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecureT2']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHero']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntLootChestHeroInsecure']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestSecure']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntHardenedChestInsecure']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <set xpath="/blocks/block[@name='cntHardenedChestSecureT5']/property[@name='ModelOffset']/@value">0,0,0</set>
+  <set xpath="/blocks/block[@name='cntHardenedChestInsecureT5']/property[@name='ModelOffset']/@value">0,0,0</set>
+  <append xpath="/blocks/block[@name='cntBuriedFoodStashChest']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedWeaponChest']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChest']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntBuriedLootStashChestInsecure']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChest']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+  <append xpath="/blocks/block[@name='cntTestTreasureChestInsecure']">
+    <property name="ModelOffset" value="0,0,0"/>
+  </append>
+</configs>

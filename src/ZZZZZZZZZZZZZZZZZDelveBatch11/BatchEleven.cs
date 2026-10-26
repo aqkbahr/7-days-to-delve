@@ -1,0 +1,48 @@
+using System;using System.Collections.Generic;using System.Reflection;using HarmonyLib;using Delve;
+namespace DelveBatchEleven {
+ public class ModApi:IModApi {public void InitMod(Mod mod){new Harmony("delve.batch11").PatchAll(Assembly.GetExecutingAssembly());ModEvents.GameUpdate.RegisterHandler(Journals.Update);Log.Out("[Batch11] Craft quality, categories, supply exchanges and lesson safeguards enabled.");}}
+ public static class Quality {
+  static Dictionary<int,string> skills;static int recipeCount=-1;
+  public static int Tier(int rank){return Math.Max(1,Math.Min(6,1+rank/4));}
+  [ThreadStatic]static bool building;
+  public static string Skill(ItemValue v){
+   if(building||v==null||v.ItemClass==null||!v.ItemClass.ShowQualityBar)return null;
+   var recipes=CraftingManager.GetAllRecipes();if(recipes==null||recipes.Count==0)return null;
+   if(skills==null||recipeCount!=recipes.Count||skills.Count==0){building=true;try{var map=new Dictionary<int,string>();foreach(var r in recipes){var c=r.GetOutputItemClass();if(c==null||!c.ShowQualityBar||r.IsScrap)continue;string s=c.GetItemName()=="delveHarvestScythe"?"Farming":TrainingHooks.CraftedSkill(c.GetItemName(),r.craftingArea);if(s==null)s=c.GetItemName().StartsWith("armor")?"Carpentry":"Smithing";map[r.itemValueType]=s;}skills=map;recipeCount=recipes.Count;}finally{building=false;}}
+   string result;return skills.TryGetValue(v.type,out result)?result:null;
+  }
+  public static float Factor(PassiveEffects effect,int quality){int q=Math.Max(1,Math.Min(6,quality))-1;switch(effect){case PassiveEffects.EntityDamage:return 1+.10f*q;case PassiveEffects.BlockDamage:return 1+.12f*q;case PassiveEffects.DegradationMax:return 1+.20f*q;default:return 1;}}
+ }
+ [HarmonyPatch(typeof(EffectManager),"GetValue")] public static class GearQuality {
+  public struct State {public int Q;public bool Scale;}
+  [HarmonyPriority(Priority.First)] static void Prefix(PassiveEffects __0,ref ItemValue __1,out State __state){__state=new State();if(Quality.Factor(__0,6)==1||Quality.Skill(__1)==null)return;int q=__1.Quality;if(Quality.Factor(__0,q)==1)return;__state.Q=q;__state.Scale=true;__1=__1.Clone();__1.Quality=1;}
+  [HarmonyPriority(Priority.Last)] static void Postfix(PassiveEffects __0,ItemValue __1,EntityAlive __3,Recipe __4,ref float __result,State __state){if(__state.Scale)__result*=Quality.Factor(__0,__state.Q);if(__0==PassiveEffects.CraftingTier&&__3!=null){string s=Quality.Skill(__1??(__4==null?null:new ItemValue(__4.itemValueType)));if(s!=null)__result=Quality.Tier(ProficiencyRules.Rank(CharacterProgression.Get(__3,"delvePractice"+s)));}}
+ }
+ [HarmonyPatch(typeof(Recipe),"GetCraftingTier")] public static class RecipeQuality {[HarmonyPriority(Priority.Last)] static void Postfix(Recipe __instance,EntityPlayer __0,ref int __result){string s=Quality.Skill(new ItemValue(__instance.itemValueType));if(s!=null&&__0!=null)__result=Quality.Tier(ProficiencyRules.Rank(CharacterProgression.Get(__0,"delvePractice"+s)));}}
+ [HarmonyPatch(typeof(ItemValue),"ModifyValue")] public static class ArmorQuality {
+  static void Prefix(float __3,out float __state){__state=__3;}
+  static void Postfix(ItemValue __instance,PassiveEffects __2,ref float __3,float __state){if((__2==PassiveEffects.PhysicalDamageResist||__2==PassiveEffects.ElementalDamageResist)&&Quality.Skill(__instance)!=null&&__instance.ItemClass.GetItemName().StartsWith("armor")&&__3>__state)__3=__state+(__3-__state)*(1+.08f*(Math.Max(1,Math.Min(6,(int)__instance.Quality))-1));}
+ }
+ public static class Supply {public static Exchange Find(Recipe r){Exchange x;return r!=null&&Exchanges.Rows.TryGetValue(ForestSliceCatalog.Key(r),out x)?x:null;}}
+ [HarmonyPatch(typeof(RecipeProgression),"Allowed")] public static class ExchangeGate {[HarmonyPriority(Priority.First)] static bool Prefix(Recipe recipe,EntityAlive player,ref bool __result){var x=Supply.Find(recipe);if(x==null)return true;__result=player!=null&&ProficiencyRules.Rank(CharacterProgression.Get(player,"delvePractice"+x.Skill))>=x.Rank;return false;}}
+ [HarmonyPatch(typeof(ForestSliceCatalog),"Rank")] public static class ExchangeRank {[HarmonyPriority(Priority.Last)] static void Postfix(Recipe r,ref int __result){var x=Supply.Find(r);if(x!=null)__result=x.Rank;}}
+ [HarmonyPatch(typeof(XUiC_RecipeEntry),"GetBindingValueInternal")] public static class ExchangeListLabel {static void Postfix(XUiC_RecipeEntry __instance,ref string __0,string __1){var x=Supply.Find(__instance.Recipe);if(x!=null&&__1=="recipename")__0=x.Title+" - "+__instance.Recipe.count+" "+Localization.Get(__instance.Recipe.GetName());}}
+ [HarmonyPatch(typeof(XUiC_CraftingInfoWindow),"GetBindingValueInternal")] public static class ExchangeInfoLabel {static void Postfix(Recipe ___recipe,ref string __0,string __1){var x=Supply.Find(___recipe);if(x==null)return;if(__1=="itemname")__0=x.Title;if(__1=="itemdescription")__0="Consumes the listed supplies and produces "+___recipe.count+" "+Localization.Get(___recipe.GetName())+". No notice, quest or parcel required. Requires "+x.Skill+" "+x.Rank+".";}}
+ public static class Categories {
+  public static bool Matches(string category,Recipe r){var c=r.GetOutputItemClass();if(c==null)return false;string n=c.GetItemName().ToLowerInvariant();bool order=Supply.Find(r)!=null;if(category=="All")return true;if(category=="Orders")return order;if(order)return false;bool station=n.StartsWith("delveupgrade")||n.StartsWith("toolcooking")||n.StartsWith("tooldew")||c.IsBlock()&&(c.GetBlock() is BlockWorkstation||n=="delveraincollector");bool seed=n.StartsWith("planted")||n.StartsWith("seed");bool armor=n.StartsWith("armor");bool tool=n.StartsWith("meleetool")||n=="delveharvestscythe"||n.StartsWith("tool");bool magic=n.Contains("rune")||n.Contains("poultice")||n.Contains("tincture")||n.Contains("extract")||n.Contains("draught")||n.StartsWith("medical")||n.Contains("dried")||n.Contains("repair");bool food=n.StartsWith("food")||n.StartsWith("drink");bool weapon=!tool&&!armor&&ProficiencyRules.Identify(n)!=null;
+   switch(category){case "Stations":return station;case "Seeds":return seed;case "Armor":return armor;case "Tools":return tool&&!station;case "Weapons":return weapon&&!magic;case "Food":return food;case "Alchemy":return magic&&!station&&!food;case "Materials":return !station&&!seed&&!armor&&!tool&&!magic&&!food&&!weapon;default:return false;}}
+ }
+ [HarmonyPatch(typeof(XUiM_Recipes),"FilterRecipesByCategory")] public static class CategoryFilter {static bool Prefix(string __0,ref List<Recipe> __1){if(__0==null||!__0.StartsWith("delveCat"))return true;string c=__0.Substring(8);__1=__1.FindAll(r=>Categories.Matches(c,r));return false;}}
+ public static class Journals {
+  static float next;public static bool Lesson(string id){return id!=null&&(id.StartsWith("delveLesson",StringComparison.OrdinalIgnoreCase)||id.Equals("delveFarmFirstHarvest",StringComparison.OrdinalIgnoreCase));}
+  public static string Key(string id){return "delveStarted_"+id.ToLowerInvariant();}
+  public static bool Started(EntityPlayer p,string id){return p!=null&&(p.Buffs.GetCustomVar(Key(id))>0||p.QuestJournal.FindQuest(id,-1)!=null||p.QuestJournal.FindCompletedQuest(id,-1));}
+  public static void Update(ref ModEvents.SGameUpdateData d){if(UnityEngine.Time.time<next)return;next=UnityEngine.Time.time+2;var w=GameManager.Instance==null?null:GameManager.Instance.World;var p=w==null?null:w.GetPrimaryPlayer();if(p==null||p.QuestJournal==null)return;foreach(var q in p.QuestJournal.quests)if(Lesson(q.ID))p.Buffs.SetCustomVar(Key(q.ID),1);const string id="delveWorldProgressJournal11";if(p.QuestJournal.FindQuest(id,-1)==null){var c=QuestClass.GetQuest(id);if(c!=null)p.QuestJournal.AddQuest(c.CreateQuest(),Quest.QuestSource.QuestSystem,false);}}
+ }
+ [HarmonyPatch(typeof(QuestJournal),"AddQuest")] public static class LessonOnce {static bool Prefix(QuestJournal __instance,Quest __0){if(!Journals.Lesson(__0.ID))return true;if(Journals.Started(__instance.OwnerPlayer,__0.ID))return false;return true;}static void Postfix(QuestJournal __instance,Quest __0){if(Journals.Lesson(__0.ID)&&__instance.FindQuest(__0.ID,-1)!=null)__instance.OwnerPlayer.Buffs.SetCustomVar(Journals.Key(__0.ID),1);}}
+ [HarmonyPatch(typeof(ItemActionQuest),"OnHoldingUpdate")] public static class LessonBookGuard {static bool Prefix(ItemActionQuest __instance,ItemActionData __0){if(!Journals.Lesson(__instance.QuestGiven))return true;var p=__0.invData.holdingEntity as EntityPlayerLocal;if(!Journals.Started(p,__instance.QuestGiven))return true;var data=__0 as ItemActionQuest.MyInventoryData;if(data!=null&&data.bQuestAccept){data.bQuestAccept=false;GameManager.ShowTooltip(p,"This skill tutorial has already been started. Each tutorial can be taken once.");}return false;}}
+}
+public class ObjectiveDelveWorldCounters:BaseObjective {
+ public override bool useUpdateLoop {get{return true;}}public override void SetupObjective(){} public override void SetupDisplay(){var p=OwnerQuest==null||OwnerQuest.OwnerJournal==null?null:OwnerQuest.OwnerJournal.OwnerPlayer;Description="Corrupted defeated: "+(p==null?0:(int)p.Buffs.GetCustomVar("delveWorldKills"))+" | Wayrest contracts: "+(p==null?0:(int)p.Buffs.GetCustomVar("delveWayrestJobs"))+"/10";StatusText="World progress";}
+ public override void AddHooks(){}public override void RemoveHooks(){}public override void InternalToParametersDictionary(ref Dictionary<string,object> p){}public override void Update(float dt){Refresh();}public override void Refresh(){SetupDisplay();}public override BaseObjective Clone(){var c=new ObjectiveDelveWorldCounters();CopyValues(c);return c;}
+}

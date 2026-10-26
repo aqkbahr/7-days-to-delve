@@ -1,0 +1,1 @@
+Original procedural geometry, 1K atlas, rigs and visual motions. No copied native meshes, textures or animation. Original project helper definitions from build_thornback.py; isolated UV selection and face tile checks. Existing XML supplies stable IDs and footprint contracts only.

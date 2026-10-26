@@ -17,6 +17,14 @@ try {
     Start-Sleep -Milliseconds 300
     if ($stream.DataAvailable) { $null=$stream.Read($buffer,0,$buffer.Length) }
     $writer.WriteLine($Command)
+    # Native 3.3 TelnetConnection reads 64 characters while checking only the
+    # socket's Available count. A longer line can leave its newline buffered
+    # in StreamReader with no socket bytes to wake the next read. A separate
+    # empty line wakes that read; submitInput ignores the empty command.
+    if($Command.Length -ge 62) {
+        Start-Sleep -Milliseconds 200
+        $writer.WriteLine('')
+    }
     Start-Sleep -Milliseconds $WaitMilliseconds
     while ($stream.DataAvailable) {
         $count=$stream.Read($buffer,0,$buffer.Length)

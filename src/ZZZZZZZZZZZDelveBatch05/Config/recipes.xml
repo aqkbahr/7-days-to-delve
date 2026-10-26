@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/recipes/recipe[@name='delveLeatherKnuckles']"/>
+  <append xpath="/recipes">
+    <recipe name="delveLeatherKnuckles" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceLeather" count="6"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveBoneDagger']"/>
+  <append xpath="/recipes">
+    <recipe name="delveBoneDagger" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceBone" count="8"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveOakCudgel']"/>
+  <append xpath="/recipes">
+    <recipe name="delveOakCudgel" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="25"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveAshSpear']"/>
+  <append xpath="/recipes">
+    <recipe name="delveAshSpear" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="25"/>
+      <ingredient name="resourceRockSmall" count="12"/>
+      <ingredient name="resourceYuccaFibers" count="10"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveBorderBow']"/>
+  <append xpath="/recipes">
+    <recipe name="delveBorderBow" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceYuccaFibers" count="20"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveStarterWand']"/>
+  <append xpath="/recipes">
+    <recipe name="delveStarterWand" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceCloth" count="8"/>
+      <ingredient name="resourceRockSmall" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveStarterStaff']"/>
+  <append xpath="/recipes">
+    <recipe name="delveStarterStaff" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceCloth" count="8"/>
+      <ingredient name="resourceRockSmall" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveStarterTotem']"/>
+  <append xpath="/recipes">
+    <recipe name="delveStarterTotem" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceCloth" count="8"/>
+      <ingredient name="resourceRockSmall" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='delveMendingTotem']"/>
+  <append xpath="/recipes">
+    <recipe name="delveMendingTotem" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceCloth" count="8"/>
+      <ingredient name="resourceRockSmall" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveLightHelmet']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveLightHelmet" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="12"/>
+      <ingredient name="resourceYuccaFibers" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveLightOutfit']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveLightOutfit" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="12"/>
+      <ingredient name="resourceYuccaFibers" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveLightGloves']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveLightGloves" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="12"/>
+      <ingredient name="resourceYuccaFibers" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveLightBoots']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveLightBoots" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="12"/>
+      <ingredient name="resourceYuccaFibers" count="15"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveMediumHelmet']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveMediumHelmet" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceLeather" count="12"/>
+      <ingredient name="resourceCloth" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveMediumOutfit']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveMediumOutfit" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceLeather" count="12"/>
+      <ingredient name="resourceCloth" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveMediumGloves']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveMediumGloves" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceLeather" count="12"/>
+      <ingredient name="resourceCloth" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveMediumBoots']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveMediumBoots" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceLeather" count="12"/>
+      <ingredient name="resourceCloth" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveHeavyHelmet']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveHeavyHelmet" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceScrapIron" count="45"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveHeavyOutfit']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveHeavyOutfit" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceScrapIron" count="45"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveHeavyGloves']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveHeavyGloves" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceScrapIron" count="45"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelveHeavyBoots']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelveHeavyBoots" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceScrapIron" count="45"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelvePaddedHelmet']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelvePaddedHelmet" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="16"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelvePaddedOutfit']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelvePaddedOutfit" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="16"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelvePaddedGloves']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelvePaddedGloves" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="16"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorDelvePaddedBoots']"/>
+  <append xpath="/recipes">
+    <recipe name="armorDelvePaddedBoots" count="1" craft_time="30" craft_area="delveFieldCraftingMat">
+      <ingredient name="resourceCloth" count="16"/>
+      <ingredient name="resourceLeather" count="6"/>
+    </recipe>
+  </append>
+  <append xpath="/recipes">
+    <recipe name="delveFieldCraftingMat" count="1" craft_time="15">
+      <ingredient name="resourceYuccaFibers" count="20"/>
+      <ingredient name="resourceWood" count="20"/>
+    </recipe>
+  </append>
+</configs>

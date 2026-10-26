@@ -1,0 +1,87 @@
+{
+  "entity": "delveGloomcat",
+  "status": "authored first pass; gameplay acceptance deferred",
+  "native_geometry_copied": false,
+  "rig_bones": 77,
+  "triangles": {
+    "Creature_LOD0": 17780,
+    "Creature_LOD1": 8890,
+    "Creature_LOD2": 3556
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 4,
+      "loop": true
+    },
+    "Walk": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Run": {
+      "seconds": 0.8,
+      "loop": true
+    },
+    "TurnLeft": {
+      "seconds": 1,
+      "loop": true
+    },
+    "TurnRight": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Alert": {
+      "seconds": 1.1,
+      "loop": false
+    },
+    "Hit": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Death": {
+      "seconds": 0.9,
+      "loop": false
+    },
+    "Corpse": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Sleep": {
+      "seconds": 3,
+      "loop": true
+    },
+    "Wake": {
+      "seconds": 1.3,
+      "loop": false
+    },
+    "Attack": {
+      "seconds": 0.5,
+      "loop": false
+    },
+    "AttackRunning": {
+      "seconds": 0.6,
+      "loop": false
+    },
+    "Recovery": {
+      "seconds": 1,
+      "loop": false
+    },
+    "Stalk": {
+      "seconds": 1.5,
+      "loop": true
+    },
+    "PounceTakeoff": {
+      "seconds": 0.4,
+      "loop": false
+    },
+    "PounceAir": {
+      "seconds": 0.6,
+      "loop": true
+    },
+    "PounceLand": {
+      "seconds": 0.4,
+      "loop": false
+    }
+  },
+  "texture": "Albedo.png",
+  "texture_size": 2048
+}

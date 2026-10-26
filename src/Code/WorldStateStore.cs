@@ -16,6 +16,7 @@ namespace Delve
         public bool ArborReached;
         public int WayrestCompletedDay = -1;
         public bool WayrestRefurbished;
+        public RecruitRoster Roster = new RecruitRoster();
 
         public bool CreditWayrest(string receipt, int day)
         {
@@ -53,6 +54,8 @@ namespace Delve
 
         private static void ValidateWayrest(WorldProgress state)
         {
+            if (state.Roster == null) throw new InvalidDataException("Missing recruit roster.");
+            state.Roster.Validate();
             if (state.WayrestReceipts == null || state.WayrestReceipts.Count > 10 ||
                 new System.Collections.Generic.HashSet<string>(state.WayrestReceipts).Count != state.WayrestReceipts.Count ||
                 state.WayrestReceipts.Exists(String.IsNullOrEmpty) ||

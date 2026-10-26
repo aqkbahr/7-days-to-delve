@@ -1,0 +1,8 @@
+using System;using System.Reflection;using HarmonyLib;using Delve;
+namespace DelveBatchTen {
+ public class ModApi:IModApi {public void InitMod(Mod mod){new Harmony("delve.batch10").PatchAll(Assembly.GetExecutingAssembly());Log.Out("[Batch10] Station-only recipes, scythe and spell presentation enabled.");}}
+ [HarmonyPatch(typeof(ForestSliceCatalog),"Rank")] public static class Rank { [HarmonyPriority(Priority.Last)] static void Postfix(Recipe r,ref int __result){Row row;if(Routes.Recipes.TryGetValue(ForestSliceCatalog.Key(r),out row))__result=row.Rank;} }
+ [HarmonyPatch(typeof(RecipeProgression),"Allowed")] public static class Gate { [HarmonyPriority(Priority.First)] static bool Prefix(Recipe recipe,EntityAlive player,ref bool __result){if(recipe==null||recipe.IsScrap)return true;Row row;if(!Routes.Recipes.TryGetValue(ForestSliceCatalog.Key(recipe),out row))return true;__result=player!=null&&ProficiencyRules.Rank(CharacterProgression.Get(player,"delvePractice"+row.Skill))>=row.Rank;return false;} }
+ [HarmonyPatch(typeof(TrainingHooks),"CraftedSkill")] public static class Practice {[HarmonyPriority(Priority.Last)] static void Postfix(string name,string station,ref string __result){if(name==null)return;string prefix=name.ToLowerInvariant()+"|"+(station??"").ToLowerInvariant()+"|";foreach(var row in Routes.Recipes)if(row.Key.StartsWith(prefix,StringComparison.Ordinal)){__result=row.Value.Skill;return;}}}
+ [HarmonyPatch(typeof(EffectManager),"GetValue")] public static class ScytheQuality {static void Postfix(PassiveEffects __0,ItemValue __1,EntityAlive __3,ref float __result){if(__0==PassiveEffects.CraftingTier&&Scythe.Is(__1)&&__3!=null)__result=Math.Min(6,1+ProficiencyRules.Rank(CharacterProgression.Get(__3,"delvePracticeFarming"))/4);}}
+}

@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/blocks">
+    <block name="delveFarmPlotPlate">
+      <property name="Extends" value="farmPlotBlockPlayer" />
+      <property name="CustomIcon" value="farmPlotBlock" />
+      <property name="DescriptionKey" value="delveFarmPlotPlateDesc" />
+      <property name="Shape" value="New" />
+      <property name="Model" value="@:Shapes/plate.fbx" />
+      <property name="Texture" value="47,47,47,47,47,47" />
+      <property name="UseGlobalUV" value="G,G,G,G,G,G" />
+      <property name="OnlySimpleRotations" value="false" />
+      <property name="ImposterExclude" value="true" />
+      <property name="SortOrder2" value="0006" />
+      <dropextendsoff />
+      <drop event="Destroy" name="farmPlotBlockVariantHelper" count="1" />
+    </block>
+    <block name="plantedDelveBramble1">
+      <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveBramble2" />
+      </property>
+      <property name="UnlockedBy" value="" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="@:Entities/Plants/blueberry_plant_sproutPrefab.prefab" />
+      <property name="PlaceAsRandomRotation" value="true" />
+      <property name="SortOrder1" value="B957" />
+      <property name="Tags" value="seedSkill,seedMulti" />
+      <property name="SoundPickup" value="seeds_generic1_grab" />
+      <property name="SoundPlace" value="seeds_generic1_place" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveBramble1" count="1" />
+      <property name="CustomIcon" value="plantedBlueberry1" />
+      <property name="CustomIconTint" value="b84265" />
+      <property name="DescriptionKey" value="plantedDelveBrambleDesc" />
+    </block>
+    <block name="plantedDelveBramble2">
+      <property name="Extends" value="cropsGrowingMaster" />
+      <property name="CreativeMode" value="None" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveBramble3HarvestPlayer" />
+      </property>
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="@:Entities/Plants/blueberry_plant_growthPrefab.prefab" />
+      <property name="SortOrder1" value="B957" />
+      <property name="SortOrder2" value="0001" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveBramble1" count="1" />
+      <property name="CustomIcon" value="plantedBlueberry1" />
+      <property name="CustomIconTint" value="b84265" />
+      <property name="DescriptionKey" value="plantedDelveBrambleDesc" />
+    </block>
+    <block name="plantedDelveBramble3Harvest">
+      <property name="Extends" value="cropsHarvestableMaster" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="@:Entities/Plants/blueberry_plant_harvestPrefab.prefab" />
+      <property name="SortOrder1" value="B957" />
+      <property name="SortOrder2" value="0002" />
+      <dropextendsoff />
+      <drop event="Harvest" name="foodDelveBrambleberries" count="1" tag="wildCropsHarvest" />
+      <drop event="Destroy" name="plantedDelveBramble1" count="1" prob="0.25" />
+      <property name="CustomIcon" value="plantedBlueberry1" />
+      <property name="CustomIconTint" value="b84265" />
+      <property name="DescriptionKey" value="plantedDelveBrambleDesc" />
+    </block>
+    <block name="plantedDelveBramble3HarvestPlayer">
+      <property name="Extends" value="plantedDelveBramble3Harvest" />
+      <property name="CreativeMode" value="None" />
+      <property name="CustomIcon" value="plantedBlueberry1" />
+      <property name="DescriptionKey" value="plantedDelveBrambleDesc" />
+      <property name="SortOrder2" value="0005" />
+      <dropextendsoff />
+      <drop event="Harvest" name="foodDelveBrambleberries" count="2" tag="cropHarvest" />
+      <drop event="Destroy" name="plantedDelveBramble1" count="1" prob="1" />
+      <property name="CustomIconTint" value="b84265" />
+    </block>
+    <block name="plantedDelveYarrow1">
+      <property name="Extends" value="cropsGrowingMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveYarrow2" />
+      </property>
+      <property name="UnlockedBy" value="" />
+      <property name="CustomIcon" value="plantedGoldenrod1" />
+      <property name="Texture" value="401" />
+      <property name="PlaceAsRandomRotation" value="true" />
+      <property name="SortOrder1" value="B955" />
+      <property name="Tags" value="seedSkill,seedMulti" />
+      <property name="SoundPickup" value="seeds_generic1_grab" />
+      <property name="SoundPlace" value="seeds_generic1_place" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveYarrow1" count="1" />
+      <property name="CustomIconTint" value="eee6ce" />
+      <property name="DescriptionKey" value="plantedDelveYarrowDesc" />
+    </block>
+    <block name="plantedDelveYarrow2">
+      <property name="Extends" value="cropsGrowingMaster" />
+      <property name="CreativeMode" value="None" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveYarrow3HarvestPlayer" />
+      </property>
+      <property name="CustomIcon" value="plantedGoldenrod1" />
+      <property name="Texture" value="402" />
+      <property name="SortOrder1" value="B955" />
+      <property name="SortOrder2" value="0001" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveYarrow1" count="1" />
+      <property name="CustomIconTint" value="eee6ce" />
+      <property name="DescriptionKey" value="plantedDelveYarrowDesc" />
+    </block>
+    <block name="plantedDelveYarrow3Harvest">
+      <property name="Extends" value="cropsHarvestableMaster" />
+      <property name="CustomIcon" value="plantedGoldenrod1" />
+      <property name="Texture" value="362" />
+      <property name="SortOrder1" value="B955" />
+      <property name="SortOrder2" value="0002" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveYarrow" count="1" tag="wildCropsHarvest" />
+      <drop event="Destroy" name="plantedDelveYarrow1" count="1" prob="0.25" />
+      <property name="CustomIconTint" value="eee6ce" />
+      <property name="DescriptionKey" value="plantedDelveYarrowDesc" />
+    </block>
+    <block name="plantedDelveYarrow3HarvestPlayer">
+      <property name="Extends" value="plantedDelveYarrow3Harvest" />
+      <property name="CreativeMode" value="None" />
+      <property name="DescriptionKey" value="plantedDelveYarrowDesc" />
+      <property name="SortOrder2" value="0004" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveYarrow" count="2" tag="cropHarvest" />
+      <drop event="Destroy" name="plantedDelveYarrow1" count="1" prob="1" />
+      <property name="CustomIcon" value="plantedGoldenrod1" />
+      <property name="CustomIconTint" value="eee6ce" />
+    </block>
+    <block name="plantedDelveThyme1">
+      <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveThyme2" />
+      </property>
+      <property name="UnlockedBy" value="" />
+      <property name="Texture" value="550" />
+      <property name="PlaceAsRandomRotation" value="true" />
+      <property name="SortOrder1" value="B959" />
+      <property name="Tags" value="seedSkill,seedMulti" />
+      <property name="SoundPickup" value="seeds_generic2_grab" />
+      <property name="SoundPlace" value="seeds_generic2_place" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveThyme1" count="1" />
+      <property name="CustomIcon" value="plantedChrysanthemum1" />
+      <property name="CustomIconTint" value="ad87bb" />
+      <property name="DescriptionKey" value="plantedDelveThymeDesc" />
+    </block>
+    <block name="plantedDelveThyme2">
+      <property name="Extends" value="cropsGrowingMaster" />
+      <property name="CreativeMode" value="None" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveThyme3HarvestPlayer" />
+      </property>
+      <property name="CustomIcon" value="plantedChrysanthemum1" />
+      <property name="Texture" value="551" />
+      <property name="SortOrder1" value="B959" />
+      <property name="SortOrder2" value="0001" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveThyme1" count="1" />
+      <property name="CustomIconTint" value="ad87bb" />
+      <property name="DescriptionKey" value="plantedDelveThymeDesc" />
+    </block>
+    <block name="plantedDelveThyme3Harvest">
+      <property name="Extends" value="cropsHarvestableMaster" />
+      <property name="Texture" value="244" />
+      <property name="SortOrder1" value="B959" />
+      <property name="SortOrder2" value="0002" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveThyme" count="1" tag="wildCropsHarvest" />
+      <drop event="Destroy" name="plantedDelveThyme1" count="1" prob="0.25" />
+      <property name="CustomIcon" value="plantedChrysanthemum1" />
+      <property name="CustomIconTint" value="ad87bb" />
+      <property name="DescriptionKey" value="plantedDelveThymeDesc" />
+    </block>
+    <block name="plantedDelveThyme3HarvestPlayer">
+      <property name="Extends" value="plantedDelveThyme3Harvest" />
+      <property name="CreativeMode" value="None" />
+      <property name="CustomIcon" value="plantedChrysanthemum1" />
+      <property name="DescriptionKey" value="plantedDelveThymeDesc" />
+      <property name="SortOrder2" value="0004" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveThyme" count="2" tag="cropHarvest" />
+      <drop event="Destroy" name="plantedDelveThyme1" count="1" prob="1" />
+      <property name="CustomIconTint" value="ad87bb" />
+    </block>
+    <block name="plantedDelveMooncap1">
+      <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon,DescriptionKey,MultiBlockDim,OnlySimpleRotations" />
+      <property name="CreativeMode" value="Player" />
+      <property class="PlantGrowing">
+        <property name="LightLevelGrow" value="0" />
+        <property name="LightLevelStay" value="0" />
+        <property name="FertileLevel" value="0" />
+        <property name="Next" value="plantedDelveMooncap2" />
+      </property>
+      <property name="UnlockedBy" value="" />
+      <property name="Material" value="Mmushrooms" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="@:Entities/OutdoorDecor/mushroomSproutPrefab.prefab" />
+      <property name="HandleFace" value="Bottom" />
+      <property name="SortOrder1" value="B951" />
+      <property name="SortOrder2" value="0002" />
+      <property name="Tags" value="seedSkill,seedMulti" />
+      <property name="SoundPickup" value="seeds_generic2_grab" />
+      <property name="SoundPlace" value="seeds_generic2_place" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveMooncap1" count="1" />
+      <property name="CustomIcon" value="plantedMushroom1" />
+      <property name="CustomIconTint" value="8fcbe8" />
+      <property name="DescriptionKey" value="plantedDelveMooncapDesc" />
+    </block>
+    <block name="plantedDelveMooncap2">
+      <property name="Extends" value="plantedDelveMooncap1" />
+      <property name="CreativeMode" value="None" />
+      <property class="PlantGrowing">
+        <property name="Next" value="plantedDelveMooncap3HarvestPlayer" />
+      </property>
+      <property name="CustomIcon" value="plantedMushroom1" />
+      <property name="Model" value="@:Entities/OutdoorDecor/mushroomGrowthPrefab.prefab" />
+      <property name="SortOrder2" value="0003" />
+      <dropextendsoff />
+      <drop event="Destroy" name="plantedDelveMooncap1" count="1" />
+      <property name="CustomIconTint" value="8fcbe8" />
+      <property name="DescriptionKey" value="plantedDelveMooncapDesc" />
+    </block>
+    <block name="plantedDelveMooncap3Harvest">
+      <property name="Material" value="Mmushrooms" />
+      <property class="PlantGrowing">
+        <property name="FertileLevel" value="0" />
+      </property>
+      <property name="DisplayType" value="blockMulti" />
+      <property name="DisplayInfo" value="Description" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="@:Entities/OutdoorDecor/mushroomHarvestPrefab.prefab" />
+      <property name="WaterFlow" value="permitted" />
+      <property name="Collide" value="melee" />
+      <property name="IsTerrainDecoration" value="true" />
+      <property name="VehicleHitScale" value=".1" />
+      <property name="HarvestOverdamage" value="false" />
+      <property name="SortOrder1" value="B951" />
+      <property name="SortOrder2" value="0004" />
+      <property name="Tags" value="crops" />
+      <property name="FilterTags" value="MC_outdoor,SC_crops" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveMooncap" count="1" tag="wildCropsHarvest" />
+      <drop event="Destroy" name="plantedDelveMooncap1" count="1" prob="0.25" />
+      <property name="CustomIcon" value="plantedMushroom1" />
+      <property name="CustomIconTint" value="8fcbe8" />
+      <property name="DescriptionKey" value="plantedDelveMooncapDesc" />
+    </block>
+    <block name="plantedDelveMooncap3HarvestPlayer">
+      <property name="Extends" value="plantedDelveMooncap3Harvest" />
+      <property name="CreativeMode" value="None" />
+      <property name="CustomIcon" value="plantedMushroom1" />
+      <property name="DescriptionKey" value="plantedDelveMooncapDesc" />
+      <property name="SortOrder2" value="0005" />
+      <property name="Tags" value="crops" />
+      <dropextendsoff />
+      <drop event="Harvest" name="resourceDelveMooncap" count="2" tag="cropHarvest" />
+      <drop event="Destroy" name="plantedDelveMooncap1" count="1" prob="1" />
+      <property name="CustomIconTint" value="8fcbe8" />
+    </block>
+    <block name="delveFarmDispatch">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveFarmDispatchDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveFarmDispatch" />
+      <property name="WorkstationName" value="delveFarmDispatch" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveFarmDispatch" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveCompostBin">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveCompostBinDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveCompostBin" />
+      <property name="WorkstationName" value="delveCompostBin" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveCompostBin" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveDryingRack">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveDryingRackDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveDryingRack" />
+      <property name="WorkstationName" value="delveDryingRack" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveDryingRack" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveGrainMill">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveGrainMillDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveGrainMill" />
+      <property name="WorkstationName" value="delveGrainMill" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveGrainMill" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delvePreservingCrock">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delvePreservingCrockDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delvePreservingCrock" />
+      <property name="WorkstationName" value="delvePreservingCrock" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delvePreservingCrock" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveFermentingBarrel">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveFermentingBarrelDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="20" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveFermentingBarrel" />
+      <property name="WorkstationName" value="delveFermentingBarrel" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveFermentingBarrel" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveCompostedFarmPlot">
+      <property name="Extends" value="farmPlotBlockVariantHelper" />
+      <property name="CustomIcon" value="farmPlotBlock" />
+      <property name="DescriptionKey" value="delveCompostedFarmPlotDesc" />
+    </block>
+    <block name="delveFieldHearth">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveFieldHearthDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveFieldHearth" />
+      <property name="WorkstationName" value="delveFieldHearth" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveFieldHearth" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveForgeAnvil">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveForgeAnvilDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveForgeAnvil" />
+      <property name="WorkstationName" value="delveForgeAnvil" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveForgeAnvil" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveSawKit">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveSawKitDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveSawKit" />
+      <property name="WorkstationName" value="delveSawKit" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveSawKit" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveOutfittingKit">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveOutfittingKitDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveOutfittingKit" />
+      <property name="WorkstationName" value="delveOutfittingKit" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveOutfittingKit" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveMortarKit">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveMortarKitDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveMortarKit" />
+      <property name="WorkstationName" value="delveMortarKit" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveMortarKit" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveSortingTable">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveSortingTableDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveSortingTable" />
+      <property name="WorkstationName" value="delveSortingTable" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveSortingTable" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveInscriptionKit">
+      <property name="Extends" value="workbench" />
+      <property name="CustomIcon" value="workbench" />
+      <property name="DescriptionKey" value="delveInscriptionKitDesc" />
+      <property name="UnlockedBy" value="" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property name="HeatMapStrength" value="0" />
+      <property name="WorkstationWindow" value="workstation_delveInscriptionKit" />
+      <property name="WorkstationName" value="delveInscriptionKit" />
+      <property class="Workstation">
+        <property name="Modules" value="output" />
+        <property name="CraftingAreaRecipes" value="delveInscriptionKit" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+    <block name="delveRainCollector">
+      <property name="Extends" value="cntDewCollector" />
+      <property name="CustomIcon" value="cntDewCollector" />
+      <property name="UnlockedBy" value="" />
+      <property name="DescriptionKey" value="delveRainCollectorDesc" />
+      <property name="OutputTypes" value="{water,jar,1,1,1,drinkJarRiverWater,drinkJarBoiledWater,2,2,500,1000,collector_complete_item}" />
+      <property name="EconomicValue" value="0" />
+      <property name="SellableToTrader" value="false" />
+      <property class="RepairItems">
+        <property name="resourceWood" value="5" />
+      </property>
+      <dropextendsoff />
+      <drop event="Destroy" count="0" />
+    </block>
+  </append>
+  <set xpath="/blocks/block[@name='farmPlotBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">farmPlotBlockPlayer,farmPlotBlockPlayerCornerRound,farmPlotBlockPlayerRaised,delveFarmPlotPlate</set>
+  <append xpath="/blocks/block[@name='plantedCorn3Harvest']">
+    <drop event="Destroy" name="plantedCorn1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedPotato3Harvest']">
+    <drop event="Destroy" name="plantedPotato1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedPumpkin3Harvest']">
+    <drop event="Destroy" name="plantedPumpkin1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedMushroom3Harvest']">
+    <drop event="Destroy" name="plantedMushroom1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedBlueberry3Harvest']">
+    <drop event="Destroy" name="plantedBlueberry1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedCotton3Harvest']">
+    <drop event="Destroy" name="plantedCotton1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedChrysanthemum3Harvest']">
+    <drop event="Destroy" name="plantedChrysanthemum1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedGoldenrod3Harvest']">
+    <drop event="Destroy" name="plantedGoldenrod1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedCoffee3Harvest']">
+    <drop event="Destroy" name="plantedCoffee1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedHop3Harvest']">
+    <drop event="Destroy" name="plantedHop1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedAloe3Harvest']">
+    <drop event="Destroy" name="plantedAloe1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedYucca3Harvest']">
+    <drop event="Destroy" name="plantedYucca1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedSnowberry3Harvest']">
+    <drop event="Destroy" name="plantedSnowberry1" count="1" prob="0.25" />
+  </append>
+  <append xpath="/blocks/block[@name='plantedGraceCorn3Harvest']">
+    <drop event="Destroy" name="plantedGraceCorn1" count="1" prob="0.25" />
+  </append>
+  <set xpath="/blocks/block[@name='plantedCorn3HarvestPlayer']/drop[@event='Destroy'][@name='plantedCorn1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedCorn1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedPotato3HarvestPlayer']/drop[@event='Destroy'][@name='plantedPotato1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedPotato1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedPumpkin3HarvestPlayer']/drop[@event='Destroy'][@name='plantedPumpkin1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedPumpkin1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedMushroom3HarvestPlayer']/drop[@event='Destroy'][@name='plantedMushroom1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedMushroom1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedBlueberry3HarvestPlayer']/drop[@event='Destroy'][@name='plantedBlueberry1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedBlueberry1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedCotton3HarvestPlayer']/drop[@event='Destroy'][@name='plantedCotton1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedCotton1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedChrysanthemum3HarvestPlayer']/drop[@event='Destroy'][@name='plantedChrysanthemum1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedChrysanthemum1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedGoldenrod3HarvestPlayer']/drop[@event='Destroy'][@name='plantedGoldenrod1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedGoldenrod1']/property[@name='UnlockedBy']" />
+  <set xpath="/blocks/block[@name='plantedAloe3HarvestPlayer']/drop[@event='Destroy'][@name='plantedAloe1']/@prob">1</set>
+  <remove xpath="/blocks/block[@name='plantedAloe1']/property[@name='UnlockedBy']" />
+  <append xpath="/blocks/block[@name='treeStump']">
+    <drop event="Destroy" name="foodHoney" count="1" prob="1" />
+  </append>
+</configs>

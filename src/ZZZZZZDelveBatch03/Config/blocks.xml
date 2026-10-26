@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']/property[@name='Model']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']/property[@name='Shape']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyWhite']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyRed']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyRed']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyRed']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyRed']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyOrange']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyYellow']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGreen']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyBlue']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartEmptyGrey']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedWhite']/property[@name='Model']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedWhite']/property[@name='Shape']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedWhite']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedRed']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedRed']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedRed']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedRed']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedOrange']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedOrange']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedOrange']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedOrange']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedYellow']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedYellow']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedYellow']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedYellow']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGreen']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGreen']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGreen']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGreen']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedBlue']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedBlue']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedBlue']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedBlue']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGrey']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="CustomIcon" value="delveCrateStackScattered" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGrey']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartTippedGrey']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartTippedGrey']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='Model']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='Class']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='Shape']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@class='CompositeFeatures']" />
+  <remove xpath="/blocks/block[@name='cntShoppingCartWhite']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartWhite']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRed']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRed']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRed']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRed']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRed']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrange']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrange']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrange']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrange']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrange']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartYellow']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartYellow']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartYellow']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartYellow']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartYellow']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGreen']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGreen']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGreen']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGreen']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGreen']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlue']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlue']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlue']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlue']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlue']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGrey']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGrey']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGrey']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartGrey']/property[@name='DowngradeBlock']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartGrey']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']/property[@name='Class']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']/property[@class='CompositeFeatures']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartRandomLootHelper']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']/property[@name='Class']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']/property[@class='CompositeFeatures']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartOrangeRandomLootHelper']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="Model" value="#@modfolder:Resources/batchthree.unity3d?delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']/property[@name='CustomIcon']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="CustomIcon" value="delveCrateStack" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']/property[@name='TintColor']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="TintColor" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']/property[@name='CustomIconTint']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="CustomIconTint" value="FFFFFF" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']/property[@name='Class']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="Class" value="CompositeTileEntity" />
+  </append>
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property name="Shape" value="ModelEntity" />
+  </append>
+  <remove xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']/property[@class='CompositeFeatures']" />
+  <append xpath="/blocks/block[@name='cntShoppingCartBlueRandomLootHelper']">
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="shoppingCart" />
+      </property>
+    </property>
+  </append>
+</configs>

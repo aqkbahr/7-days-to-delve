@@ -65,3 +65,9 @@ rows=[r for r in rows if r and r[0] not in strings]
 rows.extend([[k,'DelveWayrest','','','','',v] for k,v in strings.items()])
 with (C/'Localization.csv').open('w',encoding='utf-8',newline='') as f:csv.writer(f).writerows(rows)
 print('Wayrest contract pool, journal, onward quest and localization generated')
+
+# Apply shared first-playthrough story after generation.
+from intro_story import apply_wayrest
+apply_wayrest()
+from forest_onboarding import apply as apply_onboarding
+apply_onboarding()

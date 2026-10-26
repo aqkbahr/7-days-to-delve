@@ -1,0 +1,6 @@
+using System;namespace DelveCoverage { public static class CoverageCatalog { public sealed class Row {public string Name,Key,Skill;public int Rank; public Row(string n,string k,string s,int r){Name=n;Key=k;Skill=s;Rank=r;}} public static readonly Row[] Rows={
+new Row("delveBlastingPowder","delveblastingpowder|delvemortarkit|5|resourcecoal=2,resourcepotassiumnitratepowder=3","Alchemy",10),
+new Row("thrownAmmoPipeBomb","thrownammopipebomb|delvemortarkit|1|delveblastingpowder=5,resourcecloth=1,resourceforgediron=2","Alchemy",20),
+new Row("thrownDynamite","throwndynamite|delvemortarkit|1|delveblastingpowder=15,delveherbalspirit=2,resourcecloth=3","Alchemy",40),
+new Row("meleeToolSalvageT1Wrench","meleetoolsalvaget1wrench|delveforgeanvil|1|resourceforgediron=12,resourceleather=4,resourcewood=4","Smithing",20),
+};public static Row Find(string key){foreach(var r in Rows)if(r.Key==key)return r;return null;}public static Row ByName(string name){foreach(var r in Rows)if(String.Equals(name,r.Name,StringComparison.OrdinalIgnoreCase))return r;return null;} } }

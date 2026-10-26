@@ -1,0 +1,529 @@
+{
+  "recipes": [
+    {
+      "name": "plantedCorn1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "foodCropCorn": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedPotato1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "foodCropPotato": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedPumpkin1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "foodCropPumpkin": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedMushroom1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "foodCropMushrooms": 2,
+        "resourceClayLump": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedBlueberry1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "foodCropBlueberries": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedCotton1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "resourceCropCottonPlant": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedChrysanthemum1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "resourceCropChrysanthemumPlant": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedGoldenrod1",
+      "level": 1,
+      "rank": 1,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "plantedAloe1",
+      "level": 1,
+      "rank": 21,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "resourceCropAloeLeaf": 2
+      },
+      "station": ""
+    },
+    {
+      "name": "delveFarmDispatch",
+      "level": 1,
+      "rank": 1,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceYuccaFibers": 10
+      },
+      "station": ""
+    },
+    {
+      "name": "delveCompostBin",
+      "level": 6,
+      "rank": 10,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 25,
+        "resourceClayLump": 10
+      },
+      "station": ""
+    },
+    {
+      "name": "delveDryingRack",
+      "level": 6,
+      "rank": 10,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceYuccaFibers": 15
+      },
+      "station": ""
+    },
+    {
+      "name": "delveGrainMill",
+      "level": 11,
+      "rank": 10,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 30,
+        "resourceRockSmall": 40
+      },
+      "station": ""
+    },
+    {
+      "name": "delvePreservingCrock",
+      "level": 16,
+      "rank": 20,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceClayLump": 40,
+        "resourceRockSmall": 10
+      },
+      "station": ""
+    },
+    {
+      "name": "delveFermentingBarrel",
+      "level": 16,
+      "rank": 20,
+      "skill": "Carpentry",
+      "count": 1,
+      "ingredients": {
+        "resourceWood": 40,
+        "resourceScrapIron": 10
+      },
+      "station": ""
+    },
+    {
+      "name": "delveCompost",
+      "level": 6,
+      "rank": 10,
+      "skill": "Farming",
+      "count": 2,
+      "ingredients": {
+        "resourceYuccaFibers": 10,
+        "foodRottingFlesh": 2
+      },
+      "station": "delveCompostBin"
+    },
+    {
+      "name": "delveCompostedFarmPlot",
+      "level": 6,
+      "rank": 10,
+      "skill": "Farming",
+      "count": 1,
+      "ingredients": {
+        "resourceClayLump": 10,
+        "resourceWood": 2,
+        "delveCompost": 1
+      },
+      "station": ""
+    },
+    {
+      "name": "delveDriedThyme",
+      "level": 6,
+      "rank": 10,
+      "skill": "Alchemy",
+      "count": 1,
+      "ingredients": {
+        "resourceDelveThyme": 2
+      },
+      "station": "delveDryingRack"
+    },
+    {
+      "name": "delveDriedYarrow",
+      "level": 6,
+      "rank": 10,
+      "skill": "Alchemy",
+      "count": 1,
+      "ingredients": {
+        "resourceDelveYarrow": 2
+      },
+      "station": "delveDryingRack"
+    },
+    {
+      "name": "delveMilledGrain",
+      "level": 11,
+      "rank": 10,
+      "skill": "Cooking",
+      "count": 2,
+      "ingredients": {
+        "foodCropCorn": 2
+      },
+      "station": "delveGrainMill"
+    },
+    {
+      "name": "delveHerbalSpirit",
+      "level": 16,
+      "rank": 20,
+      "skill": "Alchemy",
+      "count": 1,
+      "ingredients": {
+        "foodDelveBrambleberries": 4,
+        "drinkJarBoiledWater": 1
+      },
+      "station": "delveFermentingBarrel"
+    },
+    {
+      "name": "foodDelveTravelBread",
+      "level": 11,
+      "rank": 10,
+      "skill": "Cooking",
+      "count": 1,
+      "ingredients": {
+        "delveMilledGrain": 2,
+        "delveDriedThyme": 1,
+        "drinkJarBoiledWater": 1
+      },
+      "station": "campfire"
+    },
+    {
+      "name": "foodDelveBerryPreserve",
+      "level": 16,
+      "rank": 20,
+      "skill": "Cooking",
+      "count": 1,
+      "ingredients": {
+        "foodDelveBrambleberries": 4,
+        "drinkJarBoiledWater": 1
+      },
+      "station": "delvePreservingCrock"
+    },
+    {
+      "name": "foodDelveTrailRation",
+      "level": 16,
+      "rank": 20,
+      "skill": "Cooking",
+      "count": 1,
+      "ingredients": {
+        "foodDelveTravelBread": 1,
+        "foodDelveBerryPreserve": 1
+      },
+      "station": "delvePreservingCrock"
+    },
+    {
+      "name": "medicalDelveYarrowTincture",
+      "level": 16,
+      "rank": 20,
+      "skill": "Alchemy",
+      "count": 1,
+      "ingredients": {
+        "delveDriedYarrow": 2,
+        "delveHerbalSpirit": 1,
+        "resourceCloth": 1
+      },
+      "station": "delveFermentingBarrel"
+    },
+    {
+      "name": "delveFarmNoticePantry",
+      "level": 1,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmParcelPantry",
+      "level": 1,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "foodCropCorn": 6,
+        "foodCropPotato": 4
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmNoticeHerbs",
+      "level": 6,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmParcelHerbs",
+      "level": 6,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "delveDriedYarrow": 3,
+        "delveDriedThyme": 2
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmNoticeBread",
+      "level": 11,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmParcelBread",
+      "level": 11,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "foodDelveTravelBread": 4
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmNoticeMedicine",
+      "level": 16,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmParcelMedicine",
+      "level": 16,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "medicalDelveYarrowTincture": 3
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmNoticeRations",
+      "level": 20,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmParcelRations",
+      "level": 20,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "foodDelveTrailRation": 4
+      },
+      "station": "delveFarmDispatch"
+    },
+    {
+      "name": "delveFarmHandbook",
+      "level": 1,
+      "rank": 1,
+      "skill": null,
+      "count": 1,
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      },
+      "station": ""
+    }
+  ],
+  "stations": [
+    {
+      "name": "delveFarmDispatch",
+      "level": 1
+    },
+    {
+      "name": "delveCompostBin",
+      "level": 6
+    },
+    {
+      "name": "delveDryingRack",
+      "level": 6
+    },
+    {
+      "name": "delveGrainMill",
+      "level": 11
+    },
+    {
+      "name": "delvePreservingCrock",
+      "level": 16
+    },
+    {
+      "name": "delveFermentingBarrel",
+      "level": 16
+    }
+  ],
+  "seeds": [
+    {
+      "seed": "plantedCorn1",
+      "ripe": "plantedCorn3HarvestPlayer",
+      "ingredient": "foodCropCorn"
+    },
+    {
+      "seed": "plantedPotato1",
+      "ripe": "plantedPotato3HarvestPlayer",
+      "ingredient": "foodCropPotato"
+    },
+    {
+      "seed": "plantedPumpkin1",
+      "ripe": "plantedPumpkin3HarvestPlayer",
+      "ingredient": "foodCropPumpkin"
+    },
+    {
+      "seed": "plantedMushroom1",
+      "ripe": "plantedMushroom3HarvestPlayer",
+      "ingredient": "foodCropMushrooms"
+    },
+    {
+      "seed": "plantedBlueberry1",
+      "ripe": "plantedBlueberry3HarvestPlayer",
+      "ingredient": "foodCropBlueberries"
+    },
+    {
+      "seed": "plantedCotton1",
+      "ripe": "plantedCotton3HarvestPlayer",
+      "ingredient": "resourceCropCottonPlant"
+    },
+    {
+      "seed": "plantedChrysanthemum1",
+      "ripe": "plantedChrysanthemum3HarvestPlayer",
+      "ingredient": "resourceCropChrysanthemumPlant"
+    },
+    {
+      "seed": "plantedGoldenrod1",
+      "ripe": "plantedGoldenrod3HarvestPlayer",
+      "ingredient": "resourceCropGoldenrodPlant"
+    },
+    {
+      "seed": "plantedAloe1",
+      "ripe": "plantedAloe3HarvestPlayer",
+      "ingredient": "resourceCropAloeLeaf"
+    }
+  ],
+  "orders": [
+    {
+      "quest": "delveFarmOrderPantry",
+      "notice": "delveFarmNoticePantry",
+      "parcel": "delveFarmParcelPantry",
+      "level": 1,
+      "gold": 60
+    },
+    {
+      "quest": "delveFarmOrderHerbs",
+      "notice": "delveFarmNoticeHerbs",
+      "parcel": "delveFarmParcelHerbs",
+      "level": 6,
+      "gold": 90
+    },
+    {
+      "quest": "delveFarmOrderBread",
+      "notice": "delveFarmNoticeBread",
+      "parcel": "delveFarmParcelBread",
+      "level": 11,
+      "gold": 140
+    },
+    {
+      "quest": "delveFarmOrderMedicine",
+      "notice": "delveFarmNoticeMedicine",
+      "parcel": "delveFarmParcelMedicine",
+      "level": 16,
+      "gold": 180
+    },
+    {
+      "quest": "delveFarmOrderRations",
+      "notice": "delveFarmNoticeRations",
+      "parcel": "delveFarmParcelRations",
+      "level": 20,
+      "gold": 240
+    }
+  ]
+}

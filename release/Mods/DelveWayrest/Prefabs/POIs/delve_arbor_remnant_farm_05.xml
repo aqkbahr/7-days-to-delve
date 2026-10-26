@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="True" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="DifficultyTier" value="0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="TraderArea" value="False" />
+  <property name="PrefabSize" value="60, 29, 60" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="Zoning" value="none" />
+  <property name="SleeperVolumeSize" value="18, 5, 14" />
+  <property name="SleeperVolumeStart" value="32, 7, 13" />
+  <property name="SleeperVolumeGroupId" value="0" />
+  <property name="SleeperVolumeGroup" value="GroupGenericZombie,2,3" />
+  <property name="SleeperIsLootVolume" value="False" />
+  <property name="SleeperIsQuestExclude" value="False" />
+  <property name="SleeperVolumeFlags" value="0" />
+  <property name="SleeperVolumeTriggeredBy" value=" " />
+  <property name="POIMarkerSize" value="20, 13, 3" />
+  <property name="POIMarkerStart" value="30, 6, -3" />
+  <property name="POIMarkerGroup" value="driveway" />
+  <property name="POIMarkerTags" value="" />
+  <property name="POIMarkerType" value="PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_rural_19" />
+  <property name="POIMarkerPartRotations" value="2" />
+  <property name="POIMarkerPartSpawnChance" value="1" />
+  <property name="YOffset" value="-7" />
+  <property name="EditorGroups" value="Delve Burnt Arbor" />
+  <property name="Tags" value="rural" />
+  <property class="Stats">
+    <property name="LightsVolume" value="2323.776" />
+    <property name="TotalVertices" value="466140" />
+    <property name="TotalTriangles" value="221535" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="366213" />
+      <property name="Triangles" value="154227" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="71449" />
+      <property name="Triangles" value="39498" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="16576" />
+      <property name="Triangles" value="8288" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="674" />
+      <property name="Triangles" value="502" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="72" />
+      <property name="Triangles" value="36" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="11156" />
+      <property name="Triangles" value="18984" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="quest_wood_trees">
+      <property name="0" value="53, 9, 51" />
+    </property>
+    <property class="quest_stone_boulder">
+      <property name="0" value="51, 7, 4" />
+      <property name="1" value="53, 7, 7" />
+    </property>
+    <property class="quest_wood">
+      <property name="0" value="51, 7, 49" />
+      <property name="1" value="46, 7, 52" />
+    </property>
+    <property class="POILight">
+      <property name="0" value="47, 9, 18" />
+      <property name="1" value="46, 8, 24" />
+      <property name="2" value="46, 9, 24" />
+      <property name="3" value="47, 8, 24" />
+    </property>
+    <property class="challenge_polymers">
+      <property name="0" value="48, 8, 14" />
+    </property>
+    <property class="challenge_mech_parts">
+      <property name="0" value="50, 8, 21" />
+      <property name="1" value="50, 7, 22" />
+      <property name="2" value="46, 7, 25" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="47, 7, 21" />
+    </property>
+    <property class="challenge_sinks">
+      <property name="0" value="36, 8, 17" />
+      <property name="1" value="36, 8, 19" />
+      <property name="2" value="33, 7, 22" />
+      <property name="3" value="34, 7, 22" />
+      <property name="4" value="36, 7, 22" />
+      <property name="5" value="34, 7, 25" />
+      <property name="6" value="35, 7, 25" />
+    </property>
+    <property class="challenge_steel">
+      <property name="0" value="31, 7, 20" />
+      <property name="1" value="31, 7, 21" />
+    </property>
+  </property>
+</prefab>

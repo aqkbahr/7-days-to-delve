@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveStarterTotemDesc,Delve,,,,Field Crafting Mat starter focus; 300 durability. Uses Totem Runes. Impact damage increased 15%; decay deals 12 base damage over 5 seconds. A hit splashes nearby enemies within 1.5m for 4 damage and spreads the 20% slow and 15% weakening curse. Walls block splash; curses refresh rather than stack.
+delveForgedTotemDesc,Delve,,,,Carpentry 20. Forged hex focus. Impact damage increased 15%; decay deals 12 base damage over 5 seconds. A hit splashes nearby enemies within 1.5m for 6 damage and spreads the 20% slow and 15% weakening curse for 6 seconds. Walls block splash; curses refresh rather than stack. Repair with Focus Repair Supplies.

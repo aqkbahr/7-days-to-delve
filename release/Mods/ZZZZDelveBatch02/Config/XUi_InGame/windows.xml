@@ -1,0 +1,11 @@
+<configs>
+  <append xpath="/windows">
+    <window name="delveStewardReply" anchor="Left" pos="35,10" width="650" height="460" controller="Delve.XUiC_StewardReply, Delve">
+     <rect name="replyContent" width="650" height="460" visible="{delve_reply_visible}">
+      <sprite name="background" sprite="menu_empty" color="17,25,33,245" width="650" height="460" depth="1" />
+      <label name="heading" pos="20,-16" width="610" height="35" text="THE WAYREST STEWARD" font_size="26" depth="2" color="230,225,210" />
+      <label name="reply" pos="20,-65" width="610" height="370" text="{delve_reply}" font_size="23" depth="2" color="230,225,210" justify="left" pivot="topleft" />
+     </rect>
+    </window>
+  </append>
+</configs>

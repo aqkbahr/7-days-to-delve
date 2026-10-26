@@ -5,8 +5,10 @@ checked separately by validate_content.py before packaging.
 """
 from pathlib import Path
 from xml.etree import ElementTree as E
+from copy import deepcopy
 import csv
 import argparse
+from farming_content import add_farming
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'src/Delve/Config'
@@ -67,6 +69,7 @@ def recipe(name, ingredients, station=None):
     return r
 
 weapons = [
+    ('delveLeatherKnuckles','meleeWpnKnucklesT0LeatherKnuckles','Wayfarer Handwraps','Unarmed', {'resourceLeather':4,'resourceYuccaFibers':5},1.05),
     ('delveBoneDagger','meleeWpnBladeT0BoneKnife','Wayfarer Dagger','Blades', {'resourceBone':5,'resourceYuccaFibers':5},1.05),
     ('delveOakCudgel','meleeWpnClubT0WoodenClub','Oak Cudgel','Blunt', {'resourceWood':15,'resourceYuccaFibers':5},1.05),
     ('delveAshSpear','meleeWpnSpearT0StoneSpear','Ashwood Spear','Polearms', {'resourceWood':15,'resourceRockSmall':8,'resourceYuccaFibers':5},1.05),
@@ -81,10 +84,15 @@ for name, parent, title, skill, ingredients, damage in weapons:
         f'A crafted weapon of the Living Border. Trains {skill} through damaging living enemies. '
         'Uses a familiar weapon model during this playtest. Improve quality with Border Smithing.', tint='190,210,155')
     prop(it, 'UnlockedBy', '')
+    if name.startswith('delveIron'): prop(it, 'Material', 'Mmetal')
     # Retain vanilla action tags so attacks, repair and weapon modifications work.
     source = vanilla['items'].find(f".//item[@name='{parent}']/property[@name='Tags']")
     if source is not None:
         prop(it, 'Tags', source.get('value') + ',delveWeapon,delve'+skill)
+    # Extends supplies properties, but an authored effect group replaces the
+    # inherited group list. Preserve native damage/stamina/durability first.
+    for inherited in vanilla['items'].find(f".//item[@name='{parent}']").findall('effect_group'):
+        it.append(deepcopy(inherited))
     eg = node(it, 'effect_group', name='Delve crafted weapon')
     effect(eg, 'EntityDamage', round(damage-1, 3), 'perc_add')
     recipe(name, ingredients)
@@ -150,7 +158,7 @@ for skill in proficiencies:
     b=node(buff_append,'buff',name='delveSkill'+skill,name_key=loc('delveSkill'+skill,skill),description_key=loc('delveSkill'+skill+'Desc',
         f'{skill}: starts at 1, maximum 100. Meaningful practice advances this skill independently of talent points. Next rank costs 40 + 4 times current rank practice. Perk bands: 10/20/40/60/80/100. '+
         ('Each rank above 1 adds 0.2% matching damage.' if skill in combat_tags else 'Tree layouts are available in Skills. Entries marked NOT YET PLAYABLE are disabled while their behavior is implemented.')),
-        icon='ui_game_symbol_agility',remove_on_death='false')
+        icon='ui_game_symbol_agility',remove_on_death='false',hidden='true')
     node(b,'stack_type',value='ignore'); node(b,'duration',value=0)
     node(b,'display_value',value='delveLevel'+skill)
     eg=node(b,'effect_group')
@@ -318,6 +326,36 @@ loc('casinoCoinDesc','Gold coins used in trade throughout the borderlands. Uses 
 
 from first_incursion import extend
 gamestages = extend(base, groups, buff_append, node, effect, loc)
+from starter_equipment import extend as starter_equipment
+starter_equipment(vanilla, item_append, buff_append, node, prop, effect, loc, recipe)
+for slot in ['Helmet','Outfit','Gloves','Boots']:
+    padded=deepcopy(item_append.find(f"item[@name='armorDelveLight{slot}']"))
+    name='armorDelvePadded'+slot;padded.set('name',name)
+    padded.find("property[@name='DescriptionKey']").set('value',loc(name+'Desc','Padded cloth: 8 armor per piece, -1% mobility/running stamina recovery and +2% movement noise. Light Armor fundamentals reduce these penalties. Native cloth visuals.'))
+    loc(name,'Padded Cloth '+slot)
+    eg=padded.find('effect_group')
+    for fx in eg.findall("passive_effect[@name='PhysicalDamageResist']"):fx.set('value','8')
+    effect(eg,'Mobility',-.01,'perc_add');effect(eg,'StaminaChangeOT',-.01,'perc_add',tags='running');effect(eg,'NoiseMultiplier',.02,'perc_add')
+    item_append.append(padded);recipe(name,{'resourceCloth':12,'resourceLeather':4})
+blocks = add_farming(recipes, loc)
+from forest_pantry import extend as forest_pantry
+save('biomes', forest_pantry(base, blocks, item_append, recipes, buff_append, node, prop, loc))
+from farming_pass import extend as farming_pass
+farming_pass(base, blocks, item_append, recipes, quests, entities, node, prop, loc)
+from forest_processing import extend as forest_processing
+forest_processing(base, blocks, item_append, recipes, buff_append, node, prop, loc)
+from forged_equipment import extend as forged_equipment
+forged_equipment(vanilla,item_append,recipes,buff_append,node,prop,effect,loc)
+from forest_readiness import extend as forest_readiness
+forest_readiness(base,blocks,item_append,recipes,entities,node,prop,loc)
+from arbor_protection import extend as arbor_protection, patch as arbor_patch
+arbor_protection(vanilla,item_append,recipes,buff_append,node,prop,loc)
+arbor_patch(buffs,node)
+from rank20_items import extend as rank20_items
+rank20_items(item_append,node,prop,loc,texts)
+from forest_onboarding import extend as forest_onboarding
+forest_onboarding(item_append,recipes,quests,node,prop,loc)
+save('blocks', blocks)
 for name,root in [('items',items),('recipes',recipes),('buffs',buffs),('quests',quests),('progression',progression),('entityclasses',entities),('entitygroups',groups),('gamestages',gamestages)]: save(name,root)
 with (OUT/'Localization.csv').open('w',encoding='utf-8',newline='') as f:
     w=csv.writer(f)
@@ -328,3 +366,10 @@ if (OUT/'Localization.txt').exists(): (OUT/'Localization.txt').unlink()
 print(f'Generated {len(texts)} localization entries, {len(weapons)} weapons, {len(enemies)} enemies, 3 quests, 6 heritages, 6 attributes and 6 talents.')
 
 
+
+
+# Apply shared first-playthrough story after generation.
+from intro_story import apply_core
+apply_core()
+from forest_onboarding import apply as apply_onboarding
+apply_onboarding()

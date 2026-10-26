@@ -1,0 +1,6 @@
+using System;using System.IO;using System.Text;using UnityEngine;
+public class ArmorInspect:IModApi{
+static string output;static bool done;
+public void InitMod(Mod m){output=Path.GetFullPath(Path.Combine(m.Path,"../.."));ModEvents.UnityUpdate.RegisterHandler(Tick);}
+static void Tick(ref ModEvents.SUnityUpdateData d){if(done||Time.realtimeSinceStartup<35)return;done=true;
+foreach(string sex in new[]{"Male","Female"}){try{var p=DataLoader.LoadAsset<GameObject>("@:Entities/Player/"+sex+"/Gear/Fiber/gear"+sex+"FiberPrefab.prefab",true);var o=UnityEngine.Object.Instantiate(p);var s=new StringBuilder();foreach(var t in o.GetComponentsInChildren<Transform>(true))s.AppendLine("NODE "+t.name+" parent="+(t.parent==null?"-":t.parent.name)+" pos="+t.localPosition.ToString("F6")+" rot="+t.localRotation.ToString("F6")+" scale="+t.localScale.ToString("F6"));foreach(var r in o.GetComponentsInChildren<SkinnedMeshRenderer>(true)){s.AppendLine("SKIN "+r.name+" bounds="+r.localBounds+" root="+(r.rootBone==null?"-":r.rootBone.name)+" bones="+r.bones.Length);for(int i=0;i<r.bones.Length;i++)s.AppendLine("BONE "+i+" "+(r.bones[i]==null?"-":r.bones[i].name));}File.WriteAllText(Path.Combine(output,sex+"-rig.txt"),s.ToString());UnityEngine.Object.Destroy(o);}catch(Exception e){File.WriteAllText(Path.Combine(output,sex+"-error.txt"),e.ToString());}}Application.Quit();}}

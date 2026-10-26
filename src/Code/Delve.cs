@@ -44,7 +44,7 @@ namespace Delve
         public static void Start(ref ModEvents.SGameStartDoneData data)
         {
             ready = false; Progress = null; activeBoss = -1; nextTick = 0; bossPhase = -1;
-            countedDeaths.Clear(); participants.Clear(); fallenParticipants.Clear();
+            countedDeaths.Clear(); participants.Clear(); fallenParticipants.Clear(); Recruitment.Reset(); Summoning.Reset();
             if (!IsServer) return;
             store = new WorldStateStore(Path.Combine(GameIO.GetSaveGameDir(), "Delve", "world.xml"));
             try
@@ -84,7 +84,12 @@ namespace Delve
         {
             if (!ready || !IsServer) return "World must finish loading before verification.";
             int checks = 0;
-            string[] crafted = { "delveBoneDagger", "delveOakCudgel", "delveAshSpear", "delveBorderBow",
+            string[] crafted = { "delveMendingTotem", "delveHealingRune", "delveLeatherKnuckles", "delveStarterWand", "delveStarterStaff", "delveStarterTotem",
+                "delveWandRune", "delveStaffRune", "delveTotemRune",
+                "armorDelveLightHelmet", "armorDelveLightOutfit", "armorDelveLightGloves", "armorDelveLightBoots",
+                "armorDelveMediumHelmet", "armorDelveMediumOutfit", "armorDelveMediumGloves", "armorDelveMediumBoots",
+                "armorDelveHeavyHelmet", "armorDelveHeavyOutfit", "armorDelveHeavyGloves", "armorDelveHeavyBoots",
+                "delveBoneDagger", "delveOakCudgel", "delveAshSpear", "delveBorderBow",
                 "delveIronDagger", "delveIronMace", "delveIronSpear", "delveHuntingBow", "delveHealingPoultice",
                 "delveWayfarerTea", "delveWardDraught", "delveFieldGuide", "delveHeritageHuman", "delveHeritageElf",
                 "delveHeritageDwarf", "delveHeritageHalfling", "delveHeritageOrc", "delveHeritageTiefling" };
@@ -126,6 +131,14 @@ namespace Delve
             }
             if (Progression.MaxLevel!=80 || ProficiencyRules.TalentCapacity(100,true)!=15) throw new InvalidDataException("Advancement caps failed.");
             checks++;
+            checks += StarterEquipment.Verify();
+            foreach(string controller in new[]{"Delve.XUiC_ProgressionGroup, Delve","Delve.XUiC_ProgressionScreen, Delve"})
+            {
+                Type type=ReflectionHelpers.GetTypeWithPrefix("XUiC_",controller);
+                if(type==null || !typeof(XUiController).IsAssignableFrom(type))throw new InvalidDataException("Missing UI controller: "+controller);
+                checks++;
+            }
+            checks += FirstTierVerification.Verify();
             return "PASS: " + checks + " loaded content and progression-framework checks. Combat/UI/multiplayer playtest still required.";
         }
 
@@ -178,7 +191,7 @@ namespace Delve
             int dawn = GameUtils.CalcDuskDawnHours(GameStats.GetInt(EnumGameStats.DayLightLength)).Item2;
             Progress.LastAttemptDay = IncursionRules.NightId(GameUtils.WorldTimeToDays(World.GetWorldTime()), GameUtils.WorldTimeToHours(World.GetWorldTime()), dawn);
             Save();
-            Broadcast("The Ashbound Warden has arrived near " + player.EntityName + ". Defeat it before dawn; a fallen party must try again. Prototype encounter uses a vanilla model.");
+            Broadcast("The Ashbound Warden has arrived near " + player.EntityName + ". Defeat it before dawn; a fallen party must try again. Stand together: this champion victory belongs to everyone.");
             return "Warden spawned at " + position + ". " + (manual ? "Manual test: ten-minute limit replaces the dawn timer." : "Incursion encounter active.");
         }
 
@@ -226,7 +239,7 @@ namespace Delve
                 World.RemoveEntity(activeBoss, EnumRemoveEntityReason.Despawned);
             activeBoss = -1; participants.Clear(); fallenParticipants.Clear();
             Save();
-            Broadcast("The Warden withdraws: " + reason + ". It remains undefeated and can return.");
+            Broadcast("The Warden withdraws: " + reason + ". It remains undefeated and will return on a later incursion. Repair your refuge, replenish supplies, and continue helping Wayrest.");
         }
 
         public static void Update(ref ModEvents.SGameUpdateData data)
@@ -236,7 +249,7 @@ namespace Delve
             try
             {
                 int day = GameUtils.WorldTimeToDays(World.GetWorldTime());
-                WayrestCampaign.Tick(World);
+                WayrestCampaign.Tick(World); Recruitment.Tick(); Summoning.Tick();
                 int hour = GameUtils.WorldTimeToHours(World.GetWorldTime());
                 int dawn = GameUtils.CalcDuskDawnHours(GameStats.GetInt(EnumGameStats.DayLightLength)).Item2;
                 // Recover orphaned encounter entities after a crash/restart. Do not
@@ -270,13 +283,13 @@ namespace Delve
                     TickBoss(boss);
                     return;
                 }
-                if (Progress.WardenDefeated) return;
                 int moonDay = GameStats.GetInt(EnumGameStats.BloodMoonDay);
                 if (day == moonDay && World.IsDaytime() && day != Progress.LastScoutingDay)
                 {
                     Progress.LastScoutingDay = day; Save();
-                    Broadcast("Scouts report corrupted infantry, skittering imps and rare hounds, soldiers and brutes. Settlements close tonight. Prepare ammunition, repairs and healing; the Warden arrives two hours before dawn.");
+                    Broadcast(Progress.WardenDefeated ? "Scouts report another incursion tonight. The Warden remains defeated, but the Queen's forces still march. Settlements close: prepare your refuge with food, water, ammunition, repairs and healing." : "Scouts report the Queen's forces gathering for tonight's incursion. Settlements close: prepare your refuge outside their walls with food, water, ammunition, repairs and healing. The Ashbound Warden arrives two game-hours before dawn. Defeat it before daylight; surviving alone does not defeat the champion.");
                 }
+                if (Progress.WardenDefeated) return;
                 if (IncursionRules.ArrivalWindow(SkyManager.IsBloodMoonVisible(), World.IsDaytime(), hour, dawn) && IncursionRules.NightId(day,hour,dawn) != Progress.LastAttemptDay)
                     foreach (EntityPlayer p in World.GetPlayers())
                         if (!p.IsDead()) { SpawnBoss(p, false); if (activeBoss >= 0) break; }
@@ -288,6 +301,8 @@ namespace Delve
         {
             if (!ready || !IsServer || data.KilledEntitiy == null) return;
             Entity dead = data.KilledEntitiy;
+            if(dead is EntityDelveSummon)return;
+            if(dead is EntityDelveRecruit) { Recruitment.Killed(dead.entityId); return; }
             if (participants.Contains(dead.entityId)) fallenParticipants.Add(dead.entityId);
             if (!countedDeaths.Add(dead.entityId)) return;
             string name = EntityClass.GetEntityClassName(dead.entityClass);
@@ -304,7 +319,7 @@ namespace Delve
             if (Progress.WardenDefeated) return;
             Progress.WardenDefeated = true; activeBoss = -1;
             participants.Clear(); fallenParticipants.Clear(); Save();
-            Broadcast("The Ashbound Warden falls! This world's first boss victory is saved. The full ten-boss campaign is still to come.");
+            Broadcast("The Ashbound Warden falls! Allium has struck its first blow against the Queen. This shared victory endures, even if you fall later. Continue Wayrest's reclamation and strengthen your refuge: incursions continue. Further champions await later chapters.");
         }
 
         public static void Stop(ref ModEvents.SWorldShuttingDownData data)
@@ -374,4 +389,5 @@ public class ConsoleCmdDelve : ConsoleCmdAbstract
         catch (Exception ex) { Log.Error("[Delve] Command failed: " + ex); SdtdConsole.Instance.Output("Delve command failed; see log."); }
     }
 }
+
 

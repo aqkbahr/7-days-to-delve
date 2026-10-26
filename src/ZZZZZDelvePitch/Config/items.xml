@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <remove xpath="/items/item[@name='ammoGasCan' or @name='ammoGasCanBundle']/property[@name='CustomIcon' or @name='CustomIconTint' or @name='DescriptionKey']"/>
+  <append xpath="/items/item[@name='ammoGasCan']">
+    <property name="CustomIcon" value="delvePitch"/>
+    <property name="CustomIconTint" value="FFFFFF"/>
+    <property name="DescriptionKey" value="delvePitchDesc"/>
+  </append>
+  <append xpath="/items/item[@name='ammoGasCanBundle']">
+    <property name="CustomIcon" value="delvePitch"/>
+    <property name="CustomIconTint" value="FFFFFF"/>
+    <property name="DescriptionKey" value="delvePitchBundleDesc"/>
+  </append>
+</configs>

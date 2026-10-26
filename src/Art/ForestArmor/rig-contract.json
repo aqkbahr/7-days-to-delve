@@ -1,0 +1,1388 @@
+{
+  "Origin": {
+    "parent": "gearMaleFiberPrefab(Clone)",
+    "pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Hips": {
+    "parent": "Origin",
+    "pos": [
+      0.0,
+      0.974341,
+      -0.028209
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftUpLeg": {
+    "parent": "Hips",
+    "pos": [
+      -0.099707,
+      -0.015271,
+      0.001787
+    ],
+    "rot": [
+      -0.002429,
+      -0.139152,
+      -0.017283,
+      0.990117
+    ]
+  },
+  "LeftLeg": {
+    "parent": "LeftUpLeg",
+    "pos": [
+      0.0,
+      -0.397557,
+      0.0
+    ],
+    "rot": [
+      0.008727,
+      0.0,
+      0.0,
+      0.999962
+    ]
+  },
+  "LeftFoot": {
+    "parent": "LeftLeg",
+    "pos": [
+      0.0,
+      -0.46703,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.008727,
+      0.999962
+    ]
+  },
+  "LeftToeBase": {
+    "parent": "LeftFoot",
+    "pos": [
+      0.0,
+      -0.086837,
+      0.151536
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightUpLeg": {
+    "parent": "Hips",
+    "pos": [
+      0.099707,
+      -0.015271,
+      0.001787
+    ],
+    "rot": [
+      -0.002429,
+      0.139152,
+      0.017283,
+      0.990117
+    ]
+  },
+  "RightLeg": {
+    "parent": "RightUpLeg",
+    "pos": [
+      0.0,
+      -0.397557,
+      0.0
+    ],
+    "rot": [
+      0.008727,
+      0.0,
+      0.0,
+      0.999962
+    ]
+  },
+  "RightFoot": {
+    "parent": "RightLeg",
+    "pos": [
+      0.0,
+      -0.46703,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      -0.008727,
+      0.999962
+    ]
+  },
+  "RightToeBase": {
+    "parent": "RightFoot",
+    "pos": [
+      0.0,
+      -0.086837,
+      0.151536
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Spine": {
+    "parent": "Hips",
+    "pos": [
+      0.0,
+      0.01,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Spine1": {
+    "parent": "Spine",
+    "pos": [
+      0.0,
+      0.1163,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Spine2": {
+    "parent": "Spine1",
+    "pos": [
+      0.0,
+      0.1163,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Spine3": {
+    "parent": "Spine2",
+    "pos": [
+      0.0,
+      0.1163,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftShoulder": {
+    "parent": "Spine3",
+    "pos": [
+      -0.046286,
+      0.156308,
+      0.002916
+    ],
+    "rot": [
+      0.0,
+      -0.061049,
+      0.0,
+      0.998135
+    ]
+  },
+  "LeftArm": {
+    "parent": "LeftShoulder",
+    "pos": [
+      -0.1104,
+      7.1e-05,
+      2.4e-05
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.382684,
+      0.92388
+    ]
+  },
+  "LeftArmRoll": {
+    "parent": "LeftArm",
+    "pos": [
+      -0.14,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftForeArm": {
+    "parent": "LeftArmRoll",
+    "pos": [
+      -0.14,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.382684,
+      0.0,
+      0.92388
+    ]
+  },
+  "LeftForeArmRoll": {
+    "parent": "LeftForeArm",
+    "pos": [
+      -0.16,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHand": {
+    "parent": "LeftForeArmRoll",
+    "pos": [
+      -0.109904,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandIndex0": {
+    "parent": "LeftHand",
+    "pos": [
+      -0.022,
+      -0.004402,
+      0.0198
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandIndex1": {
+    "parent": "LeftHandIndex0",
+    "pos": [
+      -0.0737,
+      0.0077,
+      0.0099
+    ],
+    "rot": [
+      0.0,
+      0.087156,
+      0.0,
+      0.996195
+    ]
+  },
+  "LeftHandIndex2": {
+    "parent": "LeftHandIndex1",
+    "pos": [
+      -0.0451,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandIndex3": {
+    "parent": "LeftHandIndex2",
+    "pos": [
+      -0.02805,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandIndex4": {
+    "parent": "LeftHandIndex3",
+    "pos": [
+      -0.023,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandMiddle0": {
+    "parent": "LeftHand",
+    "pos": [
+      -0.022,
+      0.0,
+      0.007425
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandMiddle1": {
+    "parent": "LeftHandMiddle0",
+    "pos": [
+      -0.0726,
+      0.0121,
+      0.0022
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandMiddle2": {
+    "parent": "LeftHandMiddle1",
+    "pos": [
+      -0.0473,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandMiddle3": {
+    "parent": "LeftHandMiddle2",
+    "pos": [
+      -0.03465,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandMiddle4": {
+    "parent": "LeftHandMiddle3",
+    "pos": [
+      -0.0235,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandPinky0": {
+    "parent": "LeftHand",
+    "pos": [
+      -0.022,
+      -0.0044,
+      -0.0187
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandPinky1": {
+    "parent": "LeftHandPinky0",
+    "pos": [
+      -0.0671,
+      0.0055,
+      -0.0121
+    ],
+    "rot": [
+      0.0,
+      -0.130526,
+      0.0,
+      0.991445
+    ]
+  },
+  "LeftHandPinky2": {
+    "parent": "LeftHandPinky1",
+    "pos": [
+      -0.0352,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandPinky3": {
+    "parent": "LeftHandPinky2",
+    "pos": [
+      -0.0198,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandPinky4": {
+    "parent": "LeftHandPinky3",
+    "pos": [
+      -0.022,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandRing0": {
+    "parent": "LeftHand",
+    "pos": [
+      -0.022,
+      0.0,
+      -0.0066
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandRing1": {
+    "parent": "LeftHandRing0",
+    "pos": [
+      -0.0682,
+      0.011,
+      -0.0077
+    ],
+    "rot": [
+      0.0,
+      -0.065403,
+      0.0,
+      0.997859
+    ]
+  },
+  "LeftHandRing2": {
+    "parent": "LeftHandRing1",
+    "pos": [
+      -0.044,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandRing3": {
+    "parent": "LeftHandRing2",
+    "pos": [
+      -0.0275,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandRing4": {
+    "parent": "LeftHandRing3",
+    "pos": [
+      -0.025,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandThumb1": {
+    "parent": "LeftHand",
+    "pos": [
+      -0.0341,
+      -0.0154,
+      0.0319
+    ],
+    "rot": [
+      0.677587,
+      0.421287,
+      -0.055366,
+      0.600273
+    ]
+  },
+  "LeftHandThumb2": {
+    "parent": "LeftHandThumb1",
+    "pos": [
+      -0.029123,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      -0.017452,
+      0.999848
+    ]
+  },
+  "LeftHandThumb3": {
+    "parent": "LeftHandThumb2",
+    "pos": [
+      -0.0341,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftHandThumb4": {
+    "parent": "LeftHandThumb3",
+    "pos": [
+      -0.033,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftWeapon": {
+    "parent": "LeftHand",
+    "pos": [
+      0.0,
+      -0.05,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftForeArmRoll1": {
+    "parent": "LeftForeArm",
+    "pos": [
+      -0.06,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftForeArmRoll2": {
+    "parent": "LeftForeArm",
+    "pos": [
+      -0.12,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftForeArmRoll3": {
+    "parent": "LeftForeArm",
+    "pos": [
+      -0.18,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftForeArmRoll4": {
+    "parent": "LeftForeArm",
+    "pos": [
+      -0.24,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Neck": {
+    "parent": "Spine3",
+    "pos": [
+      0.0,
+      0.175,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Head": {
+    "parent": "Neck",
+    "pos": [
+      0.0,
+      0.147,
+      -0.002
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Jaw": {
+    "parent": "Head",
+    "pos": [
+      0.0,
+      0.010188,
+      0.03
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftEye": {
+    "parent": "Head",
+    "pos": [
+      -0.03009,
+      0.061972,
+      0.089091
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftEyelidBot": {
+    "parent": "Head",
+    "pos": [
+      -0.030557,
+      0.06,
+      0.092063
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "LeftEyelidTop": {
+    "parent": "Head",
+    "pos": [
+      -0.030557,
+      0.062389,
+      0.092063
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "Mask": {
+    "parent": "Head",
+    "pos": [
+      0.0,
+      0.059286,
+      0.122891
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightEye": {
+    "parent": "Head",
+    "pos": [
+      0.030092,
+      0.061972,
+      0.089091
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightEyelidBot": {
+    "parent": "Head",
+    "pos": [
+      0.030557,
+      0.06,
+      0.092063
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightEyelidTop": {
+    "parent": "Head",
+    "pos": [
+      0.030557,
+      0.064,
+      0.092063
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightShoulder": {
+    "parent": "Spine3",
+    "pos": [
+      0.046287,
+      0.156309,
+      0.002916
+    ],
+    "rot": [
+      0.998135,
+      0.0,
+      -0.061049,
+      0.0
+    ]
+  },
+  "RightArm": {
+    "parent": "RightShoulder",
+    "pos": [
+      0.1104,
+      -7e-05,
+      -2.4e-05
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.382684,
+      0.92388
+    ]
+  },
+  "RightArmRoll": {
+    "parent": "RightArm",
+    "pos": [
+      0.14,
+      -2e-06,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightForeArm": {
+    "parent": "RightArmRoll",
+    "pos": [
+      0.14,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.382684,
+      0.0,
+      0.92388
+    ]
+  },
+  "RightForeArmRoll": {
+    "parent": "RightForeArm",
+    "pos": [
+      0.16,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHand": {
+    "parent": "RightForeArmRoll",
+    "pos": [
+      0.109904,
+      -2e-06,
+      -1e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandIndex0": {
+    "parent": "RightHand",
+    "pos": [
+      0.021999,
+      0.004403,
+      -0.019799
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandIndex1": {
+    "parent": "RightHandIndex0",
+    "pos": [
+      0.0737,
+      -0.0077,
+      -0.0099
+    ],
+    "rot": [
+      0.0,
+      0.087156,
+      0.0,
+      0.996195
+    ]
+  },
+  "RightHandIndex2": {
+    "parent": "RightHandIndex1",
+    "pos": [
+      0.0451,
+      -1e-06,
+      -1e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandIndex3": {
+    "parent": "RightHandIndex2",
+    "pos": [
+      0.02805,
+      5e-06,
+      4e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandIndex4": {
+    "parent": "RightHandIndex3",
+    "pos": [
+      0.023,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandMiddle0": {
+    "parent": "RightHand",
+    "pos": [
+      0.022002,
+      4e-06,
+      -0.007422
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandMiddle1": {
+    "parent": "RightHandMiddle0",
+    "pos": [
+      0.072599,
+      -0.012101,
+      -0.002201
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandMiddle2": {
+    "parent": "RightHandMiddle1",
+    "pos": [
+      0.0473,
+      -4e-06,
+      -2e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandMiddle3": {
+    "parent": "RightHandMiddle2",
+    "pos": [
+      0.03465,
+      4e-06,
+      2e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandMiddle4": {
+    "parent": "RightHandMiddle3",
+    "pos": [
+      0.0235,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandPinky0": {
+    "parent": "RightHand",
+    "pos": [
+      0.022,
+      0.004401,
+      0.018701
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandPinky1": {
+    "parent": "RightHandPinky0",
+    "pos": [
+      0.067104,
+      -0.005496,
+      0.012103
+    ],
+    "rot": [
+      0.0,
+      -0.130526,
+      0.0,
+      0.991445
+    ]
+  },
+  "RightHandPinky2": {
+    "parent": "RightHandPinky1",
+    "pos": [
+      0.0352,
+      0.0,
+      -5e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandPinky3": {
+    "parent": "RightHandPinky2",
+    "pos": [
+      0.0198,
+      0.0,
+      5e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandPinky4": {
+    "parent": "RightHandPinky3",
+    "pos": [
+      0.022,
+      1e-06,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandRing0": {
+    "parent": "RightHand",
+    "pos": [
+      0.021999,
+      0.0,
+      0.0066
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandRing1": {
+    "parent": "RightHandRing0",
+    "pos": [
+      0.068201,
+      -0.010999,
+      0.0077
+    ],
+    "rot": [
+      0.0,
+      -0.065403,
+      0.0,
+      0.997859
+    ]
+  },
+  "RightHandRing2": {
+    "parent": "RightHandRing1",
+    "pos": [
+      0.044,
+      -2e-06,
+      -1e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandRing3": {
+    "parent": "RightHandRing2",
+    "pos": [
+      0.0275,
+      0.0,
+      5e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandRing4": {
+    "parent": "RightHandRing3",
+    "pos": [
+      0.025,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandThumb1": {
+    "parent": "RightHand",
+    "pos": [
+      0.0341,
+      0.0154,
+      -0.0319
+    ],
+    "rot": [
+      0.677587,
+      0.421287,
+      -0.055366,
+      0.600273
+    ]
+  },
+  "RightHandThumb2": {
+    "parent": "RightHandThumb1",
+    "pos": [
+      0.029121,
+      -2e-06,
+      -3e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      -0.017452,
+      0.999848
+    ]
+  },
+  "RightHandThumb3": {
+    "parent": "RightHandThumb2",
+    "pos": [
+      0.038507,
+      4e-06,
+      -1e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightHandThumb4": {
+    "parent": "RightHandThumb3",
+    "pos": [
+      0.033,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightWeapon": {
+    "parent": "RightHand",
+    "pos": [
+      2e-06,
+      0.050003,
+      3e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightForeArmRoll1": {
+    "parent": "RightForeArm",
+    "pos": [
+      0.06,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightForeArmRoll2": {
+    "parent": "RightForeArm",
+    "pos": [
+      0.12,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightForeArmRoll3": {
+    "parent": "RightForeArm",
+    "pos": [
+      0.18,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "RightForeArmRoll4": {
+    "parent": "RightForeArm",
+    "pos": [
+      0.24,
+      0.0,
+      0.0
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "IKFootL": {
+    "parent": "Origin",
+    "pos": [
+      -0.135172,
+      0.09528,
+      -0.034257
+    ],
+    "rot": [
+      0.004388,
+      -0.139367,
+      -0.011747,
+      0.990161
+    ]
+  },
+  "IKFootR": {
+    "parent": "Origin",
+    "pos": [
+      0.127633,
+      0.095003,
+      -0.034257
+    ],
+    "rot": [
+      0.004996,
+      0.139346,
+      0.007427,
+      0.990203
+    ]
+  },
+  "IKWeapon": {
+    "parent": "Origin",
+    "pos": [
+      0.474495,
+      1.121321,
+      0.114438
+    ],
+    "rot": [
+      0.873545,
+      -0.343954,
+      0.300786,
+      0.167757
+    ]
+  },
+  "IKHandL": {
+    "parent": "IKWeapon",
+    "pos": [
+      -0.593616,
+      0.665291,
+      -0.417963
+    ],
+    "rot": [
+      -0.582448,
+      0.701836,
+      -0.410099,
+      0.0
+    ]
+  },
+  "IKHandR": {
+    "parent": "IKWeapon",
+    "pos": [
+      -2e-06,
+      -0.050003,
+      -3e-06
+    ],
+    "rot": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  }
+}

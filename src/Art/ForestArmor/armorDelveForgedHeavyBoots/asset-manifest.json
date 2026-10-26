@@ -1,0 +1,45 @@
+{
+  "id": "armorDelveForgedHeavyBoots",
+  "name": "Forged Heavy Boots",
+  "set": "ForgedHeavy",
+  "slot": "Boots",
+  "family": "armor",
+  "tier": "Forged",
+  "bones": 99,
+  "triangles": {
+    "Boots_LOD0": 3672,
+    "Boots_LOD1": 2018,
+    "Boots_LOD2": 918
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Walk": {
+      "seconds": 1,
+      "loop": true
+    },
+    "Run": {
+      "seconds": 0.7,
+      "loop": true
+    },
+    "Crouch": {
+      "seconds": 1.4,
+      "loop": false
+    },
+    "Attack": {
+      "seconds": 0.8,
+      "loop": false
+    },
+    "Cast": {
+      "seconds": 1.2,
+      "loop": false
+    },
+    "Grip": {
+      "seconds": 1,
+      "loop": false
+    }
+  },
+  "status": "Original reference-fit art; native SDCS/morph/first-person integration pending"
+}

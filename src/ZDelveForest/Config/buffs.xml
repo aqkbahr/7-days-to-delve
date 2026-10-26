@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/buffs">
+    <buff name="delveForestBrace" name_key="delveForestBrace" description_key="delveForestBraceDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="2" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.75" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.75" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.5" />
+      </effect_group>
+    </buff>
+    <buff name="delveForestRush" name_key="delveForestRush" description_key="delveForestRushDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="4" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="0.45" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="0.45" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="0.25" />
+      </effect_group>
+    </buff>
+    <buff name="delveForestSpent" name_key="delveForestSpent" description_key="delveForestSpentDesc" icon="ui_game_symbol_skull">
+      <stack_type value="replace" />
+      <duration value="5" />
+      <effect_group>
+        <passive_effect name="WalkSpeed" operation="perc_add" value="-0.6" />
+        <passive_effect name="RunSpeed" operation="perc_add" value="-0.6" />
+        <passive_effect name="EntityDamage" operation="perc_add" value="-0.5" />
+      </effect_group>
+    </buff>
+  </append>
+</configs>

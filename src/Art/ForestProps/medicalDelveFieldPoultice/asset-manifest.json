@@ -1,0 +1,19 @@
+{
+  "id": "medicalDelveFieldPoultice",
+  "kind": "item",
+  "family": "medicalDelveFieldPoultice",
+  "name": "Field Poultice",
+  "triangles": {
+    "Prop_LOD0": 280,
+    "Prop_LOD1": 154,
+    "Prop_LOD2": 70
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

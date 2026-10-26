@@ -1,0 +1,184 @@
+<configs>
+  <remove xpath="/quests/quest[@id='tier1_fetch']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='tier1_fetch']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_fetch']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_fetch']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='tier1_clear']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='tier1_clear']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_clear']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_clear']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='intro_buried_supplies']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='intro_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='intro_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='intro_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='tier1_buried_supplies']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='tier1_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_buried_supplies']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_sleepers']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_sleepers']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_sleepers']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_sleepers']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_sleepers_infested']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_sleepers_infested']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_sleepers_infested']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_sleepers_infested']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_fetch']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_fetch']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetch']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetch']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_fetchsleep']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_fetchsleep']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetchsleep']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetchsleep']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_fetchinfested']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_fetchinfested']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetchinfested']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_fetchinfested']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_hiddensleep']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_hiddensleep']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_hiddensleep']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_hiddensleep']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_restorepower']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_restorepower']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_restorepower']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_restorepower']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_bandit']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_bandit']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_bandit']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_bandit']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='test_nexttrader']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='test_nexttrader']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_nexttrader']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='test_nexttrader']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='tier1_test_turnin']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='tier1_test_turnin']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_test_turnin']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='tier1_test_turnin']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='delveWayrestFetch']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='delveWayrestFetch']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestFetch']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestFetch']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='delveWayrestClear']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='delveWayrestClear']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestClear']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestClear']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <remove xpath="/quests/quest[@id='delveWayrestFetchClear']/reward[@ischosen='true']"/>
+  <append xpath="/quests/quest[@id='delveWayrestFetchClear']">
+    <reward type="LootItem" id="delveReward11Supplies" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestFetchClear']">
+    <reward type="LootItem" id="delveReward11Provisions" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests/quest[@id='delveWayrestFetchClear']">
+    <reward type="LootItem" id="delveReward11Gear" value="1" ischosen="true"/>
+  </append>
+  <append xpath="/quests">
+    <quest id="delveWorldProgressJournal11">
+      <property name="name_key" value="delveWorldProgressJournal11"/>
+      <property name="description_key" value="delveWorldProgressJournal11Desc"/>
+      <property name="category_key" value="delveQuestCategory"/>
+      <property name="repeatable" value="false"/>
+      <property name="shareable" value="false"/>
+      <property name="add_to_tier_complete" value="false"/>
+      <property name="icon" value="ui_game_symbol_challenge"/>
+      <objective type="DelveWorldCounters, DelveBatchEleven" value="1" phase="1"/>
+    </quest>
+  </append>
+</configs>

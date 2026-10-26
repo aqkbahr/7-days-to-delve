@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="resourceLeather" count="3" craft_time="8">
+      <ingredient name="delveThornhide" count="1" />
+    </recipe>
+    <recipe name="resourceLeather" count="5" craft_time="8">
+      <ingredient name="delveGloomPelt" count="1" />
+    </recipe>
+    <recipe name="delveEmberSalts" count="3" craft_time="8">
+      <ingredient name="delveForestCrystal" count="1" />
+    </recipe>
+  </append>
+</configs>

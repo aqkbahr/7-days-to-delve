@@ -1,0 +1,575 @@
+{
+  "total_lod_meshes": 18,
+  "enemies": [
+    {
+      "entity": "delveAshboundWarden",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 1.15,
+      "rig_bones": 80,
+      "triangles": {
+        "Creature_LOD0": 13604,
+        "Creature_LOD1": 6802,
+        "Creature_LOD2": 2720
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.05,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        },
+        "Windup": {
+          "seconds": 1.2,
+          "loop": true
+        },
+        "Assault": {
+          "seconds": 0.8,
+          "loop": true
+        },
+        "BossRecovery": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Withdraw": {
+          "seconds": 1.2,
+          "loop": true
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    },
+    {
+      "entity": "delveCorruptedWalker",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 0.95,
+      "rig_bones": 73,
+      "triangles": {
+        "Creature_LOD0": 13674,
+        "Creature_LOD1": 6836,
+        "Creature_LOD2": 2734
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.4,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    },
+    {
+      "entity": "delveDemonSpawn",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 1,
+      "rig_bones": 80,
+      "triangles": {
+        "Creature_LOD0": 12940,
+        "Creature_LOD1": 6470,
+        "Creature_LOD2": 2588
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.05,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    },
+    {
+      "entity": "delveImp",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 0.75,
+      "rig_bones": 90,
+      "triangles": {
+        "Creature_LOD0": 12384,
+        "Creature_LOD1": 6192,
+        "Creature_LOD2": 2476
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.05,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        },
+        "LeapTakeoff": {
+          "seconds": 0.4,
+          "loop": false
+        },
+        "LeapAir": {
+          "seconds": 0.6,
+          "loop": true
+        },
+        "LeapLand": {
+          "seconds": 0.4,
+          "loop": false
+        },
+        "Scamper": {
+          "seconds": 0.65,
+          "loop": true
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    },
+    {
+      "entity": "delvePossessedSoldier",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 1,
+      "rig_bones": 98,
+      "triangles": {
+        "Creature_LOD0": 13332,
+        "Creature_LOD1": 6666,
+        "Creature_LOD2": 2666
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.05,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    },
+    {
+      "entity": "delveWarpedBrute",
+      "status": "authored review asset; native combat integration pending",
+      "native_geometry_copied": false,
+      "source_size_scale": 1.12,
+      "rig_bones": 88,
+      "triangles": {
+        "Creature_LOD0": 13400,
+        "Creature_LOD1": 6700,
+        "Creature_LOD2": 2680
+      },
+      "animations": {
+        "Idle": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Walk": {
+          "seconds": 1.4,
+          "loop": true
+        },
+        "Run": {
+          "seconds": 0.75,
+          "loop": true
+        },
+        "TurnLeft": {
+          "seconds": 1,
+          "loop": true
+        },
+        "TurnRight": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Alert": {
+          "seconds": 1.1,
+          "loop": false
+        },
+        "HitFront": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitLeft": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "HitRight": {
+          "seconds": 0.6,
+          "loop": false
+        },
+        "AttackWindup": {
+          "seconds": 0.7,
+          "loop": false
+        },
+        "Attack": {
+          "seconds": 0.65,
+          "loop": false
+        },
+        "AttackRunning": {
+          "seconds": 0.8,
+          "loop": false
+        },
+        "Recovery": {
+          "seconds": 1,
+          "loop": false
+        },
+        "Death": {
+          "seconds": 1.3,
+          "loop": false
+        },
+        "Corpse": {
+          "seconds": 1,
+          "loop": true
+        },
+        "Sleep": {
+          "seconds": 3,
+          "loop": true
+        },
+        "Wake": {
+          "seconds": 1.5,
+          "loop": false
+        },
+        "Brace": {
+          "seconds": 2,
+          "loop": true
+        },
+        "Rush": {
+          "seconds": 4,
+          "loop": true
+        },
+        "Spent": {
+          "seconds": 5,
+          "loop": true
+        }
+      },
+      "texture_size": 2048,
+      "materials": 1,
+      "uv_tile_validation": "PASS",
+      "root_motion": false,
+      "damage_events": false
+    }
+  ],
+  "gameplay_package_modified": false,
+  "version": "0.1.0",
+  "total_clips": 113,
+  "status": "review assets; native gameplay integration pending"
+}

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/windows">
+    <window name="delveRecruitWindow" anchor="Center" pos="-550,350" width="1100" height="700" controller="Delve.XUiC_RecruitScreen, Delve" cursor_area="true">
+      <sprite name="background" width="1100" height="700" sprite="menu_empty" color="17,25,33,250" depth="1" type="sliced" />
+      <label name="title" pos="20,-15" width="900" height="40" text="WAYREST / SETTLEMENT RECRUITS" font_size="28" depth="5" color="230,225,210" justify="left" pivot="topleft" />
+      <simplebutton name="nr_close" pos="1030,-15" width="50" height="36" caption="X" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_settlement" pos="20,-65" width="690" height="36" caption="{nr_settlement}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_refresh" pos="730,-65" width="160" height="36" caption="Refresh" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <label name="intro" pos="20,-110" width="1060" height="65" text="Deposit gold in your Settlement Ledger and close its storage before hiring.&#10;Tier 1: Smith 400 gold | Cook 250 gold | Defender 500 gold. Hiring creates a reserve recruit." font_size="19" depth="5" color="230,225,210" justify="left" pivot="topleft" />
+      <simplebutton name="nr_hireSmith" pos="20,-175" width="210" height="36" caption="Hire smith / 400" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_hireCook" pos="240,-175" width="210" height="36" caption="Hire cook / 250" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_hireDefender" pos="460,-175" width="250" height="36" caption="Hire defender / 500" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_resurrect" pos="730,-175" width="340" height="36" caption="Resurrect / 1 game hour" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" visible="{nr_atshrine}" />
+      <label name="page" pos="20,-225" width="420" height="30" text="{nr_page}" font_size="19" depth="5" color="230,225,210" justify="left" pivot="topleft" />
+      <simplebutton name="nr_row0" pos="20,-260" width="410" height="36" caption="{nr_row0}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row1" pos="20,-300" width="410" height="36" caption="{nr_row1}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row2" pos="20,-340" width="410" height="36" caption="{nr_row2}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row3" pos="20,-380" width="410" height="36" caption="{nr_row3}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row4" pos="20,-420" width="410" height="36" caption="{nr_row4}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row5" pos="20,-460" width="410" height="36" caption="{nr_row5}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row6" pos="20,-500" width="410" height="36" caption="{nr_row6}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_row7" pos="20,-540" width="410" height="36" caption="{nr_row7}" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <label name="detail" pos="460,-225" width="610" height="355" text="{nr_detail}" font_size="18" depth="5" color="230,225,210" justify="left" pivot="topleft" />
+      <simplebutton name="nr_prev" pos="20,-590" width="195" height="36" caption="Previous" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_next" pos="235,-590" width="195" height="36" caption="Next" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_assign" pos="460,-590" width="280" height="36" caption="Assign here" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <simplebutton name="nr_recall" pos="755,-590" width="315" height="36" caption="Recall to reserve" font_size="18" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" />
+      <label name="message" pos="20,-640" width="1060" height="55" text="{nr_message}" font_size="18" depth="5" color="230,225,210" justify="left" pivot="topleft" />
+    </window>
+  </append>
+</configs>

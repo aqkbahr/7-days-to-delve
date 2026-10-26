@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <Name value="ZDelveThornbackArt" />
+  <DisplayName value="Delve — Thornback Boar Art" />
+  <Description value="Original Thornback skin and animation presentation. Requires the Forest bestiary. Preserves native gameplay and physics." />
+  <Author value="7 Days to Delve" />
+  <Version value="0.1.0" />
+  <SkipWithAntiCheat value="true" />
+</xml>

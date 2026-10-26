@@ -1,0 +1,6 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveSummoningRod,Delve,,,,Forest Summoning Rod
+delveSummoningRune,Delve,,,,Boar Summoning Rune
+delveSummonedBoar,Delve,,,,Bound Forest Boar
+delveSummoningRodDesc,Delve,,,,Consumes one Boar Summoning Rune to call a weak allied Forest boar for 60 seconds. One per caster; recasting replaces it. Find open ground outside trader protection. Follows you and fights nearby enemies. Combat raises Summoning proficiency: +2 health per rank and +1 damage per 10 ranks. Rod quality adds 10% health and damage per quality above one. Craft at a Field Crafting Mat. Uses a borrowed wooden casting-focus model. Repair with Focus Repair Supplies.
+delveSummoningRuneDesc,Delve,,,,"Ammunition for the Forest Summoning Rod. One rune calls one boar for 60 seconds. No loot or harvest from summons. Craft five from 10 stone, 5 bone and 2 chrysanthemum at a Field Crafting Mat or Rune Bench."

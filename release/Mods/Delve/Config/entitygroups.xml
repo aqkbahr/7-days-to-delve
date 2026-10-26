@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+    <e n="delveCorruptedWalker" p="2" />
+    <e n="delveDemonSpawn" p="1.5" />
+    <e n="delveImp" p="0.5" />
+    <e n="delvePossessedSoldier" p="0.35" />
+    <e n="delveWarpedBrute" p="0.25" />
+  </append>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+    <e n="delveCorruptedWalker" p="2" />
+    <e n="delveDemonSpawn" p="1.5" />
+    <e n="delveImp" p="0.5" />
+    <e n="delvePossessedSoldier" p="0.35" />
+    <e n="delveWarpedBrute" p="0.25" />
+    <e n="delveHellhound" p="0.3" />
+  </append>
+  <append xpath="/entitygroups">
+    <entitygroup name="delveBorderPatrol">
+      <e n="delveCorruptedWalker" />
+      <e n="delveDemonSpawn" />
+      <e n="delveHellhound" />
+    </entitygroup>
+  </append>
+  <append xpath="/entitygroups">
+    <entitygroup name="delveIncursion_feralHordeStageGS1">
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieNurse" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieJanitor" p="0.06666666666666667" />
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombieDarlene" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS2">
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieInmate" p="0.06666666666666667" />
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieLab" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS4">
+      <e n="zombieJanitor" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombieDarlene" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieNurse" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS7">
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieInmate" p="0.06666666666666667" />
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieLab" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombieDarlene" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS10">
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieJanitor" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS13">
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombieInmate" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieNurse" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS16">
+      <e n="zombieJanitor" p="0.06153846153846154" />
+      <e n="zombieArlene" p="0.06153846153846154" />
+      <e n="zombieJoe" p="0.06153846153846154" />
+      <e n="zombieBusinessMan" p="0.06153846153846154" />
+      <e n="zombieDarlene" p="0.06153846153846154" />
+      <e n="zombiePartyGirl" p="0.06153846153846154" />
+      <e n="zombieBoe" p="0.06153846153846154" />
+      <e n="zombieYo" p="0.06153846153846154" />
+      <e n="zombieMarlene" p="0.06153846153846154" />
+      <e n="zombieLab" p="0.06153846153846154" />
+      <e n="zombieUtilityWorker" p="0.06153846153846154" />
+      <e n="zombieBurnt" p="0.06153846153846154" />
+      <e n="zombieSteve" p="0.06153846153846154" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS19">
+      <e n="zombieNurse" p="0.06153846153846154" />
+      <e n="zombieMoe" p="0.06153846153846154" />
+      <e n="zombieDarlene" p="0.06153846153846154" />
+      <e n="zombiePartyGirl" p="0.06153846153846154" />
+      <e n="zombieInmate" p="0.06153846153846154" />
+      <e n="zombieUtilityWorker" p="0.06153846153846154" />
+      <e n="zombieJoe" p="0.06153846153846154" />
+      <e n="zombieYo" p="0.06153846153846154" />
+      <e n="zombieMarlene" p="0.06153846153846154" />
+      <e n="zombieBusinessMan" p="0.06153846153846154" />
+      <e n="zombieTomClark" p="0.06153846153846154" />
+      <e n="zombieBurnt" p="0.06153846153846154" />
+      <e n="zombieArlene" p="0.06153846153846154" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS23">
+      <e n="zombieDarlene" p="0.06666666666666667" />
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="zombieJanitor" p="0.06666666666666667" />
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieMoe" p="0.06666666666666667" />
+      <e n="zombieSteve" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS27">
+      <e n="zombieMarlene" p="0.06666666666666667" />
+      <e n="zombieUtilityWorker" p="0.06666666666666667" />
+      <e n="zombieJoe" p="0.06666666666666667" />
+      <e n="zombieBusinessMan" p="0.06666666666666667" />
+      <e n="zombieYo" p="0.06666666666666667" />
+      <e n="zombiePartyGirl" p="0.06666666666666667" />
+      <e n="zombieBoe" p="0.06666666666666667" />
+      <e n="zombieLab" p="0.06666666666666667" />
+      <e n="zombieArlene" p="0.06666666666666667" />
+      <e n="zombieDarlene" p="0.06666666666666667" />
+      <e n="zombieInmate" p="0.06666666666666667" />
+      <e n="zombieTomClark" p="0.06666666666666667" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS31">
+      <e n="zombieJanitor" p="0.06153846153846154" />
+      <e n="zombieMoe" p="0.06153846153846154" />
+      <e n="zombieBoe" p="0.06153846153846154" />
+      <e n="zombieNurse" p="0.06153846153846154" />
+      <e n="zombieArlene" p="0.06153846153846154" />
+      <e n="zombiePartyGirl" p="0.06153846153846154" />
+      <e n="zombieJoe" p="0.06153846153846154" />
+      <e n="zombieSteve" p="0.06153846153846154" />
+      <e n="zombieUtilityWorker" p="0.06153846153846154" />
+      <e n="zombieDarlene" p="0.06153846153846154" />
+      <e n="zombieMarlene" p="0.06153846153846154" />
+      <e n="zombieBurnt" p="0.06153846153846154" />
+      <e n="zombieBusinessMan" p="0.06153846153846154" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS35">
+      <e n="zombieJoe" p="0.07136485280999108" />
+      <e n="zombieDarlene" p="0.07136485280999108" />
+      <e n="zombieInmate" p="0.07136485280999108" />
+      <e n="zombieBoe" p="0.07136485280999108" />
+      <e n="zombieYo" p="0.07136485280999108" />
+      <e n="zombieMoe" p="0.07136485280999108" />
+      <e n="zombieUtilityWorker" p="0.07136485280999108" />
+      <e n="zombieSpider" p="0.014986619090098125" />
+      <e n="zombiePartyGirl" p="0.07136485280999108" />
+      <e n="zombieMarlene" p="0.07136485280999108" />
+      <e n="zombieSteve" p="0.07136485280999108" />
+      <e n="zombieBusinessMan" p="0.07136485280999108" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveIncursion_feralHordeStageGS40">
+      <e n="zombieMarlene" p="0.07590132827324479" />
+      <e n="zombieBusinessMan" p="0.07590132827324479" />
+      <e n="zombieArlene" p="0.07590132827324479" />
+      <e n="zombieYo" p="0.07590132827324479" />
+      <e n="zombieUtilityWorker" p="0.07590132827324479" />
+      <e n="animalZombieDog" p="0.07590132827324479" />
+      <e n="zombieLumberjack" p="0.022770398481973438" />
+      <e n="zombieSpider" p="0.018216318785578747" />
+      <e n="zombieMoe" p="0.07590132827324479" />
+      <e n="zombieDarlene" p="0.07590132827324479" />
+      <e n="zombiePartyGirl" p="0.07590132827324479" />
+      <e n="zombieLab" p="0.07590132827324479" />
+      <e n="delveCorruptedWalker" p="0.09" />
+      <e n="delveDemonSpawn" p="0.05" />
+      <e n="delveImp" p="0.03" />
+      <e n="delveHellhound" p="0.014" />
+      <e n="delvePossessedSoldier" p="0.01" />
+      <e n="delveWarpedBrute" p="0.006" />
+    </entitygroup>
+    <entitygroup name="delveBorderSkirmish">
+      <e n="delveCorruptedWalker" p="6" />
+      <e n="delveDemonSpawn" p="3" />
+      <e n="delveImp" p="1" />
+    </entitygroup>
+    <entitygroup name="delveBorderHeavy">
+      <e n="delvePossessedSoldier" p="3" />
+      <e n="delveWarpedBrute" p="1" />
+    </entitygroup>
+    <entitygroup name="delveBorderHunters">
+      <e n="delveHellhound" p="1" />
+    </entitygroup>
+  </append>
+</configs>

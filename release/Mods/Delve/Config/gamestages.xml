@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='1']/spawn[@group='feralHordeStageGS1']/@group">delveIncursion_feralHordeStageGS1</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='2']/spawn[@group='feralHordeStageGS1']/@group">delveIncursion_feralHordeStageGS1</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='2']/spawn[@group='feralHordeStageGS2']/@group">delveIncursion_feralHordeStageGS2</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='4']/spawn[@group='feralHordeStageGS2']/@group">delveIncursion_feralHordeStageGS2</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='4']/spawn[@group='feralHordeStageGS4']/@group">delveIncursion_feralHordeStageGS4</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='7']/spawn[@group='feralHordeStageGS4']/@group">delveIncursion_feralHordeStageGS4</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='7']/spawn[@group='feralHordeStageGS7']/@group">delveIncursion_feralHordeStageGS7</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='10']/spawn[@group='feralHordeStageGS7']/@group">delveIncursion_feralHordeStageGS7</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='10']/spawn[@group='feralHordeStageGS10']/@group">delveIncursion_feralHordeStageGS10</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='13']/spawn[@group='feralHordeStageGS10']/@group">delveIncursion_feralHordeStageGS10</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='13']/spawn[@group='feralHordeStageGS13']/@group">delveIncursion_feralHordeStageGS13</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='16']/spawn[@group='feralHordeStageGS13']/@group">delveIncursion_feralHordeStageGS13</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='16']/spawn[@group='feralHordeStageGS16']/@group">delveIncursion_feralHordeStageGS16</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='19']/spawn[@group='feralHordeStageGS16']/@group">delveIncursion_feralHordeStageGS16</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='19']/spawn[@group='feralHordeStageGS19']/@group">delveIncursion_feralHordeStageGS19</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='23']/spawn[@group='feralHordeStageGS16']/@group">delveIncursion_feralHordeStageGS16</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='23']/spawn[@group='feralHordeStageGS19']/@group">delveIncursion_feralHordeStageGS19</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='23']/spawn[@group='feralHordeStageGS23']/@group">delveIncursion_feralHordeStageGS23</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='27']/spawn[@group='feralHordeStageGS19']/@group">delveIncursion_feralHordeStageGS19</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='27']/spawn[@group='feralHordeStageGS23']/@group">delveIncursion_feralHordeStageGS23</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='27']/spawn[@group='feralHordeStageGS27']/@group">delveIncursion_feralHordeStageGS27</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='31']/spawn[@group='feralHordeStageGS23']/@group">delveIncursion_feralHordeStageGS23</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='31']/spawn[@group='feralHordeStageGS27']/@group">delveIncursion_feralHordeStageGS27</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='31']/spawn[@group='feralHordeStageGS31']/@group">delveIncursion_feralHordeStageGS31</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='35']/spawn[@group='feralHordeStageGS27']/@group">delveIncursion_feralHordeStageGS27</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='35']/spawn[@group='feralHordeStageGS31']/@group">delveIncursion_feralHordeStageGS31</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='35']/spawn[@group='feralHordeStageGS35']/@group">delveIncursion_feralHordeStageGS35</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='40']/spawn[@group='feralHordeStageGS31']/@group">delveIncursion_feralHordeStageGS31</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='40']/spawn[@group='feralHordeStageGS35']/@group">delveIncursion_feralHordeStageGS35</set>
+  <set xpath="/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage='40']/spawn[@group='feralHordeStageGS40']/@group">delveIncursion_feralHordeStageGS40</set>
+</configs>

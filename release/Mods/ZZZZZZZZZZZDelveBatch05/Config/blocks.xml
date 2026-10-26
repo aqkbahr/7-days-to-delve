@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/blocks">
+    <block name="delveFieldCraftingMat">
+      <property name="Extends" value="workbench"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Model" value="#@modfolder:Resources/fieldmat.unity3d?delveFieldCraftingMat"/>
+      <property name="MultiBlockDim" value="1,1,1"/>
+      <property name="ModelOffset" value="0,0,0"/>
+      <property name="CustomIcon" value="delveFieldCraftingMat"/>
+      <property name="CustomIconTint" value="FFFFFF"/>
+      <property name="TintColor" value="FFFFFF"/>
+      <property name="DescriptionKey" value="delveFieldCraftingMatDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="WorkstationName" value="delveFieldCraftingMat"/>
+      <property name="WorkstationWindow" value="workstation_delveFieldCraftingMat"/>
+      <property name="HeatMapStrength" value="0"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+      <property name="MaxDamage" value="200"/>
+      <property class="Workstation">
+        <property name="Modules" value="output"/>
+        <property name="CraftingAreaRecipes" value="delveFieldCraftingMat"/>
+      </property>
+      <property class="RepairItems">
+        <property name="resourceYuccaFibers" value="5"/>
+      </property>
+      <dropextendsoff/>
+      <drop event="Destroy" count="0"/>
+    </block>
+  </append>
+</configs>

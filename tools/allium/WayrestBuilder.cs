@@ -29,7 +29,12 @@ public class ConsoleCmdWayrestBuild : ConsoleCmdAbstract
                 }
                 int x=int.Parse(row.GetAttribute("x")),end=int.Parse(row.GetAttribute("end"));
                 int y=int.Parse(row.GetAttribute("y")),z=int.Parse(row.GetAttribute("z"));
-                for(;x<=end;x++) { p.SetBlock(x,y,z,value);p.SetDensity(x,y,z,-127);count++; }
+                // Hall entrance is south (local z=39); steward stands at z=49.
+                // Native BlockSpawnEntity uses 90 * block rotation as entity yaw.
+                if(row.HasAttribute("rotation"))value.rotation=byte.Parse(row.GetAttribute("rotation"));
+                if(row.HasAttribute("damage"))value.damage=int.Parse(row.GetAttribute("damage"));
+                if(name=="delveWayrestStewardSpawn") value.rotation=2;
+                for(;x<=end;x++) { p.SetBlock(x,y,z,value);p.SetDensity(x,y,z,value.isTerrain?(sbyte)-127:(sbyte)127);count++; }
             }
             p.indexedBlockOffsets["Trader"]=new List<Vector3i>{new Vector3i(30,2,49)};
             p.AddAllChildBlocks();

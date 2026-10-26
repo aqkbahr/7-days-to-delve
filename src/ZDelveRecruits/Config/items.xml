@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/items">
+    <item name="meleeHandDelveWorker">
+      <property name="Extends" value="meleeHandPlayer" />
+      <property name="CreativeMode" value="None" />
+      <effect_group name="Recruit melee" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="8" />
+        <passive_effect name="BlockDamage" operation="base_set" value="0" />
+      </effect_group>
+    </item>
+    <item name="meleeHandDelveDefender">
+      <property name="Extends" value="meleeHandPlayer" />
+      <property name="CreativeMode" value="None" />
+      <effect_group name="Recruit melee" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="20" />
+        <passive_effect name="BlockDamage" operation="base_set" value="0" />
+      </effect_group>
+    </item>
+  </append>
+</configs>

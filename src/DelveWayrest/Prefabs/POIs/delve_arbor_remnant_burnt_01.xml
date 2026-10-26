@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prefab>
+  <property name="Zoning" value="ResidentialOld" />
+  <property name="AllowedTownships" value="city,town,rural,wilderness" />
+  <property name="CopyAirBlocks" value="True" />
+  <property name="ExcludeDistantPOIMesh" value="True" />
+  <property name="ExcludePOICulling" value="False" />
+  <property name="DistantPOIYOffset" value="0" />
+  <property name="DifficultyTier" value="0" />
+  <property name="TraderArea" value="False" />
+  <property name="RotationToFaceNorth" value="2" />
+  <property name="SleeperVolumeSize" value="26, 5, 38#10, 4, 8#6, 4, 8" />
+  <property name="SleeperVolumeStart" value="8, 6, 0#21, 12, 22#21, 7, 23" />
+  <property name="SleeperVolumeGroupId" value="0,0,0" />
+  <property name="SleeperVolumeGroup" value="S_Zom_Burnt,2,2,S_Zom_Burnt,0,1,S_-Group_Generic_Zombie,1,1" />
+  <property name="SleeperIsLootVolume" value="False,False,True" />
+  <property name="SleeperIsBossVolume" value="False,False,False" />
+  <property name="YOffset" value="-6" />
+  <property name="EditorGroups" value="Delve Burnt Arbor" />
+  <property name="SleeperVolumeFlags" value="0,0,0" />
+  <property name="ShowQuestClearCount" value="1" />
+  <property name="SleeperIsQuestExclude" value="False,False,False" />
+  <property name="Tags" value="residential,countryresidential" />
+  <property name="POIMarkerSize" value="6, 13, 5#6, 13, 1" />
+  <property name="POIMarkerStart" value="2, 5, -5#2, 5, -1" />
+  <property name="POIMarkerGroup" value="driveway,driveway2" />
+  <property name="POIMarkerTags" value="residential#countryresidential" />
+  <property name="POIMarkerType" value="PartSpawn,PartSpawn" />
+  <property name="POIMarkerPartToSpawn" value="part_driveway_residential_01,part_driveway_countryresidential_03" />
+  <property name="POIMarkerPartRotations" value="2,2" />
+  <property name="POIMarkerPartSpawnChance" value="1,1" />
+  <property name="PrefabSize" value="42, 21, 42" />
+  <property name="SleeperVolumeTriggeredBy" value=" # # " />
+  <property class="Stats">
+    <property name="TotalVertices" value="292521" />
+    <property name="TotalTriangles" value="152637" />
+    <property class="BlockEntities">
+      <property name="Vertices" value="201302" />
+      <property name="Triangles" value="98062" />
+    </property>
+    <property class="ChunkMeshes0">
+      <property name="Vertices" value="84232" />
+      <property name="Triangles" value="44233" />
+    </property>
+    <property class="ChunkMeshes1">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes2">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes3">
+      <property name="Vertices" value="1089" />
+      <property name="Triangles" value="858" />
+    </property>
+    <property class="ChunkMeshes4">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes5">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes6">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+    <property class="ChunkMeshes7">
+      <property name="Vertices" value="5898" />
+      <property name="Triangles" value="9484" />
+    </property>
+    <property class="ChunkMeshes8">
+      <property name="Vertices" value="0" />
+      <property name="Triangles" value="0" />
+    </property>
+  </property>
+  <property class="IndexedBlockOffsets">
+    <property class="POILight">
+      <property name="0" value="26, 4, 27" />
+      <property name="1" value="27, 10, 27" />
+      <property name="2" value="27, 8, 28" />
+      <property name="3" value="23, 9, 31" />
+    </property>
+    <property class="TraderOnOff">
+      <property name="0" value="22, 12, 26" />
+    </property>
+    <property class="quest_wood_trees">
+      <property name="0" value="35, 6, 6" />
+    </property>
+  </property>
+</prefab>

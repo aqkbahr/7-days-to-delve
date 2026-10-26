@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/windows/window[@name='menuBackground']/video"/>
+  <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@texture">@modfolder:Textures/menu.png</set>
+  <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@anchor_left">#cam,0,-5</set>
+  <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@anchor_right">#cam,1,5</set>
+  <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@anchor_bottom">#cam,0,-5</set>
+  <set xpath="/windows/window[@name='menuBackground']/texture[@name='bgTexture']/@anchor_top">#cam,1,5</set>
+  <set xpath="/windows/window[@name='loadingScreen']//label[@name='lblTitle']/@color">213,184,126</set>
+</configs>

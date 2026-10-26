@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/buffs">
+    <buff name="delveSkillSummoning" hidden="true">
+      <duration value="0"/>
+      <stack_type value="ignore"/>
+    </buff>
+    <buff name="delveSummonStats" hidden="true">
+      <duration value="0"/>
+      <stack_type value="ignore"/>
+      <effect_group>
+        <passive_effect name="HealthMax" operation="base_set" value="@delveSummonHealth"/>
+      </effect_group>
+    </buff>
+  </append>
+</configs>

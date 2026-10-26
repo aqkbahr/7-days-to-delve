@@ -1,0 +1,43 @@
+<configs>
+  <append xpath="/traders/trader_item_groups">
+    <trader_item_group name="delveLessonRestock11">
+      <item name="delveLessonFarmingNotes" count="1"/>
+      <item name="delveLessonCookingNotes" count="1"/>
+      <item name="delveLessonMiningNotes" count="1"/>
+      <item name="delveLessonSmithingNotes" count="1"/>
+      <item name="delveLessonCarpentryNotes" count="1"/>
+      <item name="delveLessonAlchemyNotes" count="1"/>
+    </trader_item_group>
+  </append>
+  <remove xpath="/traders/trader_info/trader_items[item[@group='delveCraftingTomes']]"/>
+  <append xpath="/traders/trader_info[@id='1']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+  <append xpath="/traders/trader_info[@id='6']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+  <append xpath="/traders/trader_info[@id='2']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+  <append xpath="/traders/trader_info[@id='7']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+  <append xpath="/traders/trader_info[@id='8']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+  <append xpath="/traders/trader_info[@id='9']">
+    <trader_items count="all">
+      <item group="delveLessonRestock11" count="3" unique_only="true"/>
+    </trader_items>
+  </append>
+</configs>

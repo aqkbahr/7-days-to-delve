@@ -1,0 +1,19 @@
+{
+  "id": "delveDressedStone",
+  "kind": "item",
+  "family": "delveDressedStone",
+  "name": "Dressed Stone",
+  "triangles": {
+    "Prop_LOD0": 132,
+    "Prop_LOD1": 72,
+    "Prop_LOD2": 32
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": null,
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

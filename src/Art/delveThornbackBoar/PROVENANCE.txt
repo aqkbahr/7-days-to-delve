@@ -1,0 +1,37 @@
+THORNBACK BOAR - ORIGINAL PROJECT ASSET
+
+Created for 7 Days to Delve at the user's request, October 24, 2026.
+Generator: tools/art/build_thornback.py
+Editable source: delveThornbackBoar.blend
+Exchange source: delveThornbackBoar.fbx
+
+Mesh, bark plates, thorns, tusks, skinning weights, UV layout, procedural
+2048-pixel albedo atlas and all 18 animation actions were authored in this
+workspace. No purchased, downloaded or extracted third-party mesh, texture,
+animation clip or audio is included in this asset.
+
+The 42-bone rest layout and bone names were measured from the user's installed
+7 Days to Die boar to support technical fitting and ragdoll correspondence.
+rig-contract.json records that interoperability metadata. The native boar's
+geometry and animation assets were not exported or redistributed.
+
+Runtime integration references the user's installed native game controller,
+physics bodies, sounds, AI, root motion and damage logic. Those native game
+assets remain subject to the game's own terms. This record does not grant
+rights to redistribute any native game asset.
+
+Material: one atlas material, opaque, matte, no realtime per-creature lights.
+LOD0 23198 triangles; LOD1 11598; LOD2 4638.
+The atlas and source file are generated together; rerun the generator to edit.
+
+Animation actions:
+Idle, Walk, Run, TurnLeft, TurnRight, Alert, Scrape, Brace, Rush, Brake,
+Recovery, Attack, AttackRunning, Hit, Death, Corpse, Sleep, Wake.
+All visual actions are in place. The native game controls entity movement and
+damage. No custom animation event applies damage or awards loot.
+
+Rig root: ThornbackRig / Origin / Global / Position / Hips.
+Key attachment bones: Head, Mandible, Nose, LeftEar, RightEar, thoracicBack,
+LeftHand, RightHand, LeftFoot, RightFoot, Tail1 through Tail5.
+Model faces Blender -Y; FBX exports for Unity Y-up, forward +Z.
+Native entity SizeScale 1.12 is retained by the art bridge, not baked twice.

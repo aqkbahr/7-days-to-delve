@@ -1,0 +1,27 @@
+{
+  "id": "delveSawKit",
+  "kind": "station",
+  "family": "saw",
+  "name": "Saw and Seasoning Bench",
+  "triangles": {
+    "Prop_LOD0": 1004,
+    "Prop_LOD1": 552,
+    "Prop_LOD2": 238
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Work": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

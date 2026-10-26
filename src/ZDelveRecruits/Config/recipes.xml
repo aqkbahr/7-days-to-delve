@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="delveRecruitLedger" count="1" craft_time="10">
+      <ingredient name="resourceWood" count="20" />
+    </recipe>
+    <recipe name="delveRallyFlag" count="1" craft_time="10">
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceCloth" count="5" />
+    </recipe>
+    <recipe name="delveRecoveryShrine" count="1" craft_time="20">
+      <ingredient name="resourceRockSmall" count="30" />
+      <ingredient name="resourceWood" count="10" />
+      <ingredient name="resourceCloth" count="5" />
+    </recipe>
+  </append>
+</configs>

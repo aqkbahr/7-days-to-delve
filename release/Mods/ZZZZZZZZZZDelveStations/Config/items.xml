@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/items">
+    <item name="delveUpgradeCompostBasket">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceYuccaFibers"/>
+      <property name="DescriptionKey" value="delveUpgradeCompostBasketDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeSeedPress">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="plantedCorn1"/>
+      <property name="DescriptionKey" value="delveUpgradeSeedPressDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeGrainMill">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="foodCornMeal"/>
+      <property name="DescriptionKey" value="delveUpgradeGrainMillDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradePreservingCrock">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="drinkJarEmpty"/>
+      <property name="DescriptionKey" value="delveUpgradePreservingCrockDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeAnvil">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="toolAnvil"/>
+      <property name="DescriptionKey" value="delveUpgradeAnvilDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeBellows">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="toolBellows"/>
+      <property name="DescriptionKey" value="delveUpgradeBellowsDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeSeasoningRack">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceWood"/>
+      <property name="DescriptionKey" value="delveUpgradeSeasoningRackDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradePrecisionJig">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="meleeToolRepairT1ClawHammer"/>
+      <property name="DescriptionKey" value="delveUpgradePrecisionJigDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeDressingFrame">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceCloth"/>
+      <property name="DescriptionKey" value="delveUpgradeDressingFrameDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeArmorForm">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceLeather"/>
+      <property name="DescriptionKey" value="delveUpgradeArmorFormDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeMortar">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceRockSmall"/>
+      <property name="DescriptionKey" value="delveUpgradeMortarDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeDryingRack">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceCropGoldenrodPlant"/>
+      <property name="DescriptionKey" value="delveUpgradeDryingRackDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeFermenter">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="drinkJarBeer"/>
+      <property name="DescriptionKey" value="delveUpgradeFermenterDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeEngravingTools">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceScrapIron"/>
+      <property name="DescriptionKey" value="delveUpgradeEngravingToolsDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeEtchingTools">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="toolBeaker"/>
+      <property name="DescriptionKey" value="delveUpgradeEtchingToolsDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeStoneCutter">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="meleeToolPickT1IronPickaxe"/>
+      <property name="DescriptionKey" value="delveUpgradeStoneCutterDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+  <append xpath="/items">
+    <item name="delveUpgradeOreSieve">
+      <property name="Extends" value="resourceScrapIron"/>
+      <property name="CustomIcon" value="resourceScrapIron"/>
+      <property name="DescriptionKey" value="delveUpgradeOreSieveDesc"/>
+      <property name="UnlockedBy" value=""/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="EconomicValue" value="0"/>
+      <property name="SellableToTrader" value="false"/>
+    </item>
+  </append>
+</configs>

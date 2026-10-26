@@ -1,0 +1,23 @@
+{
+  "id": "delveMortarKit",
+  "kind": "station",
+  "family": "apothecary",
+  "name": "Apothecary Bench",
+  "triangles": {
+    "Prop_LOD0": 10180,
+    "Prop_LOD1": 5588,
+    "Prop_LOD2": 2544
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

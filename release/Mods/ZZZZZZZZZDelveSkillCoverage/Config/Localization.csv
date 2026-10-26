@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveBlastingPowder,items,Item,false,false,Alchemical blasting powder
+delveBlastingPowderDesc,items,Item,false,false,Alchemy 10 at the Mortar Kit. Reagent for blast and excavation charges.
+thrownAmmoPipeBomb,items,Item,false,false,Alchemical blast charge
+thrownDynamite,items,Item,false,false,Alchemical excavation charge
+thrownAmmoPipeBombDelveCoverageDesc,items,Item,false,false,"Alchemy 20 at the Mortar Kit. Light, then throw. Enemy damage trains Alchemy; +0.5% damage per proficiency above 1. Native fuse and friendly-fire rules apply."
+thrownDynamiteDelveCoverageDesc,items,Item,false,false,Alchemy 40 at the Mortar Kit. A powerful excavation explosive. Enemy damage trains Alchemy; +0.5% damage per proficiency above 1. Native terrain damage and fuse apply.
+meleeToolSalvageT1WrenchDelveCoverageDesc,items,Item,false,false,Smithing 20 at the Forest Forge. Metal salvage trains Smithing; +0.25% salvage damage per proficiency above 1. Attacking enemies trains Blunt. Repair with ordinary repair supplies.

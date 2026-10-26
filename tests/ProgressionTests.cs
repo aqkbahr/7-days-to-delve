@@ -8,6 +8,8 @@ public class ProgressionTests
  public static void Main()
  {
   var owned=new HashSet<string>();
+  foreach(var entry in TalentCatalog.Entries)
+   Check(Object.ReferenceEquals(entry.Value,TalentCatalog.Entries[entry.Key.ToLowerInvariant()]),"native lowercase perk identity "+entry.Key);
   var branch=new TalentDefinition("Blades",20,true,new[]{"a","b"});
   Check(!branch.CanBuy(20,false,false,owned.Contains),"both fundamentals required");
   owned.Add("a"); Check(!branch.CanBuy(20,false,false,owned.Contains),"one fundamental insufficient");
@@ -34,7 +36,8 @@ public class ProgressionTests
     else {ordinary++;Check(d.Prerequisites.Length==(d.Rank==10?0:d.Rank==20?2:1),skill+" branch dependency count");}
     foreach(string prior in d.Prerequisites)Check(TalentCatalog.Entries.ContainsKey(prior)&&TalentCatalog.Entries[prior].Skill==skill&&TalentCatalog.Entries[prior].Rank<d.Rank,skill+" valid earlier prerequisite");
    }
-   Check(ordinary==14&&masteries>=4,skill+" complete 14+one structure");
+   if(skill=="Summoning")Check(ordinary==5&&masteries==0,"Summoning has five implemented early talents and no placeholder masteries");
+   else Check(ordinary==14&&masteries>=4,skill+" complete 14+one structure");
   }
   Console.WriteLine(count+" progression checks passed.");
  }

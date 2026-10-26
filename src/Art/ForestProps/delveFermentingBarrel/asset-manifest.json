@@ -1,0 +1,23 @@
+{
+  "id": "delveFermentingBarrel",
+  "kind": "station",
+  "family": "barrel",
+  "name": "Fermentation Barrel",
+  "triangles": {
+    "Prop_LOD0": 5184,
+    "Prop_LOD1": 2838,
+    "Prop_LOD2": 1290
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

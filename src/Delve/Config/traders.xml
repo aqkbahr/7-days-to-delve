@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/traders/trader_item_groups">
+    <trader_item_group name="delveCraftingTomes">
+      <item name="delveLessonFarmingNotes" count="1" />
+      <item name="delveLessonCookingNotes" count="1" />
+      <item name="delveLessonMiningNotes" count="1" />
+      <item name="delveLessonSmithingNotes" count="1" />
+      <item name="delveLessonCarpentryNotes" count="1" />
+      <item name="delveLessonAlchemyNotes" count="1" />
+    </trader_item_group>
+  </append>
+  <append xpath="/traders/trader_info[not(@is_vending='true') and not(@player_owned='true') and not(@rentable='true')]">
+    <trader_items count="all">
+      <item group="delveCraftingTomes" unique_only="true" count="3" />
+    </trader_items>
+  </append>
+</configs>

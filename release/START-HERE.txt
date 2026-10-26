@@ -1,0 +1,66 @@
+7 DAYS TO DELVE - ALPHA .10
+
+REQUIREMENTS
+Windows; your own Steam copy of 7 Days to Die 3.4.0 (b6), with bundled TFP Harmony.
+The launcher checks the game assembly hash and stops if the installed game differs.
+This is the current consolidated alpha, not the older 3.3-targeted prototype.
+Easy Anti-Cheat must be disabled for this code mod. Start Steam before playing.
+
+NEW PLAYERS
+Download Delve-Alpha-10.zip from the GitHub Release assets, not Source code (zip).
+Extract the entire ZIP to a permanent folder. Double-click Play-Delve.cmd.
+The launcher searches Steam locations or asks for your game installation folder.
+Select Allium-v0.10 when creating your new game. Join a friend's game instead if
+they are hosting the shared world. Host and players need the same mod/game builds.
+
+SAVES AND EXISTING PLAYERS
+Default persistent profile: %LOCALAPPDATA%\7DaysToDelve\UserData
+This is separate from the extracted download and from your normal vanilla saves.
+The launcher never copies, resets or deletes your saves. Back up your existing
+profile before an update. A mods backup is NOT a world-save backup.
+
+To continue an existing Delve profile, open PowerShell in the extracted folder:
+  .\Play-Delve.ps1 -DataPath 'YOUR EXISTING DELVE DATA FOLDER' -InstallOnly
+Use the parent folder containing Saves, Mods and GeneratedWorlds, not Saves itself.
+You may add -GamePath 'YOUR STEAM GAME FOLDER' if needed.
+Then double-click Play-Delve.cmd; those paths are remembered locally.
+Do not share launcher-settings.local.json; it contains your computer's paths.
+
+This release preserves all Mods/Worlds files from internal build 0.18.1, including
+all 26 modules, item/block/entity IDs, load order and the Allium-v0.10 map.
+It does not require a new save compared with that baseline. Older or differently
+generated worlds are not automatically migrated. The installer refuses different
+Allium map files and unknown extra mods instead of silently mixing installations.
+Existing internal version numbers remain intentionally unchanged.
+
+STEAM LAUNCHING
+Run the launcher once to install (or use -InstallOnly). In the profile folder,
+Steam-launch-options.txt contains this computer's Steam launch-options line.
+Paste it into 7 Days to Die > Properties > General > Launch Options and choose
+the game's launch option without Easy Anti-Cheat. Then launch through Steam.
+Re-run the Delve installer after downloading a newer release before using Steam.
+Clear Steam launch options to return to your usual vanilla profile.
+
+UPDATES
+Keep one stable data folder across releases. Extract each new release separately,
+close the game, back up the host profile and install using the same -DataPath.
+Installation verifies the package and replaces the supplied mod set cleanly,
+retaining a backup of previous mods. There is no automatic online updater yet.
+Do not assume downgrading code also reverses save changes from future versions.
+
+WHAT WAS CONSOLIDATED
+All selected runtime modules, art bundles, UI, icons, prefab files, world terrain,
+progression, crafting, recruits, resurrection, enemies and summoning are retained.
+Development logs, test evidence, source projects, review renders and old packages
+are excluded from the player ZIP. Lossless ZIP compression changes no game files.
+Individual mod folders were not merged: their alphabetical patch order matters.
+Gameplay references are in Guides; older labels there describe feature history.
+
+VALIDATION LIMITS
+The distribution is checked against the selected build's exact runtime hashes.
+Installer checks cover installation, repeated launch, updates, save preservation,
+wrong game builds, corrupted packages and incompatible worlds. This does not
+replace hands-on gameplay, balance or multiplayer testing, which remain pending.
+
+Repository: https://github.com/aqkbahr/7-days-to-delve
+Downloads: https://github.com/aqkbahr/7-days-to-delve/releases

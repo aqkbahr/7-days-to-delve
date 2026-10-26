@@ -1,0 +1,23 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+delveCatAll,DelveBatch11,,,,All
+delveCatStations,DelveBatch11,,,,Stations / Add-ons
+delveCatWeapons,DelveBatch11,,,,Weapons
+delveCatArmor,DelveBatch11,,,,Armor
+delveCatTools,DelveBatch11,,,,Tools
+delveCatMaterials,DelveBatch11,,,,Materials
+delveCatFood,DelveBatch11,,,,Food
+delveCatAlchemy,DelveBatch11,,,,Alchemy
+delveCatSeeds,DelveBatch11,,,,Seeds
+delveCatOrders,DelveBatch11,,,,Supply Orders
+delveFarmNoticePantryDesc,DelveBatch11,,,,Legacy supply notice: read to redeem an existing matching sealed parcel. New supply orders pay directly when crafted at the Farm Workbench.
+delveFarmParcelPantryDesc,DelveBatch11,,,,"Legacy sealed supplies. Redeem with your existing matching supply notice, or exchange this parcel for its original payment at the Farm Workbench."
+delveFarmNoticeHerbsDesc,DelveBatch11,,,,Legacy supply notice: read to redeem an existing matching sealed parcel. New supply orders pay directly when crafted at the Farm Workbench.
+delveFarmParcelHerbsDesc,DelveBatch11,,,,"Legacy sealed supplies. Redeem with your existing matching supply notice, or exchange this parcel for its original payment at the Farm Workbench."
+delveFarmNoticeBreadDesc,DelveBatch11,,,,Legacy supply notice: read to redeem an existing matching sealed parcel. New supply orders pay directly when crafted at the Farm Workbench.
+delveFarmParcelBreadDesc,DelveBatch11,,,,"Legacy sealed supplies. Redeem with your existing matching supply notice, or exchange this parcel for its original payment at the Farm Workbench."
+delveFarmNoticeMedicineDesc,DelveBatch11,,,,Legacy supply notice: read to redeem an existing matching sealed parcel. New supply orders pay directly when crafted at the Farm Workbench.
+delveFarmParcelMedicineDesc,DelveBatch11,,,,"Legacy sealed supplies. Redeem with your existing matching supply notice, or exchange this parcel for its original payment at the Farm Workbench."
+delveFarmNoticeRationsDesc,DelveBatch11,,,,Legacy supply notice: read to redeem an existing matching sealed parcel. New supply orders pay directly when crafted at the Farm Workbench.
+delveFarmParcelRationsDesc,DelveBatch11,,,,"Legacy sealed supplies. Redeem with your existing matching supply notice, or exchange this parcel for its original payment at the Farm Workbench."
+delveWorldProgressJournal11,DelveBatch11,,,,Allium: World Progress
+delveWorldProgressJournal11Desc,DelveBatch11,,,,Shared progress across this world. Corrupted enemies defeated and Wayrest contracts are separate counters. This journal remains available as a reference.

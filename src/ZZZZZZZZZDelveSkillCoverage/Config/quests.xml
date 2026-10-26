@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/quests/quest[11]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[22]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[23]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[24]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[25]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[25]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[25]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[25]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <remove xpath="//reward[@id='ammoArrowIron' or @id='thrownAmmoMolotovCocktail' or @id='thrownGrenade' or @id='thrownGrenadeContact' or @id='thrownTimedCharge' or @id='ammoArrowSteelAP' or @id='ammoBundleArrowIron' or @id='ammoBundleArrowSteelAP']"/>
+</configs>

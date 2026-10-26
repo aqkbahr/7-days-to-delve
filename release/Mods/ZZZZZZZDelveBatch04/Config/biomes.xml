@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedBlueberry3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="12000, 19000">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedBlueberry3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedChrysanthemum3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="13733, 21357">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedChrysanthemum3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedCorn3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="15466, 23714">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedCorn3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedCotton3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="17199, 26071">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedCotton3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedDelveBramble3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="18932, 28428">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedDelveBramble3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedDelveMooncap3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="20665, 30785">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedDelveMooncap3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedDelveThyme3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="22398, 33142">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedDelveThyme3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedDelveYarrow3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="24131, 35499">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedDelveYarrow3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedGoldenrod3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="25864, 37856">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedGoldenrod3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedMushroom3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="27597, 40213">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedMushroom3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedPotato3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="29330, 42570">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedPotato3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedPumpkin3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="31063, 44927">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedPumpkin3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='pine_forest']//decoration[@blockname='plantedSnowberry3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='pine_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="32796, 47284">
+      <layers>
+        <layer depth="1" blockname="terrForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedSnowberry3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantedCoffee3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="12000, 19000">
+      <layers>
+        <layer depth="1" blockname="terrBurntForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedCoffee3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantedHop3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="13733, 21357">
+      <layers>
+        <layer depth="1" blockname="terrBurntForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedHop3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='burnt_forest']//decoration[@blockname='plantedMushroom3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='burnt_forest']">
+    <subbiome noise=".055, 0, .22" noiseoffset="15466, 23714">
+      <layers>
+        <layer depth="1" blockname="terrBurntForestGround"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedMushroom3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='desert']//decoration[@blockname='plantedAloe3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='desert']">
+    <subbiome noise=".055, 0, .22" noiseoffset="12000, 19000">
+      <layers>
+        <layer depth="4" blockname="terrDesertGround"/>
+        <layer depth="*" blockname="terrSandStone"/>
+        <layer depth="1" blockname="terrSandStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedAloe3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='desert']//decoration[@blockname='plantedYucca3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='desert']">
+    <subbiome noise=".055, 0, .22" noiseoffset="13733, 21357">
+      <layers>
+        <layer depth="4" blockname="terrDesertGround"/>
+        <layer depth="*" blockname="terrSandStone"/>
+        <layer depth="1" blockname="terrSandStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedYucca3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='snow']//decoration[@blockname='plantedBlueberry3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']">
+    <subbiome noise=".055, 0, .22" noiseoffset="12000, 19000">
+      <layers>
+        <layer depth="1" blockname="terrSnow"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedBlueberry3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='snow']//decoration[@blockname='plantedSnowberry3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='snow']">
+    <subbiome noise=".055, 0, .22" noiseoffset="13733, 21357">
+      <layers>
+        <layer depth="1" blockname="terrSnow"/>
+        <layer depth="3" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedSnowberry3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+  <remove xpath="/worldgeneration/biomes/biome[@name='wasteland']//decoration[@blockname='plantedGraceCorn3Harvest']"/>
+  <append xpath="/worldgeneration/biomes/biome[@name='wasteland']">
+    <subbiome noise=".055, 0, .22" noiseoffset="12000, 19000">
+      <layers>
+        <layer depth="2" blockname="terrDestroyedStone,terrDestroyedGrass"/>
+        <layer depth="2" blockname="terrDirt"/>
+        <layer depth="*" blockname="terrStone"/>
+        <layer depth="3" blockname="terrBedrock"/>
+      </layers>
+      <decorations>
+        <decoration type="block" blockname="plantedGraceCorn3Harvest" prob=".24" rotatemax="3"/>
+      </decorations>
+    </subbiome>
+  </append>
+</configs>

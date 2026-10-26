@@ -1,0 +1,56 @@
+<configs>
+  <append xpath="/items/item[@name='delveStarterWand']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveForgedWand']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveStarterStaff']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveForgedStaff']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveStarterTotem']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveForgedTotem']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveMendingTotem']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveForgedMendingTotem']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+  <append xpath="/items/item[@name='delveWardTotem']">
+    <property class="Action0">
+      <property name="Sound_reload" value="delveMagicRechargeWhoosh"/>
+      <property name="Class" value="Ranged"/>
+    </property>
+  </append>
+</configs>

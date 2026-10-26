@@ -1,0 +1,23 @@
+{
+  "id": "delveCompostBin",
+  "kind": "station",
+  "family": "composter",
+  "name": "Compost Bin",
+  "triangles": {
+    "Prop_LOD0": 1116,
+    "Prop_LOD1": 612,
+    "Prop_LOD2": 276
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

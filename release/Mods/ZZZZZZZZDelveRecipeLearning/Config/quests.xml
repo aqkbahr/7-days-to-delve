@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/quests/quest[2]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[2]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[2]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[3]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[3]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[3]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[4]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[4]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[4]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[5]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[5]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[5]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[6]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[6]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[6]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[7]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[7]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[7]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[8]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[8]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[8]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[9]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[9]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[9]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[10]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[10]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[10]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[12]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[12]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[12]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[13]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[13]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[13]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[14]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[14]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[15]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[15]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[16]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[16]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[16]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[17]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[17]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[17]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[18]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[18]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[19]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[19]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[20]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[20]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[21]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[21]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[21]"><reward type="Item" id="casinoCoin" ischosen="true" isfixed="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[44]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[45]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[46]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[47]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[48]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[49]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[50]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[51]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[52]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[53]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[54]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[55]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[56]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[57]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[58]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[59]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[60]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[61]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[62]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[63]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[64]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[65]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[66]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[67]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[68]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[70]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[71]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[72]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[73]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[74]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[75]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[76]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[77]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[78]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[79]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[81]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[82]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		</append>
+  <append xpath="/quests/quest[83]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		
+	</append>
+  <append xpath="/quests/quest[84]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		
+	</append>
+  <append xpath="/quests/quest[85]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		
+	</append>
+  <append xpath="/quests/quest[86]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		
+	</append>
+  <append xpath="/quests/quest[87]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+		
+	</append>
+  <append xpath="/quests/quest[94]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[95]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[96]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[97]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[98]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <append xpath="/quests/quest[99]"><reward type="Item" id="casinoCoin" ischosen="true" value="100"/>
+	</append>
+  <remove xpath="//reward[@id='groupChallengeRewardSkillMagazinesAll' or @id='groupQuestResourcesT0,groupQuestT1SkillMagazineBundle' or @id='groupQuestResourcesT1,groupQuestT1SkillMagazineBundle' or @id='groupQuestSchematics,groupQuestT1SkillMagazineBundle' or @id='groupQuestT1SkillMagazineBundle']"/>
+</configs>

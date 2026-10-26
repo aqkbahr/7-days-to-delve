@@ -1,0 +1,27 @@
+{
+  "id": "delveForgeAnvil",
+  "kind": "station",
+  "family": "forge",
+  "name": "Forest Forge",
+  "triangles": {
+    "Prop_LOD0": 868,
+    "Prop_LOD1": 476,
+    "Prop_LOD2": 214
+  },
+  "animations": {
+    "Idle": {
+      "seconds": 2,
+      "loop": true
+    },
+    "Work": {
+      "seconds": 2,
+      "loop": true
+    }
+  },
+  "native_footprint": [
+    2,
+    2,
+    1
+  ],
+  "status": "Original review assets; block/item hooks and live gameplay acceptance pending"
+}

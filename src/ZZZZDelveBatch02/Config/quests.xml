@@ -1,0 +1,18 @@
+<configs>
+  <set xpath="/quests/quest[@id='challengegroup_reward_hunter']/reward[@id='ammoBundle9mmBulletBall']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_hunter']/reward[@id='ammoBundleShotgunShell']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_hunter']/reward[@id='ammoBundle762mmBulletBall']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_hunter']/reward[@id='ammoBundleJunkTurretRegular']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_zombie_slayer']/reward[@id='ammoBundle9mmBulletAP']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_zombie_slayer']/reward[@id='ammoBundleShotgunSlug']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_zombie_slayer']/reward[@id='ammoBundle762mmBulletAP']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='challengegroup_reward_zombie_slayer']/reward[@id='ammoBundleJunkTurretAP']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo9mmBulletBall']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoShotgunShell']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammo762mmBulletBall']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_any_zombie_slayer']/reward[@id='ammoJunkTurretRegular']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_vulture_zombie_slayer']/reward[@id='ammo9mmBulletAP']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_vulture_zombie_slayer']/reward[@id='ammoShotgunSlug']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_vulture_zombie_slayer']/reward[@id='ammo762mmBulletAP']/@id">ammoArrowStone</set>
+  <set xpath="/quests/quest[@id='quest_reward_vulture_zombie_slayer']/reward[@id='ammoJunkTurretAP']/@id">ammoArrowStone</set>
+</configs>

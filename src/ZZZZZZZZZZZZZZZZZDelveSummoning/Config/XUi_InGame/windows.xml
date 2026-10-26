@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill0']/@pos">28,-171</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill0']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill1']/@pos">28,-219</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill1']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill2']/@pos">28,-267</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill2']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill3']/@pos">28,-315</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill3']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill4']/@pos">28,-363</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill4']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill5']/@pos">28,-411</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill5']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill6']/@pos">28,-459</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill6']/@height">42</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill7']/@pos">28,-507</set>
+  <set xpath="/windows/window[@name='delveProgression']/simplebutton[@name='dg_skill7']/@height">42</set>
+  <append xpath="/windows/window[@name='delveProgression']">
+    <simplebutton name="dg_skill8" pos="28,-555" width="180" height="42" caption="{dg_skilltext8}" font_size="17" depth="4" defaultcolor="38,49,60" hovercolor="67,84,96" bordercolor="70,86,98" visible="{dg_skillvisible8}"/>
+  </append>
+</configs>

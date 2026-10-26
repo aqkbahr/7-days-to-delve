@@ -206,7 +206,7 @@
         <requirement name="ProgressionLevel" progression_name="delveAttStrength" operation="GTE" value="3" desc_key="delveTalentSmithingReq3" />
       </level_requirements>
       <effect_group>
-        <passive_effect name="CraftingTier" operation="base_add" value="1,2,3" level="1,2,3" tags="delveBoneDagger,delveOakCudgel,delveAshSpear,delveBorderBow,delveIronDagger,delveIronMace,delveIronSpear,delveHuntingBow" />
+        <passive_effect name="CraftingTier" operation="base_add" value="1,2,3" level="1,2,3" tags="delveLeatherKnuckles,delveBoneDagger,delveOakCudgel,delveAshSpear,delveBorderBow,delveIronDagger,delveIronMace,delveIronSpear,delveHuntingBow" />
         <effect_description level="1" desc_key="delveTalentSmithing1" long_desc_key="delveTalentSmithingDesc" />
         <effect_description level="2" desc_key="delveTalentSmithing2" long_desc_key="delveTalentSmithingDesc" />
         <effect_description level="3" desc_key="delveTalentSmithing3" long_desc_key="delveTalentSmithingDesc" />
@@ -302,14 +302,12 @@
         <requirement name="CVarCompare" cvar="delveLevelBlades" operation="GTE" value="10" desc_key="delvePerkBladesBladeFamiliarityRank" />
       </level_requirements>
       <effect_group>
-        <passive_effect name="StaminaLoss" operation="perc_add" value="-0.1" level="1" tags="bladeSkill" />
         <effect_description level="1" desc_key="delvePerkBladesBladeFamiliarity" long_desc_key="delvePerkBladesBladeFamiliarityDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkBladesDrawingBlood" parent="delveTreeBlades" name_key="delvePerkBladesDrawingBlood" desc_key="delvePerkBladesDrawingBloodDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelBlades" operation="GTE" value="10" desc_key="delvePerkBladesDrawingBloodRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBladesDrawingBloodPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBladesDrawingBlood" long_desc_key="delvePerkBladesDrawingBloodDesc" />
@@ -361,7 +359,6 @@
         <requirement name="CVarCompare" cvar="delveLevelBlades" operation="GTE" value="20" desc_key="delvePerkBladesPowerfulCutsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBladesBladeFamiliarity" operation="GTE" value="1" desc_key="delvePerkBladesPowerfulCutsdelvePerkBladesBladeFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBladesDrawingBlood" operation="GTE" value="1" desc_key="delvePerkBladesPowerfulCutsdelvePerkBladesDrawingBloodReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBladesPowerfulCutsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBladesPowerfulCuts" long_desc_key="delvePerkBladesPowerfulCutsDesc" />
@@ -402,7 +399,6 @@
         <requirement name="CVarCompare" cvar="delveLevelBlades" operation="GTE" value="20" desc_key="delvePerkBladesExploitOpeningRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBladesBladeFamiliarity" operation="GTE" value="1" desc_key="delvePerkBladesExploitOpeningdelvePerkBladesBladeFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBladesDrawingBlood" operation="GTE" value="1" desc_key="delvePerkBladesExploitOpeningdelvePerkBladesDrawingBloodReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBladesExploitOpeningPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBladesExploitOpening" long_desc_key="delvePerkBladesExploitOpeningDesc" />
@@ -581,14 +577,12 @@
         <requirement name="CVarCompare" cvar="delveLevelBlunt" operation="GTE" value="10" desc_key="delvePerkBluntHeavyGripRank" />
       </level_requirements>
       <effect_group>
-        <passive_effect name="StaminaLoss" operation="perc_add" value="-0.1" level="1" tags="clubSkill,sledgeSkill,axe" />
         <effect_description level="1" desc_key="delvePerkBluntHeavyGrip" long_desc_key="delvePerkBluntHeavyGripDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkBluntCrushingImpact" parent="delveTreeBlunt" name_key="delvePerkBluntCrushingImpact" desc_key="delvePerkBluntCrushingImpactDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelBlunt" operation="GTE" value="10" desc_key="delvePerkBluntCrushingImpactRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBluntCrushingImpactPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBluntCrushingImpact" long_desc_key="delvePerkBluntCrushingImpactDesc" />
@@ -599,7 +593,6 @@
         <requirement name="CVarCompare" cvar="delveLevelBlunt" operation="GTE" value="20" desc_key="delvePerkBluntBreakerRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntHeavyGrip" operation="GTE" value="1" desc_key="delvePerkBluntBreakerdelvePerkBluntHeavyGripReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntCrushingImpact" operation="GTE" value="1" desc_key="delvePerkBluntBreakerdelvePerkBluntCrushingImpactReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBluntBreakerPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBluntBreaker" long_desc_key="delvePerkBluntBreakerDesc" />
@@ -640,7 +633,6 @@
         <requirement name="CVarCompare" cvar="delveLevelBlunt" operation="GTE" value="20" desc_key="delvePerkBluntBrawlerRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntHeavyGrip" operation="GTE" value="1" desc_key="delvePerkBluntBrawlerdelvePerkBluntHeavyGripReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntCrushingImpact" operation="GTE" value="1" desc_key="delvePerkBluntBrawlerdelvePerkBluntCrushingImpactReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBluntBrawlerPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBluntBrawler" long_desc_key="delvePerkBluntBrawlerDesc" />
@@ -681,7 +673,6 @@
         <requirement name="CVarCompare" cvar="delveLevelBlunt" operation="GTE" value="20" desc_key="delvePerkBluntBraceRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntHeavyGrip" operation="GTE" value="1" desc_key="delvePerkBluntBracedelvePerkBluntHeavyGripReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkBluntCrushingImpact" operation="GTE" value="1" desc_key="delvePerkBluntBracedelvePerkBluntCrushingImpactReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkBluntBracePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkBluntBrace" long_desc_key="delvePerkBluntBraceDesc" />
@@ -837,14 +828,12 @@
         <requirement name="CVarCompare" cvar="delveLevelPolearms" operation="GTE" value="10" desc_key="delvePerkPolearmsPolearmFamiliarityRank" />
       </level_requirements>
       <effect_group>
-        <passive_effect name="StaminaLoss" operation="perc_add" value="-0.1" level="1" tags="spearSkill" />
         <effect_description level="1" desc_key="delvePerkPolearmsPolearmFamiliarity" long_desc_key="delvePerkPolearmsPolearmFamiliarityDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkPolearmsCripplingThrust" parent="delveTreePolearms" name_key="delvePerkPolearmsCripplingThrust" desc_key="delvePerkPolearmsCripplingThrustDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelPolearms" operation="GTE" value="10" desc_key="delvePerkPolearmsCripplingThrustRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkPolearmsCripplingThrustPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkPolearmsCripplingThrust" long_desc_key="delvePerkPolearmsCripplingThrustDesc" />
@@ -855,7 +844,6 @@
         <requirement name="CVarCompare" cvar="delveLevelPolearms" operation="GTE" value="20" desc_key="delvePerkPolearmsPointControlRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsPolearmFamiliarity" operation="GTE" value="1" desc_key="delvePerkPolearmsPointControldelvePerkPolearmsPolearmFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsCripplingThrust" operation="GTE" value="1" desc_key="delvePerkPolearmsPointControldelvePerkPolearmsCripplingThrustReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkPolearmsPointControlPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkPolearmsPointControl" long_desc_key="delvePerkPolearmsPointControlDesc" />
@@ -896,7 +884,6 @@
         <requirement name="CVarCompare" cvar="delveLevelPolearms" operation="GTE" value="20" desc_key="delvePerkPolearmsSetYourFeetRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsPolearmFamiliarity" operation="GTE" value="1" desc_key="delvePerkPolearmsSetYourFeetdelvePerkPolearmsPolearmFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsCripplingThrust" operation="GTE" value="1" desc_key="delvePerkPolearmsSetYourFeetdelvePerkPolearmsCripplingThrustReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkPolearmsSetYourFeetPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkPolearmsSetYourFeet" long_desc_key="delvePerkPolearmsSetYourFeetDesc" />
@@ -937,7 +924,6 @@
         <requirement name="CVarCompare" cvar="delveLevelPolearms" operation="GTE" value="20" desc_key="delvePerkPolearmsClearSpaceRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsPolearmFamiliarity" operation="GTE" value="1" desc_key="delvePerkPolearmsClearSpacedelvePerkPolearmsPolearmFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPolearmsCripplingThrust" operation="GTE" value="1" desc_key="delvePerkPolearmsClearSpacedelvePerkPolearmsCripplingThrustReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkPolearmsClearSpacePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkPolearmsClearSpace" long_desc_key="delvePerkPolearmsClearSpaceDesc" />
@@ -1070,14 +1056,12 @@
         <requirement name="CVarCompare" cvar="delveLevelUnarmed" operation="GTE" value="10" desc_key="delvePerkUnarmedConditionedHandsRank" />
       </level_requirements>
       <effect_group>
-        <passive_effect name="StaminaLoss" operation="perc_add" value="-0.1" level="1" tags="knuckleSkill" />
         <effect_description level="1" desc_key="delvePerkUnarmedConditionedHands" long_desc_key="delvePerkUnarmedConditionedHandsDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkUnarmedCombination" parent="delveTreeUnarmed" name_key="delvePerkUnarmedCombination" desc_key="delvePerkUnarmedCombinationDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelUnarmed" operation="GTE" value="10" desc_key="delvePerkUnarmedCombinationRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkUnarmedCombinationPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkUnarmedCombination" long_desc_key="delvePerkUnarmedCombinationDesc" />
@@ -1088,7 +1072,6 @@
         <requirement name="CVarCompare" cvar="delveLevelUnarmed" operation="GTE" value="20" desc_key="delvePerkUnarmedQuickJabsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedConditionedHands" operation="GTE" value="1" desc_key="delvePerkUnarmedQuickJabsdelvePerkUnarmedConditionedHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedCombination" operation="GTE" value="1" desc_key="delvePerkUnarmedQuickJabsdelvePerkUnarmedCombinationReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkUnarmedQuickJabsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkUnarmedQuickJabs" long_desc_key="delvePerkUnarmedQuickJabsDesc" />
@@ -1129,7 +1112,6 @@
         <requirement name="CVarCompare" cvar="delveLevelUnarmed" operation="GTE" value="20" desc_key="delvePerkUnarmedFleetFootRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedConditionedHands" operation="GTE" value="1" desc_key="delvePerkUnarmedFleetFootdelvePerkUnarmedConditionedHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedCombination" operation="GTE" value="1" desc_key="delvePerkUnarmedFleetFootdelvePerkUnarmedCombinationReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkUnarmedFleetFootPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkUnarmedFleetFoot" long_desc_key="delvePerkUnarmedFleetFootDesc" />
@@ -1170,7 +1152,6 @@
         <requirement name="CVarCompare" cvar="delveLevelUnarmed" operation="GTE" value="20" desc_key="delvePerkUnarmedPressurePointsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedConditionedHands" operation="GTE" value="1" desc_key="delvePerkUnarmedPressurePointsdelvePerkUnarmedConditionedHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkUnarmedCombination" operation="GTE" value="1" desc_key="delvePerkUnarmedPressurePointsdelvePerkUnarmedCombinationReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkUnarmedPressurePointsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkUnarmedPressurePoints" long_desc_key="delvePerkUnarmedPressurePointsDesc" />
@@ -1321,7 +1302,6 @@
         <requirement name="CVarCompare" cvar="delveLevelArchery" operation="GTE" value="20" desc_key="delvePerkArcheryQuickDrawRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryArchersHandling" operation="GTE" value="1" desc_key="delvePerkArcheryQuickDrawdelvePerkArcheryArchersHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryCarefulHandling" operation="GTE" value="1" desc_key="delvePerkArcheryQuickDrawdelvePerkArcheryCarefulHandlingReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkArcheryQuickDrawPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkArcheryQuickDraw" long_desc_key="delvePerkArcheryQuickDrawDesc" />
@@ -1362,7 +1342,6 @@
         <requirement name="CVarCompare" cvar="delveLevelArchery" operation="GTE" value="20" desc_key="delvePerkArcheryPracticedLoadingRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryArchersHandling" operation="GTE" value="1" desc_key="delvePerkArcheryPracticedLoadingdelvePerkArcheryArchersHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryCarefulHandling" operation="GTE" value="1" desc_key="delvePerkArcheryPracticedLoadingdelvePerkArcheryCarefulHandlingReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkArcheryPracticedLoadingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkArcheryPracticedLoading" long_desc_key="delvePerkArcheryPracticedLoadingDesc" />
@@ -1403,7 +1382,6 @@
         <requirement name="CVarCompare" cvar="delveLevelArchery" operation="GTE" value="20" desc_key="delvePerkArcheryAnatomistRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryArchersHandling" operation="GTE" value="1" desc_key="delvePerkArcheryAnatomistdelvePerkArcheryArchersHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkArcheryCarefulHandling" operation="GTE" value="1" desc_key="delvePerkArcheryAnatomistdelvePerkArcheryCarefulHandlingReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkArcheryAnatomistPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkArcheryAnatomist" long_desc_key="delvePerkArcheryAnatomistDesc" />
@@ -1534,18 +1512,18 @@
     <perk name="delvePerkWandsWandFamiliarity" parent="delveTreeWands" name_key="delvePerkWandsWandFamiliarity" desc_key="delvePerkWandsWandFamiliarityDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelWands" operation="GTE" value="10" desc_key="delvePerkWandsWandFamiliarityRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkWandsWandFamiliarityPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.1" level="1" tags="delveWands" />
         <effect_description level="1" desc_key="delvePerkWandsWandFamiliarity" long_desc_key="delvePerkWandsWandFamiliarityDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkWandsSteadyFocus" parent="delveTreeWands" name_key="delvePerkWandsSteadyFocus" desc_key="delvePerkWandsSteadyFocusDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelWands" operation="GTE" value="10" desc_key="delvePerkWandsSteadyFocusRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkWandsSteadyFocusPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="DegradationPerUse" operation="perc_add" value="-0.15" level="1" tags="delveWands" />
         <effect_description level="1" desc_key="delvePerkWandsSteadyFocus" long_desc_key="delvePerkWandsSteadyFocusDesc" />
       </effect_group>
     </perk>
@@ -1554,7 +1532,6 @@
         <requirement name="CVarCompare" cvar="delveLevelWands" operation="GTE" value="20" desc_key="delvePerkWandsMeasuredBoltRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsWandFamiliarity" operation="GTE" value="1" desc_key="delvePerkWandsMeasuredBoltdelvePerkWandsWandFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsSteadyFocus" operation="GTE" value="1" desc_key="delvePerkWandsMeasuredBoltdelvePerkWandsSteadyFocusReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkWandsMeasuredBoltPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkWandsMeasuredBolt" long_desc_key="delvePerkWandsMeasuredBoltDesc" />
@@ -1595,7 +1572,6 @@
         <requirement name="CVarCompare" cvar="delveLevelWands" operation="GTE" value="20" desc_key="delvePerkWandsAgileFocusRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsWandFamiliarity" operation="GTE" value="1" desc_key="delvePerkWandsAgileFocusdelvePerkWandsWandFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsSteadyFocus" operation="GTE" value="1" desc_key="delvePerkWandsAgileFocusdelvePerkWandsSteadyFocusReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkWandsAgileFocusPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkWandsAgileFocus" long_desc_key="delvePerkWandsAgileFocusDesc" />
@@ -1636,7 +1612,6 @@
         <requirement name="CVarCompare" cvar="delveLevelWands" operation="GTE" value="20" desc_key="delvePerkWandsSwiftCastingRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsWandFamiliarity" operation="GTE" value="1" desc_key="delvePerkWandsSwiftCastingdelvePerkWandsWandFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkWandsSteadyFocus" operation="GTE" value="1" desc_key="delvePerkWandsSwiftCastingdelvePerkWandsSteadyFocusReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkWandsSwiftCastingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkWandsSwiftCasting" long_desc_key="delvePerkWandsSwiftCastingDesc" />
@@ -1767,18 +1742,18 @@
     <perk name="delvePerkStaffsStaffFamiliarity" parent="delveTreeStaffs" name_key="delvePerkStaffsStaffFamiliarity" desc_key="delvePerkStaffsStaffFamiliarityDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelStaffs" operation="GTE" value="10" desc_key="delvePerkStaffsStaffFamiliarityRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStaffsStaffFamiliarityPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.1" level="1" tags="delveStaffs" />
         <effect_description level="1" desc_key="delvePerkStaffsStaffFamiliarity" long_desc_key="delvePerkStaffsStaffFamiliarityDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkStaffsReinforcedConduit" parent="delveTreeStaffs" name_key="delvePerkStaffsReinforcedConduit" desc_key="delvePerkStaffsReinforcedConduitDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelStaffs" operation="GTE" value="10" desc_key="delvePerkStaffsReinforcedConduitRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStaffsReinforcedConduitPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="DegradationPerUse" operation="perc_add" value="-0.15" level="1" tags="delveStaffs" />
         <effect_description level="1" desc_key="delvePerkStaffsReinforcedConduit" long_desc_key="delvePerkStaffsReinforcedConduitDesc" />
       </effect_group>
     </perk>
@@ -1787,7 +1762,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStaffs" operation="GTE" value="20" desc_key="delvePerkStaffsOverloadRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsStaffFamiliarity" operation="GTE" value="1" desc_key="delvePerkStaffsOverloaddelvePerkStaffsStaffFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsReinforcedConduit" operation="GTE" value="1" desc_key="delvePerkStaffsOverloaddelvePerkStaffsReinforcedConduitReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStaffsOverloadPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStaffsOverload" long_desc_key="delvePerkStaffsOverloadDesc" />
@@ -1828,7 +1802,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStaffs" operation="GTE" value="20" desc_key="delvePerkStaffsFocusedImpactRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsStaffFamiliarity" operation="GTE" value="1" desc_key="delvePerkStaffsFocusedImpactdelvePerkStaffsStaffFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsReinforcedConduit" operation="GTE" value="1" desc_key="delvePerkStaffsFocusedImpactdelvePerkStaffsReinforcedConduitReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStaffsFocusedImpactPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStaffsFocusedImpact" long_desc_key="delvePerkStaffsFocusedImpactDesc" />
@@ -1869,7 +1842,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStaffs" operation="GTE" value="20" desc_key="delvePerkStaffsShockFrontRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsStaffFamiliarity" operation="GTE" value="1" desc_key="delvePerkStaffsShockFrontdelvePerkStaffsStaffFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStaffsReinforcedConduit" operation="GTE" value="1" desc_key="delvePerkStaffsShockFrontdelvePerkStaffsReinforcedConduitReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStaffsShockFrontPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStaffsShockFront" long_desc_key="delvePerkStaffsShockFrontDesc" />
@@ -2000,16 +1972,15 @@
     <perk name="delvePerkTotemsRitualFamiliarity" parent="delveTreeTotems" name_key="delvePerkTotemsRitualFamiliarity" desc_key="delvePerkTotemsRitualFamiliarityDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelTotems" operation="GTE" value="10" desc_key="delvePerkTotemsRitualFamiliarityRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkTotemsRitualFamiliarityPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.1" level="1" tags="delveTotems" />
         <effect_description level="1" desc_key="delvePerkTotemsRitualFamiliarity" long_desc_key="delvePerkTotemsRitualFamiliarityDesc" />
       </effect_group>
     </perk>
     <perk name="delvePerkTotemsSpiritAttunement" parent="delveTreeTotems" name_key="delvePerkTotemsSpiritAttunement" desc_key="delvePerkTotemsSpiritAttunementDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelTotems" operation="GTE" value="10" desc_key="delvePerkTotemsSpiritAttunementRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkTotemsSpiritAttunementPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkTotemsSpiritAttunement" long_desc_key="delvePerkTotemsSpiritAttunementDesc" />
@@ -2020,7 +1991,6 @@
         <requirement name="CVarCompare" cvar="delveLevelTotems" operation="GTE" value="20" desc_key="delvePerkTotemsMendingCurrentRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsRitualFamiliarity" operation="GTE" value="1" desc_key="delvePerkTotemsMendingCurrentdelvePerkTotemsRitualFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsSpiritAttunement" operation="GTE" value="1" desc_key="delvePerkTotemsMendingCurrentdelvePerkTotemsSpiritAttunementReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkTotemsMendingCurrentPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkTotemsMendingCurrent" long_desc_key="delvePerkTotemsMendingCurrentDesc" />
@@ -2061,7 +2031,6 @@
         <requirement name="CVarCompare" cvar="delveLevelTotems" operation="GTE" value="20" desc_key="delvePerkTotemsLastingWardsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsRitualFamiliarity" operation="GTE" value="1" desc_key="delvePerkTotemsLastingWardsdelvePerkTotemsRitualFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsSpiritAttunement" operation="GTE" value="1" desc_key="delvePerkTotemsLastingWardsdelvePerkTotemsSpiritAttunementReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkTotemsLastingWardsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkTotemsLastingWards" long_desc_key="delvePerkTotemsLastingWardsDesc" />
@@ -2102,7 +2071,6 @@
         <requirement name="CVarCompare" cvar="delveLevelTotems" operation="GTE" value="20" desc_key="delvePerkTotemsLingeringMaliceRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsRitualFamiliarity" operation="GTE" value="1" desc_key="delvePerkTotemsLingeringMalicedelvePerkTotemsRitualFamiliarityReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkTotemsSpiritAttunement" operation="GTE" value="1" desc_key="delvePerkTotemsLingeringMalicedelvePerkTotemsSpiritAttunementReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkTotemsLingeringMalicePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkTotemsLingeringMalice" long_desc_key="delvePerkTotemsLingeringMaliceDesc" />
@@ -2233,7 +2201,6 @@
     <perk name="delvePerkHeavyArmorFittedPlate" parent="delveTreeHeavyArmor" name_key="delvePerkHeavyArmorFittedPlate" desc_key="delvePerkHeavyArmorFittedPlateDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelHeavyArmor" operation="GTE" value="10" desc_key="delvePerkHeavyArmorFittedPlateRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkHeavyArmorFittedPlatePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkHeavyArmorFittedPlate" long_desc_key="delvePerkHeavyArmorFittedPlateDesc" />
@@ -2242,9 +2209,9 @@
     <perk name="delvePerkHeavyArmorDurableMetalwork" parent="delveTreeHeavyArmor" name_key="delvePerkHeavyArmorDurableMetalwork" desc_key="delvePerkHeavyArmorDurableMetalworkDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelHeavyArmor" operation="GTE" value="10" desc_key="delvePerkHeavyArmorDurableMetalworkRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkHeavyArmorDurableMetalworkPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="DegradationPerUse" operation="perc_add" value="-0.2" level="1" tags="heavyArmorDeg" />
         <effect_description level="1" desc_key="delvePerkHeavyArmorDurableMetalwork" long_desc_key="delvePerkHeavyArmorDurableMetalworkDesc" />
       </effect_group>
     </perk>
@@ -2253,7 +2220,6 @@
         <requirement name="CVarCompare" cvar="delveLevelHeavyArmor" operation="GTE" value="20" desc_key="delvePerkHeavyArmorReinforcedPlatingRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorFittedPlate" operation="GTE" value="1" desc_key="delvePerkHeavyArmorReinforcedPlatingdelvePerkHeavyArmorFittedPlateReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorDurableMetalwork" operation="GTE" value="1" desc_key="delvePerkHeavyArmorReinforcedPlatingdelvePerkHeavyArmorDurableMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkHeavyArmorReinforcedPlatingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkHeavyArmorReinforcedPlating" long_desc_key="delvePerkHeavyArmorReinforcedPlatingDesc" />
@@ -2294,7 +2260,6 @@
         <requirement name="CVarCompare" cvar="delveLevelHeavyArmor" operation="GTE" value="20" desc_key="delvePerkHeavyArmorMarchofIronRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorFittedPlate" operation="GTE" value="1" desc_key="delvePerkHeavyArmorMarchofIrondelvePerkHeavyArmorFittedPlateReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorDurableMetalwork" operation="GTE" value="1" desc_key="delvePerkHeavyArmorMarchofIrondelvePerkHeavyArmorDurableMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkHeavyArmorMarchofIronPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkHeavyArmorMarchofIron" long_desc_key="delvePerkHeavyArmorMarchofIronDesc" />
@@ -2335,7 +2300,6 @@
         <requirement name="CVarCompare" cvar="delveLevelHeavyArmor" operation="GTE" value="20" desc_key="delvePerkHeavyArmorDeepReservesRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorFittedPlate" operation="GTE" value="1" desc_key="delvePerkHeavyArmorDeepReservesdelvePerkHeavyArmorFittedPlateReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkHeavyArmorDurableMetalwork" operation="GTE" value="1" desc_key="delvePerkHeavyArmorDeepReservesdelvePerkHeavyArmorDurableMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkHeavyArmorDeepReservesPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkHeavyArmorDeepReserves" long_desc_key="delvePerkHeavyArmorDeepReservesDesc" />
@@ -2466,7 +2430,6 @@
     <perk name="delvePerkMediumArmorSuppleFit" parent="delveTreeMediumArmor" name_key="delvePerkMediumArmorSuppleFit" desc_key="delvePerkMediumArmorSuppleFitDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelMediumArmor" operation="GTE" value="10" desc_key="delvePerkMediumArmorSuppleFitRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMediumArmorSuppleFitPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMediumArmorSuppleFit" long_desc_key="delvePerkMediumArmorSuppleFitDesc" />
@@ -2475,9 +2438,9 @@
     <perk name="delvePerkMediumArmorLayeredHides" parent="delveTreeMediumArmor" name_key="delvePerkMediumArmorLayeredHides" desc_key="delvePerkMediumArmorLayeredHidesDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelMediumArmor" operation="GTE" value="10" desc_key="delvePerkMediumArmorLayeredHidesRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMediumArmorLayeredHidesPending" />
       </level_requirements>
       <effect_group>
+        <passive_effect name="DegradationPerUse" operation="perc_add" value="-0.2" level="1" tags="mediumArmorDeg" />
         <effect_description level="1" desc_key="delvePerkMediumArmorLayeredHides" long_desc_key="delvePerkMediumArmorLayeredHidesDesc" />
       </effect_group>
     </perk>
@@ -2486,7 +2449,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMediumArmor" operation="GTE" value="20" desc_key="delvePerkMediumArmorEasyStrideRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorSuppleFit" operation="GTE" value="1" desc_key="delvePerkMediumArmorEasyStridedelvePerkMediumArmorSuppleFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorLayeredHides" operation="GTE" value="1" desc_key="delvePerkMediumArmorEasyStridedelvePerkMediumArmorLayeredHidesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMediumArmorEasyStridePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMediumArmorEasyStride" long_desc_key="delvePerkMediumArmorEasyStrideDesc" />
@@ -2527,7 +2489,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMediumArmor" operation="GTE" value="20" desc_key="delvePerkMediumArmorReadyFootworkRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorSuppleFit" operation="GTE" value="1" desc_key="delvePerkMediumArmorReadyFootworkdelvePerkMediumArmorSuppleFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorLayeredHides" operation="GTE" value="1" desc_key="delvePerkMediumArmorReadyFootworkdelvePerkMediumArmorLayeredHidesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMediumArmorReadyFootworkPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMediumArmorReadyFootwork" long_desc_key="delvePerkMediumArmorReadyFootworkDesc" />
@@ -2568,7 +2529,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMediumArmor" operation="GTE" value="20" desc_key="delvePerkMediumArmorReinforcedSeamsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorSuppleFit" operation="GTE" value="1" desc_key="delvePerkMediumArmorReinforcedSeamsdelvePerkMediumArmorSuppleFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMediumArmorLayeredHides" operation="GTE" value="1" desc_key="delvePerkMediumArmorReinforcedSeamsdelvePerkMediumArmorLayeredHidesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMediumArmorReinforcedSeamsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMediumArmorReinforcedSeams" long_desc_key="delvePerkMediumArmorReinforcedSeamsDesc" />
@@ -2699,7 +2659,6 @@
     <perk name="delvePerkLightArmorUnburdenedFit" parent="delveTreeLightArmor" name_key="delvePerkLightArmorUnburdenedFit" desc_key="delvePerkLightArmorUnburdenedFitDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelLightArmor" operation="GTE" value="10" desc_key="delvePerkLightArmorUnburdenedFitRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkLightArmorUnburdenedFitPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkLightArmorUnburdenedFit" long_desc_key="delvePerkLightArmorUnburdenedFitDesc" />
@@ -2708,7 +2667,6 @@
     <perk name="delvePerkLightArmorQuietWeave" parent="delveTreeLightArmor" name_key="delvePerkLightArmorQuietWeave" desc_key="delvePerkLightArmorQuietWeaveDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelLightArmor" operation="GTE" value="10" desc_key="delvePerkLightArmorQuietWeaveRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkLightArmorQuietWeavePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkLightArmorQuietWeave" long_desc_key="delvePerkLightArmorQuietWeaveDesc" />
@@ -2719,7 +2677,6 @@
         <requirement name="CVarCompare" cvar="delveLevelLightArmor" operation="GTE" value="20" desc_key="delvePerkLightArmorFleetStepRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorUnburdenedFit" operation="GTE" value="1" desc_key="delvePerkLightArmorFleetStepdelvePerkLightArmorUnburdenedFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorQuietWeave" operation="GTE" value="1" desc_key="delvePerkLightArmorFleetStepdelvePerkLightArmorQuietWeaveReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkLightArmorFleetStepPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkLightArmorFleetStep" long_desc_key="delvePerkLightArmorFleetStepDesc" />
@@ -2760,7 +2717,6 @@
         <requirement name="CVarCompare" cvar="delveLevelLightArmor" operation="GTE" value="20" desc_key="delvePerkLightArmorWovenWardRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorUnburdenedFit" operation="GTE" value="1" desc_key="delvePerkLightArmorWovenWarddelvePerkLightArmorUnburdenedFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorQuietWeave" operation="GTE" value="1" desc_key="delvePerkLightArmorWovenWarddelvePerkLightArmorQuietWeaveReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkLightArmorWovenWardPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkLightArmorWovenWard" long_desc_key="delvePerkLightArmorWovenWardDesc" />
@@ -2801,7 +2757,6 @@
         <requirement name="CVarCompare" cvar="delveLevelLightArmor" operation="GTE" value="20" desc_key="delvePerkLightArmorOpenChannelsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorUnburdenedFit" operation="GTE" value="1" desc_key="delvePerkLightArmorOpenChannelsdelvePerkLightArmorUnburdenedFitReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkLightArmorQuietWeave" operation="GTE" value="1" desc_key="delvePerkLightArmorOpenChannelsdelvePerkLightArmorQuietWeaveReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkLightArmorOpenChannelsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkLightArmorOpenChannels" long_desc_key="delvePerkLightArmorOpenChannelsDesc" />
@@ -3000,7 +2955,6 @@
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelPackMule" operation="GTE" value="40" desc_key="delvePerkPackMuleHeavyMomentumRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkPackMuleSettledWeight" operation="GTE" value="1" desc_key="delvePerkPackMuleHeavyMomentumdelvePerkPackMuleSettledWeightReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkPackMuleHeavyMomentumPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkPackMuleHeavyMomentum" long_desc_key="delvePerkPackMuleHeavyMomentumDesc" />
@@ -3157,7 +3111,6 @@
     <perk name="delvePerkStealthSoftSteps" parent="delveTreeStealth" name_key="delvePerkStealthSoftSteps" desc_key="delvePerkStealthSoftStepsDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelStealth" operation="GTE" value="10" desc_key="delvePerkStealthSoftStepsRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStealthSoftStepsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStealthSoftSteps" long_desc_key="delvePerkStealthSoftStepsDesc" />
@@ -3177,7 +3130,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStealth" operation="GTE" value="20" desc_key="delvePerkStealthLightTreadRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthSoftSteps" operation="GTE" value="1" desc_key="delvePerkStealthLightTreaddelvePerkStealthSoftStepsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthPatientApproach" operation="GTE" value="1" desc_key="delvePerkStealthLightTreaddelvePerkStealthPatientApproachReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStealthLightTreadPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStealthLightTread" long_desc_key="delvePerkStealthLightTreadDesc" />
@@ -3218,7 +3170,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStealth" operation="GTE" value="20" desc_key="delvePerkStealthShadowcraftRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthSoftSteps" operation="GTE" value="1" desc_key="delvePerkStealthShadowcraftdelvePerkStealthSoftStepsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthPatientApproach" operation="GTE" value="1" desc_key="delvePerkStealthShadowcraftdelvePerkStealthPatientApproachReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStealthShadowcraftPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStealthShadowcraft" long_desc_key="delvePerkStealthShadowcraftDesc" />
@@ -3259,7 +3210,6 @@
         <requirement name="CVarCompare" cvar="delveLevelStealth" operation="GTE" value="20" desc_key="delvePerkStealthOpeningStrikeRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthSoftSteps" operation="GTE" value="1" desc_key="delvePerkStealthOpeningStrikedelvePerkStealthSoftStepsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkStealthPatientApproach" operation="GTE" value="1" desc_key="delvePerkStealthOpeningStrikedelvePerkStealthPatientApproachReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkStealthOpeningStrikePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkStealthOpeningStrike" long_desc_key="delvePerkStealthOpeningStrikeDesc" />
@@ -3490,7 +3440,6 @@
         <requirement name="CVarCompare" cvar="delveLevelAthletics" operation="GTE" value="20" desc_key="delvePerkAthleticsStrongStrokeRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAthleticsConditioning" operation="GTE" value="1" desc_key="delvePerkAthleticsStrongStrokedelvePerkAthleticsConditioningReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAthleticsEfficientMotion" operation="GTE" value="1" desc_key="delvePerkAthleticsStrongStrokedelvePerkAthleticsEfficientMotionReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkAthleticsStrongStrokePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkAthleticsStrongStroke" long_desc_key="delvePerkAthleticsStrongStrokeDesc" />
@@ -3620,7 +3569,6 @@
     <perk name="delvePerkFarmingWorkingHands" parent="delveTreeFarming" name_key="delvePerkFarmingWorkingHands" desc_key="delvePerkFarmingWorkingHandsDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelFarming" operation="GTE" value="10" desc_key="delvePerkFarmingWorkingHandsRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkFarmingWorkingHandsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkFarmingWorkingHands" long_desc_key="delvePerkFarmingWorkingHandsDesc" />
@@ -3629,7 +3577,6 @@
     <perk name="delvePerkFarmingCarefulHarvest" parent="delveTreeFarming" name_key="delvePerkFarmingCarefulHarvest" desc_key="delvePerkFarmingCarefulHarvestDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelFarming" operation="GTE" value="10" desc_key="delvePerkFarmingCarefulHarvestRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkFarmingCarefulHarvestPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkFarmingCarefulHarvest" long_desc_key="delvePerkFarmingCarefulHarvestDesc" />
@@ -3640,7 +3587,6 @@
         <requirement name="CVarCompare" cvar="delveLevelFarming" operation="GTE" value="20" desc_key="delvePerkFarmingGreenThumbRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingWorkingHands" operation="GTE" value="1" desc_key="delvePerkFarmingGreenThumbdelvePerkFarmingWorkingHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingCarefulHarvest" operation="GTE" value="1" desc_key="delvePerkFarmingGreenThumbdelvePerkFarmingCarefulHarvestReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkFarmingGreenThumbPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkFarmingGreenThumb" long_desc_key="delvePerkFarmingGreenThumbDesc" />
@@ -3681,7 +3627,6 @@
         <requirement name="CVarCompare" cvar="delveLevelFarming" operation="GTE" value="20" desc_key="delvePerkFarmingGatherersEyeRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingWorkingHands" operation="GTE" value="1" desc_key="delvePerkFarmingGatherersEyedelvePerkFarmingWorkingHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingCarefulHarvest" operation="GTE" value="1" desc_key="delvePerkFarmingGatherersEyedelvePerkFarmingCarefulHarvestReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkFarmingGatherersEyePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkFarmingGatherersEye" long_desc_key="delvePerkFarmingGatherersEyeDesc" />
@@ -3722,7 +3667,6 @@
         <requirement name="CVarCompare" cvar="delveLevelFarming" operation="GTE" value="20" desc_key="delvePerkFarmingCleanButcheryRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingWorkingHands" operation="GTE" value="1" desc_key="delvePerkFarmingCleanButcherydelvePerkFarmingWorkingHandsReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkFarmingCarefulHarvest" operation="GTE" value="1" desc_key="delvePerkFarmingCleanButcherydelvePerkFarmingCarefulHarvestReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkFarmingCleanButcheryPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkFarmingCleanButchery" long_desc_key="delvePerkFarmingCleanButcheryDesc" />
@@ -3861,7 +3805,6 @@
     <perk name="delvePerkCookingNourishingRecipes" parent="delveTreeCooking" name_key="delvePerkCookingNourishingRecipes" desc_key="delvePerkCookingNourishingRecipesDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelCooking" operation="GTE" value="10" desc_key="delvePerkCookingNourishingRecipesRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCookingNourishingRecipesPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCookingNourishingRecipes" long_desc_key="delvePerkCookingNourishingRecipesDesc" />
@@ -3872,7 +3815,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCooking" operation="GTE" value="20" desc_key="delvePerkCookingHeartyPortionsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingKitchenPractice" operation="GTE" value="1" desc_key="delvePerkCookingHeartyPortionsdelvePerkCookingKitchenPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingNourishingRecipes" operation="GTE" value="1" desc_key="delvePerkCookingHeartyPortionsdelvePerkCookingNourishingRecipesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCookingHeartyPortionsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCookingHeartyPortions" long_desc_key="delvePerkCookingHeartyPortionsDesc" />
@@ -3913,7 +3855,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCooking" operation="GTE" value="20" desc_key="delvePerkCookingTrailRationsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingKitchenPractice" operation="GTE" value="1" desc_key="delvePerkCookingTrailRationsdelvePerkCookingKitchenPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingNourishingRecipes" operation="GTE" value="1" desc_key="delvePerkCookingTrailRationsdelvePerkCookingNourishingRecipesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCookingTrailRationsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCookingTrailRations" long_desc_key="delvePerkCookingTrailRationsDesc" />
@@ -3954,7 +3895,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCooking" operation="GTE" value="20" desc_key="delvePerkCookingLastingMealsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingKitchenPractice" operation="GTE" value="1" desc_key="delvePerkCookingLastingMealsdelvePerkCookingKitchenPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCookingNourishingRecipes" operation="GTE" value="1" desc_key="delvePerkCookingLastingMealsdelvePerkCookingNourishingRecipesReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCookingLastingMealsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCookingLastingMeals" long_desc_key="delvePerkCookingLastingMealsDesc" />
@@ -4085,7 +4025,6 @@
     <perk name="delvePerkMiningPickHandling" parent="delveTreeMining" name_key="delvePerkMiningPickHandling" desc_key="delvePerkMiningPickHandlingDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelMining" operation="GTE" value="10" desc_key="delvePerkMiningPickHandlingRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMiningPickHandlingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMiningPickHandling" long_desc_key="delvePerkMiningPickHandlingDesc" />
@@ -4094,7 +4033,6 @@
     <perk name="delvePerkMiningSoundTechnique" parent="delveTreeMining" name_key="delvePerkMiningSoundTechnique" desc_key="delvePerkMiningSoundTechniqueDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelMining" operation="GTE" value="10" desc_key="delvePerkMiningSoundTechniqueRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMiningSoundTechniquePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMiningSoundTechnique" long_desc_key="delvePerkMiningSoundTechniqueDesc" />
@@ -4105,7 +4043,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMining" operation="GTE" value="20" desc_key="delvePerkMiningStonebreakerRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningPickHandling" operation="GTE" value="1" desc_key="delvePerkMiningStonebreakerdelvePerkMiningPickHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningSoundTechnique" operation="GTE" value="1" desc_key="delvePerkMiningStonebreakerdelvePerkMiningSoundTechniqueReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMiningStonebreakerPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMiningStonebreaker" long_desc_key="delvePerkMiningStonebreakerDesc" />
@@ -4146,7 +4083,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMining" operation="GTE" value="20" desc_key="delvePerkMiningOreSenseRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningPickHandling" operation="GTE" value="1" desc_key="delvePerkMiningOreSensedelvePerkMiningPickHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningSoundTechnique" operation="GTE" value="1" desc_key="delvePerkMiningOreSensedelvePerkMiningSoundTechniqueReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMiningOreSensePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMiningOreSense" long_desc_key="delvePerkMiningOreSenseDesc" />
@@ -4187,7 +4123,6 @@
         <requirement name="CVarCompare" cvar="delveLevelMining" operation="GTE" value="20" desc_key="delvePerkMiningSortingTableRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningPickHandling" operation="GTE" value="1" desc_key="delvePerkMiningSortingTabledelvePerkMiningPickHandlingReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkMiningSoundTechnique" operation="GTE" value="1" desc_key="delvePerkMiningSortingTabledelvePerkMiningSoundTechniqueReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkMiningSortingTablePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkMiningSortingTable" long_desc_key="delvePerkMiningSortingTableDesc" />
@@ -4326,7 +4261,6 @@
     <perk name="delvePerkSmithingSoundMetalwork" parent="delveTreeSmithing" name_key="delvePerkSmithingSoundMetalwork" desc_key="delvePerkSmithingSoundMetalworkDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelSmithing" operation="GTE" value="10" desc_key="delvePerkSmithingSoundMetalworkRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkSmithingSoundMetalworkPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkSmithingSoundMetalwork" long_desc_key="delvePerkSmithingSoundMetalworkDesc" />
@@ -4337,7 +4271,6 @@
         <requirement name="CVarCompare" cvar="delveLevelSmithing" operation="GTE" value="20" desc_key="delvePerkSmithingHonedEdgeRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingForgePractice" operation="GTE" value="1" desc_key="delvePerkSmithingHonedEdgedelvePerkSmithingForgePracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingSoundMetalwork" operation="GTE" value="1" desc_key="delvePerkSmithingHonedEdgedelvePerkSmithingSoundMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkSmithingHonedEdgePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkSmithingHonedEdge" long_desc_key="delvePerkSmithingHonedEdgeDesc" />
@@ -4378,7 +4311,6 @@
         <requirement name="CVarCompare" cvar="delveLevelSmithing" operation="GTE" value="20" desc_key="delvePerkSmithingReinforcedPlatesRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingForgePractice" operation="GTE" value="1" desc_key="delvePerkSmithingReinforcedPlatesdelvePerkSmithingForgePracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingSoundMetalwork" operation="GTE" value="1" desc_key="delvePerkSmithingReinforcedPlatesdelvePerkSmithingSoundMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkSmithingReinforcedPlatesPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkSmithingReinforcedPlates" long_desc_key="delvePerkSmithingReinforcedPlatesDesc" />
@@ -4419,7 +4351,6 @@
         <requirement name="CVarCompare" cvar="delveLevelSmithing" operation="GTE" value="20" desc_key="delvePerkSmithingEfficientSmeltingRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingForgePractice" operation="GTE" value="1" desc_key="delvePerkSmithingEfficientSmeltingdelvePerkSmithingForgePracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkSmithingSoundMetalwork" operation="GTE" value="1" desc_key="delvePerkSmithingEfficientSmeltingdelvePerkSmithingSoundMetalworkReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkSmithingEfficientSmeltingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkSmithingEfficientSmelting" long_desc_key="delvePerkSmithingEfficientSmeltingDesc" />
@@ -4558,7 +4489,6 @@
     <perk name="delvePerkCarpentryWoodwise" parent="delveTreeCarpentry" name_key="delvePerkCarpentryWoodwise" desc_key="delvePerkCarpentryWoodwiseDesc" icon="ui_game_symbol_hammer" max_level="1" override_cost="1">
       <level_requirements level="1">
         <requirement name="CVarCompare" cvar="delveLevelCarpentry" operation="GTE" value="10" desc_key="delvePerkCarpentryWoodwiseRank" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCarpentryWoodwisePending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCarpentryWoodwise" long_desc_key="delvePerkCarpentryWoodwiseDesc" />
@@ -4569,7 +4499,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCarpentry" operation="GTE" value="20" desc_key="delvePerkCarpentryBowyerRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWorkshopPractice" operation="GTE" value="1" desc_key="delvePerkCarpentryBowyerdelvePerkCarpentryWorkshopPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWoodwise" operation="GTE" value="1" desc_key="delvePerkCarpentryBowyerdelvePerkCarpentryWoodwiseReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCarpentryBowyerPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCarpentryBowyer" long_desc_key="delvePerkCarpentryBowyerDesc" />
@@ -4610,7 +4539,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCarpentry" operation="GTE" value="20" desc_key="delvePerkCarpentryEfficientFramingRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWorkshopPractice" operation="GTE" value="1" desc_key="delvePerkCarpentryEfficientFramingdelvePerkCarpentryWorkshopPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWoodwise" operation="GTE" value="1" desc_key="delvePerkCarpentryEfficientFramingdelvePerkCarpentryWoodwiseReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCarpentryEfficientFramingPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCarpentryEfficientFraming" long_desc_key="delvePerkCarpentryEfficientFramingDesc" />
@@ -4651,7 +4579,6 @@
         <requirement name="CVarCompare" cvar="delveLevelCarpentry" operation="GTE" value="20" desc_key="delvePerkCarpentryTannerandWeaverRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWorkshopPractice" operation="GTE" value="1" desc_key="delvePerkCarpentryTannerandWeaverdelvePerkCarpentryWorkshopPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkCarpentryWoodwise" operation="GTE" value="1" desc_key="delvePerkCarpentryTannerandWeaverdelvePerkCarpentryWoodwiseReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkCarpentryTannerandWeaverPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkCarpentryTannerandWeaver" long_desc_key="delvePerkCarpentryTannerandWeaverDesc" />
@@ -4800,7 +4727,6 @@
         <requirement name="CVarCompare" cvar="delveLevelAlchemy" operation="GTE" value="20" desc_key="delvePerkAlchemyCleanDressingsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyLaboratoryPractice" operation="GTE" value="1" desc_key="delvePerkAlchemyCleanDressingsdelvePerkAlchemyLaboratoryPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyMeasuredTreatment" operation="GTE" value="1" desc_key="delvePerkAlchemyCleanDressingsdelvePerkAlchemyMeasuredTreatmentReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkAlchemyCleanDressingsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkAlchemyCleanDressings" long_desc_key="delvePerkAlchemyCleanDressingsDesc" />
@@ -4841,7 +4767,6 @@
         <requirement name="CVarCompare" cvar="delveLevelAlchemy" operation="GTE" value="20" desc_key="delvePerkAlchemyPotentBrewsRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyLaboratoryPractice" operation="GTE" value="1" desc_key="delvePerkAlchemyPotentBrewsdelvePerkAlchemyLaboratoryPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyMeasuredTreatment" operation="GTE" value="1" desc_key="delvePerkAlchemyPotentBrewsdelvePerkAlchemyMeasuredTreatmentReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkAlchemyPotentBrewsPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkAlchemyPotentBrews" long_desc_key="delvePerkAlchemyPotentBrewsDesc" />
@@ -4882,7 +4807,6 @@
         <requirement name="CVarCompare" cvar="delveLevelAlchemy" operation="GTE" value="20" desc_key="delvePerkAlchemyCleanExtractionRank" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyLaboratoryPractice" operation="GTE" value="1" desc_key="delvePerkAlchemyCleanExtractiondelvePerkAlchemyLaboratoryPracticeReq" />
         <requirement name="ProgressionLevel" progression_name="delvePerkAlchemyMeasuredTreatment" operation="GTE" value="1" desc_key="delvePerkAlchemyCleanExtractiondelvePerkAlchemyMeasuredTreatmentReq" />
-        <requirement name="CVarCompare" cvar="delveNeverUnlock" operation="Equals" value="-999" desc_key="delvePerkAlchemyCleanExtractionPending" />
       </level_requirements>
       <effect_group>
         <effect_description level="1" desc_key="delvePerkAlchemyCleanExtraction" long_desc_key="delvePerkAlchemyCleanExtractionDesc" />

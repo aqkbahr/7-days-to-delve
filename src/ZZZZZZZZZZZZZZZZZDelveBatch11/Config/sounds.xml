@@ -1,0 +1,10 @@
+<configs>
+  <append xpath="/Sounds">
+    <SoundDataNode name="delveMagicRechargeWhoosh">
+      <AudioSource name="@:Sounds/Prefabs/AudioSource_Reloads.prefab"/>
+      <AudioClip ClipName="#@modfolder:Resources/batcheleven.unity3d?delveMagicRechargeWhoosh"/>
+      <NoiseScale value="0.05"/>
+      <MaxVoices value="3"/>
+    </SoundDataNode>
+  </append>
+</configs>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xml>
+  <Name value="DelveWildlife" />
+  <DisplayName value="Delve - More Prey" />
+  <Description value="Twice as frequent default ambient prey spawn opportunities in all five biomes." />
+  <Author value="Delve" />
+  <Version value="1.0.0" />
+</xml>

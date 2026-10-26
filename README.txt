@@ -1,25 +1,42 @@
-7 DAYS TO DELVE
+7 DAYS TO DELVE - ALPHA .10
 
-Development source for a fantasy overhaul of 7 Days to Die 3.3.0 (b18).
-This is experimental source, not a complete overhaul or installable player ZIP.
+PLAYER DOWNLOAD
+https://github.com/aqkbahr/7-days-to-delve/releases/tag/alpha.10
+Download Delve-Alpha-10.zip and extract it, then run Play-Delve.cmd.
+The automatic Source code ZIP is NOT an installable mod.
 
-Players: use numbered release ZIPs when published at:
-https://github.com/aqkbahr/7-days-to-delve/releases
-No player release has been published yet. An automatic updater is not implemented.
+Requires Windows and your own Steam installation of 7 Days to Die 3.4.0 (b6),
+with the bundled TFP Harmony. Start without Easy Anti-Cheat. The installer checks
+the exact supported game assembly. Full instructions: docs/alpha-10-install.txt.
 
-Building requires a licensed local game installation and its bundled Harmony.
-Game assemblies, saves, private chats and generated map/prefab assets are excluded.
-Python tools require their imported dependencies (including lxml and numpy).
-PowerShell build scripts target Windows and require the .NET Framework compiler.
-Some packaging tools reference local validation documents excluded from this
-initial snapshot; this is not yet a self-contained release-building checkout.
+SCOPE AND COMPATIBILITY
+Alpha .10 consolidates the selected internal 0.18.1-station-icons build.
+All 812 runtime files, 26 modules, art bundles and Allium-v0.10 world files are
+preserved byte-for-byte. Internal versions, IDs and alphabetical mod load order
+are intentionally unchanged to preserve existing behavior and saves.
+This release does not add the rest of the planned overhaul. Human gameplay,
+balance and multiplayer acceptance remain incomplete.
 
-Current work includes experimental progression, Allium world generation,
-settlement and incursion systems. Many planned talents remain disabled.
-Human gameplay, presentation and multiplayer validation remain incomplete.
+REPOSITORY LAYOUT
+src/       Development code, configurations and generation inputs.
+tools/     Build, content-generation and local validation tools.
+tests/     Automated rules and distribution tests.
+release/   Frozen Alpha .10 configuration and complete runtime hash manifest.
+tools/distribution/  Portable launcher and reproducible release-packaging tools.
 
-Everyone playing together needs the same supported game and Delve release.
-Easy Anti-Cheat must be disabled. Back up the host save before updates.
+The release configuration is authoritative for Alpha .10. Development source may
+include earlier or experimental alternatives; do not overlay src/ on a player
+installation. The release ZIP includes the matching compiled DLLs and assets.
+Binary art authoring projects and generated game/map files are excluded from Git
+to keep clones small. The player ZIP supplies all runtime art and world assets.
+Some historical developer tools require local build inputs, game files and test
+evidence; this repository is not a one-command build of the entire asset pipeline.
 
-Bug reports should include release/game versions, reproduction steps and relevant
-log excerpts. Remove passwords, addresses and personal paths before posting.
+UPDATES
+Use numbered GitHub Releases. Keep a stable data folder outside extracted
+downloads, back up the host's save, close the game and install the chosen version.
+Host and clients need the same build. There is no automatic online updater yet.
+
+REPORTING BUGS
+Include game/mod versions, steps to reproduce and relevant log excerpts. Remove
+passwords, network addresses and personal paths before posting to Issues.

@@ -19,3 +19,10 @@ __pycache__/
 *.pyc
 .env
 .env.*
+
+# Distribution and private local settings
+*.dll
+*.pdb
+*.unity3d
+*.blend1
+launcher-settings.local.json

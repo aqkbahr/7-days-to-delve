@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="delveSummoningRod" count="1" craft_area="delveFieldCraftingMat" craft_time="10">
+      <ingredient name="resourceWood" count="30"/>
+      <ingredient name="resourceCloth" count="8"/>
+      <ingredient name="resourceBone" count="10"/>
+    </recipe>
+    <recipe name="delveSummoningRune" count="5" craft_area="delveFieldCraftingMat" craft_time="10">
+      <ingredient name="resourceRockSmall" count="10"/>
+      <ingredient name="resourceBone" count="5"/>
+      <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+    </recipe>
+    <recipe name="delveSummoningRune" count="5" craft_area="delveInscriptionKit" craft_time="10">
+      <ingredient name="resourceRockSmall" count="10"/>
+      <ingredient name="resourceBone" count="5"/>
+      <ingredient name="resourceCropChrysanthemumPlant" count="2"/>
+    </recipe>
+  </append>
+</configs>

@@ -1,0 +1,4 @@
+<configs>
+  <setattribute xpath="/buffs/buff[@name='delveWorldJournal']" name="hidden">true</setattribute>
+  <setattribute xpath="/buffs/buff[@name='delveWayrestProgress']" name="hidden">true</setattribute>
+</configs>

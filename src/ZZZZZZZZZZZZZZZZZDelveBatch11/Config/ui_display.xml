@@ -1,0 +1,394 @@
+<configs>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveCompostBin">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveDryingRack">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFarmDispatch">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFermentingBarrel">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFieldCraftingMat">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFieldHearth">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFieldHearthTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveFieldHearthTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveForgeAnvil">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveForgeAnvilTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveForgeAnvilTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveGrainMill">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveInscriptionKit">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveInscriptionKitTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveInscriptionKitTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveMortarKit">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveMortarKitTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveMortarKitTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveOutfittingKit">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveOutfittingKitTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveOutfittingKitTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delvePreservingCrock">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSawKit">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSawKitTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSawKitTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSortingTable">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSortingTableTier2">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+  <append xpath="/ui_display_info/crafting_category_display">
+    <crafting_category_list display_type="delveSortingTableTier3">
+      <crafting_category name="delveCatAll" icon="ui_game_symbol_hammer" display_name="delveCatAll"/>
+      <crafting_category name="delveCatStations" icon="ui_game_symbol_map_house" display_name="delveCatStations"/>
+      <crafting_category name="delveCatWeapons" icon="ui_game_symbol_knife" display_name="delveCatWeapons"/>
+      <crafting_category name="delveCatArmor" icon="ui_game_symbol_armor_iron" display_name="delveCatArmor"/>
+      <crafting_category name="delveCatTools" icon="ui_game_symbol_tool" display_name="delveCatTools"/>
+      <crafting_category name="delveCatMaterials" icon="ui_game_symbol_resource" display_name="delveCatMaterials"/>
+      <crafting_category name="delveCatFood" icon="ui_game_symbol_fork" display_name="delveCatFood"/>
+      <crafting_category name="delveCatAlchemy" icon="ui_game_symbol_science" display_name="delveCatAlchemy"/>
+      <crafting_category name="delveCatSeeds" icon="ui_game_symbol_tree" display_name="delveCatSeeds"/>
+      <crafting_category name="delveCatOrders" icon="ui_game_symbol_coin" display_name="delveCatOrders"/>
+    </crafting_category_list>
+  </append>
+</configs>

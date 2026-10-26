@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/entity_classes">
+    <entity_class name="delveRecruitWorker" extends="npcTraderBob">
+      <property name="Class" value="Delve.EntityDelveRecruit, Delve" />
+      <property name="Tags" value="entity,npc,human" />
+      <property name="NPCID" value="delveRecruitWorker" />
+      <property name="UserSpawnType" value="None" />
+      <property name="Faction" value="whiteriver" />
+      <property name="IsEnemyEntity" value="false" />
+      <property name="NavObject" value="" />
+      <property name="HandItem" value="meleeHandDelveWorker" />
+      <property name="LootList" value="" />
+      <property name="ExperienceGain" value="0" />
+      <property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityZombie,0,EntityEnemyAnimal,0" />
+      <property name="AITarget-1" value="" />
+      <property name="MoveSpeed" value="0.75" />
+      <effect_group name="Recruit health">
+        <passive_effect name="HealthMax" operation="base_set" value="120" />
+      </effect_group>
+    </entity_class>
+    <entity_class name="delveRecruitDefender" extends="npcTraderHugh">
+      <property name="Class" value="Delve.EntityDelveRecruit, Delve" />
+      <property name="Tags" value="entity,npc,human" />
+      <property name="NPCID" value="delveRecruitDefender" />
+      <property name="UserSpawnType" value="None" />
+      <property name="Faction" value="whiteriver" />
+      <property name="IsEnemyEntity" value="false" />
+      <property name="NavObject" value="" />
+      <property name="HandItem" value="meleeHandDelveDefender" />
+      <property name="LootList" value="" />
+      <property name="ExperienceGain" value="0" />
+      <property name="AITask-1" value="ApproachAndAttackTarget" data="class=EntityZombie,0,EntityEnemyAnimal,0" />
+      <property name="AITarget-1" value="" />
+      <property name="MoveSpeed" value="0.75" />
+      <effect_group name="Recruit health">
+        <passive_effect name="HealthMax" operation="base_set" value="240" />
+      </effect_group>
+    </entity_class>
+  </append>
+</configs>

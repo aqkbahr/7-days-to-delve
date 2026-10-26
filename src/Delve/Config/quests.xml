@@ -43,8 +43,8 @@
         <property name="item" value="keystoneBlock" />
         <property name="count" value="1" />
       </objective>
-      <objective type="Craft" id="bedroll" value="1" phase="1">
-        <property name="item" value="bedroll" />
+      <objective type="Craft" id="bedrollBlockVariantHelper" value="1" phase="1">
+        <property name="item" value="bedrollBlockVariantHelper" />
         <property name="count" value="1" />
       </objective>
       <objective type="Craft" id="campfire" value="1" phase="1">
@@ -54,7 +54,7 @@
       <reward type="Exp" value="500" />
       <reward type="Item" id="casinoCoin" value="150" />
       <reward type="Item" id="resourceForgedIron" value="12" />
-      <reward type="Quest" id="delveEmbers" />
+      <reward type="Quest" id="delveSupplyLesson" />
     </quest>
     <quest id="delveEmbers">
       <property name="name_key" value="delveEmbers" />
@@ -75,6 +75,267 @@
       <reward type="Exp" value="500" />
       <reward type="Item" id="casinoCoin" value="250" />
       <reward type="Item" id="resourceForgedIron" value="20" />
+      <reward type="Quest" id="delveArborPreparation" />
+    </quest>
+    <quest id="delveFarmOrderPantry">
+      <property name="name_key" value="delveFarmOrderPantry" />
+      <property name="subtitle_key" value="delveFarmOrderPantry" />
+      <property name="description_key" value="delveFarmOrderPantryDesc" />
+      <property name="offer_key" value="delveFarmOrderPantryDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="repeatable" value="true" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="delveFarmParcelPantry" value="1" phase="1" />
+      <reward type="Item" id="casinoCoin" value="60" />
+    </quest>
+    <quest id="delveFarmOrderHerbs">
+      <property name="name_key" value="delveFarmOrderHerbs" />
+      <property name="subtitle_key" value="delveFarmOrderHerbs" />
+      <property name="description_key" value="delveFarmOrderHerbsDesc" />
+      <property name="offer_key" value="delveFarmOrderHerbsDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="repeatable" value="true" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="delveFarmParcelHerbs" value="1" phase="1" />
+      <reward type="Item" id="casinoCoin" value="90" />
+    </quest>
+    <quest id="delveFarmOrderBread">
+      <property name="name_key" value="delveFarmOrderBread" />
+      <property name="subtitle_key" value="delveFarmOrderBread" />
+      <property name="description_key" value="delveFarmOrderBreadDesc" />
+      <property name="offer_key" value="delveFarmOrderBreadDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="repeatable" value="true" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="delveFarmParcelBread" value="1" phase="1" />
+      <reward type="Item" id="casinoCoin" value="140" />
+    </quest>
+    <quest id="delveFarmOrderMedicine">
+      <property name="name_key" value="delveFarmOrderMedicine" />
+      <property name="subtitle_key" value="delveFarmOrderMedicine" />
+      <property name="description_key" value="delveFarmOrderMedicineDesc" />
+      <property name="offer_key" value="delveFarmOrderMedicineDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="repeatable" value="true" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="delveFarmParcelMedicine" value="1" phase="1" />
+      <reward type="Item" id="casinoCoin" value="180" />
+    </quest>
+    <quest id="delveFarmOrderRations">
+      <property name="name_key" value="delveFarmOrderRations" />
+      <property name="subtitle_key" value="delveFarmOrderRations" />
+      <property name="description_key" value="delveFarmOrderRationsDesc" />
+      <property name="offer_key" value="delveFarmOrderRationsDesc" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="repeatable" value="true" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="delveFarmParcelRations" value="1" phase="1" />
+      <reward type="Item" id="casinoCoin" value="240" />
+    </quest>
+    <quest id="delveFarmFirstHarvest">
+      <property name="name_key" value="delveFarmFirstHarvest" />
+      <property name="description_key" value="delveFarmFirstHarvestDesc" />
+      <property name="offer_key" value="delveFarmFirstHarvestDesc" />
+      <property name="category_key" value="delveFarmOrderCategory" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <objective type="Fetch" id="resourceYuccaFibers" value="5" phase="1" />
+      <reward type="Item" id="plantedCorn1" value="3" />
+      <reward type="Item" id="plantedChrysanthemum1" value="3" />
+    </quest>
+    <quest id="delveLessonFarming">
+      <property name="name_key" value="delveLessonFarming" />
+      <property name="description_key" value="delveLessonFarmingDesc" />
+      <property name="subtitle_key" value="delveLessonFarming" />
+      <property name="offer_key" value="delveLessonFarmingDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="farmPlotBlockVariantHelper" value="1" phase="1">
+        <property name="item" value="farmPlotBlockVariantHelper" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="plantedCorn1" value="1" phase="2">
+        <property name="item" value="plantedCorn1" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveLessonCooking">
+      <property name="name_key" value="delveLessonCooking" />
+      <property name="description_key" value="delveLessonCookingDesc" />
+      <property name="subtitle_key" value="delveLessonCooking" />
+      <property name="offer_key" value="delveLessonCookingDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="delveFieldHearth" value="1" phase="1">
+        <property name="item" value="delveFieldHearth" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="delveRainCollector" value="1" phase="2">
+        <property name="item" value="delveRainCollector" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="drinkJarBoiledWater" value="1" phase="3">
+        <property name="item" value="drinkJarBoiledWater" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="foodBakedPotato" value="1" phase="4">
+        <property name="item" value="foodBakedPotato" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveLessonMining">
+      <property name="name_key" value="delveLessonMining" />
+      <property name="description_key" value="delveLessonMiningDesc" />
+      <property name="subtitle_key" value="delveLessonMining" />
+      <property name="offer_key" value="delveLessonMiningDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="meleeToolShovelT0StoneShovel" value="1" phase="1">
+        <property name="item" value="meleeToolShovelT0StoneShovel" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="resourceCobblestones" value="1" phase="2">
+        <property name="item" value="resourceCobblestones" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveLessonSmithing">
+      <property name="name_key" value="delveLessonSmithing" />
+      <property name="description_key" value="delveLessonSmithingDesc" />
+      <property name="subtitle_key" value="delveLessonSmithing" />
+      <property name="offer_key" value="delveLessonSmithingDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="delveForgeAnvil" value="1" phase="1">
+        <property name="item" value="delveForgeAnvil" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="resourceForgedIron" value="1" phase="2">
+        <property name="item" value="resourceForgedIron" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveLessonCarpentry">
+      <property name="name_key" value="delveLessonCarpentry" />
+      <property name="description_key" value="delveLessonCarpentryDesc" />
+      <property name="subtitle_key" value="delveLessonCarpentry" />
+      <property name="offer_key" value="delveLessonCarpentryDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="resourceCloth" value="1" phase="1">
+        <property name="item" value="resourceCloth" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="cntWoodWritableCrate" value="1" phase="2">
+        <property name="item" value="cntWoodWritableCrate" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveLessonAlchemy">
+      <property name="name_key" value="delveLessonAlchemy" />
+      <property name="description_key" value="delveLessonAlchemyDesc" />
+      <property name="subtitle_key" value="delveLessonAlchemy" />
+      <property name="offer_key" value="delveLessonAlchemyDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="delveHealingPoultice" value="1" phase="1">
+        <property name="item" value="delveHealingPoultice" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="delveWardDraught" value="1" phase="2">
+        <property name="item" value="delveWardDraught" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+    </quest>
+    <quest id="delveSupplyLesson">
+      <property name="name_key" value="delveSupplyLesson" />
+      <property name="description_key" value="delveSupplyLessonDesc" />
+      <property name="subtitle_key" value="delveSupplyLesson" />
+      <property name="offer_key" value="delveSupplyLessonDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="drinkJarBoiledWater" value="1" phase="1">
+        <property name="item" value="drinkJarBoiledWater" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="foodBakedPotato" value="1" phase="2">
+        <property name="item" value="foodBakedPotato" />
+        <property name="count" value="1" />
+      </objective>
+      <objective type="Craft" id="delveFocusRepair" value="1" phase="3">
+        <property name="item" value="delveFocusRepair" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
+      <reward type="Quest" id="delveEmbers" />
+    </quest>
+    <quest id="delveArborPreparation">
+      <property name="name_key" value="delveArborPreparation" />
+      <property name="description_key" value="delveArborPreparationDesc" />
+      <property name="subtitle_key" value="delveArborPreparation" />
+      <property name="offer_key" value="delveArborPreparationDesc" />
+      <property name="category_key" value="delveQuestCategory" />
+      <property name="repeatable" value="false" />
+      <property name="shareable" value="false" />
+      <property name="add_to_tier_complete" value="false" />
+      <property name="completiontype" value="AutoComplete" />
+      <property name="icon" value="ui_game_symbol_hammer" />
+      <objective type="Craft" id="delveArborProtection" value="1" phase="1">
+        <property name="item" value="delveArborProtection" />
+        <property name="count" value="1" />
+      </objective>
+      <reward type="Exp" value="150" />
     </quest>
   </append>
   <set xpath="/quests/quest/reward[@type='SkillPoints']/@value">0</set>

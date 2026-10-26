@@ -1,0 +1,1 @@
+Original project-authored geometry, procedural atlas and seven fitting motions. Native male/female Fiber prefabs inspected only for bone names/transforms and bounds. No native mesh, texture or animation copied. One editable blend per complete set; one FBX per item. Native gameplay stats unchanged.

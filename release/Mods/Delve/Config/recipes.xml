@@ -1,0 +1,805 @@
+<?xml version='1.0' encoding='utf-8'?>
+<configs>
+  <append xpath="/recipes">
+    <recipe name="delveLeatherKnuckles" count="1" craft_time="5">
+      <ingredient name="resourceLeather" count="4" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveBoneDagger" count="1" craft_time="5">
+      <ingredient name="resourceBone" count="5" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveOakCudgel" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveAshSpear" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceRockSmall" count="8" />
+      <ingredient name="resourceYuccaFibers" count="5" />
+    </recipe>
+    <recipe name="delveBorderBow" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceYuccaFibers" count="15" />
+    </recipe>
+    <recipe name="delveIronDagger" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="resourceWood" count="5" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveIronMace" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="12" />
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveIronSpear" count="1" craft_time="5">
+      <ingredient name="resourceForgedIron" count="12" />
+      <ingredient name="resourceWood" count="15" />
+      <ingredient name="resourceLeather" count="3" />
+    </recipe>
+    <recipe name="delveHuntingBow" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="30" />
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceDuctTape" count="3" />
+    </recipe>
+    <recipe name="delveHealingPoultice" count="1" craft_time="5">
+      <ingredient name="medicalBandage" count="1" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveWayfarerTea" count="1" craft_time="5">
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveWardDraught" count="1" craft_time="5">
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="delveEmberSalts" count="3" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+    </recipe>
+    <recipe name="delveHeritageHuman" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageElf" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageDwarf" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageHalfling" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageOrc" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveHeritageTiefling" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFieldGuide" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveStarterWand" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceCloth" count="5" />
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveWandRune" count="10" craft_time="5">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="1" />
+    </recipe>
+    <recipe name="delveStarterStaff" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceCloth" count="5" />
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveStaffRune" count="10" craft_time="5">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="1" />
+    </recipe>
+    <recipe name="delveStarterTotem" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceCloth" count="5" />
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveTotemRune" count="10" craft_time="5">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="1" />
+    </recipe>
+    <recipe name="delveMendingTotem" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceCloth" count="5" />
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveHealingRune" count="10" craft_time="5">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+      <ingredient name="resourceCloth" count="1" />
+    </recipe>
+    <recipe name="armorDelveLightHelmet" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="armorDelveLightOutfit" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="armorDelveLightGloves" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="armorDelveLightBoots" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="armorDelveMediumHelmet" count="1" craft_time="5">
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceCloth" count="4" />
+    </recipe>
+    <recipe name="armorDelveMediumOutfit" count="1" craft_time="5">
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceCloth" count="4" />
+    </recipe>
+    <recipe name="armorDelveMediumGloves" count="1" craft_time="5">
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceCloth" count="4" />
+    </recipe>
+    <recipe name="armorDelveMediumBoots" count="1" craft_time="5">
+      <ingredient name="resourceLeather" count="8" />
+      <ingredient name="resourceCloth" count="4" />
+    </recipe>
+    <recipe name="armorDelveHeavyHelmet" count="1" craft_time="5">
+      <ingredient name="resourceScrapIron" count="30" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelveHeavyOutfit" count="1" craft_time="5">
+      <ingredient name="resourceScrapIron" count="30" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelveHeavyGloves" count="1" craft_time="5">
+      <ingredient name="resourceScrapIron" count="30" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelveHeavyBoots" count="1" craft_time="5">
+      <ingredient name="resourceScrapIron" count="30" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelvePaddedHelmet" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="12" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelvePaddedOutfit" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="12" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelvePaddedGloves" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="12" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="armorDelvePaddedBoots" count="1" craft_time="5">
+      <ingredient name="resourceCloth" count="12" />
+      <ingredient name="resourceLeather" count="4" />
+    </recipe>
+    <recipe name="plantedDelveBramble1" count="1" craft_time="10">
+      <ingredient name="foodDelveBrambleberries" count="2" />
+    </recipe>
+    <recipe name="plantedDelveYarrow1" count="1" craft_time="10">
+      <ingredient name="resourceDelveYarrow" count="2" />
+    </recipe>
+    <recipe name="plantedDelveThyme1" count="1" craft_time="10">
+      <ingredient name="resourceDelveThyme" count="2" />
+    </recipe>
+    <recipe name="plantedDelveMooncap1" count="1" craft_time="10">
+      <ingredient name="resourceDelveMooncap" count="2" />
+    </recipe>
+    <recipe name="foodDelveCookedBerries" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodDelveBrambleberries" count="3" />
+    </recipe>
+    <recipe name="foodDelveMushroomSkewers" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCropMushrooms" count="3" />
+    </recipe>
+    <recipe name="foodDelveCornPorridge" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCornMeal" count="1" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveRoastedPumpkin" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCropPumpkin" count="2" />
+    </recipe>
+    <recipe name="foodDelveSeasonedRoast" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodRawMeat" count="3" />
+      <ingredient name="resourceDelveThyme" count="1" />
+    </recipe>
+    <recipe name="drinkDelveWoodlandBroth" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCropMushrooms" count="2" />
+      <ingredient name="resourceDelveThyme" count="1" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveBerryPorridge" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCornMeal" count="1" />
+      <ingredient name="foodDelveBrambleberries" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveHunterStew" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="foodRawMeat" count="2" />
+      <ingredient name="foodCropPotato" count="1" />
+      <ingredient name="drinkDelveWoodlandBroth" count="1" />
+    </recipe>
+    <recipe name="foodDelveHoneyberryCakes" count="2" craft_time="10" craft_area="campfire">
+      <ingredient name="foodCornMeal" count="2" />
+      <ingredient name="foodDelveBrambleberries" count="2" />
+      <ingredient name="foodHoney" count="1" />
+    </recipe>
+    <recipe name="drinkDelveGoldenrodTea" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="resourceCropGoldenrodPlant" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="medicalDelveFieldPoultice" count="1" craft_time="10">
+      <ingredient name="resourceDelveYarrow" count="2" />
+      <ingredient name="resourceYuccaFibers" count="4" />
+    </recipe>
+    <recipe name="medicalDelveHerbalDressing" count="1" craft_time="10">
+      <ingredient name="medicalBandage" count="1" />
+      <ingredient name="resourceDelveYarrow" count="2" />
+      <ingredient name="foodHoney" count="1" />
+    </recipe>
+    <recipe name="delveLesserHealingPotion" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="resourceCropChrysanthemumPlant" count="2" />
+      <ingredient name="resourceDelveYarrow" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="delveLesserStaminaPotion" count="1" craft_time="10" craft_area="campfire">
+      <ingredient name="resourceCropGoldenrodPlant" count="2" />
+      <ingredient name="foodDelveBrambleberries" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="delveMooncapWandRune" count="20" craft_time="10">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceDelveMooncap" count="1" />
+    </recipe>
+    <recipe name="delveMooncapStaffRune" count="20" craft_time="10">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceDelveMooncap" count="1" />
+    </recipe>
+    <recipe name="delveMooncapTotemRune" count="20" craft_time="10">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceDelveMooncap" count="1" />
+    </recipe>
+    <recipe name="delveMooncapHealingRune" count="20" craft_time="10">
+      <ingredient name="resourceRockSmall" count="5" />
+      <ingredient name="resourceDelveMooncap" count="1" />
+    </recipe>
+    <recipe name="delveFarmDispatch" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="delveCompostBin" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="25" />
+      <ingredient name="resourceClayLump" count="10" />
+    </recipe>
+    <recipe name="delveDryingRack" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceYuccaFibers" count="15" />
+    </recipe>
+    <recipe name="delveGrainMill" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="30" />
+      <ingredient name="resourceRockSmall" count="40" />
+    </recipe>
+    <recipe name="delvePreservingCrock" count="1" craft_time="20">
+      <ingredient name="resourceClayLump" count="40" />
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveFermentingBarrel" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="40" />
+      <ingredient name="resourceScrapIron" count="10" />
+    </recipe>
+    <recipe name="delveCompost" count="2" craft_time="120" craft_area="delveCompostBin">
+      <ingredient name="resourceYuccaFibers" count="10" />
+      <ingredient name="foodRottingFlesh" count="2" />
+    </recipe>
+    <recipe name="delveCompostedFarmPlot" count="1" craft_time="15">
+      <ingredient name="resourceClayLump" count="10" />
+      <ingredient name="resourceWood" count="2" />
+      <ingredient name="delveCompost" count="1" />
+    </recipe>
+    <recipe name="delveDriedThyme" count="1" craft_time="45" craft_area="delveDryingRack">
+      <ingredient name="resourceDelveThyme" count="2" />
+    </recipe>
+    <recipe name="delveDriedYarrow" count="1" craft_time="45" craft_area="delveDryingRack">
+      <ingredient name="resourceDelveYarrow" count="2" />
+    </recipe>
+    <recipe name="delveMilledGrain" count="2" craft_time="30" craft_area="delveGrainMill">
+      <ingredient name="foodCropCorn" count="2" />
+    </recipe>
+    <recipe name="delveHerbalSpirit" count="1" craft_time="180" craft_area="delveFermentingBarrel">
+      <ingredient name="foodDelveBrambleberries" count="4" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveTravelBread" count="1" craft_time="30" craft_area="campfire">
+      <ingredient name="delveMilledGrain" count="2" />
+      <ingredient name="delveDriedThyme" count="1" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveBerryPreserve" count="1" craft_time="30" craft_area="delvePreservingCrock">
+      <ingredient name="foodDelveBrambleberries" count="4" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodDelveTrailRation" count="1" craft_time="30" craft_area="delvePreservingCrock">
+      <ingredient name="foodDelveTravelBread" count="1" />
+      <ingredient name="foodDelveBerryPreserve" count="1" />
+    </recipe>
+    <recipe name="medicalDelveYarrowTincture" count="1" craft_time="45" craft_area="delveFermentingBarrel">
+      <ingredient name="delveDriedYarrow" count="2" />
+      <ingredient name="delveHerbalSpirit" count="1" />
+      <ingredient name="resourceCloth" count="1" />
+    </recipe>
+    <recipe name="delveFarmNoticePantry" count="1" craft_time="1" craft_area="delveFarmDispatch">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFarmParcelPantry" count="1" craft_time="10" craft_area="delveFarmDispatch">
+      <ingredient name="foodCropCorn" count="6" />
+      <ingredient name="foodCropPotato" count="4" />
+    </recipe>
+    <recipe name="delveFarmNoticeHerbs" count="1" craft_time="1" craft_area="delveFarmDispatch">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFarmParcelHerbs" count="1" craft_time="10" craft_area="delveFarmDispatch">
+      <ingredient name="delveDriedYarrow" count="3" />
+      <ingredient name="delveDriedThyme" count="2" />
+    </recipe>
+    <recipe name="delveFarmNoticeBread" count="1" craft_time="1" craft_area="delveFarmDispatch">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFarmParcelBread" count="1" craft_time="10" craft_area="delveFarmDispatch">
+      <ingredient name="foodDelveTravelBread" count="4" />
+    </recipe>
+    <recipe name="delveFarmNoticeMedicine" count="1" craft_time="1" craft_area="delveFarmDispatch">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFarmParcelMedicine" count="1" craft_time="10" craft_area="delveFarmDispatch">
+      <ingredient name="medicalDelveYarrowTincture" count="3" />
+    </recipe>
+    <recipe name="delveFarmNoticeRations" count="1" craft_time="1" craft_area="delveFarmDispatch">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFarmParcelRations" count="1" craft_time="10" craft_area="delveFarmDispatch">
+      <ingredient name="foodDelveTrailRation" count="4" />
+    </recipe>
+    <recipe name="delveFarmHandbook" count="1" craft_time="15">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveFieldHearth" count="1" craft_time="20">
+      <ingredient name="resourceRockSmall" count="20" />
+      <ingredient name="resourceClayLump" count="10" />
+    </recipe>
+    <recipe name="delveForgeAnvil" count="1" craft_time="20">
+      <ingredient name="resourceRockSmall" count="40" />
+      <ingredient name="resourceClayLump" count="30" />
+      <ingredient name="resourceWood" count="20" />
+    </recipe>
+    <recipe name="delveSawKit" count="1" craft_time="20">
+      <ingredient name="resourceForgedIron" count="4" />
+      <ingredient name="resourceWood" count="20" />
+    </recipe>
+    <recipe name="delveOutfittingKit" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="resourceBone" count="4" />
+    </recipe>
+    <recipe name="delveMortarKit" count="1" craft_time="20">
+      <ingredient name="resourceRockSmall" count="20" />
+      <ingredient name="resourceClayLump" count="10" />
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+    <recipe name="delveSortingTable" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="20" />
+      <ingredient name="resourceRockSmall" count="20" />
+    </recipe>
+    <recipe name="delveInscriptionKit" count="1" craft_time="20">
+      <ingredient name="resourceRockSmall" count="10" />
+      <ingredient name="resourceCloth" count="4" />
+      <ingredient name="resourceForgedIron" count="2" />
+    </recipe>
+    <recipe name="delveRoughHandle" count="2" craft_time="20">
+      <ingredient name="resourceWood" count="6" />
+    </recipe>
+    <recipe name="delveLeatherBinding" count="4" craft_time="20">
+      <ingredient name="resourceLeather" count="2" />
+    </recipe>
+    <recipe name="delveSeasonedTimber" count="4" craft_time="20" craft_area="delveSawKit">
+      <ingredient name="resourceWood" count="12" />
+    </recipe>
+    <recipe name="delveCuredLeather" count="2" craft_time="20" craft_area="delveOutfittingKit">
+      <ingredient name="resourceLeather" count="4" />
+      <ingredient name="resourceWood" count="2" />
+    </recipe>
+    <recipe name="delveWovenCloth" count="2" craft_time="20" craft_area="delveOutfittingKit">
+      <ingredient name="resourceCloth" count="4" />
+    </recipe>
+    <recipe name="delveIronFittings" count="4" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="delveDressedStone" count="4" craft_time="20" craft_area="delveSortingTable">
+      <ingredient name="resourceRockSmall" count="10" />
+    </recipe>
+    <recipe name="delveIronConcentrate" count="1" craft_time="20" craft_area="delveSortingTable">
+      <ingredient name="resourceScrapIron" count="20" />
+    </recipe>
+    <recipe name="delveHerbalExtract" count="2" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceDelveYarrow" count="2" />
+      <ingredient name="resourceDelveThyme" count="1" />
+    </recipe>
+    <recipe name="delveRuneBlank" count="10" craft_time="20" craft_area="delveSortingTable">
+      <ingredient name="resourceRockSmall" count="5" />
+    </recipe>
+    <recipe name="delveCharcoal" count="5" craft_time="20" craft_area="delveFieldHearth">
+      <ingredient name="resourceWood" count="10" />
+    </recipe>
+    <recipe name="delveHideRepair" count="2" craft_time="20">
+      <ingredient name="resourceLeather" count="2" />
+      <ingredient name="resourceCloth" count="2" />
+    </recipe>
+    <recipe name="delveMetalRepair" count="2" craft_time="20">
+      <ingredient name="resourceScrapIron" count="10" />
+      <ingredient name="resourceCloth" count="2" />
+    </recipe>
+    <recipe name="delveFocusRepair" count="2" craft_time="20">
+      <ingredient name="resourceWood" count="5" />
+      <ingredient name="resourceCloth" count="2" />
+    </recipe>
+    <recipe name="resourceForgedIron" count="1" craft_time="30" craft_area="delveForgeAnvil">
+      <ingredient name="resourceScrapIron" count="20" />
+      <ingredient name="resourceClayLump" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="resourceForgedIron" count="2" craft_time="30" craft_area="delveForgeAnvil">
+      <ingredient name="delveIronConcentrate" count="1" />
+      <ingredient name="resourceClayLump" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="resourceCloth" count="1" craft_time="10">
+      <ingredient name="resourceYuccaFibers" count="10" />
+    </recipe>
+    <recipe name="resourceGlue" count="1" craft_time="20" craft_area="delveFieldHearth">
+      <ingredient name="resourceBone" count="3" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="resourceLeather" count="2" craft_time="30" craft_area="delveOutfittingKit">
+      <ingredient name="resourceYuccaFibers" count="20" />
+      <ingredient name="delveHerbalExtract" count="1" />
+    </recipe>
+    <recipe name="toolCookingPot" count="1" craft_time="30" craft_area="delveForgeAnvil">
+      <ingredient name="resourceScrapIron" count="20" />
+      <ingredient name="delveCharcoal" count="2" />
+    </recipe>
+    <recipe name="drinkJarEmpty" count="1" craft_time="15" craft_area="delveFieldHearth">
+      <ingredient name="resourceClayLump" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="drinkJarBoiledWater" count="1" craft_time="20" craft_area="delveFieldHearth">
+      <ingredient name="drinkJarRiverWater" count="1" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="delveEmberSalts" count="2" craft_time="20" craft_area="delveMortarKit">
+      <ingredient name="resourceDelveMooncap" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="medicalBandage" count="3" craft_time="10" craft_area="delveOutfittingKit">
+      <ingredient name="delveWovenCloth" count="1" />
+    </recipe>
+    <recipe name="resourceRepairKit" count="1" craft_time="20" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="1" />
+      <ingredient name="resourceCloth" count="2" />
+      <ingredient name="resourceGlue" count="1" />
+    </recipe>
+    <recipe name="delveFocusRepair" count="3" craft_time="10" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="1" />
+      <ingredient name="delveWovenCloth" count="1" />
+    </recipe>
+    <recipe name="delveHideRepair" count="3" craft_time="10" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="1" />
+      <ingredient name="delveWovenCloth" count="1" />
+    </recipe>
+    <recipe name="resourceCobblestones" count="12" craft_time="10" craft_area="delveSortingTable">
+      <ingredient name="delveDressedStone" count="2" />
+      <ingredient name="resourceClayLump" count="2" />
+    </recipe>
+    <recipe name="delveWandRune" count="10" craft_time="20" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="1" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveStaffRune" count="10" craft_time="20" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="1" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveTotemRune" count="10" craft_time="20" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="1" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveHealingRune" count="10" craft_time="20" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="1" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveArborProtection" count="1" craft_time="30" craft_area="delveMortarKit">
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="delveEmberSalts" count="3" />
+      <ingredient name="resourceDelveYarrow" count="2" />
+    </recipe>
+    <recipe name="delveRainCollector" count="1" craft_time="20">
+      <ingredient name="resourceWood" count="40" />
+      <ingredient name="resourceCloth" count="10" />
+      <ingredient name="resourceRockSmall" count="20" />
+    </recipe>
+    <recipe name="foodDelveTrailRations" count="1" craft_time="30" craft_area="delveFieldHearth">
+      <ingredient name="foodRawMeat" count="2" />
+      <ingredient name="foodDelveBrambleberries" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="foodDelveGathererPorridge" count="1" craft_time="30" craft_area="delveFieldHearth">
+      <ingredient name="foodCornMeal" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="resourceDelveThyme" count="1" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="foodDelveIncursionSupper" count="1" craft_time="30" craft_area="delveFieldHearth">
+      <ingredient name="foodRawMeat" count="2" />
+      <ingredient name="foodCropPotato" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+      <ingredient name="resourceDelveThyme" count="1" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="delveProcessingGuide" count="1" craft_time="20">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+    <recipe name="delveForgedDagger" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="delveRoughHandle" count="1" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedMace" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="12" />
+      <ingredient name="delveRoughHandle" count="2" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedSpear" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="delveSeasonedTimber" count="3" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedKnuckles" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="4" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveIronFittings" count="2" />
+    </recipe>
+    <recipe name="delveForgedBow" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="6" />
+      <ingredient name="delveLeatherBinding" count="4" />
+    </recipe>
+    <recipe name="delveForgedCrossbow" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="6" />
+      <ingredient name="delveIronFittings" count="4" />
+      <ingredient name="delveLeatherBinding" count="4" />
+    </recipe>
+    <recipe name="armorDelveForgedLightHelmet" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveWovenCloth" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedLightOutfit" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveWovenCloth" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedLightGloves" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveWovenCloth" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedLightBoots" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveWovenCloth" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedMediumHelmet" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedMediumOutfit" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedMediumGloves" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedMediumBoots" count="1" craft_time="40" craft_area="delveOutfittingKit">
+      <ingredient name="delveCuredLeather" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedHeavyHelmet" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedHeavyOutfit" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedHeavyGloves" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="armorDelveForgedHeavyBoots" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="6" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedPickaxe" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="delveRoughHandle" count="2" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedAxe" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="delveRoughHandle" count="2" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveForgedShovel" count="1" craft_time="40" craft_area="delveForgeAnvil">
+      <ingredient name="resourceForgedIron" count="10" />
+      <ingredient name="delveRoughHandle" count="2" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="delveEtchedWandRune" count="10" craft_time="40" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="2" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveEtchedStaffRune" count="10" craft_time="40" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="2" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveEtchedHexRune" count="10" craft_time="40" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="2" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveEtchedHealingRune" count="10" craft_time="40" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="2" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveEtchedWardRune" count="10" craft_time="40" craft_area="delveInscriptionKit">
+      <ingredient name="delveRuneBlank" count="10" />
+      <ingredient name="delveHerbalExtract" count="2" />
+      <ingredient name="delveEmberSalts" count="1" />
+    </recipe>
+    <recipe name="delveForgedWand" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="4" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveIronFittings" count="2" />
+    </recipe>
+    <recipe name="delveForgedStaff" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="6" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveIronFittings" count="2" />
+    </recipe>
+    <recipe name="delveForgedTotem" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="4" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveIronFittings" count="2" />
+    </recipe>
+    <recipe name="delveForgedMendingTotem" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="4" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveIronFittings" count="2" />
+    </recipe>
+    <recipe name="delveWardTotem" count="1" craft_time="40" craft_area="delveSawKit">
+      <ingredient name="delveSeasonedTimber" count="4" />
+      <ingredient name="delveWovenCloth" count="2" />
+      <ingredient name="delveLeatherBinding" count="2" />
+    </recipe>
+    <recipe name="ammoArrowStone" count="2" craft_time="15">
+      <ingredient name="resourceRockSmall" count="2" />
+      <ingredient name="resourceWood" count="2" />
+      <ingredient name="resourceYuccaFibers" count="2" />
+    </recipe>
+    <recipe name="ammoCrossbowBoltStone" count="2" craft_time="15">
+      <ingredient name="resourceRockSmall" count="2" />
+      <ingredient name="resourceWood" count="2" />
+      <ingredient name="resourceYuccaFibers" count="2" />
+    </recipe>
+    <recipe name="meleeToolTorch" count="1" craft_time="15">
+      <ingredient name="resourceWood" count="2" />
+      <ingredient name="resourceCloth" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="resourceCrushedSand" count="4" craft_time="15" craft_area="delveSortingTable">
+      <ingredient name="resourceRockSmall" count="2" />
+    </recipe>
+    <recipe name="medicalPlasterCast" count="1" craft_time="15" craft_area="delveFieldHearth">
+      <ingredient name="resourceCloth" count="8" />
+      <ingredient name="foodCornMeal" count="2" />
+      <ingredient name="resourceCrushedSand" count="2" />
+      <ingredient name="drinkJarBoiledWater" count="1" />
+    </recipe>
+    <recipe name="foodBakedPotato" count="1" craft_time="15" craft_area="delveFieldHearth">
+      <ingredient name="foodCropPotato" count="2" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="foodGrilledMeat" count="1" craft_time="15" craft_area="delveFieldHearth">
+      <ingredient name="foodRawMeat" count="3" />
+      <ingredient name="delveCharcoal" count="1" />
+    </recipe>
+    <recipe name="delveForestReadinessGuide" count="1" craft_time="15">
+      <ingredient name="resourceYuccaFibers" count="1" />
+    </recipe>
+  </append>
+  <set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='resourceWood']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='foodRottingFlesh']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='resourcePotassiumNitratePowder']/@count">5</set>
+  <set xpath="/recipes/recipe[@name='farmPlotBlockVariantHelper']/ingredient[@name='resourceClayLump']/@count">20</set>
+  <set xpath="/recipes/recipe[@name='medicalBandage']/ingredient[@name='resourceCloth']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='foodCornMeal']/ingredient[@name='foodCropCorn']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedCorn1']/ingredient[@name='foodCropCorn']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedCorn1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedPotato1']/ingredient[@name='foodCropPotato']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedPotato1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedPumpkin1']/ingredient[@name='foodCropPumpkin']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedPumpkin1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedMushroom1']/ingredient[@name='foodCropMushrooms']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedMushroom1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedBlueberry1']/ingredient[@name='foodCropBlueberries']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedBlueberry1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedCotton1']/ingredient[@name='resourceCropCottonPlant']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedCotton1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedChrysanthemum1']/ingredient[@name='resourceCropChrysanthemumPlant']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedChrysanthemum1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedGoldenrod1']/ingredient[@name='resourceCropGoldenrodPlant']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedGoldenrod1']/@tags">packMuleCrafting</set>
+  <set xpath="/recipes/recipe[@name='plantedAloe1']/ingredient[@name='resourceCropAloeLeaf']/@count">2</set>
+  <set xpath="/recipes/recipe[@name='plantedAloe1']/@tags">packMuleCrafting</set>
+  <remove xpath="/recipes/recipe[@name='armorPrimitiveHelmet']" />
+  <append xpath="/recipes">
+    <recipe name="armorPrimitiveHelmet" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="5" />
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorPrimitiveOutfit']" />
+  <append xpath="/recipes">
+    <recipe name="armorPrimitiveOutfit" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="5" />
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorPrimitiveGloves']" />
+  <append xpath="/recipes">
+    <recipe name="armorPrimitiveGloves" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="5" />
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='armorPrimitiveBoots']" />
+  <append xpath="/recipes">
+    <recipe name="armorPrimitiveBoots" count="1" craft_time="5">
+      <ingredient name="resourceYuccaFibers" count="5" />
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='meleeWpnClubT0WoodenClub']" />
+  <append xpath="/recipes">
+    <recipe name="meleeWpnClubT0WoodenClub" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="5" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='gunBowT0PrimitiveBow']" />
+  <append xpath="/recipes">
+    <recipe name="gunBowT0PrimitiveBow" count="1" craft_time="5">
+      <ingredient name="resourceWood" count="8" />
+      <ingredient name="resourceYuccaFibers" count="3" />
+    </recipe>
+  </append>
+  <remove xpath="/recipes/recipe[@name='meleeWpnBladeT0BoneKnife']" />
+  <append xpath="/recipes">
+    <recipe name="meleeWpnBladeT0BoneKnife" count="1" craft_time="5">
+      <ingredient name="resourceBone" count="5" />
+    </recipe>
+  </append>
+</configs>

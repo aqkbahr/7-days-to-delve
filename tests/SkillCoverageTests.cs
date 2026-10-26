@@ -1,0 +1,8 @@
+using System;using DelveCoverage;
+class Tests {static int count;static void Check(bool ok,string name){count++;if(!ok)throw new Exception(name);}static void Main(){
+ Check(Rules.Explosive("thrownAmmoPipeBomb"),"blast charge");Check(Rules.Explosive("thrownDynamite"),"excavation charge");Check(!Rules.Explosive("ammoArrowStone"),"arrow not explosive");Check(!Rules.Explosive("thrownAmmoMolotovCocktail"),"deferred firebomb not falsely integrated");
+ Check(Rules.MaterialSkill("Mmetal")=="Smithing","metal");Check(Rules.MaterialSkill("Msteel")=="Smithing","steel");Check(Rules.MaterialSkill("Mwood")=="Carpentry","wood");Check(Rules.MaterialSkill("Mcloth")=="Carpentry","cloth");Check(Rules.MaterialSkill("Mstone")=="Mining","stone");Check(Rules.MaterialSkill("Mconcrete")=="Mining","concrete");
+ Check(Rules.ExplosiveMultiplier(1)==1,"baseline");Check(Math.Abs(Rules.ExplosiveMultiplier(20)-1.095f)<.0001,"rank twenty");Check(Rules.ExplosiveMultiplier(999)==Rules.ExplosiveMultiplier(100),"cap");Check(Rules.ExplosiveMultiplier(-1)==1,"floor");
+ Check(Rules.RepairCredit(0,0)==0,"no repair");Check(Rules.RepairCredit(50,60)==0,"damage not repair");Check(Rules.RepairCredit(50,-1)==0,"invalid repair result");Check(Rules.RepairCredit(50,20)==3,"actual restoration");Check(Rules.RepairCredit(500,0)==20,"repair cap");
+ var gate=new Rules.Cooldowns();Check(gate.Take("plot",0,60),"first planting");Check(!gate.Take("plot",1,60),"pickup replace rejected");Check(gate.Take("otherPlot",1,60),"different plot");Check(!gate.Take("plot",59,60),"before cooldown");Check(gate.Take("plot",60,60),"after cooldown");
+ Console.WriteLine("PASS: "+count+" coverage policy and anti-repeat checks.");}}

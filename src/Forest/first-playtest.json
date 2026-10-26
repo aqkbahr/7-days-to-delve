@@ -1,0 +1,3885 @@
+{
+  "scope": "Forest first playtest: exact live recipe variants through proficiency 20",
+  "sources": {
+    "resourceWood": "Forest trees; native renewable tree seeds",
+    "resourceYuccaFibers": "Common Forest grass",
+    "resourceRockSmall": "Surface stones and Forest stone deposits",
+    "resourceClayLump": "Forest soil dug with the craftable stone shovel",
+    "resourceScrapIron": "19 marked Forest iron deposits; native iron harvest",
+    "resourcePotassiumNitratePowder": "19 marked Forest nitrate deposits",
+    "resourceCoal": "19 marked Forest coal deposits",
+    "foodRottingFlesh": "Forest zombie/wildlife remains",
+    "foodRawMeat": "Forest deer/rabbits/boar and other native wildlife",
+    "resourceAnimalFat": "Forest animal harvesting",
+    "resourceBone": "Forest animal/zombie harvesting",
+    "resourceLeather": "Forest animal harvesting; also crafted plant-based leather",
+    "resourceFeather": "Native Forest bird nests; fiber-fletched ammo is a deterministic alternative",
+    "foodHoney": "Guaranteed one honey on destroying a native Forest stump",
+    "delveThornhide": "Forest Thornback harvest; optional conversion",
+    "delveGloomPelt": "Forest Gloomcat harvest; optional conversion",
+    "delveForestCrystal": "Forest Crystal Stag harvest; optional conversion",
+    "foodCropBlueberries": "Wild Forest plantedBlueberry3Harvest; starter gardens and renewable cultivation",
+    "resourceCropChrysanthemumPlant": "Wild Forest plantedChrysanthemum3Harvest; starter gardens and renewable cultivation",
+    "foodCropCorn": "Wild Forest plantedCorn3Harvest; starter gardens and renewable cultivation",
+    "resourceCropCottonPlant": "Wild Forest plantedCotton3Harvest; starter gardens and renewable cultivation",
+    "foodDelveBrambleberries": "Wild Forest plantedDelveBramble3Harvest; starter gardens and renewable cultivation",
+    "resourceDelveMooncap": "Wild Forest plantedDelveMooncap3Harvest; starter gardens and renewable cultivation",
+    "resourceDelveThyme": "Wild Forest plantedDelveThyme3Harvest; starter gardens and renewable cultivation",
+    "resourceDelveYarrow": "Wild Forest plantedDelveYarrow3Harvest; starter gardens and renewable cultivation",
+    "resourceCropGoldenrodPlant": "Wild Forest plantedGoldenrod3Harvest; starter gardens and renewable cultivation",
+    "foodCropMushrooms": "Wild Forest plantedMushroom3Harvest; starter gardens and renewable cultivation",
+    "foodCropPotato": "Wild Forest plantedPotato3Harvest; starter gardens and renewable cultivation",
+    "foodCropPumpkin": "Wild Forest plantedPumpkin3Harvest; starter gardens and renewable cultivation"
+  },
+  "production_edges": {
+    "drinkJarRiverWater": [
+      "delveRainCollector",
+      "drinkJarEmpty"
+    ]
+  },
+  "recipes": [
+    {
+      "key": "ammoarrowstone||1|resourcefeather=1,resourcerocksmall=1,resourcewood=1",
+      "name": "ammoArrowStone",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 1,
+        "resourceWood": 1,
+        "resourceFeather": 1
+      }
+    },
+    {
+      "key": "ammocrossbowboltstone||1|resourcefeather=1,resourcerocksmall=1,resourcewood=1",
+      "name": "ammoCrossbowBoltStone",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 1,
+        "resourceWood": 1,
+        "resourceFeather": 1
+      }
+    },
+    {
+      "key": "bedrollblockvarianthelper||1|resourceyuccafibers=10",
+      "name": "bedrollBlockVariantHelper",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "campfire||1|resourcerocksmall=5",
+      "name": "campfire",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5
+      }
+    },
+    {
+      "key": "cntwoodwritablecrate||1|resourcewood=10",
+      "name": "cntWoodWritableCrate",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 10
+      }
+    },
+    {
+      "key": "farmplotblockvarianthelper||1|foodrottingflesh=2,resourceclaylump=20,resourcepotassiumnitratepowder=5,resourcewood=2",
+      "name": "farmPlotBlockVariantHelper",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 2,
+        "foodRottingFlesh": 2,
+        "resourcePotassiumNitratePowder": 5,
+        "resourceClayLump": 20
+      }
+    },
+    {
+      "key": "foodcornmeal||1|foodcropcorn=2",
+      "name": "foodCornMeal",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropCorn": 2
+      }
+    },
+    {
+      "key": "keystoneblock||1|resourcerocksmall=5",
+      "name": "keystoneBlock",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5
+      }
+    },
+    {
+      "key": "ladderwood||1|resourcewood=3",
+      "name": "ladderWood",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 3
+      }
+    },
+    {
+      "key": "medicalbandage||1|resourcecloth=2",
+      "name": "medicalBandage",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 2
+      }
+    },
+    {
+      "key": "medicalsplint||1|resourcecloth=10,resourceducttape=1,resourcewood=2",
+      "name": "medicalSplint",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 10,
+        "resourceWood": 2,
+        "resourceDuctTape": 1
+      }
+    },
+    {
+      "key": "meleetoolshovelt0stoneshovel||1|resourcerocksmall=5,resourcewood=3,resourceyuccafibers=3",
+      "name": "meleeToolShovelT0StoneShovel",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceYuccaFibers": 3,
+        "resourceWood": 3
+      }
+    },
+    {
+      "key": "meleetoolrepairt0stoneaxe||1|resourcerocksmall=2,resourcewood=2,resourceyuccafibers=2",
+      "name": "meleeToolRepairT0StoneAxe",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 2,
+        "resourceYuccaFibers": 2,
+        "resourceWood": 2
+      }
+    },
+    {
+      "key": "meleetooltorch||1|resourceanimalfat=1,resourcecloth=5,resourcewood=1",
+      "name": "meleeToolTorch",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceAnimalFat": 1,
+        "resourceCloth": 5,
+        "resourceWood": 1
+      }
+    },
+    {
+      "key": "plantedblueberry1||1|foodcropblueberries=2",
+      "name": "plantedBlueberry1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropBlueberries": 2
+      }
+    },
+    {
+      "key": "plantedchrysanthemum1||1|resourcecropchrysanthemumplant=2",
+      "name": "plantedChrysanthemum1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCropChrysanthemumPlant": 2
+      }
+    },
+    {
+      "key": "plantedcorn1||1|foodcropcorn=2",
+      "name": "plantedCorn1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropCorn": 2
+      }
+    },
+    {
+      "key": "plantedcotton1||1|resourcecropcottonplant=2",
+      "name": "plantedCotton1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCropCottonPlant": 2
+      }
+    },
+    {
+      "key": "plantedgoldenrod1||1|resourcecropgoldenrodplant=2",
+      "name": "plantedGoldenrod1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2
+      }
+    },
+    {
+      "key": "plantedmushroom1||1|foodcropmushrooms=2,resourceclaylump=2",
+      "name": "plantedMushroom1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropMushrooms": 2,
+        "resourceClayLump": 2
+      }
+    },
+    {
+      "key": "plantedpotato1||1|foodcroppotato=2",
+      "name": "plantedPotato1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropPotato": 2
+      }
+    },
+    {
+      "key": "plantedpumpkin1||1|foodcroppumpkin=2",
+      "name": "plantedPumpkin1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodCropPumpkin": 2
+      }
+    },
+    {
+      "key": "resourcecobblestones||1|resourceclaylump=1,resourcerocksmall=1",
+      "name": "resourceCobblestones",
+      "skill": "Mining",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceClayLump": 1,
+        "resourceRockSmall": 1
+      }
+    },
+    {
+      "key": "resourceducttape||1|resourcecloth=7,resourceglue=1",
+      "name": "resourceDuctTape",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceGlue": 1,
+        "resourceCloth": 7
+      }
+    },
+    {
+      "key": "oldwooddoor||1|resourcewood=10",
+      "name": "oldWoodDoor",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 10
+      }
+    },
+    {
+      "key": "trapspikeswooddmg0||1|resourcewood=20",
+      "name": "trapSpikesWoodDmg0",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20
+      }
+    },
+    {
+      "key": "woodhatch||1|resourcewood=10",
+      "name": "woodHatch",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 10
+      }
+    },
+    {
+      "key": "woodlogpillar100||1|resourcewood=10",
+      "name": "woodLogPillar100",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 10
+      }
+    },
+    {
+      "key": "frameshapes:varianthelper||1|resourcewood=2",
+      "name": "frameShapes:VariantHelper",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 2
+      }
+    },
+    {
+      "key": "cobblestoneshapes:varianthelper||1|resourcecobblestones=10",
+      "name": "cobblestoneShapes:VariantHelper",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCobblestones": 10
+      }
+    },
+    {
+      "key": "delveleatherknuckles||1|resourceleather=4,resourceyuccafibers=5",
+      "name": "delveLeatherKnuckles",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 4,
+        "resourceYuccaFibers": 5
+      }
+    },
+    {
+      "key": "delvebonedagger||1|resourcebone=5,resourceyuccafibers=5",
+      "name": "delveBoneDagger",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceBone": 5,
+        "resourceYuccaFibers": 5
+      }
+    },
+    {
+      "key": "delveoakcudgel||1|resourcewood=15,resourceyuccafibers=5",
+      "name": "delveOakCudgel",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 15,
+        "resourceYuccaFibers": 5
+      }
+    },
+    {
+      "key": "delveashspear||1|resourcerocksmall=8,resourcewood=15,resourceyuccafibers=5",
+      "name": "delveAshSpear",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 15,
+        "resourceRockSmall": 8,
+        "resourceYuccaFibers": 5
+      }
+    },
+    {
+      "key": "delveborderbow||1|resourcewood=20,resourceyuccafibers=15",
+      "name": "delveBorderBow",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceYuccaFibers": 15
+      }
+    },
+    {
+      "key": "delveirondagger||1|resourceforgediron=10,resourceleather=3,resourcewood=5",
+      "name": "delveIronDagger",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "resourceWood": 5,
+        "resourceLeather": 3
+      }
+    },
+    {
+      "key": "delveironmace||1|resourceforgediron=12,resourceleather=3,resourcewood=15",
+      "name": "delveIronMace",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 12,
+        "resourceWood": 15,
+        "resourceLeather": 3
+      }
+    },
+    {
+      "key": "delveironspear||1|resourceforgediron=12,resourceleather=3,resourcewood=15",
+      "name": "delveIronSpear",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 12,
+        "resourceWood": 15,
+        "resourceLeather": 3
+      }
+    },
+    {
+      "key": "delvehuntingbow||1|resourceducttape=3,resourceleather=8,resourcewood=30",
+      "name": "delveHuntingBow",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 30,
+        "resourceLeather": 8,
+        "resourceDuctTape": 3
+      }
+    },
+    {
+      "key": "delvehealingpoultice||1|medicalbandage=1,resourcecropchrysanthemumplant=2,resourceyuccafibers=10",
+      "name": "delveHealingPoultice",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "medicalBandage": 1,
+        "resourceYuccaFibers": 10,
+        "resourceCropChrysanthemumPlant": 2
+      }
+    },
+    {
+      "key": "delvewayfarertea||1|drinkjarboiledwater=1,resourcecropchrysanthemumplant=2",
+      "name": "delveWayfarerTea",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "drinkJarBoiledWater": 1,
+        "resourceCropChrysanthemumPlant": 2
+      }
+    },
+    {
+      "key": "delvewarddraught||1|delveembersalts=3,drinkjarboiledwater=1,resourcecropchrysanthemumplant=2",
+      "name": "delveWardDraught",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "drinkJarBoiledWater": 1,
+        "delveEmberSalts": 3,
+        "resourceCropChrysanthemumPlant": 2
+      }
+    },
+    {
+      "key": "delveheritagehuman||1|resourceyuccafibers=1",
+      "name": "delveHeritageHuman",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveheritageelf||1|resourceyuccafibers=1",
+      "name": "delveHeritageElf",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveheritagedwarf||1|resourceyuccafibers=1",
+      "name": "delveHeritageDwarf",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveheritagehalfling||1|resourceyuccafibers=1",
+      "name": "delveHeritageHalfling",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveheritageorc||1|resourceyuccafibers=1",
+      "name": "delveHeritageOrc",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveheritagetiefling||1|resourceyuccafibers=1",
+      "name": "delveHeritageTiefling",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefieldguide||1|resourceyuccafibers=1",
+      "name": "delveFieldGuide",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvestarterwand||1|resourcecloth=5,resourcerocksmall=10,resourcewood=20",
+      "name": "delveStarterWand",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 5,
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delvewandrune||10|resourcecropchrysanthemumplant=1,resourcerocksmall=5",
+      "name": "delveWandRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceCropChrysanthemumPlant": 1
+      }
+    },
+    {
+      "key": "delvestarterstaff||1|resourcecloth=5,resourcerocksmall=10,resourcewood=20",
+      "name": "delveStarterStaff",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 5,
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delvestaffrune||10|resourcecropchrysanthemumplant=1,resourcerocksmall=5",
+      "name": "delveStaffRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceCropChrysanthemumPlant": 1
+      }
+    },
+    {
+      "key": "delvestartertotem||1|resourcecloth=5,resourcerocksmall=10,resourcewood=20",
+      "name": "delveStarterTotem",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 5,
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delvetotemrune||10|resourcecropchrysanthemumplant=1,resourcerocksmall=5",
+      "name": "delveTotemRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceCropChrysanthemumPlant": 1
+      }
+    },
+    {
+      "key": "delvemendingtotem||1|resourcecloth=5,resourcerocksmall=10,resourcewood=20",
+      "name": "delveMendingTotem",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 5,
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delvehealingrune||10|resourcecloth=1,resourcecropchrysanthemumplant=2,resourcerocksmall=5",
+      "name": "delveHealingRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceCropChrysanthemumPlant": 2,
+        "resourceCloth": 1
+      }
+    },
+    {
+      "key": "armordelvelighthelmet||1|resourcecloth=8,resourceyuccafibers=10",
+      "name": "armorDelveLightHelmet",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 8,
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "armordelvelightoutfit||1|resourcecloth=8,resourceyuccafibers=10",
+      "name": "armorDelveLightOutfit",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 8,
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "armordelvelightgloves||1|resourcecloth=8,resourceyuccafibers=10",
+      "name": "armorDelveLightGloves",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 8,
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "armordelvelightboots||1|resourcecloth=8,resourceyuccafibers=10",
+      "name": "armorDelveLightBoots",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 8,
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "armordelvemediumhelmet||1|resourcecloth=4,resourceleather=8",
+      "name": "armorDelveMediumHelmet",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 8,
+        "resourceCloth": 4
+      }
+    },
+    {
+      "key": "armordelvemediumoutfit||1|resourcecloth=4,resourceleather=8",
+      "name": "armorDelveMediumOutfit",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 8,
+        "resourceCloth": 4
+      }
+    },
+    {
+      "key": "armordelvemediumgloves||1|resourcecloth=4,resourceleather=8",
+      "name": "armorDelveMediumGloves",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 8,
+        "resourceCloth": 4
+      }
+    },
+    {
+      "key": "armordelvemediumboots||1|resourcecloth=4,resourceleather=8",
+      "name": "armorDelveMediumBoots",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 8,
+        "resourceCloth": 4
+      }
+    },
+    {
+      "key": "armordelveheavyhelmet||1|resourceleather=4,resourcescrapiron=30",
+      "name": "armorDelveHeavyHelmet",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 30,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelveheavyoutfit||1|resourceleather=4,resourcescrapiron=30",
+      "name": "armorDelveHeavyOutfit",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 30,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelveheavygloves||1|resourceleather=4,resourcescrapiron=30",
+      "name": "armorDelveHeavyGloves",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 30,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelveheavyboots||1|resourceleather=4,resourcescrapiron=30",
+      "name": "armorDelveHeavyBoots",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 30,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelvepaddedhelmet||1|resourcecloth=12,resourceleather=4",
+      "name": "armorDelvePaddedHelmet",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 12,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelvepaddedoutfit||1|resourcecloth=12,resourceleather=4",
+      "name": "armorDelvePaddedOutfit",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 12,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelvepaddedgloves||1|resourcecloth=12,resourceleather=4",
+      "name": "armorDelvePaddedGloves",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 12,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "armordelvepaddedboots||1|resourcecloth=12,resourceleather=4",
+      "name": "armorDelvePaddedBoots",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 12,
+        "resourceLeather": 4
+      }
+    },
+    {
+      "key": "planteddelvebramble1||1|fooddelvebrambleberries=2",
+      "name": "plantedDelveBramble1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "foodDelveBrambleberries": 2
+      }
+    },
+    {
+      "key": "planteddelveyarrow1||1|resourcedelveyarrow=2",
+      "name": "plantedDelveYarrow1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveYarrow": 2
+      }
+    },
+    {
+      "key": "planteddelvethyme1||1|resourcedelvethyme=2",
+      "name": "plantedDelveThyme1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveThyme": 2
+      }
+    },
+    {
+      "key": "planteddelvemooncap1||1|resourcedelvemooncap=2",
+      "name": "plantedDelveMooncap1",
+      "skill": "Farming",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveMooncap": 2
+      }
+    },
+    {
+      "key": "fooddelvecookedberries|campfire|1|fooddelvebrambleberries=3",
+      "name": "foodDelveCookedBerries",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodDelveBrambleberries": 3
+      }
+    },
+    {
+      "key": "fooddelvemushroomskewers|campfire|1|foodcropmushrooms=3",
+      "name": "foodDelveMushroomSkewers",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCropMushrooms": 3
+      }
+    },
+    {
+      "key": "fooddelvecornporridge|campfire|1|drinkjarboiledwater=1,foodcornmeal=1",
+      "name": "foodDelveCornPorridge",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCornMeal": 1,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelveroastedpumpkin|campfire|1|foodcroppumpkin=2",
+      "name": "foodDelveRoastedPumpkin",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCropPumpkin": 2
+      }
+    },
+    {
+      "key": "fooddelveseasonedroast|campfire|1|foodrawmeat=3,resourcedelvethyme=1",
+      "name": "foodDelveSeasonedRoast",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodRawMeat": 3,
+        "resourceDelveThyme": 1
+      }
+    },
+    {
+      "key": "drinkdelvewoodlandbroth|campfire|1|drinkjarboiledwater=1,foodcropmushrooms=2,resourcedelvethyme=1",
+      "name": "drinkDelveWoodlandBroth",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCropMushrooms": 2,
+        "resourceDelveThyme": 1,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelveberryporridge|campfire|1|drinkjarboiledwater=1,foodcornmeal=1,fooddelvebrambleberries=2",
+      "name": "foodDelveBerryPorridge",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCornMeal": 1,
+        "foodDelveBrambleberries": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelvehunterstew|campfire|1|drinkdelvewoodlandbroth=1,foodcroppotato=1,foodrawmeat=2",
+      "name": "foodDelveHunterStew",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodCropPotato": 1,
+        "drinkDelveWoodlandBroth": 1
+      }
+    },
+    {
+      "key": "fooddelvehoneyberrycakes|campfire|2|foodcornmeal=2,fooddelvebrambleberries=2,foodhoney=1",
+      "name": "foodDelveHoneyberryCakes",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 2,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "foodCornMeal": 2,
+        "foodDelveBrambleberries": 2,
+        "foodHoney": 1
+      }
+    },
+    {
+      "key": "drinkdelvegoldenrodtea|campfire|1|drinkjarboiledwater=1,resourcecropgoldenrodplant=2",
+      "name": "drinkDelveGoldenrodTea",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "medicaldelvefieldpoultice||1|resourcedelveyarrow=2,resourceyuccafibers=4",
+      "name": "medicalDelveFieldPoultice",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveYarrow": 2,
+        "resourceYuccaFibers": 4
+      }
+    },
+    {
+      "key": "medicaldelveherbaldressing||1|foodhoney=1,medicalbandage=1,resourcedelveyarrow=2",
+      "name": "medicalDelveHerbalDressing",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "medicalBandage": 1,
+        "resourceDelveYarrow": 2,
+        "foodHoney": 1
+      }
+    },
+    {
+      "key": "delvelesserhealingpotion|campfire|1|drinkjarboiledwater=1,resourcecropchrysanthemumplant=2,resourcedelveyarrow=2",
+      "name": "delveLesserHealingPotion",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "resourceCropChrysanthemumPlant": 2,
+        "resourceDelveYarrow": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "delvelesserstaminapotion|campfire|1|drinkjarboiledwater=1,fooddelvebrambleberries=2,resourcecropgoldenrodplant=2",
+      "name": "delveLesserStaminaPotion",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "resourceCropGoldenrodPlant": 2,
+        "foodDelveBrambleberries": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "delvemooncapwandrune||20|resourcedelvemooncap=1,resourcerocksmall=5",
+      "name": "delveMooncapWandRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "key": "delvemooncapstaffrune||20|resourcedelvemooncap=1,resourcerocksmall=5",
+      "name": "delveMooncapStaffRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "key": "delvemooncaptotemrune||20|resourcedelvemooncap=1,resourcerocksmall=5",
+      "name": "delveMooncapTotemRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "key": "delvemooncaphealingrune||20|resourcedelvemooncap=1,resourcerocksmall=5",
+      "name": "delveMooncapHealingRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 20,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5,
+        "resourceDelveMooncap": 1
+      }
+    },
+    {
+      "key": "delvefarmdispatch||1|resourcewood=20,resourceyuccafibers=10",
+      "name": "delveFarmDispatch",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "delvecompostbin||1|resourceclaylump=10,resourcewood=25",
+      "name": "delveCompostBin",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 25,
+        "resourceClayLump": 10
+      }
+    },
+    {
+      "key": "delvedryingrack||1|resourcewood=20,resourceyuccafibers=15",
+      "name": "delveDryingRack",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceYuccaFibers": 15
+      }
+    },
+    {
+      "key": "delvegrainmill||1|resourcerocksmall=40,resourcewood=30",
+      "name": "delveGrainMill",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 30,
+        "resourceRockSmall": 40
+      }
+    },
+    {
+      "key": "delvepreservingcrock||1|resourceclaylump=40,resourcerocksmall=10",
+      "name": "delvePreservingCrock",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceClayLump": 40,
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delvefermentingbarrel||1|resourcescrapiron=10,resourcewood=40",
+      "name": "delveFermentingBarrel",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 40,
+        "resourceScrapIron": 10
+      }
+    },
+    {
+      "key": "delvecompost|delvecompostbin|2|foodrottingflesh=2,resourceyuccafibers=10",
+      "name": "delveCompost",
+      "skill": "Farming",
+      "rank": 10,
+      "count": 2,
+      "station": "delveCompostBin",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 10,
+        "foodRottingFlesh": 2
+      }
+    },
+    {
+      "key": "delvecompostedfarmplot||1|delvecompost=1,resourceclaylump=10,resourcewood=2",
+      "name": "delveCompostedFarmPlot",
+      "skill": "Farming",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceClayLump": 10,
+        "resourceWood": 2,
+        "delveCompost": 1
+      }
+    },
+    {
+      "key": "delvedriedthyme|delvedryingrack|1|resourcedelvethyme=2",
+      "name": "delveDriedThyme",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "station": "delveDryingRack",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveThyme": 2
+      }
+    },
+    {
+      "key": "delvedriedyarrow|delvedryingrack|1|resourcedelveyarrow=2",
+      "name": "delveDriedYarrow",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "station": "delveDryingRack",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveYarrow": 2
+      }
+    },
+    {
+      "key": "delvemilledgrain|delvegrainmill|2|foodcropcorn=2",
+      "name": "delveMilledGrain",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 2,
+      "station": "delveGrainMill",
+      "tool": "",
+      "ingredients": {
+        "foodCropCorn": 2
+      }
+    },
+    {
+      "key": "delveherbalspirit|delvefermentingbarrel|1|drinkjarboiledwater=1,fooddelvebrambleberries=4",
+      "name": "delveHerbalSpirit",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFermentingBarrel",
+      "tool": "",
+      "ingredients": {
+        "foodDelveBrambleberries": 4,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelvetravelbread|campfire|1|delvedriedthyme=1,delvemilledgrain=2,drinkjarboiledwater=1",
+      "name": "foodDelveTravelBread",
+      "skill": "Cooking",
+      "rank": 10,
+      "count": 1,
+      "station": "campfire",
+      "tool": "",
+      "ingredients": {
+        "delveMilledGrain": 2,
+        "delveDriedThyme": 1,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelveberrypreserve|delvepreservingcrock|1|drinkjarboiledwater=1,fooddelvebrambleberries=4",
+      "name": "foodDelveBerryPreserve",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "delvePreservingCrock",
+      "tool": "",
+      "ingredients": {
+        "foodDelveBrambleberries": 4,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "fooddelvetrailration|delvepreservingcrock|1|fooddelveberrypreserve=1,fooddelvetravelbread=1",
+      "name": "foodDelveTrailRation",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "delvePreservingCrock",
+      "tool": "",
+      "ingredients": {
+        "foodDelveTravelBread": 1,
+        "foodDelveBerryPreserve": 1
+      }
+    },
+    {
+      "key": "medicaldelveyarrowtincture|delvefermentingbarrel|1|delvedriedyarrow=2,delveherbalspirit=1,resourcecloth=1",
+      "name": "medicalDelveYarrowTincture",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFermentingBarrel",
+      "tool": "",
+      "ingredients": {
+        "delveDriedYarrow": 2,
+        "delveHerbalSpirit": 1,
+        "resourceCloth": 1
+      }
+    },
+    {
+      "key": "delvefarmnoticepantry|delvefarmdispatch|1|resourceyuccafibers=1",
+      "name": "delveFarmNoticePantry",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefarmparcelpantry|delvefarmdispatch|1|foodcropcorn=6,foodcroppotato=4",
+      "name": "delveFarmParcelPantry",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "foodCropCorn": 6,
+        "foodCropPotato": 4
+      }
+    },
+    {
+      "key": "delvefarmnoticeherbs|delvefarmdispatch|1|resourceyuccafibers=1",
+      "name": "delveFarmNoticeHerbs",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefarmparcelherbs|delvefarmdispatch|1|delvedriedthyme=2,delvedriedyarrow=3",
+      "name": "delveFarmParcelHerbs",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "delveDriedYarrow": 3,
+        "delveDriedThyme": 2
+      }
+    },
+    {
+      "key": "delvefarmnoticebread|delvefarmdispatch|1|resourceyuccafibers=1",
+      "name": "delveFarmNoticeBread",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefarmparcelbread|delvefarmdispatch|1|fooddelvetravelbread=4",
+      "name": "delveFarmParcelBread",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "foodDelveTravelBread": 4
+      }
+    },
+    {
+      "key": "delvefarmnoticemedicine|delvefarmdispatch|1|resourceyuccafibers=1",
+      "name": "delveFarmNoticeMedicine",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefarmparcelmedicine|delvefarmdispatch|1|medicaldelveyarrowtincture=3",
+      "name": "delveFarmParcelMedicine",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "medicalDelveYarrowTincture": 3
+      }
+    },
+    {
+      "key": "delvefarmnoticerations|delvefarmdispatch|1|resourceyuccafibers=1",
+      "name": "delveFarmNoticeRations",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefarmparcelrations|delvefarmdispatch|1|fooddelvetrailration=4",
+      "name": "delveFarmParcelRations",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "delveFarmDispatch",
+      "tool": "",
+      "ingredients": {
+        "foodDelveTrailRation": 4
+      }
+    },
+    {
+      "key": "delvefarmhandbook||1|resourceyuccafibers=1",
+      "name": "delveFarmHandbook",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delvefieldhearth||1|resourceclaylump=10,resourcerocksmall=20",
+      "name": "delveFieldHearth",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 20,
+        "resourceClayLump": 10
+      }
+    },
+    {
+      "key": "delveforgeanvil||1|resourceclaylump=30,resourcerocksmall=40,resourcewood=20",
+      "name": "delveForgeAnvil",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 40,
+        "resourceClayLump": 30,
+        "resourceWood": 20
+      }
+    },
+    {
+      "key": "delvesawkit||1|resourceforgediron=4,resourcewood=20",
+      "name": "delveSawKit",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 4,
+        "resourceWood": 20
+      }
+    },
+    {
+      "key": "delveoutfittingkit||1|resourcebone=4,resourcecloth=8,resourcewood=20",
+      "name": "delveOutfittingKit",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceCloth": 8,
+        "resourceBone": 4
+      }
+    },
+    {
+      "key": "delvemortarkit||1|resourceclaylump=10,resourcerocksmall=20,resourcewood=5",
+      "name": "delveMortarKit",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 20,
+        "resourceClayLump": 10,
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "delvesortingtable||1|resourcerocksmall=20,resourcewood=20",
+      "name": "delveSortingTable",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20,
+        "resourceRockSmall": 20
+      }
+    },
+    {
+      "key": "delveinscriptionkit||1|resourcecloth=4,resourceforgediron=2,resourcerocksmall=10",
+      "name": "delveInscriptionKit",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 10,
+        "resourceCloth": 4,
+        "resourceForgedIron": 2
+      }
+    },
+    {
+      "key": "delveroughhandle||2|resourcewood=6",
+      "name": "delveRoughHandle",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 6
+      }
+    },
+    {
+      "key": "delveleatherbinding||4|resourceleather=2",
+      "name": "delveLeatherBinding",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 4,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 2
+      }
+    },
+    {
+      "key": "delveseasonedtimber|delvesawkit|4|resourcewood=12",
+      "name": "delveSeasonedTimber",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 4,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 12
+      }
+    },
+    {
+      "key": "delvecuredleather|delveoutfittingkit|2|resourceleather=4,resourcewood=2",
+      "name": "delveCuredLeather",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 2,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 4,
+        "resourceWood": 2
+      }
+    },
+    {
+      "key": "delvewovencloth|delveoutfittingkit|2|resourcecloth=4",
+      "name": "delveWovenCloth",
+      "skill": "Carpentry",
+      "rank": 10,
+      "count": 2,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 4
+      }
+    },
+    {
+      "key": "delveironfittings|delveforgeanvil|4|delvecharcoal=1,resourceforgediron=2",
+      "name": "delveIronFittings",
+      "skill": "Smithing",
+      "rank": 10,
+      "count": 4,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "delvedressedstone|delvesortingtable|4|resourcerocksmall=10",
+      "name": "delveDressedStone",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 4,
+      "station": "delveSortingTable",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 10
+      }
+    },
+    {
+      "key": "delveironconcentrate|delvesortingtable|1|resourcescrapiron=20",
+      "name": "delveIronConcentrate",
+      "skill": "Mining",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSortingTable",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 20
+      }
+    },
+    {
+      "key": "delveherbalextract|delvemortarkit|2|resourcedelvethyme=1,resourcedelveyarrow=2",
+      "name": "delveHerbalExtract",
+      "skill": "Alchemy",
+      "rank": 10,
+      "count": 2,
+      "station": "delveMortarKit",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveYarrow": 2,
+        "resourceDelveThyme": 1
+      }
+    },
+    {
+      "key": "delveruneblank|delvesortingtable|10|resourcerocksmall=5",
+      "name": "delveRuneBlank",
+      "skill": "Mining",
+      "rank": 10,
+      "count": 10,
+      "station": "delveSortingTable",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 5
+      }
+    },
+    {
+      "key": "delvecharcoal|delvefieldhearth|5|resourcewood=10",
+      "name": "delveCharcoal",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 5,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 10
+      }
+    },
+    {
+      "key": "delvehiderepair||2|resourcecloth=2,resourceleather=2",
+      "name": "delveHideRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceLeather": 2,
+        "resourceCloth": 2
+      }
+    },
+    {
+      "key": "delvemetalrepair||2|resourcecloth=2,resourcescrapiron=10",
+      "name": "delveMetalRepair",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 10,
+        "resourceCloth": 2
+      }
+    },
+    {
+      "key": "delvefocusrepair||2|resourcecloth=2,resourcewood=5",
+      "name": "delveFocusRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 5,
+        "resourceCloth": 2
+      }
+    },
+    {
+      "key": "resourceforgediron|delveforgeanvil|1|delvecharcoal=1,resourceclaylump=2,resourcescrapiron=20",
+      "name": "resourceForgedIron",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 20,
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "resourceforgediron|delveforgeanvil|2|delvecharcoal=1,delveironconcentrate=1,resourceclaylump=2",
+      "name": "resourceForgedIron",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 2,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "delveIronConcentrate": 1,
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "resourcecloth||1|resourceyuccafibers=10",
+      "name": "resourceCloth",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 10
+      }
+    },
+    {
+      "key": "resourceglue|delvefieldhearth|1|drinkjarboiledwater=1,resourcebone=3",
+      "name": "resourceGlue",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "resourceBone": 3,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "resourceleather|delveoutfittingkit|2|delveherbalextract=1,resourceyuccafibers=20",
+      "name": "resourceLeather",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 20,
+        "delveHerbalExtract": 1
+      }
+    },
+    {
+      "key": "toolcookingpot|delveforgeanvil|1|delvecharcoal=2,resourcescrapiron=20",
+      "name": "toolCookingPot",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceScrapIron": 20,
+        "delveCharcoal": 2
+      }
+    },
+    {
+      "key": "drinkjarempty|delvefieldhearth|1|delvecharcoal=1,resourceclaylump=2",
+      "name": "drinkJarEmpty",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "resourceClayLump": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "drinkjarboiledwater|delvefieldhearth|1|delvecharcoal=1,drinkjarriverwater=1",
+      "name": "drinkJarBoiledWater",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "drinkJarRiverWater": 1,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "delveembersalts|delvemortarkit|2|delvecharcoal=1,resourcedelvemooncap=2",
+      "name": "delveEmberSalts",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 2,
+      "station": "delveMortarKit",
+      "tool": "",
+      "ingredients": {
+        "resourceDelveMooncap": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "medicalbandage|delveoutfittingkit|3|delvewovencloth=1",
+      "name": "medicalBandage",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 3,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveWovenCloth": 1
+      }
+    },
+    {
+      "key": "resourcerepairkit|delveforgeanvil|1|resourcecloth=2,resourceforgediron=1,resourceglue=1",
+      "name": "resourceRepairKit",
+      "skill": "Smithing",
+      "rank": 1,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 1,
+        "resourceCloth": 2,
+        "resourceGlue": 1
+      }
+    },
+    {
+      "key": "delvefocusrepair|delvesawkit|3|delveseasonedtimber=1,delvewovencloth=1",
+      "name": "delveFocusRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 3,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 1,
+        "delveWovenCloth": 1
+      }
+    },
+    {
+      "key": "delvehiderepair|delveoutfittingkit|3|delvecuredleather=1,delvewovencloth=1",
+      "name": "delveHideRepair",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 3,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 1,
+        "delveWovenCloth": 1
+      }
+    },
+    {
+      "key": "resourcecobblestones|delvesortingtable|12|delvedressedstone=2,resourceclaylump=2",
+      "name": "resourceCobblestones",
+      "skill": "Mining",
+      "rank": 1,
+      "count": 12,
+      "station": "delveSortingTable",
+      "tool": "",
+      "ingredients": {
+        "delveDressedStone": 2,
+        "resourceClayLump": 2
+      }
+    },
+    {
+      "key": "delvewandrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=1,delveruneblank=10",
+      "name": "delveWandRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delvestaffrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=1,delveruneblank=10",
+      "name": "delveStaffRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delvetotemrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=1,delveruneblank=10",
+      "name": "delveTotemRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delvehealingrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=1,delveruneblank=10",
+      "name": "delveHealingRune",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 1,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delvearborprotection|delvemortarkit|1|delveembersalts=3,drinkjarboiledwater=1,resourcedelveyarrow=2",
+      "name": "delveArborProtection",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "delveMortarKit",
+      "tool": "",
+      "ingredients": {
+        "drinkJarBoiledWater": 1,
+        "delveEmberSalts": 3,
+        "resourceDelveYarrow": 2
+      }
+    },
+    {
+      "key": "delveraincollector||1|resourcecloth=10,resourcerocksmall=20,resourcewood=40",
+      "name": "delveRainCollector",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 40,
+        "resourceCloth": 10,
+        "resourceRockSmall": 20
+      }
+    },
+    {
+      "key": "fooddelvetrailrations|delvefieldhearth|1|delvecharcoal=1,fooddelvebrambleberries=2,foodrawmeat=2",
+      "name": "foodDelveTrailRations",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodDelveBrambleberries": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "fooddelvegathererporridge|delvefieldhearth|1|delvecharcoal=1,drinkjarboiledwater=1,foodcornmeal=2,resourcedelvethyme=1",
+      "name": "foodDelveGathererPorridge",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "foodCornMeal": 2,
+        "drinkJarBoiledWater": 1,
+        "resourceDelveThyme": 1,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "fooddelveincursionsupper|delvefieldhearth|1|delvecharcoal=1,drinkjarboiledwater=1,foodcroppotato=2,foodrawmeat=2,resourcedelvethyme=1",
+      "name": "foodDelveIncursionSupper",
+      "skill": "Cooking",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "foodRawMeat": 2,
+        "foodCropPotato": 2,
+        "drinkJarBoiledWater": 1,
+        "resourceDelveThyme": 1,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "delveprocessingguide||1|resourceyuccafibers=1",
+      "name": "delveProcessingGuide",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "delveforgeddagger|delveforgeanvil|1|delveleatherbinding=2,delveroughhandle=1,resourceforgediron=10",
+      "name": "delveForgedDagger",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 1,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedmace|delveforgeanvil|1|delveleatherbinding=2,delveroughhandle=2,resourceforgediron=12",
+      "name": "delveForgedMace",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 12,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedspear|delveforgeanvil|1|delveleatherbinding=2,delveseasonedtimber=3,resourceforgediron=10",
+      "name": "delveForgedSpear",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveSeasonedTimber": 3,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedknuckles|delveoutfittingkit|1|delvecuredleather=4,delveironfittings=2,delvewovencloth=2",
+      "name": "delveForgedKnuckles",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "key": "delveforgedbow|delvesawkit|1|delveleatherbinding=4,delveseasonedtimber=6",
+      "name": "delveForgedBow",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveLeatherBinding": 4
+      }
+    },
+    {
+      "key": "delveforgedcrossbow|delvesawkit|1|delveironfittings=4,delveleatherbinding=4,delveseasonedtimber=6",
+      "name": "delveForgedCrossbow",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveIronFittings": 4,
+        "delveLeatherBinding": 4
+      }
+    },
+    {
+      "key": "armordelveforgedlighthelmet|delveoutfittingkit|1|delveleatherbinding=2,delvewovencloth=6",
+      "name": "armorDelveForgedLightHelmet",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedlightoutfit|delveoutfittingkit|1|delveleatherbinding=2,delvewovencloth=6",
+      "name": "armorDelveForgedLightOutfit",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedlightgloves|delveoutfittingkit|1|delveleatherbinding=2,delvewovencloth=6",
+      "name": "armorDelveForgedLightGloves",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedlightboots|delveoutfittingkit|1|delveleatherbinding=2,delvewovencloth=6",
+      "name": "armorDelveForgedLightBoots",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveWovenCloth": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedmediumhelmet|delveoutfittingkit|1|delvecuredleather=6,delveleatherbinding=2",
+      "name": "armorDelveForgedMediumHelmet",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedmediumoutfit|delveoutfittingkit|1|delvecuredleather=6,delveleatherbinding=2",
+      "name": "armorDelveForgedMediumOutfit",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedmediumgloves|delveoutfittingkit|1|delvecuredleather=6,delveleatherbinding=2",
+      "name": "armorDelveForgedMediumGloves",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedmediumboots|delveoutfittingkit|1|delvecuredleather=6,delveleatherbinding=2",
+      "name": "armorDelveForgedMediumBoots",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveOutfittingKit",
+      "tool": "",
+      "ingredients": {
+        "delveCuredLeather": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedheavyhelmet|delveforgeanvil|1|delveleatherbinding=2,resourceforgediron=6",
+      "name": "armorDelveForgedHeavyHelmet",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedheavyoutfit|delveforgeanvil|1|delveleatherbinding=2,resourceforgediron=6",
+      "name": "armorDelveForgedHeavyOutfit",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedheavygloves|delveforgeanvil|1|delveleatherbinding=2,resourceforgediron=6",
+      "name": "armorDelveForgedHeavyGloves",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "armordelveforgedheavyboots|delveforgeanvil|1|delveleatherbinding=2,resourceforgediron=6",
+      "name": "armorDelveForgedHeavyBoots",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 6,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedpickaxe|delveforgeanvil|1|delveleatherbinding=2,delveroughhandle=2,resourceforgediron=10",
+      "name": "delveForgedPickaxe",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedaxe|delveforgeanvil|1|delveleatherbinding=2,delveroughhandle=2,resourceforgediron=10",
+      "name": "delveForgedAxe",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveforgedshovel|delveforgeanvil|1|delveleatherbinding=2,delveroughhandle=2,resourceforgediron=10",
+      "name": "delveForgedShovel",
+      "skill": "Smithing",
+      "rank": 20,
+      "count": 1,
+      "station": "delveForgeAnvil",
+      "tool": "",
+      "ingredients": {
+        "resourceForgedIron": 10,
+        "delveRoughHandle": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "delveetchedwandrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=2,delveruneblank=10",
+      "name": "delveEtchedWandRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delveetchedstaffrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=2,delveruneblank=10",
+      "name": "delveEtchedStaffRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delveetchedhexrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=2,delveruneblank=10",
+      "name": "delveEtchedHexRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delveetchedhealingrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=2,delveruneblank=10",
+      "name": "delveEtchedHealingRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delveetchedwardrune|delveinscriptionkit|10|delveembersalts=1,delveherbalextract=2,delveruneblank=10",
+      "name": "delveEtchedWardRune",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 10,
+      "station": "delveInscriptionKit",
+      "tool": "",
+      "ingredients": {
+        "delveRuneBlank": 10,
+        "delveHerbalExtract": 2,
+        "delveEmberSalts": 1
+      }
+    },
+    {
+      "key": "delveforgedwand|delvesawkit|1|delveironfittings=2,delveseasonedtimber=4,delvewovencloth=2",
+      "name": "delveForgedWand",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "key": "delveforgedstaff|delvesawkit|1|delveironfittings=2,delveseasonedtimber=6,delvewovencloth=2",
+      "name": "delveForgedStaff",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 6,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "key": "delveforgedtotem|delvesawkit|1|delveironfittings=2,delveseasonedtimber=4,delvewovencloth=2",
+      "name": "delveForgedTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "key": "delveforgedmendingtotem|delvesawkit|1|delveironfittings=2,delveseasonedtimber=4,delvewovencloth=2",
+      "name": "delveForgedMendingTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveIronFittings": 2
+      }
+    },
+    {
+      "key": "delvewardtotem|delvesawkit|1|delveleatherbinding=2,delveseasonedtimber=4,delvewovencloth=2",
+      "name": "delveWardTotem",
+      "skill": "Carpentry",
+      "rank": 20,
+      "count": 1,
+      "station": "delveSawKit",
+      "tool": "",
+      "ingredients": {
+        "delveSeasonedTimber": 4,
+        "delveWovenCloth": 2,
+        "delveLeatherBinding": 2
+      }
+    },
+    {
+      "key": "ammoarrowstone||2|resourcerocksmall=2,resourcewood=2,resourceyuccafibers=2",
+      "name": "ammoArrowStone",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 2,
+        "resourceWood": 2,
+        "resourceYuccaFibers": 2
+      }
+    },
+    {
+      "key": "ammocrossbowboltstone||2|resourcerocksmall=2,resourcewood=2,resourceyuccafibers=2",
+      "name": "ammoCrossbowBoltStone",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 2,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 2,
+        "resourceWood": 2,
+        "resourceYuccaFibers": 2
+      }
+    },
+    {
+      "key": "meleetooltorch||1|delvecharcoal=1,resourcecloth=2,resourcewood=2",
+      "name": "meleeToolTorch",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 2,
+        "resourceCloth": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "resourcecrushedsand|delvesortingtable|4|resourcerocksmall=2",
+      "name": "resourceCrushedSand",
+      "skill": "Mining",
+      "rank": 1,
+      "count": 4,
+      "station": "delveSortingTable",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 2
+      }
+    },
+    {
+      "key": "medicalplastercast|delvefieldhearth|1|drinkjarboiledwater=1,foodcornmeal=2,resourcecloth=8,resourcecrushedsand=2",
+      "name": "medicalPlasterCast",
+      "skill": "Alchemy",
+      "rank": 20,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "resourceCloth": 8,
+        "foodCornMeal": 2,
+        "resourceCrushedSand": 2,
+        "drinkJarBoiledWater": 1
+      }
+    },
+    {
+      "key": "foodbakedpotato|delvefieldhearth|1|delvecharcoal=1,foodcroppotato=2",
+      "name": "foodBakedPotato",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "foodCropPotato": 2,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "foodgrilledmeat|delvefieldhearth|1|delvecharcoal=1,foodrawmeat=3",
+      "name": "foodGrilledMeat",
+      "skill": "Cooking",
+      "rank": 1,
+      "count": 1,
+      "station": "delveFieldHearth",
+      "tool": "",
+      "ingredients": {
+        "foodRawMeat": 3,
+        "delveCharcoal": 1
+      }
+    },
+    {
+      "key": "delveforestreadinessguide||1|resourceyuccafibers=1",
+      "name": "delveForestReadinessGuide",
+      "skill": null,
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 1
+      }
+    },
+    {
+      "key": "armorprimitivehelmet||1|resourcewood=5,resourceyuccafibers=5",
+      "name": "armorPrimitiveHelmet",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 5,
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "armorprimitiveoutfit||1|resourcewood=5,resourceyuccafibers=5",
+      "name": "armorPrimitiveOutfit",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 5,
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "armorprimitivegloves||1|resourcewood=5,resourceyuccafibers=5",
+      "name": "armorPrimitiveGloves",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 5,
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "armorprimitiveboots||1|resourcewood=5,resourceyuccafibers=5",
+      "name": "armorPrimitiveBoots",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceYuccaFibers": 5,
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "meleewpnclubt0woodenclub||1|resourcewood=5",
+      "name": "meleeWpnClubT0WoodenClub",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 5
+      }
+    },
+    {
+      "key": "gunbowt0primitivebow||1|resourcewood=8,resourceyuccafibers=3",
+      "name": "gunBowT0PrimitiveBow",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 8,
+        "resourceYuccaFibers": 3
+      }
+    },
+    {
+      "key": "meleewpnbladet0boneknife||1|resourcebone=5",
+      "name": "meleeWpnBladeT0BoneKnife",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceBone": 5
+      }
+    },
+    {
+      "key": "resourceleather||3|delvethornhide=1",
+      "name": "resourceLeather",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 3,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "delveThornhide": 1
+      }
+    },
+    {
+      "key": "resourceleather||5|delvegloompelt=1",
+      "name": "resourceLeather",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 5,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "delveGloomPelt": 1
+      }
+    },
+    {
+      "key": "delveembersalts||3|delveforestcrystal=1",
+      "name": "delveEmberSalts",
+      "skill": "Alchemy",
+      "rank": 1,
+      "count": 3,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "delveForestCrystal": 1
+      }
+    },
+    {
+      "key": "delverecruitledger||1|resourcewood=20",
+      "name": "delveRecruitLedger",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 20
+      }
+    },
+    {
+      "key": "delverallyflag||1|resourcecloth=5,resourcewood=15",
+      "name": "delveRallyFlag",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceWood": 15,
+        "resourceCloth": 5
+      }
+    },
+    {
+      "key": "delverecoveryshrine||1|resourcecloth=5,resourcerocksmall=30,resourcewood=10",
+      "name": "delveRecoveryShrine",
+      "skill": "Carpentry",
+      "rank": 1,
+      "count": 1,
+      "station": "",
+      "tool": "",
+      "ingredients": {
+        "resourceRockSmall": 30,
+        "resourceWood": 10,
+        "resourceCloth": 5
+      }
+    }
+  ],
+  "paths": {
+    "resourceWood": [],
+    "resourceYuccaFibers": [],
+    "resourceRockSmall": [],
+    "resourceClayLump": [],
+    "resourceScrapIron": [],
+    "resourcePotassiumNitratePowder": [],
+    "resourceCoal": [],
+    "foodRottingFlesh": [],
+    "foodRawMeat": [],
+    "resourceAnimalFat": [],
+    "resourceBone": [],
+    "resourceLeather": [],
+    "resourceFeather": [],
+    "foodHoney": [],
+    "delveThornhide": [],
+    "delveGloomPelt": [],
+    "delveForestCrystal": [],
+    "foodCropBlueberries": [],
+    "resourceCropChrysanthemumPlant": [],
+    "foodCropCorn": [],
+    "resourceCropCottonPlant": [],
+    "foodDelveBrambleberries": [],
+    "resourceDelveMooncap": [],
+    "resourceDelveThyme": [],
+    "resourceDelveYarrow": [],
+    "resourceCropGoldenrodPlant": [],
+    "foodCropMushrooms": [],
+    "foodCropPotato": [],
+    "foodCropPumpkin": [],
+    "ammoArrowStone": [
+      "resourceFeather",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "ammoCrossbowBoltStone": [
+      "resourceFeather",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "bedrollBlockVariantHelper": [
+      "resourceYuccaFibers"
+    ],
+    "campfire": [
+      "resourceRockSmall"
+    ],
+    "cntWoodWritableCrate": [
+      "resourceWood"
+    ],
+    "farmPlotBlockVariantHelper": [
+      "foodRottingFlesh",
+      "resourceClayLump",
+      "resourcePotassiumNitratePowder",
+      "resourceWood"
+    ],
+    "foodCornMeal": [
+      "foodCropCorn"
+    ],
+    "keystoneBlock": [
+      "resourceRockSmall"
+    ],
+    "ladderWood": [
+      "resourceWood"
+    ],
+    "meleeToolShovelT0StoneShovel": [
+      "resourceRockSmall",
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "meleeToolRepairT0StoneAxe": [
+      "resourceRockSmall",
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "plantedBlueberry1": [
+      "foodCropBlueberries"
+    ],
+    "plantedChrysanthemum1": [
+      "resourceCropChrysanthemumPlant"
+    ],
+    "plantedCorn1": [
+      "foodCropCorn"
+    ],
+    "plantedCotton1": [
+      "resourceCropCottonPlant"
+    ],
+    "plantedGoldenrod1": [
+      "resourceCropGoldenrodPlant"
+    ],
+    "plantedMushroom1": [
+      "foodCropMushrooms",
+      "resourceClayLump"
+    ],
+    "plantedPotato1": [
+      "foodCropPotato"
+    ],
+    "plantedPumpkin1": [
+      "foodCropPumpkin"
+    ],
+    "resourceCobblestones": [
+      "resourceClayLump",
+      "resourceRockSmall"
+    ],
+    "oldWoodDoor": [
+      "resourceWood"
+    ],
+    "trapSpikesWoodDmg0": [
+      "resourceWood"
+    ],
+    "woodHatch": [
+      "resourceWood"
+    ],
+    "woodLogPillar100": [
+      "resourceWood"
+    ],
+    "frameShapes:VariantHelper": [
+      "resourceWood"
+    ],
+    "cobblestoneShapes:VariantHelper": [
+      "resourceCobblestones"
+    ],
+    "delveLeatherKnuckles": [
+      "resourceLeather",
+      "resourceYuccaFibers"
+    ],
+    "delveBoneDagger": [
+      "resourceBone",
+      "resourceYuccaFibers"
+    ],
+    "delveOakCudgel": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "delveAshSpear": [
+      "resourceRockSmall",
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "delveBorderBow": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageHuman": [
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageElf": [
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageDwarf": [
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageHalfling": [
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageOrc": [
+      "resourceYuccaFibers"
+    ],
+    "delveHeritageTiefling": [
+      "resourceYuccaFibers"
+    ],
+    "delveFieldGuide": [
+      "resourceYuccaFibers"
+    ],
+    "delveWandRune": [
+      "resourceCropChrysanthemumPlant",
+      "resourceRockSmall"
+    ],
+    "delveStaffRune": [
+      "resourceCropChrysanthemumPlant",
+      "resourceRockSmall"
+    ],
+    "delveTotemRune": [
+      "resourceCropChrysanthemumPlant",
+      "resourceRockSmall"
+    ],
+    "armorDelveHeavyHelmet": [
+      "resourceLeather",
+      "resourceScrapIron"
+    ],
+    "armorDelveHeavyOutfit": [
+      "resourceLeather",
+      "resourceScrapIron"
+    ],
+    "armorDelveHeavyGloves": [
+      "resourceLeather",
+      "resourceScrapIron"
+    ],
+    "armorDelveHeavyBoots": [
+      "resourceLeather",
+      "resourceScrapIron"
+    ],
+    "plantedDelveBramble1": [
+      "foodDelveBrambleberries"
+    ],
+    "plantedDelveYarrow1": [
+      "resourceDelveYarrow"
+    ],
+    "plantedDelveThyme1": [
+      "resourceDelveThyme"
+    ],
+    "plantedDelveMooncap1": [
+      "resourceDelveMooncap"
+    ],
+    "foodDelveCookedBerries": [
+      "campfire",
+      "foodDelveBrambleberries"
+    ],
+    "foodDelveMushroomSkewers": [
+      "campfire",
+      "foodCropMushrooms"
+    ],
+    "foodDelveRoastedPumpkin": [
+      "campfire",
+      "foodCropPumpkin"
+    ],
+    "foodDelveSeasonedRoast": [
+      "campfire",
+      "foodRawMeat",
+      "resourceDelveThyme"
+    ],
+    "foodDelveHoneyberryCakes": [
+      "campfire",
+      "foodCornMeal",
+      "foodDelveBrambleberries",
+      "foodHoney"
+    ],
+    "medicalDelveFieldPoultice": [
+      "resourceDelveYarrow",
+      "resourceYuccaFibers"
+    ],
+    "delveMooncapWandRune": [
+      "resourceDelveMooncap",
+      "resourceRockSmall"
+    ],
+    "delveMooncapStaffRune": [
+      "resourceDelveMooncap",
+      "resourceRockSmall"
+    ],
+    "delveMooncapTotemRune": [
+      "resourceDelveMooncap",
+      "resourceRockSmall"
+    ],
+    "delveMooncapHealingRune": [
+      "resourceDelveMooncap",
+      "resourceRockSmall"
+    ],
+    "delveFarmDispatch": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "delveCompostBin": [
+      "resourceClayLump",
+      "resourceWood"
+    ],
+    "delveDryingRack": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "delveGrainMill": [
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delvePreservingCrock": [
+      "resourceClayLump",
+      "resourceRockSmall"
+    ],
+    "delveFermentingBarrel": [
+      "resourceScrapIron",
+      "resourceWood"
+    ],
+    "delveCompost": [
+      "delveCompostBin",
+      "foodRottingFlesh",
+      "resourceYuccaFibers"
+    ],
+    "delveCompostedFarmPlot": [
+      "delveCompost",
+      "resourceClayLump",
+      "resourceWood"
+    ],
+    "delveDriedThyme": [
+      "delveDryingRack",
+      "resourceDelveThyme"
+    ],
+    "delveDriedYarrow": [
+      "delveDryingRack",
+      "resourceDelveYarrow"
+    ],
+    "delveMilledGrain": [
+      "delveGrainMill",
+      "foodCropCorn"
+    ],
+    "delveFarmNoticePantry": [
+      "delveFarmDispatch",
+      "resourceYuccaFibers"
+    ],
+    "delveFarmParcelPantry": [
+      "delveFarmDispatch",
+      "foodCropCorn",
+      "foodCropPotato"
+    ],
+    "delveFarmNoticeHerbs": [
+      "delveFarmDispatch",
+      "resourceYuccaFibers"
+    ],
+    "delveFarmParcelHerbs": [
+      "delveDriedThyme",
+      "delveDriedYarrow",
+      "delveFarmDispatch"
+    ],
+    "delveFarmNoticeBread": [
+      "delveFarmDispatch",
+      "resourceYuccaFibers"
+    ],
+    "delveFarmNoticeMedicine": [
+      "delveFarmDispatch",
+      "resourceYuccaFibers"
+    ],
+    "delveFarmNoticeRations": [
+      "delveFarmDispatch",
+      "resourceYuccaFibers"
+    ],
+    "delveFarmHandbook": [
+      "resourceYuccaFibers"
+    ],
+    "delveFieldHearth": [
+      "resourceClayLump",
+      "resourceRockSmall"
+    ],
+    "delveForgeAnvil": [
+      "resourceClayLump",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveMortarKit": [
+      "resourceClayLump",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveSortingTable": [
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveRoughHandle": [
+      "resourceWood"
+    ],
+    "delveLeatherBinding": [
+      "resourceLeather"
+    ],
+    "delveDressedStone": [
+      "delveSortingTable",
+      "resourceRockSmall"
+    ],
+    "delveIronConcentrate": [
+      "delveSortingTable",
+      "resourceScrapIron"
+    ],
+    "delveHerbalExtract": [
+      "delveMortarKit",
+      "resourceDelveThyme",
+      "resourceDelveYarrow"
+    ],
+    "delveRuneBlank": [
+      "delveSortingTable",
+      "resourceRockSmall"
+    ],
+    "delveCharcoal": [
+      "delveFieldHearth",
+      "resourceWood"
+    ],
+    "resourceForgedIron": [
+      "delveCharcoal",
+      "delveForgeAnvil",
+      "resourceClayLump",
+      "resourceScrapIron"
+    ],
+    "resourceCloth": [
+      "resourceYuccaFibers"
+    ],
+    "toolCookingPot": [
+      "delveCharcoal",
+      "delveForgeAnvil",
+      "resourceScrapIron"
+    ],
+    "drinkJarEmpty": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "resourceClayLump"
+    ],
+    "delveEmberSalts": [
+      "delveCharcoal",
+      "delveMortarKit",
+      "resourceDelveMooncap"
+    ],
+    "delveRainCollector": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "foodDelveTrailRations": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "foodDelveBrambleberries",
+      "foodRawMeat"
+    ],
+    "delveProcessingGuide": [
+      "resourceYuccaFibers"
+    ],
+    "delveForgedDagger": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveRoughHandle",
+      "resourceForgedIron"
+    ],
+    "delveForgedMace": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveRoughHandle",
+      "resourceForgedIron"
+    ],
+    "armorDelveForgedHeavyHelmet": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "resourceForgedIron"
+    ],
+    "armorDelveForgedHeavyOutfit": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "resourceForgedIron"
+    ],
+    "armorDelveForgedHeavyGloves": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "resourceForgedIron"
+    ],
+    "armorDelveForgedHeavyBoots": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "resourceForgedIron"
+    ],
+    "delveForgedPickaxe": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveRoughHandle",
+      "resourceForgedIron"
+    ],
+    "delveForgedAxe": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveRoughHandle",
+      "resourceForgedIron"
+    ],
+    "delveForgedShovel": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveRoughHandle",
+      "resourceForgedIron"
+    ],
+    "meleeToolTorch": [
+      "delveCharcoal",
+      "resourceCloth",
+      "resourceWood"
+    ],
+    "resourceCrushedSand": [
+      "delveSortingTable",
+      "resourceRockSmall"
+    ],
+    "foodBakedPotato": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "foodCropPotato"
+    ],
+    "foodGrilledMeat": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "foodRawMeat"
+    ],
+    "delveForestReadinessGuide": [
+      "resourceYuccaFibers"
+    ],
+    "armorPrimitiveHelmet": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "armorPrimitiveOutfit": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "armorPrimitiveGloves": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "armorPrimitiveBoots": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "meleeWpnClubT0WoodenClub": [
+      "resourceWood"
+    ],
+    "gunBowT0PrimitiveBow": [
+      "resourceWood",
+      "resourceYuccaFibers"
+    ],
+    "meleeWpnBladeT0BoneKnife": [
+      "resourceBone"
+    ],
+    "delveRecruitLedger": [
+      "resourceWood"
+    ],
+    "delveRallyFlag": [
+      "resourceCloth",
+      "resourceWood"
+    ],
+    "delveRecoveryShrine": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "drinkJarRiverWater": [
+      "delveRainCollector",
+      "drinkJarEmpty"
+    ],
+    "medicalBandage": [
+      "resourceCloth"
+    ],
+    "delveIronDagger": [
+      "resourceForgedIron",
+      "resourceLeather",
+      "resourceWood"
+    ],
+    "delveIronMace": [
+      "resourceForgedIron",
+      "resourceLeather",
+      "resourceWood"
+    ],
+    "delveIronSpear": [
+      "resourceForgedIron",
+      "resourceLeather",
+      "resourceWood"
+    ],
+    "delveHealingPoultice": [
+      "medicalBandage",
+      "resourceCropChrysanthemumPlant",
+      "resourceYuccaFibers"
+    ],
+    "delveStarterWand": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveStarterStaff": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveStarterTotem": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveMendingTotem": [
+      "resourceCloth",
+      "resourceRockSmall",
+      "resourceWood"
+    ],
+    "delveHealingRune": [
+      "resourceCloth",
+      "resourceCropChrysanthemumPlant",
+      "resourceRockSmall"
+    ],
+    "armorDelveLightHelmet": [
+      "resourceCloth",
+      "resourceYuccaFibers"
+    ],
+    "armorDelveLightOutfit": [
+      "resourceCloth",
+      "resourceYuccaFibers"
+    ],
+    "armorDelveLightGloves": [
+      "resourceCloth",
+      "resourceYuccaFibers"
+    ],
+    "armorDelveLightBoots": [
+      "resourceCloth",
+      "resourceYuccaFibers"
+    ],
+    "armorDelveMediumHelmet": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelveMediumOutfit": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelveMediumGloves": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelveMediumBoots": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelvePaddedHelmet": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelvePaddedOutfit": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelvePaddedGloves": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "armorDelvePaddedBoots": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "medicalDelveHerbalDressing": [
+      "foodHoney",
+      "medicalBandage",
+      "resourceDelveYarrow"
+    ],
+    "delveSawKit": [
+      "resourceForgedIron",
+      "resourceWood"
+    ],
+    "delveOutfittingKit": [
+      "resourceBone",
+      "resourceCloth",
+      "resourceWood"
+    ],
+    "delveInscriptionKit": [
+      "resourceCloth",
+      "resourceForgedIron",
+      "resourceRockSmall"
+    ],
+    "delveSeasonedTimber": [
+      "delveSawKit",
+      "resourceWood"
+    ],
+    "delveCuredLeather": [
+      "delveOutfittingKit",
+      "resourceLeather",
+      "resourceWood"
+    ],
+    "delveWovenCloth": [
+      "delveOutfittingKit",
+      "resourceCloth"
+    ],
+    "delveIronFittings": [
+      "delveCharcoal",
+      "delveForgeAnvil",
+      "resourceForgedIron"
+    ],
+    "delveHideRepair": [
+      "resourceCloth",
+      "resourceLeather"
+    ],
+    "delveMetalRepair": [
+      "resourceCloth",
+      "resourceScrapIron"
+    ],
+    "delveFocusRepair": [
+      "resourceCloth",
+      "resourceWood"
+    ],
+    "drinkJarBoiledWater": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "drinkJarRiverWater"
+    ],
+    "delveArborProtection": [
+      "delveEmberSalts",
+      "delveMortarKit",
+      "drinkJarBoiledWater",
+      "resourceDelveYarrow"
+    ],
+    "foodDelveGathererPorridge": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "drinkJarBoiledWater",
+      "foodCornMeal",
+      "resourceDelveThyme"
+    ],
+    "foodDelveIncursionSupper": [
+      "delveCharcoal",
+      "delveFieldHearth",
+      "drinkJarBoiledWater",
+      "foodCropPotato",
+      "foodRawMeat",
+      "resourceDelveThyme"
+    ],
+    "delveForgedSpear": [
+      "delveForgeAnvil",
+      "delveLeatherBinding",
+      "delveSeasonedTimber",
+      "resourceForgedIron"
+    ],
+    "delveForgedKnuckles": [
+      "delveCuredLeather",
+      "delveIronFittings",
+      "delveOutfittingKit",
+      "delveWovenCloth"
+    ],
+    "delveForgedBow": [
+      "delveLeatherBinding",
+      "delveSawKit",
+      "delveSeasonedTimber"
+    ],
+    "delveForgedCrossbow": [
+      "delveIronFittings",
+      "delveLeatherBinding",
+      "delveSawKit",
+      "delveSeasonedTimber"
+    ],
+    "armorDelveForgedLightHelmet": [
+      "delveLeatherBinding",
+      "delveOutfittingKit",
+      "delveWovenCloth"
+    ],
+    "armorDelveForgedLightOutfit": [
+      "delveLeatherBinding",
+      "delveOutfittingKit",
+      "delveWovenCloth"
+    ],
+    "armorDelveForgedLightGloves": [
+      "delveLeatherBinding",
+      "delveOutfittingKit",
+      "delveWovenCloth"
+    ],
+    "armorDelveForgedLightBoots": [
+      "delveLeatherBinding",
+      "delveOutfittingKit",
+      "delveWovenCloth"
+    ],
+    "armorDelveForgedMediumHelmet": [
+      "delveCuredLeather",
+      "delveLeatherBinding",
+      "delveOutfittingKit"
+    ],
+    "armorDelveForgedMediumOutfit": [
+      "delveCuredLeather",
+      "delveLeatherBinding",
+      "delveOutfittingKit"
+    ],
+    "armorDelveForgedMediumGloves": [
+      "delveCuredLeather",
+      "delveLeatherBinding",
+      "delveOutfittingKit"
+    ],
+    "armorDelveForgedMediumBoots": [
+      "delveCuredLeather",
+      "delveLeatherBinding",
+      "delveOutfittingKit"
+    ],
+    "delveEtchedWandRune": [
+      "delveEmberSalts",
+      "delveHerbalExtract",
+      "delveInscriptionKit",
+      "delveRuneBlank"
+    ],
+    "delveEtchedStaffRune": [
+      "delveEmberSalts",
+      "delveHerbalExtract",
+      "delveInscriptionKit",
+      "delveRuneBlank"
+    ],
+    "delveEtchedHexRune": [
+      "delveEmberSalts",
+      "delveHerbalExtract",
+      "delveInscriptionKit",
+      "delveRuneBlank"
+    ],
+    "delveEtchedHealingRune": [
+      "delveEmberSalts",
+      "delveHerbalExtract",
+      "delveInscriptionKit",
+      "delveRuneBlank"
+    ],
+    "delveEtchedWardRune": [
+      "delveEmberSalts",
+      "delveHerbalExtract",
+      "delveInscriptionKit",
+      "delveRuneBlank"
+    ],
+    "delveForgedWand": [
+      "delveIronFittings",
+      "delveSawKit",
+      "delveSeasonedTimber",
+      "delveWovenCloth"
+    ],
+    "delveForgedStaff": [
+      "delveIronFittings",
+      "delveSawKit",
+      "delveSeasonedTimber",
+      "delveWovenCloth"
+    ],
+    "delveForgedTotem": [
+      "delveIronFittings",
+      "delveSawKit",
+      "delveSeasonedTimber",
+      "delveWovenCloth"
+    ],
+    "delveForgedMendingTotem": [
+      "delveIronFittings",
+      "delveSawKit",
+      "delveSeasonedTimber",
+      "delveWovenCloth"
+    ],
+    "delveWardTotem": [
+      "delveLeatherBinding",
+      "delveSawKit",
+      "delveSeasonedTimber",
+      "delveWovenCloth"
+    ],
+    "medicalPlasterCast": [
+      "delveFieldHearth",
+      "drinkJarBoiledWater",
+      "foodCornMeal",
+      "resourceCloth",
+      "resourceCrushedSand"
+    ],
+    "delveWayfarerTea": [
+      "drinkJarBoiledWater",
+      "resourceCropChrysanthemumPlant"
+    ],
+    "delveWardDraught": [
+      "delveEmberSalts",
+      "drinkJarBoiledWater",
+      "resourceCropChrysanthemumPlant"
+    ],
+    "foodDelveCornPorridge": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "foodCornMeal"
+    ],
+    "drinkDelveWoodlandBroth": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "foodCropMushrooms",
+      "resourceDelveThyme"
+    ],
+    "foodDelveBerryPorridge": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "foodCornMeal",
+      "foodDelveBrambleberries"
+    ],
+    "foodDelveHunterStew": [
+      "campfire",
+      "drinkDelveWoodlandBroth",
+      "foodCropPotato",
+      "foodRawMeat"
+    ],
+    "drinkDelveGoldenrodTea": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "resourceCropGoldenrodPlant"
+    ],
+    "delveLesserHealingPotion": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "resourceCropChrysanthemumPlant",
+      "resourceDelveYarrow"
+    ],
+    "delveLesserStaminaPotion": [
+      "campfire",
+      "drinkJarBoiledWater",
+      "foodDelveBrambleberries",
+      "resourceCropGoldenrodPlant"
+    ],
+    "delveHerbalSpirit": [
+      "delveFermentingBarrel",
+      "drinkJarBoiledWater",
+      "foodDelveBrambleberries"
+    ],
+    "foodDelveTravelBread": [
+      "campfire",
+      "delveDriedThyme",
+      "delveMilledGrain",
+      "drinkJarBoiledWater"
+    ],
+    "foodDelveBerryPreserve": [
+      "delvePreservingCrock",
+      "drinkJarBoiledWater",
+      "foodDelveBrambleberries"
+    ],
+    "foodDelveTrailRation": [
+      "delvePreservingCrock",
+      "foodDelveBerryPreserve",
+      "foodDelveTravelBread"
+    ],
+    "medicalDelveYarrowTincture": [
+      "delveDriedYarrow",
+      "delveFermentingBarrel",
+      "delveHerbalSpirit",
+      "resourceCloth"
+    ],
+    "delveFarmParcelBread": [
+      "delveFarmDispatch",
+      "foodDelveTravelBread"
+    ],
+    "delveFarmParcelMedicine": [
+      "delveFarmDispatch",
+      "medicalDelveYarrowTincture"
+    ],
+    "delveFarmParcelRations": [
+      "delveFarmDispatch",
+      "foodDelveTrailRation"
+    ],
+    "resourceGlue": [
+      "delveFieldHearth",
+      "drinkJarBoiledWater",
+      "resourceBone"
+    ],
+    "resourceRepairKit": [
+      "delveForgeAnvil",
+      "resourceCloth",
+      "resourceForgedIron",
+      "resourceGlue"
+    ],
+    "resourceDuctTape": [
+      "resourceCloth",
+      "resourceGlue"
+    ],
+    "delveHuntingBow": [
+      "resourceDuctTape",
+      "resourceLeather",
+      "resourceWood"
+    ],
+    "medicalSplint": [
+      "resourceCloth",
+      "resourceDuctTape",
+      "resourceWood"
+    ]
+  },
+  "base_upgrades": [
+    {
+      "block": "frameShapes",
+      "to": "woodShapes",
+      "item": "resourceWood",
+      "count": 8,
+      "tool": "meleeToolRepairT0StoneAxe"
+    },
+    {
+      "block": "woodShapes",
+      "to": "cobblestoneShapes",
+      "item": "resourceCobblestones",
+      "count": 10,
+      "tool": "meleeToolRepairT0StoneAxe"
+    }
+  ],
+  "base_repairs": {
+    "frameShapes": {
+      "resourceWood": 3
+    },
+    "woodShapes": {
+      "resourceWood": 3
+    },
+    "cobblestoneShapes": {
+      "resourceCobblestones": 8
+    },
+    "oldWoodDoor": {
+      "resourceWood": 10
+    },
+    "woodHatch": {
+      "resourceWood": 10
+    },
+    "ladderWood": {
+      "resourceWood": 3
+    },
+    "cntWoodWritableCrate": {
+      "resourceWood": 10
+    },
+    "campfire": {
+      "resourceRockSmall": 5
+    }
+  },
+  "checks": {
+    "result": "PASS",
+    "recipes": 219,
+    "raw_sources": 29,
+    "closure_rounds": 6,
+    "base_upgrades": 2,
+    "base_repairs": 8,
+    "blocked": []
+  }
+}

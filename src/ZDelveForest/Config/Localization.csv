@@ -1,0 +1,43 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,KeepLoaded,english
+delveCorruptedWalker,ZDelveForest,,,,,Corrupted Walker
+delveCorruptedWalkerDesc,ZDelveForest,,,,,Common corrupted infantry; low armor and readable basic melee.
+delveCorruptedWalkerAttack,ZDelveForest,,,,,Corrupted Walker attack
+delveImp,ZDelveForest,,,,,Imp
+delveImpDesc,ZDelveForest,,,,,Fragile jumping harasser. Native spider leap; short melee reach.
+delveImpAttack,ZDelveForest,,,,,Imp attack
+delvePossessedSoldier,ZDelveForest,,,,,Possessed Soldier
+delvePossessedSoldierDesc,ZDelveForest,,,,,Slow armored priority target. Armor penetration rewards deliberate attacks.
+delvePossessedSoldierAttack,ZDelveForest,,,,,Possessed Soldier attack
+delveDemonSpawn,ZDelveForest,,,,,Demon Spawn
+delveDemonSpawnDesc,ZDelveForest,,,,,General-purpose demon infantry; later Forest occupation encounters.
+delveDemonSpawnAttack,ZDelveForest,,,,,Demon Spawn attack
+delveHellhound,ZDelveForest,,,,,Hellhound
+delveHellhoundDesc,ZDelveForest,,,,,"Fast, fragile pursuit enemy; rare in the first horde, not starter-house sleepers."
+delveHellhoundAttack,ZDelveForest,,,,,Hellhound attack
+delveWarpedBrute,ZDelveForest,,,,,Warped Brute
+delveWarpedBruteDesc,ZDelveForest,,,,,Slow heavy melee with a warned attack burst and a recovery window.
+delveWarpedBruteAttack,ZDelveForest,,,,,Warped Brute attack
+delveAshboundWarden,ZDelveForest,,,,,Ashbound Warden
+delveAshboundWardenDesc,ZDelveForest,,,,,"First incursion champion. Existing shared victory, co-op scaling and phased assault."
+delveAshboundWardenAttack,ZDelveForest,,,,,Ashbound Warden attack
+delveThornbackBoar,ZDelveForest,,,,,Thornback Boar
+delveThornbackBoarDesc,ZDelveForest,,,,,"Territorial armored boar with a warned rush; wildlife, never a horde member."
+delveThornbackBoarAttack,ZDelveForest,,,,,Thornback Boar attack
+delveGloomcat,ZDelveForest,,,,,Gloomcat
+delveGloomcatDesc,ZDelveForest,,,,,Rare nocturnal predator using native cat pounce and pursuit. No invisibility.
+delveGloomcatAttack,ZDelveForest,,,,,Gloomcat attack
+delveCrystalStag,ZDelveForest,,,,,Crystal Stag
+delveCrystalStagDesc,ZDelveForest,,,,,Rare neutral magical prey; native timid behavior and valuable crystal harvest.
+delveCrystalStagAttack,ZDelveForest,,,,,Crystal Stag attack
+delveThornhide,ZDelveForest,,,,,Thornhide
+delveThornhideDesc,ZDelveForest,,,,,Harvested from magical Forest wildlife. Trade it or craft 3 leather.
+delveGloomPelt,ZDelveForest,,,,,Gloom Pelt
+delveGloomPeltDesc,ZDelveForest,,,,,Harvested from magical Forest wildlife. Trade it or craft 5 leather.
+delveForestCrystal,ZDelveForest,,,,,Forest Crystal
+delveForestCrystalDesc,ZDelveForest,,,,,Harvested from magical Forest wildlife. Trade it or craft 3 Ember Salts.
+delveForestBrace,ZDelveForest,,,,,Bracing
+delveForestBraceDesc,ZDelveForest,,,,,Heavy enemy attack phase. Make space when it braces; counterattack during recovery.
+delveForestRush,ZDelveForest,,,,,Rush
+delveForestRushDesc,ZDelveForest,,,,,Heavy enemy attack phase. Make space when it braces; counterattack during recovery.
+delveForestSpent,ZDelveForest,,,,,Recovering
+delveForestSpentDesc,ZDelveForest,,,,,Heavy enemy attack phase. Make space when it braces; counterattack during recovery.
